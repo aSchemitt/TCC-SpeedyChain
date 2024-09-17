@@ -5,6 +5,12 @@ from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
 
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives.asymmetric import padding
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives import hashes
+
+
 iv = "4242424242424242"
 BS = 32
 pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
@@ -45,28 +51,6 @@ def calculateTransactionHash(blockLedger):
     val = shaFunc.hexdigest()
     return val
 
-def encryptRSA2(key, text):
-    """ Receive a key and a text and encrypt it on Base 64\n
-        @param key - key to make the encrypt\n
-        @paran text - text that will be encrypted\n
-        @return enc64 - text encrypted
-    """
-    k = RSA.importKey(key)
-    enc = k.encrypt(text, 42)[0]
-    enc64 = base64.b64encode(enc)
-    return enc64
-
-def decryptRSA2(key, text):
-    """ Receive a key and a text and decrypt the text with the key using Base 64 \n
-        @param key - key to make te decrypt\n
-        @param text - text encrypted\n
-        @return data - text decrypted
-    """
-    k = RSA.importKey(key)
-    deb = base64.b64decode(text)
-    data = k.decrypt(deb)
-    return data
-
 def encryptAES(text, k):
     """ Receive a key and a text and encrypt it on AES\n
         @param k - key to make the encrypt\n
@@ -91,24 +75,91 @@ def decryptAES(text, k):
     plainTextUnpadded = unpad(plain_text)
     return plainTextUnpadded
 
-def signInfo(gwPvtKey, data):
+## RSA
+
+#implementado
+def encryptRSA2(key, plaintext):
+    """ Receive a key and a text and encrypt it on Base 64\n
+        @param key - key to make the encrypt\n
+        @paran text - text that will be encrypted\n
+        @return ciphertext64 - text encrypted in base64
+    """    
+    #load key
+    pubkey = serialization.load_pem_public_key(
+        key
+    )
+    
+    #encrypt the text
+    ciphertext = pubkey.encrypt(
+        plaintext,
+        padding.OAEP(
+            mgf=padding.MGF1(hashes.SHA256()),
+            algorithm=hashes.SHA256(),
+            label=None
+        )
+    )
+    #encode the ciphertext in b64
+    ciphertext64 = base64.b64encode(ciphertext)
+    
+    return ciphertext64
+
+#implementado
+def decryptRSA2(key, ciphertext,password=None):
+    """ Receive a key and a text and decrypt the text with the key using Base 64 \n
+        @param key - key to make te decrypt\n
+        @param text - text encrypted\n
+        @return data - text decrypted
+    """    
+    #load key
+    privkey = serialization.load_pem_private_key(
+        key,
+        password
+    )
+    #decifra
+    try:
+        plaintext = privkey.decrypt(
+            #decode the b64 ciphertext
+            base64.b64decode(ciphertext),
+            padding.OAEP(
+                mgf=padding.MGF1(hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None
+            )
+        )
+        return plaintext    
+    except:
+        return ""
+
+#implementado
+def signInfo(gwPvtKey, data,password=None):
     """ Sign some data with the peer's private key\n 
         @param gwPvtKey - peer's private key\n
         @param data - data to sign\n
         @return sinature - signature of the data maked with the private key
     """
     try:
-        k = RSA.importKey(gwPvtKey)
-        signer = PKCS1_v1_5.new(k)
-        digest = SHA256.new()
-        digest.update(data.encode('utf-8')) #added encode to support python 3 , need to evluate if it is still working
-        #digest.update(data)
-        s = signer.sign(digest)
-        signature = base64.b64encode(s)
+        #load key
+        privkey = serialization.load_pem_private_key(
+            gwPvtKey,
+            password
+        )
+        #sign the data
+        #TODO prehashed
+        sig = privkey.sign(
+            data,
+            padding.PSS(
+                mgf=padding.MGF1(hashes.SHA256()),
+                salt_length=padding.PSS.MAX_LENGTH
+            ),
+            hashes.SHA256()
+        )
+        #encode the signature in b64
+        signature = base64.b64encode(sig)
         return signature
     except:
         return ""
 
+#implementado
 def signVerify(data, signature, gwPubKey):
     """ Verify if a data sign by a private key it's unaltered\n
         @param data - data to be verified\n
@@ -116,25 +167,55 @@ def signVerify(data, signature, gwPubKey):
         @param gwPubKey - peer's private key
     """
     try:
-        k = RSA.importKey(gwPubKey)
-        signer = PKCS1_v1_5.new(k)
-        digest = SHA256.new()
-        digest.update(data.encode('utf-8')) #added encode to support python 3 , need to evluate if it is still working
-        #digest.update(data)
-        signaturerOr = base64.b64decode(signature)
-        result = signer.verify(digest, signaturerOr)
-        return result
+        #load key
+        pubkey = serialization.load_pem_public_key(
+            gwPubKey
+        )
+        
+        #verify the signature
+        #TODO prehashed
+        pubkey.verify(
+            #decode the b64 signature
+            base64.b64decode(signature),
+            data,
+            padding.PSS(
+                mgf=padding.MGF1(hashes.SHA256()),
+                salt_length=padding.PSS.MAX_LENGTH
+            ),
+            hashes.SHA256()
+        )
+
+        return True
     except:
         return False
 
+#implementado
 def generateRSAKeyPair():
-    """ Generate a pair of RSA keys using RSA 1024\n
+    """ Generate a pair of RSA keys using RSA 3072\n
         @return pub, prv - public and private key
     """
+    
+    keysize = 3072
+    publicexpoent = 65537
 
-    private = RSA.generate(1024)
+    private = rsa.generate_private_key(
+        publicexpoent,
+        keysize
+    )
 
-    pubKey = private.publickey()
-    prv = private.exportKey()
-    pub = pubKey.exportKey()
+    pubKey = private.public_key()
+    
+    prv = private.private_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PrivateFormat.PKCS8,
+        encryption_algorithm=serialization.NoEncryption()
+    )
+    pub = pubKey.public_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PublicFormat.SubjectPublicKeyInfo    
+    )
+    
     return pub, prv
+
+
+## ECC/ECDSA

@@ -68,19 +68,6 @@ def getMyIP():
          s.close()
      return myIP
 
-def generateRSAKeyPair():
-    """ Creates a pair of RSA key, one public and one private.\n
-        @return pub - public key\n
-        @return prv - private key
-    """
-    #randValue = Random.random.randrange(24)
-    private = RSA.generate(1024)
-
-    #private = RSA.generate(1024,randValue)
-    pubKey = private.publickey()
-    prv = private.exportKey()
-    pub = pubKey.exportKey()
-    return pub, prv
 
 def setServer():
     """ Ask for the user to input the server URI and put it in the global var 'server' """
@@ -138,7 +125,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
 
 def sendDataTest():
     """ Send fake data to test the system """
-    pub, priv = generateRSAKeyPair()
+    pub, priv = CryptoFunctions.generateRSAKeyPair()
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
@@ -230,9 +217,9 @@ def newKeyPair():
     """ Generates a new pair of keys and put is on global vars 'privateKey' and 'publicKey' """
     global privateKey
     global publicKey
-    publicKey, privateKey = generateRSAKeyPair()
+    publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
     while len(publicKey) < 10 or len(privateKey) < 10:
-        publicKey, privateKey = generateRSAKeyPair()
+        publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
 
 
 def brutePairAuth(retry):
@@ -303,7 +290,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
 
     except:
         logger.error("was not possible to encrypt... verify aeskey: "+ str(AESKey) +" in blk: " + str(blk) + "tr: " + str(trans))
-        devPubK, devPrivateK = generateRSAKeyPair()
+        devPubK, devPrivateK = CryptoFunctions.generateRSAKeyPair()
         AESKey = addBlockOnChainv2(devPubK, devPrivateK) # this will force gateway to recreate the aes key
         # logger.error("New aeskey is: "+ str(AESKey))
         t = ((time.time() * 1000) * 1000)
@@ -409,13 +396,13 @@ def simDevBlockAndTransSequential(blk, trans):
     global keysArray
 
     if (trans == 0):
-        devPubK, devPrivK = generateRSAKeyPair()
+        devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
         counter = 0
         AESKey = addBlockOnChainv2(devPubK, devPrivK)
         keysArray.append([devPubK, devPrivK, AESKey])
         while (AESKey == False):
             logger.error("ERROR: creating a new key pair and trying to create a new block")
-            devPubK, devPrivK = generateRSAKeyPair()
+            devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
             AESKey = addBlockOnChainv2(devPubK, devPrivK)
             keysArray[blk]=[devPubK, devPrivK, AESKey]
             counter = counter + 1
@@ -445,7 +432,7 @@ def simDevBlockAndTransSequential(blk, trans):
 
 def simDevBlockAndTrans(blk, trans):
     numTrans=trans
-    devPubK,devPrivK = generateRSAKeyPair()
+    devPubK,devPrivK = CryptoFunctions.generateRSAKeyPair()
     # trInterval is amount of time to wait before send the next tr in ms
     global trInterval
     global startTime
@@ -456,7 +443,7 @@ def simDevBlockAndTrans(blk, trans):
     AESKey = addBlockOnChainv2(devPubK,devPrivK)
     while (AESKey == False):
         logger.error("ERROR: creating a new key pair and trying to create a new block")
-        devPubK, devPrivK = generateRSAKeyPair()
+        devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
         AESKey = addBlockOnChainv2(devPubK, devPrivK)
         counter = counter + 1
         if (counter > 10):
@@ -1178,13 +1165,13 @@ def simDevBlockAndTransMulti(blk, trans, index):
     global keysArray
 
     if (trans == 0 and index == 0):
-        devPubK, devPrivK = generateRSAKeyPair()
+        devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
         counter = 0
         AESKey = addBlockOnChainMultiV2(devPubK, devPrivK)
         keysArray.append([devPubK, devPrivK, AESKey])
         while (AESKey == False):
             logger.error("ERROR: creating a new key pair and trying to create a new block")
-            devPubK, devPrivK = generateRSAKeyPair()
+            devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
             AESKey = addBlockOnChainMultiV2(devPubK, devPrivK)
             keysArray[blk]=[devPubK, devPrivK, AESKey]
             counter = counter + 1
@@ -1268,7 +1255,7 @@ def sendDataArgsMulti(devPubK, devPrivateK, AESKey, trans, blk, index):
     except:
         logger.error("was not possible to encrypt... verify aeskey: "+ str(AESKey) +" in blk: " + str(blk) + "tr: " + str(trans))
         logger.info("ERROR: was not possible to encrypt... verify aeskey: "+ str(AESKey) +" in blk: " + str(blk) + "tr: " + str(trans))
-        devPubK, devPrivateK = generateRSAKeyPair()
+        devPubK, devPrivateK = CryptoFunctions.generateRSAKeyPair()
         AESKey = addBlockOnChainMultiV2(devPubK, devPrivateK) # this will force gateway to recreate the aes key
         # logger.error("New aeskey is: "+ str(AESKey))
         t = ((time.time() * 1000) * 1000)

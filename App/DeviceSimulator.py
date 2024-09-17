@@ -42,19 +42,6 @@ def getMyIP():
      s.close()
      return myIP
 
-def generateRSAKeyPair():
-    """ Creates a pair of RSA key, one public and one private.\n
-        @return pub - public key\n
-        @return prv - private key
-    """
-    #randValue = Random.random.randrange(24)
-    private = RSA.generate(1024)
-
-    #private = RSA.generate(1024,randValue)
-    pubKey = private.publickey()
-    prv = private.exportKey()
-    pub = pubKey.exportKey()
-    return pub, prv
 
 def setServer():
     """ Ask for the user to input the server URI and put it in the global var 'server' """
@@ -87,7 +74,7 @@ def addBlockOnChain():
 
 def sendDataTest():
     """ Send fake data to test the system """
-    pub, priv = generateRSAKeyPair()
+    pub, priv = CryptoFunctions.generateRSAKeyPair()
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
@@ -198,9 +185,9 @@ def newKeyPair():
     oldPrK = privateKey
     oldPuK = publicKey
     try:
-        publicKey, privateKey = generateRSAKeyPair()
+        publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
         while len(publicKey) < 10 or len(privateKey) < 10:
-            publicKey, privateKey = generateRSAKeyPair()
+            publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
     except:
         privateKey = oldPrK
         publicKey = oldPuK
