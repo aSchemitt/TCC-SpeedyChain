@@ -1671,14 +1671,19 @@ class R2ac(object):
         # logger.debug("Transaction received")
         global gwPvt
         global gwPub
+        
+        print("\tentrou no addTransaction!!")
 
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
+        print("dos do find block")
 
         # self.addContextinLockList(devPublicKey)
         if (blk != False and blk.index > 0):
+            print("encontrou o bloco > 0")
             devAESKey = findAESKey(devPublicKey)
             if (devAESKey != False):
+                print("a chave e valida")
                 # logger.info("Appending transaction to block #" +
                 #             str(blk.index) + "...")
                 # plainObject contains [Signature + Time + Data]
@@ -1734,16 +1739,20 @@ class R2ac(object):
                     sendTransactionToPeers(devPublicKey, transaction)
                     # print("all done")
                     # self.removeLockfromContext(devPublicKey)
+                    print("\tsaiu do addTransaction - ok!!")
                     return "ok!"
                 else:
                     # logger.debug("--Transaction not appended--Transaction Invalid Signature")
                     # self.removeLockfromContext(devPublicKey)
+                    print("\tsaiu do addTransaction - invalid signature!!")
                     return "Invalid Signature"
             # logger.debug("--Transaction not appended--Key not found")
             # self.removeLockfromContext(devPublicKey)
+            print("\tsaiu do addTransaction - key not found!!")
             return "key not found"
         logger.error("key not found when adding transaction")
         # self.removeLockfromContext(devPublicKey)
+        print("\tsaiu do addTransaction - block false!!")
         return "block false"
 
 
