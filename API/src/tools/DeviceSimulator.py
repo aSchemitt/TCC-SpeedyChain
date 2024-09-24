@@ -268,7 +268,9 @@ def bruteSend(retry):
             return False # addBlockConsensusCandiate
 
 def multSend(devPubK, devPrivateK, AESKey, retry, blk):
+    print("\tentrou no multsend!!!")
     try:
+        print("tentando sendDataArgs")    
         return sendDataArgs(devPubK, devPrivateK, AESKey, retry, blk)
     except KeyboardInterrupt:
         sys.exit()
@@ -293,10 +295,13 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     data = timeStr + temperature
     logger.debug("data = "+data)
     signedData = CryptoFunctions.signInfo(devPrivateK, data)
+    print("dados 'coletados' e assinados")
     toSend = signedData + timeStr + temperature
 
     try:
+        print("tenta cifrar os dados com AES")
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
+        print("cifrado com sucesso")
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
         # print(("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000)))
@@ -319,7 +324,9 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     try:
         encobj=pickle.dumps(encobj)
         devPubK = pickle.dumps(devPubK)
+        print("manda transacao pra pool")
         transactionStatus= server.addTransactionToPool(devPubK, encobj)
+        print("e recebe o status")
         t3 = ((time.time() * 1000) * 1000)
         logT31.append("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
         # print("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
@@ -402,6 +409,7 @@ def consensusTrans():
 
 # for parallel simulation of devices and insertions use this
 def simDevBlockAndTransSequential(blk, trans):
+    print("\tentrou no simDevBlockAndTransSequential")
     numTrans = trans
     # trInterval is amount of time to wait before send the next tr in ms
     global trInterval
@@ -433,7 +441,9 @@ def simDevBlockAndTransSequential(blk, trans):
         time.sleep(0.001)
         # continue
         # time.sleep(1)
+    print("pre multsend")
     devPubK, devPrivK, AESKey = multSend(devPubK, devPrivK, AESKey, trans, blk)
+    print("pos multsend")
     if (AESKey != False):
         keysArray[blk][2]=AESKey
     # t2 = time.time()
@@ -516,17 +526,21 @@ def automa(blocks, trans, mode = "sequential"):
         @param blocks - int number of blocks\n
         @param trans - int number of transactions
     """
+    print("\tentrou no automa!!")
     time.sleep(5)
     if mode == lifecycleMultiMode:
         server.startTransactionsConsThreadsMulti()
     else:
         server.startTransactionsConsThreads()
+    print("iniciou as threads")
     time.sleep(5)
     global endTime
     global startTime
     global logT27
 
+    print("pre simulate devices")
     simulateDevices(blocks,trans,mode)
+    print("pos simulate devices")
 
     endTime = (time.time())*1000*1000
     logT27.append("Device;" + deviceName + ";T27; Time run all transactions in ms;" + str((endTime - startTime)/1000))
@@ -538,6 +552,7 @@ def automa(blocks, trans, mode = "sequential"):
         print("another is saving the logs")
     print("Saved Gw logs, now saving Dev logs")
     saveDeviceLog()
+    print("\tsaiu do automa!!")
 
 def old_automa(blocks, trans):
     global endTime
@@ -570,11 +585,13 @@ def old_automa(blocks, trans):
 
 def simulateDevices(blocks,trans,mode):
     global trInterval
+    print("\tentrou no simulate devices!!")
     if(mode=="sequential"):
+        print("entrou no sequential")
         for tr in range(0, trans):
             t1 = time.time()
             for blk in range(0, blocks):
-                # print("SEQUENTIAL"+str(tr)+"transaction sent")
+                print("SEQUENTIAL"+str(tr)+"transaction sent")
                 simDevBlockAndTransSequential(blk,tr)
             t2= time.time()
             if ((t2 - t1) * 1000 < trInterval):
