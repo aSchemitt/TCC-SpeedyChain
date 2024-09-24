@@ -14,7 +14,7 @@ import requests
 import traceback
 import threading
 
-from Crypto.PublicKey import RSA
+# from Crypto.PublicKey import RSA
 
 # SpeedCHAIN modules
 import Logger as Logger
@@ -28,8 +28,8 @@ fname = socket.gethostname()
 server = "localhost"
 serverAESEncKey = ""
 serverAESKey = ""
-privateKey = "-----BEGIN PRIVATE KEY-----\nMIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEA7P6DKm54NjLE7ajy\nTks298FEJeHJNxGT+7DjbTQgJdZKjQ6X9lYW8ittiMnvds6qDL95eYFgZCvO22YT\nd1vU1QIDAQABAkBEzTajEOMRSPfmzw9ZL3jLwG3aWYwi0pWVkirUPze+A8MTp1Gj\njaGgR3sPinZ3EqtiTA+PveMQqBsCv0rKA8NZAiEA/swxaCp2TnJ4zDHyUTipvJH2\nqe+KTPBHMvOAX5zLNNcCIQDuHM/gISL2hF2FZHBBMT0kGFOCcWBW1FMbsUqtWcpi\nMwIhAM5s0a5JkHV3qkQMRvvkgydBvevpJEu28ofl3OAZYEwbAiBJHKmrfSE6Jlx8\n5+Eb8119psaFiAB3yMwX9bEjVy2wRwIgd5X3n2wD8tQXcq1T6S9nr1U1dmTz7407\n1UbKzu4J8GQ=\n-----END PRIVATE KEY-----\n"
-publicKey = "-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOz+gypueDYyxO2o8k5LNvfBRCXhyTcR\nk/uw4200ICXWSo0Ol/ZWFvIrbYjJ73bOqgy/eXmBYGQrzttmE3db1NUCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+privateKey = ""
+publicKey = ""
 keysArray =[] # structure to save private, public, and aes key from a device
 trInterval = 10000 # interval between transactions
 
@@ -72,7 +72,7 @@ def getMyIP():
 def setServer():
     """ Ask for the user to input the server URI and put it in the global var 'server' """
     #server = raw_input('Gateway IP:')
-    uri = raw_input("Enter the uri of the gateway: ").strip()
+    uri = str(input("Enter the uri of the gateway: ")).strip()
     setServerWithUri(uri)
 
 def setServerWithUri(uri):
@@ -87,12 +87,15 @@ def addBlockOnChain():
     global serverAESEncKey
     # print("###addBlockonChain in devicesimulator, publicKey")
     # print(publicKey)
+    print("antes de chamar o server")
     serverAESEncKey = server.addBlock(publicKey, lifecycleDeviceName)
     if serverAESEncKey == "":
+        print("entrou no if")
         print("Block already added with this public key")
         logger.error("it was not possible to add block - problem in the key")
         return False
     else:
+        print("entrou no else")
         # print("###addBlockonChain in devicesimulator, serverAESEncKey")
         # print(serverAESEncKey)
         # while len(serverAESEncKey) < 10:
@@ -107,6 +110,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     # print("###addBlockonChain in devicesimulator, publicKey")
     # print(publicKey)
     # pickedDevPubKey = pickle.dumps(devPubKey)
+    print("antes de chamar o server-addblock2")
     serverAESEncKey = server.addBlock(devPubKey, lifecycleDeviceName)
     if (len(str(serverAESEncKey))<10):
         logger.error("it was not possible to add block - problem in the key")
@@ -116,6 +120,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     # while len(serverAESEncKey) < 10:
     #    serverAESEncKey = server.addBlock(publicKey)
     try:
+        print("tentativa de decifrar a chave AES-addblock2")
         AESKey = CryptoFunctions.decryptRSA2(devPrivKey, serverAESEncKey)
     except:
         logger.error("problem decrypting the AES key")
@@ -137,16 +142,24 @@ def sendDataTest():
 
 def sendData():
     """ Read the sensor data, encrypt it and send it as a transaction to be validated by the peers """
+    logger.info("entrou no sendData")
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
     logger.debug("data = "+data)
+    logger.info("antes de assinar")
     signedData = CryptoFunctions.signInfo(privateKey, data)
+    logger.info("dps de assinar")
+    print("assinatura: {} ----".format(signedData))
+    if(CryptoFunctions.signVerify(data,signedData,publicKey)):
+        print("assinado corretamente")
+    else:
+        print("erro na assinatura")
     toSend = signedData + timeStr + temperature
 
     try:
-
+        logger.info("antes de cifrar")
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
     except:
         logger.error("was not possible to encrypt... verify aeskey")
@@ -158,7 +171,7 @@ def sendData():
         logger.error("passed through sendData except")
     try:
         if(server.addTransaction(publicKey, encobj)=="ok!"):
-            # logger.error("everything good now")
+            logger.error("everything good now")
             return True
         else:
             logger.error("something went wrong when sending data")
@@ -1018,12 +1031,12 @@ def restoreChainFromFile():
     return True
 
 def listBlocksWithId():
-    deviceId = raw_input("Which device ID do you want to search on blocks?").strip()
+    deviceId = str(input("Which device ID do you want to search on blocks?")).strip()
     status = server.showBlockWithId(deviceId)
     status = server.showBlockWithIdMulti(deviceId)
 
 def listTransactionsWithId():
-    componentId = raw_input("Which component ID do you want to search?").strip()
+    componentId = str(input("Which component ID do you want to search?")).strip()
     listTransactionsWithId2(componentId, False)
 
 def listTransactionsWithId2(componentId, showTransactions, f):
@@ -1294,9 +1307,9 @@ def sendDataArgsMulti(devPubK, devPrivateK, AESKey, trans, blk, index):
 
 def changeComponents():
     # Change the target component from this Device to a new one and put the old component to an other Device
-    gwUri = raw_input("Which is the device URI that will receive the component? (gateway URI)").strip()
-    comp = raw_input("Which component? (SSD, RAM, VID or CPU)").strip()
-    type = raw_input("What is the chain type? (0-default, 1-MultiChains, 2-SingleStructure)").strip()
+    gwUri = str(input("Which is the device URI that will receive the component? (gateway URI)")).strip()
+    comp = str(input("Which component? (SSD, RAM, VID or CPU)")).strip()
+    type = str(input("What is the chain type? (0-default, 1-MultiChains, 2-SingleStructure)")).strip()
     
     if type == 1:
         chainIndex = 0
@@ -1323,6 +1336,11 @@ def changeComponents():
 ######################          Main         ################################
 #############################################################################
 #############################################################################
+
+def showkeys():
+    print("deviceName {} keys:".format(deviceName))
+    print("publicKey \n{}".format(publicKey))
+    print("privateKey: \n{}".format(privateKey))
 
 
 def InteractiveMain():
@@ -1362,6 +1380,7 @@ def InteractiveMain():
         29: automateLifecycleEvents,
         30: sendLifecycleEventsSingle,
         31: changeComponents,
+        32: showkeys,
     }
 
     mode = -1
@@ -1405,6 +1424,7 @@ def InteractiveMain():
             "29 - Automatically create X blocks for each device with Y transactions for each component (X and Y should be changed on code)")
         print("30 - Send all lifecycle events as a structure to block, a single transaction with all components")
         print("31 - Change components between devices")
+        print("32 - Show device keys")
         print("#############################################################")
 
 
@@ -1438,6 +1458,11 @@ if __name__ == '__main__':
     global trInterval
     global lifecycleMethods
     global lifecycleTypes
+    
+    #generate the keys
+    global privateKey
+    global publicKey
+    publicKey,privateKey = CryptoFunctions.generateRSAKeyPair()
 
     lifecycleTypes = ["CPU", "RAM", "SSD", "VID"]
     lifecycleMethods = [readSpeedCPU, readSpeedRAM, readSpeedSSD, readSpeedVid]

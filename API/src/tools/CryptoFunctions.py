@@ -1,14 +1,15 @@
 import base64
 import hashlib
-from Crypto.Cipher import AES
-from Crypto.Hash import SHA256
-from Crypto.PublicKey import RSA
-from Crypto.Signature import PKCS1_v1_5
+# from Crypto.Cipher import AES
+# from Crypto.Hash import SHA256
+# from Crypto.PublicKey import RSA
+# from Crypto.Signature import PKCS1_v1_5
 
-from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives.asymmetric import rsa, ec
 from cryptography.hazmat.primitives.asymmetric import padding
-from cryptography.hazmat.primitives import serialization
-from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives import serialization, hashes
+#from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 
 iv = "4242424242424242"
@@ -51,28 +52,47 @@ def calculateTransactionHash(blockLedger):
     val = shaFunc.hexdigest()
     return val
 
+#implementado
 def encryptAES(text, k):
     """ Receive a key and a text and encrypt it on AES\n
         @param k - key to make the encrypt\n
         @paran text - text that will be encrypted\n
         @return enc64 - text encrypted
     """
-    cypher = AES.new(k, AES.MODE_CBC, iv)
-    textPadded = pad(text)
-    cy = cypher.encrypt(textPadded)
+    # instancia o algoritmo de Cifra
+    cypher = Cipher(algorithms.AES(k),modes.CBC(iv)).encryptor()
+    # instancia o padder e faz o padding
+    padder = padding.PKCS7(algorithms.AES.block_size).padder()
+    textPadded = padder.update(text)
+    textPadded += padder.finalize()
+    #cifra
+    cy = cypher.update(textPadded)
+    cy += cypher.finalize()
+    #encoda em b64
     enc64 = base64.b64encode(cy)
     return enc64
 
+#implementado
 def decryptAES(text, k):
     """ Receive a key and a text and decrypt the text with the key using AES \n
         @param k - key to make te decrypt\n
         @param text - text encrypted\n
         @return plainTextUnpadded - text decrypted
     """
+    #decoda o texto em b64
     enc = base64.b64decode(text)
-    decryption_suite = AES.new(k, AES.MODE_CBC, iv)
-    plain_text = decryption_suite.decrypt(enc)
-    plainTextUnpadded = unpad(plain_text)
+    # instancia o algoritmo de Cifra
+    decypher = Cipher(algorithms.AES(k),modes.CBC(iv)).decryptor()
+    
+    #decifra
+    plain_text = decypher.update(enc)
+    plain_text += decypher.finalize()
+    
+    # instancia o unpadder e faz o unpadding
+    unpadder = padding.PKCS7(algorithms.AES.block_size).unpadder()
+    plainTextUnpadded = unpadder.update(plain_text)
+    plainTextUnpadded += unpadder.finalize()
+    
     return plainTextUnpadded
 
 ## RSA
@@ -84,23 +104,48 @@ def encryptRSA2(key, plaintext):
         @paran text - text that will be encrypted\n
         @return ciphertext64 - text encrypted in base64
     """    
-    #load key
-    pubkey = serialization.load_pem_public_key(
-        key
-    )
-    
-    #encrypt the text
-    ciphertext = pubkey.encrypt(
-        plaintext,
-        padding.OAEP(
-            mgf=padding.MGF1(hashes.SHA256()),
-            algorithm=hashes.SHA256(),
-            label=None
+    try:
+        print("\tentrou no encryptRSA!!")
+        # print("key: \n{}size: {}".format(key,len(key)))
+        
+        # bytesa = bytearray(key,'utf-8')
+        
+        # print("bytes: \n{}testeCARALHO".format(bytesa))
+        # print(bytesa)
+                
+        # f=open("testekey.txt","r")
+        # chave = f.read()
+        
+        # key = key.rstrip('\n')
+        # print("key: {}abdkasbdsakjdnajs".format(key))
+        # if isinstance(key,str):
+        key = key.encode('utf-8')
+        
+        # print("comparacao de tamanhos:")
+        # print("chave - {} # key - {}".format(len(chave),len(key)))
+
+        #load key
+        pubkey = serialization.load_pem_public_key(
+            key
         )
-    )
-    #encode the ciphertext in b64
-    ciphertext64 = base64.b64encode(ciphertext)
-    
+        
+        print("\tcarregou a chave com sucesso!!")
+        #encrypt the text
+        ciphertext = pubkey.encrypt(
+            plaintext,
+            padding.OAEP(
+                mgf=padding.MGF1(hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None
+            )
+        )
+        #encode the ciphertext in b64
+        ciphertext64 = base64.b64encode(ciphertext)
+        
+        # print("saiu do encryptRSA com chave: \n{}".format(ciphertext64))
+        print("\tsaiu do encryptRSA!!")
+    except Exception as e:
+        print("erro: {}".format(e))
     return ciphertext64
 
 #implementado
@@ -110,11 +155,13 @@ def decryptRSA2(key, ciphertext,password=None):
         @param text - text encrypted\n
         @return data - text decrypted
     """    
+    print("entrou no decrypt")
     #load key
     privkey = serialization.load_pem_private_key(
         key,
         password
     )
+    print("carregou a chave sem erro")
     #decifra
     try:
         plaintext = privkey.decrypt(
@@ -126,8 +173,10 @@ def decryptRSA2(key, ciphertext,password=None):
                 label=None
             )
         )
+        print("saiu do decrypt sem erro")
         return plaintext    
     except:
+        print("saiu do decrypt com erro")
         return ""
 
 #implementado
@@ -138,11 +187,13 @@ def signInfo(gwPvtKey, data,password=None):
         @return sinature - signature of the data maked with the private key
     """
     try:
+        print("\tantes de carregar a chave de assinatura!!")
         #load key
         privkey = serialization.load_pem_private_key(
             gwPvtKey,
             password
         )
+        print("\tchave carregada com sucesso!!")
         #sign the data
         #TODO prehashed
         sig = privkey.sign(
@@ -153,10 +204,13 @@ def signInfo(gwPvtKey, data,password=None):
             ),
             hashes.SHA256()
         )
+        print("\tassinado com sucesso!!")
         #encode the signature in b64
         signature = base64.b64encode(sig)
+        # print("assinatura em b64: {}".format(signature))
         return signature
-    except:
+    except Exception as e:
+        print("erro: {}".format(e))
         return ""
 
 #implementado
@@ -167,11 +221,12 @@ def signVerify(data, signature, gwPubKey):
         @param gwPubKey - peer's private key
     """
     try:
+        print("\tantes de carregar a chave de verificacao!!")
         #load key
         pubkey = serialization.load_pem_public_key(
             gwPubKey
         )
-        
+        print("\tchave carregada com sucesso!!")
         #verify the signature
         #TODO prehashed
         pubkey.verify(
@@ -184,9 +239,10 @@ def signVerify(data, signature, gwPubKey):
             ),
             hashes.SHA256()
         )
-
+        print("\tassinatura valida!!")
         return True
-    except:
+    except Exception as e:
+        print("erro: {}".format(e))
         return False
 
 #implementado
@@ -194,28 +250,86 @@ def generateRSAKeyPair():
     """ Generate a pair of RSA keys using RSA 3072\n
         @return pub, prv - public and private key
     """
-    
+    #print("entrou no generate RSA keys")
     keysize = 3072
     publicexpoent = 65537
 
     private = rsa.generate_private_key(
         publicexpoent,
-        keysize
+        key_size=keysize
     )
+    #print("gerou a chave privada")
 
     pubKey = private.public_key()
+
+    #print("gerou a chave publica")
     
     prv = private.private_bytes(
         encoding=serialization.Encoding.PEM,
         format=serialization.PrivateFormat.PKCS8,
         encryption_algorithm=serialization.NoEncryption()
     )
+    # print("serializou a chave privada: \n{}\nsize: {}".format(prv,len(prv)))
     pub = pubKey.public_bytes(
         encoding=serialization.Encoding.PEM,
         format=serialization.PublicFormat.SubjectPublicKeyInfo    
+    )
+    # print("serializou a chave publica: \n{}\nsize: {}".format(pub,len(pub)))
+    
+    #print("saiu do generate RSA keys")
+    return pub, prv
+
+
+## ECC/ECDSA
+
+def signInfoECDSA(gwPvtKey, data,password=None):
+    """ Sign some data with the peer's private key\n 
+        @param gwPvtKey - peer's private key\n
+        @param data - data to sign\n
+        @return sinature - signature of the data maked with the private key
+    """
+    #load key
+    privatekey = ec.generate_private_key()
+    """  = serialization.load_pem_private_key(
+        gwPvtKey,
+        password
+    ) """
+    #assina
+    sign = privatekey.sign(
+        data,
+        ec.ECDSA(hashes.SHA256())
+    )
+    
+    print("gwPvtKey: {} \ndata: {} \npassword: {}".format(gwPvtKey,data,password))
+
+def signVerifyECDSA(data, signature, gwPubKey):
+    """ Verify if a data sign by a private key it's unaltered\n
+        @param data - data to be verified\n
+        @param signature - signature of the data to be validated\n
+        @param gwPubKey - peer's private key
+    """
+    print("data: {} \nsignature: {} \ngwPubKey: {}".format(data,signature,gwPubKey))
+
+def generateECDSAKeyPair():
+    """ Generate a pair of ECDSA keys using SECP256R1\n
+        @return pub, prv - public and private key
+    """
+    privatekey = ec.generate_private_key(
+        ec.SECP256R1
+    )
+    publickey = privatekey.public_key()
+    
+    prv = privatekey.private_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PrivateFormat.PKCS8,
+        encryption_algorithm=serialization.NoEncryption()
+    )
+    pub = publickey.public_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PublicFormat.SubjectPublicKeyInfo
     )
     
     return pub, prv
 
 
-## ECC/ECDSA
+

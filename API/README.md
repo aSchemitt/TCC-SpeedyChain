@@ -22,8 +22,11 @@ The key folder is just a bunch of random public and private keys created for tes
 
 HOW-TO RUN INTERACTIVE MODE:
 1. run a instance of Pyro nameserver (ex: python2 -m Pyro4.naming -n 127.0.0.1 -p 9090)
+python -m Pyro4.naming -n 127.0.0.1 -p 9090
 2. run n instances of Gateways (ex: python2 runner.py -n 127.0.0.1 -p 9090 -G gwa -C 0001 -S 100) -> gwa is the chosen name, 0001 is the default context that gateway is part of, 100 is the tx pool size
+python runner.py -n 127.0.0.1 -p 9090 -G gwa -C 0001 -S 100
 3. run the user interface (ex: python2 src/tools/DeviceSimulator.py 127.0.0.1 9090 gwa dev-a) -> dev-a is the chosen name
+python src/tools/DeviceSimulator.py 127.0.0.1 9090 gwa dev-a
 4. in the user interface choose your consensus algorithm (option 12 -> "PBFT")
 4.1. run a batch of simulated devices (option 9 -> 100 -> 1000)  -> 100 devices and 1000 transactions per device
 

@@ -15,6 +15,8 @@ import random
 import json
 import Queue
 
+import base64
+
 from flask import Flask, request
 
 import Pyro4
@@ -2072,6 +2074,7 @@ class R2ac(object):
             @param devPubKey - request's device public key\n
             @return encKey - RSA encrypted key for the device be able to communicate with the peers
         """
+        logger.info("primeira coisa do addblock no server")
         global gwPub
         global consensusLock
         global orchestratorObject
@@ -2082,63 +2085,92 @@ class R2ac(object):
         encKey = ''
         t1 = time.time()
         # print("Adding block, PubKey= " + str(devPubKey))
+        logger.info("antes do findblock")
         blk = ChainFunctions.findBlock(devPubKey)
+        logger.info("dps do findblock")
 
         if (blk != False and blk.index > 0):
+            logger.info("entrou no if")
             # print("inside first if")
             logger.error("It may be already be registered, generating another aeskey")
             aesKey = findAESKey(devPubKey)
+            logger.info("dps do findAESKEY")
             logger.error("passed by findAESKEY")
             if ((aesKey == False) or (len(aesKey) != 32)):
+                logger.info("entrou no if interno")
                 logger.error("aeskey had a problem...")
                 removeAESKey(aesKey)
+                logger.info("pos AESKEY remove / pre generate AESKEY")
                 aesKey = generateAESKey(blk.publicKey)
+                logger.info("pre encrypt RSA2")
                 encKey = CryptoFunctions.encryptRSA2(devPubKey, aesKey)
+                logger.info("pos encrypt RSA2")
                 return encKey
                 # t2 = time.time()
             logger.error("actually it didn't had problem with the key")
             logger.error("publick key received was: " + str(devPubKey) + "blk key was: " + str(blk.publicKey) + " ...")
             removeAESKey(aesKey)
+            logger.info("pos AESKEY remove / pre generate AESKEY")
             aesKey = generateAESKey(blk.publicKey)
+            logger.info("pre encrypt RSA2")
             encKey = CryptoFunctions.encryptRSA2(devPubKey, aesKey)
+            logger.info("pos encrypt RSA2")
             return encKey
             # t2 = time.time()
         else:
+            logger.info("entrou no else")
             # print("inside else")
             # logger.debug("***** New Block: Chain size:" +
             #              str(ChainFunctions.getBlockchainSize()))
+            logger.info("pre pickle")
             pickedKey = pickle.dumps(devPubKey)
+            logger.info("pos pickle / pre gerar AESKEY")
             aesKey = generateAESKey(devPubKey)
+            print("aesKey: {}".format(base64.b64encode(aesKey)))
+            logger.info("pos gerar AESKEY / pre while")
             while(len(aesKey) != 32):
                 logger.error("Badly generated aesKey")
                 aesKey = generateAESKey(devPubKey)
             # print("pickedKey: ")
             # print(pickedKey)
 
+            logger.info("pre encrypt RSA2")
             encKey = CryptoFunctions.encryptRSA2(devPubKey, aesKey)
+            print("enckey: {}".format(encKey))
+            logger.info("pos encrypt RSA2")
             # t2 = time.time()
             # Old No Consensus
             # bl = ChainFunctions.createNewBlock(devPubKey, gwPvt)
             # sendBlockToPeers(bl)
             # logger.debug("starting block consensus")
+            logger.info("antes dos consensos")
             #############LockCONSENSUS STARTS HERE###############
             if(consensus == "PBFT"):
+                print("dentro do consenso PBFT")
                 # PBFT elect new orchestator every time that a new block should be inserted
                 # allPeersAreLocked = False
+                print("antes do lock consensus")
                 self.lockForConsensus()
                 # print("ConsensusLocks acquired!")
+                print("dps lockconsensus / antes elect new orchertrator")
                 self.electNewOrchestrator()
+                print("pos elect new orchestrator")
                 # print("New Orchestrator URI: " + str(orchestratorObject.exposedURI()))
                 orchestratorObject.addBlockConsensusCandidate(pickedKey)
                 counter_fails = 0
+                print("antes while")
                 while(orchestratorObject.runPBFT(lifecycleDeviceName)==False):
+                    print("entrou no while")
                     # logger.info("##### second attmept for a block")
                     orchestratorObject.removeBlockConsensusCandidate(pickedKey)
                     # print("$$$$$$$second trial")
+                    print("pre elect new orchestrator - while")
                     self.electNewOrchestrator()
+                    print("pos elect new orchestrator - while")
                     orchestratorObject.addBlockConsensusCandidate(pickedKey)
                     counter_fails = counter_fails + 1
                     if (counter_fails > 200):
+                        print("saiu do while pelo if (-1)")
                         return -1
 
             if(consensus == "dBFT" or consensus == "Witness3"):
@@ -2207,6 +2239,7 @@ class R2ac(object):
                     obj.releaseLockRemote()
                 # print("ConsensusLocks released!")
             ######end of lock consensus################
+            logger.info("pos consenso")
 
             # print("Before encryption of rsa2")
 
@@ -2418,10 +2451,10 @@ class R2ac(object):
             @return "ok" - done
         """
         global peers
-        # logger.info("|--------------------------------------|")
-        # for p in peers:
-        # logger.info("PEER URI: "+p.peerURI)
-        # logger.info("|--------------------------------------|")
+        logger.info("|--------------------------------------|")
+        for p in peers:
+            logger.info("PEER URI: "+p.peerURI)
+        logger.info("|--------------------------------------|")
         return "ok"
 
     def calcMerkleTree(self, blockToCalculate):
@@ -2501,6 +2534,7 @@ class R2ac(object):
         global orchestratorObject
         t1 = time.time()
         votesForNewOrchestrator =[]
+        print("antes do for")
         for peer in peers:
             obj = peer.object
             # print("objeto criado")
@@ -2508,27 +2542,35 @@ class R2ac(object):
 
             votesForNewOrchestrator.append(pickle.loads(receivedVote))
             # logger.info("remote vote for: " + str(pickle.loads(receivedVote)))
+        print("pre vote new orchetrator")
         voteNewOrchestrator()
+        print("pos vote new orchetrator")
         # newOrchestratorURI = mode(votesForNewOrchestrator)
         newOrchestratorURI = max(
             set(votesForNewOrchestrator), key=votesForNewOrchestrator.count)
         # logger.info("Elected node was" + str(newOrchestratorURI))
+        print("uri selecionada")
         orchestratorObject = Pyro4.Proxy(newOrchestratorURI)
+        print("proxy criado")
+        print("antes do for2")
         for peer in peers:
             obj = peer.object
             dat = pickle.dumps(orchestratorObject)
             obj.loadElectedOrchestrator(dat)
         t2 = time.time()
+        print("terminou a eleicao")
         # logger.info("gateway;" + gatewayName + ";" + consensus + ";T7;Time to execute new election block consensus;" + '{0:.12f}'.format((t2 - t1) * 1000))
         # logger.info("New Orchestator loaded is: " + str(newOrchestratorURI))
         # orchestratorObject
 
     def loadElectedOrchestrator(self, data):
+        print("entrou no load eleito")
         global orchestratorObject
         newOrchestrator = pickle.loads(data)
         orchestratorObject = newOrchestrator
         # logger.info("New Orchestator loaded is: " + str(orchestratorObject.exposedURI()))
         # print("new loaded orchestrator: " + str(orchestratorObject.exposedURI()))
+        print("saiu do load eleito")
         return True
 
 
@@ -5413,8 +5455,12 @@ def loadOrchestratorFirstinPeers():
 def voteNewOrchestrator():
     global myVoteForNewOrchestrator
     global votesForNewOrchestrator
+    print("entrou na votacao")
+    print("len(peer): {}".format(len(peers)))
     randomGw = random.randint(0, len(peers) - 1)
+    print("pos random: {}".format(randomGw))
     votedURI = peers[randomGw].peerURI
+    print("uri selecionada randomicamente")
     # print("Selected Gw is: " + str(randomGw))
     # print("My pubKey:"+ str(gwPub))
     # print("votedURI: " + str(votedURI))
@@ -5422,11 +5468,13 @@ def voteNewOrchestrator():
     myVoteForNewOrchestrator = votedURI
     votesForNewOrchestrator.append(myVoteForNewOrchestrator)
     pickedVote = pickle.dumps(myVoteForNewOrchestrator)
+    print("antes do for da votacao")
     for count in range(0, (len(peers))):
         # print("testing range of peers: "+ str(count))
         # if(peer != peers[0]):
         obj = peers[count].object
         obj.addVoteOrchestrator(pickedVote)
+    print("saiu da votacao")
     # print(str(myVoteForNewOrchestrator))
 
 # @Roben get the next GW PBKEYfrom Crypto import Random
