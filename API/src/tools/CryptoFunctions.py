@@ -52,8 +52,9 @@ def calculateTransactionHash(blockLedger):
     val = shaFunc.hexdigest()
     return val
 
+# AES
+
 #implementado
-# certo
 def encryptAES(text, k):
     """ Receive a key and a text and encrypt it on AES\n
         @param k - key to make the encrypt\n
@@ -62,9 +63,9 @@ def encryptAES(text, k):
     """
     print("\tentrou no encryptAES!!")
     try:
-        print("text: {}".format(text))
-        print("key: {}".format(base64.b64encode(k)))
-        print("len(k): {}".format(len(k)))
+        # print("text: {}".format(text))
+        # print("key: {}".format(base64.b64encode(k)))
+        # print("len(k): {}".format(len(k)))
         # instancia o algoritmo de Cifra
         cypher = Cipher(algorithms.AES(k),modes.CBC(iv)).encryptor()
         # instancia o padder e faz o padding
@@ -83,7 +84,6 @@ def encryptAES(text, k):
         print("erro: {}".format(e))
 
 #implementado
-# certo
 def decryptAES(text, k):
     """ Receive a key and a text and decrypt the text with the key using AES \n
         @param k - key to make te decrypt\n
@@ -92,9 +92,9 @@ def decryptAES(text, k):
     """
     print("\tentrou no decryptAES!!")
     try:
-        print("texto: {}".format(text))
-        print("k: {}".format(base64.b64encode(k)))
-        print("k-size: {}".format(len(k)))
+        # print("texto: {}".format(text))
+        # print("k: {}".format(base64.b64encode(k)))
+        # print("k-size: {}".format(len(k)))
         #decoda o texto em b64
         enc = base64.b64decode(text)
         # instancia o algoritmo de Cifra
@@ -109,7 +109,7 @@ def decryptAES(text, k):
         plainTextUnpadded = unpadder.update(plain_text)
         plainTextUnpadded += unpadder.finalize()
         
-        print("plaintext: {}".format(plainTextUnpadded))
+        # print("plaintext: {}".format(plainTextUnpadded))
         
         print("\tsaiu do decryptAES com sucesso!!")
         return plainTextUnpadded
@@ -121,7 +121,6 @@ def decryptAES(text, k):
 ## RSA
 
 #implementado
-# certo
 def encryptRSA2(key, plaintext):
     """ Receive a key and a text and encrypt it on Base 64\n
         @param key - key to make the encrypt\n
@@ -173,7 +172,6 @@ def encryptRSA2(key, plaintext):
     return ciphertext64
 
 #implementado
-# certo
 def decryptRSA2(key, ciphertext,password=None):
     """ Receive a key and a text and decrypt the text with the key using Base 64 \n
         @param key - key to make te decrypt\n
@@ -206,7 +204,6 @@ def decryptRSA2(key, ciphertext,password=None):
         return ""
 
 #implementado
-# certo
 def signInfo(gwPvtKey, data,password=None):
     """ Sign some data with the peer's private key\n 
         @param gwPvtKey - peer's private key\n
@@ -241,7 +238,6 @@ def signInfo(gwPvtKey, data,password=None):
         return ""
 
 #implementado
-# certo
 def signVerify(data, signature, gwPubKey):
     """ Verify if a data sign by a private key it's unaltered\n
         @param data - data to be verified\n
@@ -276,7 +272,6 @@ def signVerify(data, signature, gwPubKey):
         return False
 
 #implementado
-# certo
 def generateRSAKeyPair():
     """ Generate a pair of RSA keys using RSA 3072\n
         @return pub, prv - public and private key
@@ -313,26 +308,40 @@ def generateRSAKeyPair():
 
 ## ECC/ECDSA
 
+# implementado
 def signInfoECDSA(gwPvtKey, data,password=None):
     """ Sign some data with the peer's private key\n 
         @param gwPvtKey - peer's private key\n
         @param data - data to sign\n
         @return sinature - signature of the data maked with the private key
     """
-    #load key
-    privatekey = ec.generate_private_key()
-    """  = serialization.load_pem_private_key(
-        gwPvtKey,
-        password
-    ) """
-    #assina
-    sign = privatekey.sign(
-        data,
-        ec.ECDSA(hashes.SHA256())
-    )
-    
+    print("\tentrou na assinatura ECDSA!!")
     print("gwPvtKey: {} \ndata: {} \npassword: {}".format(gwPvtKey,data,password))
-
+    try:
+        #load key
+        privatekey = serialization.load_pem_private_key(
+            gwPvtKey,
+            password
+        )
+        print("carregou a chave com sucesso!!")
+        # sign the data
+        # TODO prehashed
+        sign = privatekey.sign(
+            data,
+            ec.ECDSA(hashes.SHA256())
+        )
+        print("assinado com sucesso!!")
+        # encode the signature in b64
+        signatureb64 = base64.b64encode(sign)
+        print("assinaturab64: {}".format(signatureb64))
+        print("\tsaiu da assinatura ECDSA com sucesso!!")
+        return signatureb64
+    except Exception as e:
+        print("\tsaiu da assinatura ECDSA sem sucesso!!")
+        print("erro: {}".format(e))
+        return ""
+    
+# implementado
 def signVerifyECDSA(data, signature, gwPubKey):
     """ Verify if a data sign by a private key it's unaltered\n
         @param data - data to be verified\n
@@ -340,27 +349,62 @@ def signVerifyECDSA(data, signature, gwPubKey):
         @param gwPubKey - peer's private key
     """
     print("data: {} \nsignature: {} \ngwPubKey: {}".format(data,signature,gwPubKey))
+    print("\tentrou na verificacao ECDSA!!")
+    try:
+        print("antes de carregar a chave ECDSA")
+        # load key
+        publickey = serialization.load_pem_public_key(
+            gwPubKey
+        )
+        print("chave carregada com sucesso!!")
+        # verify the signature
+        # TODO prehashed
+        publickey.verify(
+            # decode the b64 signature
+            base64.b64decode(signature),
+            data,
+            ec.ECDSA(hashes.SHA256())
+        )
+        print("assinatura valida!!")
+        print("\tsaiu da verificacao ECDSA com sucesso!!")
+        return True
+    except Exception as e:
+        print("\tsaiu da verificacao ECDSA sem sucesso!!")
+        print("erro: {}".format(e))
+        return False
 
+# implementado
 def generateECDSAKeyPair():
     """ Generate a pair of ECDSA keys using SECP256R1\n
         @return pub, prv - public and private key
     """
-    privatekey = ec.generate_private_key(
-        ec.SECP256R1
-    )
-    publickey = privatekey.public_key()
-    
-    prv = privatekey.private_bytes(
-        encoding=serialization.Encoding.PEM,
-        format=serialization.PrivateFormat.PKCS8,
-        encryption_algorithm=serialization.NoEncryption()
-    )
-    pub = publickey.public_bytes(
-        encoding=serialization.Encoding.PEM,
-        format=serialization.PublicFormat.SubjectPublicKeyInfo
-    )
-    
-    return pub, prv
+    print("\tentrou na geracao de chaves ECDSA!!")
+    try:
+        privatekey = ec.generate_private_key(
+            ec.SECP256R1
+        )
+        print("gerou a chave privada")
+        publickey = privatekey.public_key()
+        print("gerou a chave publica")
+        
+        prv = privatekey.private_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PrivateFormat.PKCS8,
+            encryption_algorithm=serialization.NoEncryption()
+        )
+        print("serializou a chave privada: {}".format(prv))
+        pub = publickey.public_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PublicFormat.SubjectPublicKeyInfo
+        )
+        print("serializou a chave publica: {}".format(pub))
+        
+        print("\tsaiu da geracao de chaves com sucesso!!")
+        return pub, prv
+    except Exception as e:
+        print("\tsaiu da geracao de chaves sem sucesso!!")
+        print("erro: {}".format(e))
+        return "",""
 
 
 
