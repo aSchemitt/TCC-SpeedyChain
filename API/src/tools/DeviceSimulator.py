@@ -87,15 +87,15 @@ def addBlockOnChain():
     global serverAESEncKey
     # print("###addBlockonChain in devicesimulator, publicKey")
     # print(publicKey)
-    print("antes de chamar o server")
+    # print("antes de chamar o server")
     serverAESEncKey = server.addBlock(publicKey, lifecycleDeviceName)
     if serverAESEncKey == "":
-        print("entrou no if")
+        # print("entrou no if")
         print("Block already added with this public key")
         logger.error("it was not possible to add block - problem in the key")
         return False
     else:
-        print("entrou no else")
+        # print("entrou no else")
         # print("###addBlockonChain in devicesimulator, serverAESEncKey")
         # print(serverAESEncKey)
         # while len(serverAESEncKey) < 10:
@@ -110,7 +110,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     # print("###addBlockonChain in devicesimulator, publicKey")
     # print(publicKey)
     # pickedDevPubKey = pickle.dumps(devPubKey)
-    print("antes de chamar o server-addblock2")
+    # print("antes de chamar o server-addblock2")
     serverAESEncKey = server.addBlock(devPubKey, lifecycleDeviceName)
     if (len(str(serverAESEncKey))<10):
         logger.error("it was not possible to add block - problem in the key")
@@ -120,7 +120,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     # while len(serverAESEncKey) < 10:
     #    serverAESEncKey = server.addBlock(publicKey)
     try:
-        print("tentativa de decifrar a chave AES-addblock2")
+        # print("tentativa de decifrar a chave AES-addblock2")
         AESKey = CryptoFunctions.decryptRSA2(devPrivKey, serverAESEncKey)
     except:
         logger.error("problem decrypting the AES key")
@@ -142,24 +142,24 @@ def sendDataTest():
 
 def sendData():
     """ Read the sensor data, encrypt it and send it as a transaction to be validated by the peers """
-    logger.info("entrou no sendData")
+    # logger.info("entrou no sendData")
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
     logger.debug("data = "+data)
-    logger.info("antes de assinar")
+    # logger.info("antes de assinar")
     signedData = CryptoFunctions.signInfo(privateKey, data)
-    logger.info("dps de assinar")
-    print("assinatura: {} ----".format(signedData))
-    if(CryptoFunctions.signVerify(data,signedData,publicKey)):
-        print("assinado corretamente")
-    else:
-        print("erro na assinatura")
+    # logger.info("dps de assinar")
+    # print("assinatura: {} ----".format(signedData))
+    # if(CryptoFunctions.signVerify(data,signedData,publicKey)):
+    #     print("assinado corretamente")
+    # else:
+    #     print("erro na assinatura")
     toSend = signedData + timeStr + temperature
 
     try:
-        logger.info("antes de cifrar")
+        # logger.info("antes de cifrar")
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
     except:
         logger.error("was not possible to encrypt... verify aeskey")
@@ -295,13 +295,21 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     data = timeStr + temperature
     logger.debug("data = "+data)
     signedData = CryptoFunctions.signInfo(devPrivateK, data)
-    print("dados 'coletados' e assinados")
+    # print("dados 'coletados' e assinados")
+    # print("\nassinatura: {}".format(signedData))
+    # print("\ntamanho assinatura: {}".format(len(signedData)))
+    # print("\ntimestamp: {}".format(timeStr))
+    # print("\ntamanho timestamp: {}".format(len(timeStr)))
+    # print("\ntemperature: {}".format(temperature))
+    # print("\ntamanho temperature: {}".format(len(temperature)))
     toSend = signedData + timeStr + temperature
+    # print("objeto aberto: {}".format(toSend))
 
     try:
         print("tenta cifrar os dados com AES")
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
         print("cifrado com sucesso")
+        # print("objeto cifrado: {}".format(encobj))
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
         # print(("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000)))
@@ -417,6 +425,7 @@ def simDevBlockAndTransSequential(blk, trans):
     global keysArray
 
     if (trans == 0):
+        # print("if trans == 0")
         devPubK, devPrivK = CryptoFunctions.generateRSAKeyPair()
         counter = 0
         AESKey = addBlockOnChainv2(devPubK, devPrivK)
@@ -441,9 +450,9 @@ def simDevBlockAndTransSequential(blk, trans):
         time.sleep(0.001)
         # continue
         # time.sleep(1)
-    print("pre multsend")
+    # print("pre multsend")
     devPubK, devPrivK, AESKey = multSend(devPubK, devPrivK, AESKey, trans, blk)
-    print("pos multsend")
+    # print("pos multsend")
     if (AESKey != False):
         keysArray[blk][2]=AESKey
     # t2 = time.time()
@@ -526,13 +535,13 @@ def automa(blocks, trans, mode = "sequential"):
         @param blocks - int number of blocks\n
         @param trans - int number of transactions
     """
-    print("\tentrou no automa!!")
+    # print("\tentrou no automa!!")
     time.sleep(5)
     if mode == lifecycleMultiMode:
         server.startTransactionsConsThreadsMulti()
     else:
         server.startTransactionsConsThreads()
-    print("iniciou as threads")
+    # print("iniciou as threads")
     time.sleep(5)
     global endTime
     global startTime
@@ -552,6 +561,7 @@ def automa(blocks, trans, mode = "sequential"):
         print("another is saving the logs")
     print("Saved Gw logs, now saving Dev logs")
     saveDeviceLog()
+    
     print("\tsaiu do automa!!")
 
 def old_automa(blocks, trans):
@@ -585,13 +595,13 @@ def old_automa(blocks, trans):
 
 def simulateDevices(blocks,trans,mode):
     global trInterval
-    print("\tentrou no simulate devices!!")
+    # print("\tentrou no simulate devices!!")
     if(mode=="sequential"):
-        print("entrou no sequential")
+        # print("entrou no sequential")
         for tr in range(0, trans):
             t1 = time.time()
             for blk in range(0, blocks):
-                print("SEQUENTIAL"+str(tr)+"transaction sent")
+                # print("SEQUENTIAL"+str(tr)+"transaction sent")
                 simDevBlockAndTransSequential(blk,tr)
             t2= time.time()
             if ((t2 - t1) * 1000 < trInterval):
