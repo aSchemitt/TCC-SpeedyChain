@@ -121,6 +121,7 @@ def getGenesisBlock():
 MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM39ONP614uHF5m3C7nEh6XrtEaAk2ys
 LXbjx/JnbnRglOXpNHVu066t64py5xIP8133AnLjKrJgPfXwObAO5fECAwEAAQ==
 -----END PUBLIC KEY-----"""
+    # k,_ = CryptoFunctions.generateRSAKeyPair()
     index = 0
     previousHash = "0"
     nonce = 0
