@@ -117,11 +117,11 @@ def getGenesisBlock():
     """ Create the genesis block\n
     @return BlockHeader - with the genesis block
     """
-    k = """-----BEGIN PUBLIC KEY-----
-MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM39ONP614uHF5m3C7nEh6XrtEaAk2ys
-LXbjx/JnbnRglOXpNHVu066t64py5xIP8133AnLjKrJgPfXwObAO5fECAwEAAQ==
------END PUBLIC KEY-----"""
-    # k,_ = CryptoFunctions.generateRSAKeyPair()
+#     k = """-----BEGIN PUBLIC KEY-----
+# MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM39ONP614uHF5m3C7nEh6XrtEaAk2ys
+# LXbjx/JnbnRglOXpNHVu066t64py5xIP8133AnLjKrJgPfXwObAO5fECAwEAAQ==
+# -----END PUBLIC KEY-----"""
+    k,_ = CryptoFunctions.generateECDSAKeyPair()
     index = 0
     previousHash = "0"
     nonce = 0
@@ -158,7 +158,7 @@ def generateNextBlock(blockData, pubKey, previousBlock, gwPvtKey, blockContext, 
           nextHash = CryptoFunctions.calculateHash(nextIndex, previousBlockHash, nextTimestamp, 
                                                    nonce, pubKey, blockContext, device)
     # print("####nonce = " + str(nonce))
-    sign = CryptoFunctions.signInfo(gwPvtKey, nextHash)
+    sign = CryptoFunctions.signInfoECDSA(gwPvtKey, nextHash)
     inf = Transaction.Transaction(0, nextHash, nextTimestamp, blockData, sign, 0)
 
     return BlockHeader(nextIndex, previousBlockHash, nextTimestamp, inf, nextHash, 

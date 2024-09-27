@@ -54,7 +54,7 @@ def sendDataSC(stringSC):
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + stringSC
-    signedData = CryptoFunctions.signInfo(privateKey, data)
+    signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
     #logger.debug("###Printing Signing Data before sending: "+signedData)
     # print ("###Signature lenght: " + str(len(signedData)))
     toSend = signedData + timeStr + stringSC
@@ -85,7 +85,7 @@ def callEVMInterface(privatekey, publickey, callType, data, origin, dest):
     #origin = str(input("From account: "))
     #dest = str(input("Destination account: "))
     scInfo = callType+data+origin+dest
-    signedData = CryptoFunctions.signInfo(privateKey,scInfo)
+    signedData = CryptoFunctions.signInfoECDSA(privateKey,scInfo)
     scType = pickle.dumps(callType)
     scData = pickle.dumps(data)
     scFrom = pickle.dumps(origin)

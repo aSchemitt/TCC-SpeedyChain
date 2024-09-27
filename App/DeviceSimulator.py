@@ -74,13 +74,13 @@ def addBlockOnChain():
 
 def sendDataTest():
     """ Send fake data to test the system """
-    pub, priv = CryptoFunctions.generateRSAKeyPair()
+    pub, priv = CryptoFunctions.generateECDSAKeyPair()
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
-    signedData = CryptoFunctions.signInfo(priv, data)
-    ver = CryptoFunctions.signVerify(data, signedData, pub)
+    signedData = CryptoFunctions.signInfoECDSA(priv, data)
+    ver = CryptoFunctions.signVerifyECDSA(data, signedData, pub)
     logger.debug("Sending data test " + str(ver) + "...")
     # print ("done: "+str(ver))
 
@@ -91,7 +91,7 @@ def sendData():
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
     logger.debug("data = "+data)
-    signedData = CryptoFunctions.signInfo(privateKey, data)
+    signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
     toSend = signedData + timeStr + temperature
 
     try:
@@ -101,7 +101,7 @@ def sendData():
         logger.error("was not possible to encrypt... verify aeskey")
         newKeyPair()
         addBlockOnChain() # this will force gateway to recreate the aes key
-        signedData = CryptoFunctions.signInfo(privateKey, data)
+        signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
         logger.error("passed through sendData except")
@@ -119,7 +119,7 @@ def sendDataSC(stringSC):
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + stringSC
-    signedData = CryptoFunctions.signInfo(privateKey, data)
+    signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
     logger.debug("###Printing Signing Data before sending: "+signedData)
     # print ("###Signature lenght: " + str(len(signedData)))
     toSend = signedData + timeStr + stringSC
@@ -185,9 +185,9 @@ def newKeyPair():
     oldPrK = privateKey
     oldPuK = publicKey
     try:
-        publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
+        publicKey, privateKey = CryptoFunctions.generateECDSAKeyPair()
         while len(publicKey) < 10 or len(privateKey) < 10:
-            publicKey, privateKey = CryptoFunctions.generateRSAKeyPair()
+            publicKey, privateKey = CryptoFunctions.generateECDSAKeyPair()
     except:
         privateKey = oldPrK
         publicKey = oldPuK
@@ -345,7 +345,7 @@ def callEVMInterface():
     origin = str(input("From account: "))
     dest = str(input("Destination account: "))
     scInfo = callType+data+origin+dest
-    signedData = CryptoFunctions.signInfo(privateKey,scInfo)
+    signedData = CryptoFunctions.signInfoECDSA(privateKey,scInfo)
 
     scType = pickle.dumps(callType)
     scData = pickle.dumps(data)
