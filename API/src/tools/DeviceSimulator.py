@@ -88,11 +88,20 @@ def addBlockOnChain():
     # print("###addBlockonChain in devicesimulator, publicKey")
     # print(publicKey)
     # print("antes de chamar o server")
-    serverAESEncKey = server.addBlock(publicKey, lifecycleDeviceName)
+    
+    # generate new keys for the ECDHKE-E
+    publicDHKey, privateDHKey = CryptoFunctions.generateECDSAKeyPair()
+    
+    # TODO implementar a troca de chaves
+    # Receive the Gateway DH public key
+    DHGatewayPubKey = server.addBlock(publicKey, lifecycleDeviceName,publicDHKey)
+    # generate the same AES shared key using the gateway DH public key and the device DH private key
+    serverAESEncKey = CryptoFunctions.generateSharedKey(privateDHKey,DHGatewayPubKey)
     if serverAESEncKey == "":
         # print("entrou no if")
         print("Block already added with this public key")
         logger.error("it was not possible to add block - problem in the key")
+        print("\t saiu do add Block On Chain sem sucesso!!")
         return False
     else:
         # print("entrou no else")
@@ -100,11 +109,17 @@ def addBlockOnChain():
         # print(serverAESEncKey)
         # while len(serverAESEncKey) < 10:
         #    serverAESEncKey = server.addBlock(publicKey)
-        decryptAESKey(serverAESEncKey)
+        # TODO implementar a troca de chaves
+        # decryptAESKey(serverAESEncKey)
+        print("AES shared key: \n{}".format(serverAESEncKey))
+        global serverAESKey
+        serverAESKey = serverAESEncKey
         # print("###after decrypt aes")
+        print("\t saiu do add Block On Chain com sucesso!!")
     return True
     # print("###after decrypt aes")
 
+# TODO implementar a troca de chaves
 def addBlockOnChainv2(devPubKey, devPrivKey):
     """ Take the value of 'publicKey' var, and add it to the chain as a block"""
     # print("###addBlockonChain in devicesimulator, publicKey")
@@ -121,6 +136,7 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     #    serverAESEncKey = server.addBlock(publicKey)
     try:
         # print("tentativa de decifrar a chave AES-addblock2")
+        # TODO implementar a troca de chaves
         AESKey = CryptoFunctions.decryptRSA2(devPrivKey, serverAESEncKey)
     except:
         logger.error("problem decrypting the AES key")
@@ -195,6 +211,7 @@ def decryptAESKey(data):
     """ Receive a encrypted data, decrypt it and put it in the global var 'serverAESKey' """
     global serverAESKey
     try:
+        # TODO implementar a troca de chaves
         serverAESKey = CryptoFunctions.decryptRSA2(privateKey, data)
     except:
         logger.error("problem decrypting the AES key")

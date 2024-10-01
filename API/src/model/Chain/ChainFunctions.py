@@ -18,6 +18,7 @@ def createNewBlock(devPubKey, gwPvt, blockContext, consensus, device = "device")
 
     @return BlockHeader
     """
+    print("\tentrou no create new block!!")
     previousExpiredBlockHash = "None"
     previousExpiredBlock = findLastSameBlock(device)
     if previousExpiredBlock is not False:
@@ -117,11 +118,11 @@ def getGenesisBlock():
     """ Create the genesis block\n
     @return BlockHeader - with the genesis block
     """
-#     k = """-----BEGIN PUBLIC KEY-----
-# MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM39ONP614uHF5m3C7nEh6XrtEaAk2ys
-# LXbjx/JnbnRglOXpNHVu066t64py5xIP8133AnLjKrJgPfXwObAO5fECAwEAAQ==
-# -----END PUBLIC KEY-----"""
-    k,_ = CryptoFunctions.generateECDSAKeyPair()
+    k = """-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA+PhdFWnzljQhM/zzMlhcpuU+PAh
+7nKD9F59qhNP0q9dpawtdMHBCaC9K48wAro+t5/nJ58zp2loIpOlxBiLoQ==
+-----END PUBLIC KEY-----"""
+    # k,_ = CryptoFunctions.generateECDSAKeyPair()
     index = 0
     previousHash = "0"
     nonce = 0
@@ -143,6 +144,12 @@ def generateNextBlock(blockData, pubKey, previousBlock, gwPvtKey, blockContext, 
     @param consensus - it is specified current consensus adopted
     @return BlockHeader - the new block
     """
+    print("\tentrou no generate next block!!")
+    print("values:")
+    print("data: {}\npubkey: {}\nprevious block: {}\ngwpvtkey: {}\ncontext: {}\nconsensus: {}\nprevious expired block: {}\n previous block signature: {}\ndevice: {}".format(
+        blockData,pubKey,previousBlock,gwPvtKey,blockContext,consensus,previousExpiredBlock,previousBlockSignature,device
+    ))
+    
     nextIndex = previousBlock.index + 1
     nextTimestamp = "{:.0f}".format(((time.time() * 1000) * 1000))
     previousBlockHash = CryptoFunctions.calculateHashForBlock(previousBlock)
@@ -159,6 +166,7 @@ def generateNextBlock(blockData, pubKey, previousBlock, gwPvtKey, blockContext, 
                                                    nonce, pubKey, blockContext, device)
     # print("####nonce = " + str(nonce))
     sign = CryptoFunctions.signInfoECDSA(gwPvtKey, nextHash)
+    print("assinado no generate next block")
     inf = Transaction.Transaction(0, nextHash, nextTimestamp, blockData, sign, 0)
 
     return BlockHeader(nextIndex, previousBlockHash, nextTimestamp, inf, nextHash, 
