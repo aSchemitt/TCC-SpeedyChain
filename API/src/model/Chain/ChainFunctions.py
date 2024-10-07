@@ -18,7 +18,7 @@ def createNewBlock(devPubKey, gwPvt, blockContext, consensus, device = "device")
 
     @return BlockHeader
     """
-    print("\tentrou no create new block!!")
+    # print("\tentrou no create new block!!")
     previousExpiredBlockHash = "None"
     previousExpiredBlock = findLastSameBlock(device)
     if previousExpiredBlock is not False:
@@ -26,7 +26,8 @@ def createNewBlock(devPubKey, gwPvt, blockContext, consensus, device = "device")
 
     previousBlockSignature = "None"
     if previousExpiredBlockHash is not "None":
-        previousBlockSignature = CryptoFunctions.encryptRSA2(previousExpiredBlock.publicKey, previousExpiredBlockHash)
+        # previousBlockSignature = CryptoFunctions.encryptRSA2(previousExpiredBlock.publicKey, previousExpiredBlockHash)
+        previousBlockSignature = CryptoFunctions.signInfoECDSA(previousExpiredBlock.publicKey, previousExpiredBlockHash)
 
     newBlock = generateNextBlock("new block", devPubKey, getLatestBlock(), gwPvt, blockContext, 
                                  consensus, previousExpiredBlockHash, previousBlockSignature, device)
@@ -144,11 +145,11 @@ def generateNextBlock(blockData, pubKey, previousBlock, gwPvtKey, blockContext, 
     @param consensus - it is specified current consensus adopted
     @return BlockHeader - the new block
     """
-    print("\tentrou no generate next block!!")
-    print("values:")
-    print("data: {}\npubkey: {}\nprevious block: {}\ngwpvtkey: {}\ncontext: {}\nconsensus: {}\nprevious expired block: {}\n previous block signature: {}\ndevice: {}".format(
-        blockData,pubKey,previousBlock,gwPvtKey,blockContext,consensus,previousExpiredBlock,previousBlockSignature,device
-    ))
+    # print("\tentrou no generate next block!!")
+    # print("values:")
+    # print("data: {}\npubkey: {}\nprevious block: {}\ngwpvtkey: {}\ncontext: {}\nconsensus: {}\nprevious expired block: {}\n previous block signature: {}\ndevice: {}".format(
+    #     blockData,pubKey,previousBlock,gwPvtKey,blockContext,consensus,previousExpiredBlock,previousBlockSignature,device
+    # ))
     
     nextIndex = previousBlock.index + 1
     nextTimestamp = "{:.0f}".format(((time.time() * 1000) * 1000))
@@ -166,7 +167,7 @@ def generateNextBlock(blockData, pubKey, previousBlock, gwPvtKey, blockContext, 
                                                    nonce, pubKey, blockContext, device)
     # print("####nonce = " + str(nonce))
     sign = CryptoFunctions.signInfoECDSA(gwPvtKey, nextHash)
-    print("assinado no generate next block")
+    # print("assinado no generate next block")
     inf = Transaction.Transaction(0, nextHash, nextTimestamp, blockData, sign, 0)
 
     return BlockHeader(nextIndex, previousBlockHash, nextTimestamp, inf, nextHash, 

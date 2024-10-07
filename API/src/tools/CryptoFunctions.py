@@ -329,11 +329,11 @@ def signInfoECDSA(gwPvtKey, data,password=None):
         @param data - data to sign\n
         @return sinature - signature of the data maked with the private key
     """
-    print("\tentrou na assinatura ECDSA!!")
+    # print("\tentrou na assinatura ECDSA!!")
     # print("gwPvtKey: {} \ndata: {} \npassword: {}".format(gwPvtKey,data,password))
     try:
-        key = gwPvtKey.encode('utf-8')
         #load key
+        key = gwPvtKey.encode('utf-8')
         privatekey = serialization.load_pem_private_key(
             key,
             password
@@ -349,7 +349,7 @@ def signInfoECDSA(gwPvtKey, data,password=None):
         # encode the signature in b64
         signatureb64 = base64.b64encode(sign)
         # print("assinaturab64: {}".format(signatureb64))
-        print("\tsaiu da assinatura ECDSA com sucesso!!")
+        # print("\tsaiu da assinatura ECDSA com sucesso!!")
         return signatureb64
     except Exception as e:
         print("\tsaiu da assinatura ECDSA sem sucesso!!")
@@ -367,8 +367,8 @@ def signVerifyECDSA(data, signature, gwPubKey):
     print("data: {} \nsignature: {} \ngwPubKey: {}".format(data,signature,gwPubKey))
     try:
         print("antes de carregar a chave ECDSA")
-        key = gwPubKey.encode('utf-8')
         # load key
+        key = gwPubKey.encode('utf-8')
         publickey = serialization.load_pem_public_key(
             key
         )
@@ -386,7 +386,7 @@ def signVerifyECDSA(data, signature, gwPubKey):
         return True
     except Exception as e:
         print("\tsaiu da verificacao ECDSA sem sucesso!!")
-        print("erro: {}".format(e))
+        print("erro: ----{}----".format(e))
         return False
 
 # implementado
@@ -430,12 +430,13 @@ def generateSharedKey(myPrivatekey,otherPublicKey,password=None):
         @Param otherPublicKey - the public key of the part to share the key\n
         @Return sharedKey - the key shared between the parties
     """
-    print("\tentoru no generateSharedKey!!")
+    # print("\tentrou no generateSharedKey!!")
     # print("types:")
     # print("myprivatekey: {}".format(type(myPrivatekey)))
     # print("otherpublickey: {}".format(type(otherPublicKey)))
     try:
         # load keys
+        myPrivatekey = myPrivatekey.encode('utf-8')
         DHPrivKey = serialization.load_pem_private_key(
             myPrivatekey,
             password
@@ -450,7 +451,7 @@ def generateSharedKey(myPrivatekey,otherPublicKey,password=None):
         # print("myPrivatekey: \n{} \notherPublicKey: \n{}".format(myPrivatekey,otherPublicKey))
         sharedKey = DHPrivKey.exchange(ec.ECDH(),DHPubKey)
         # print("sharedKey: {}".format(type(sharedKey)))
-        print("\tsaiu do generateSharedKey sem erros!!")
+        # print("\tsaiu do generateSharedKey sem erros!!")
         return sharedKey
     except Exception as e:
         print("\tsaiu do generateSharedKey com erros!!")

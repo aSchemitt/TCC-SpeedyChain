@@ -6,6 +6,7 @@ import time
 import socket
 import random
 import pickle
+import base64
 
 import Pyro4
 
@@ -93,7 +94,7 @@ def addBlockOnChain():
     publicDHKey, privateDHKey = CryptoFunctions.generateECDSAKeyPair()
     
     # TODO implementar a troca de chaves
-    # Receive the Gateway DH public key
+    # Receive the Gateway DH public key while add the block
     DHGatewayPubKey = server.addBlock(publicKey, lifecycleDeviceName,publicDHKey)
     # generate the same AES shared key using the gateway DH public key and the device DH private key
     serverAESEncKey = CryptoFunctions.generateSharedKey(privateDHKey,DHGatewayPubKey)
@@ -111,11 +112,11 @@ def addBlockOnChain():
         #    serverAESEncKey = server.addBlock(publicKey)
         # TODO implementar a troca de chaves
         # decryptAESKey(serverAESEncKey)
-        print("AES shared key: \n{}".format(serverAESEncKey))
+        # print("AES shared key: \n{}".format(base64.b64encode(serverAESEncKey)))
         global serverAESKey
         serverAESKey = serverAESEncKey
         # print("###after decrypt aes")
-        print("\t saiu do add Block On Chain com sucesso!!")
+        # print("\t saiu do add Block On Chain com sucesso!!")
     return True
     # print("###after decrypt aes")
 
@@ -126,7 +127,16 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     # print(publicKey)
     # pickedDevPubKey = pickle.dumps(devPubKey)
     # print("antes de chamar o server-addblock2")
-    serverAESEncKey = server.addBlock(devPubKey, lifecycleDeviceName)
+    
+    # generate new keys for the ECDHKE-E
+    publicDHKey, privateDHKey = CryptoFunctions.generateECDSAKeyPair()
+    
+    # Receive the Gateway DH public key while add the block
+    DHGatewayPubKey = server.addBlock(devPubKey, lifecycleDeviceName, publicDHKey)
+    # generate the same AES shared key using the gateway DH public key and the device DH private key
+    serverAESEncKey = CryptoFunctions.generateSharedKey(privateDHKey,DHGatewayPubKey)
+    
+    # serverAESEncKey = server.addBlock(devPubKey, lifecycleDeviceName)
     if (len(str(serverAESEncKey))<10):
         logger.error("it was not possible to add block - problem in the key")
         return False
@@ -137,11 +147,13 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
     try:
         # print("tentativa de decifrar a chave AES-addblock2")
         # TODO implementar a troca de chaves
-        AESKey = CryptoFunctions.decryptRSA2(devPrivKey, serverAESEncKey)
+        # AESKey = CryptoFunctions.decryptRSA2(devPrivKey, serverAESEncKey)
+        # TODO verificar esse try
+        print("")
     except:
         logger.error("problem decrypting the AES key")
         return False
-    return AESKey
+    return serverAESEncKey
 
 
 def sendDataTest():
@@ -446,6 +458,7 @@ def simDevBlockAndTransSequential(blk, trans):
         devPubK, devPrivK = CryptoFunctions.generateECDSAKeyPair()
         counter = 0
         AESKey = addBlockOnChainv2(devPubK, devPrivK)
+        # print("AES shared key: {}".format(base64.b64encode(AESKey)))
         keysArray.append([devPubK, devPrivK, AESKey])
         while (AESKey == False):
             logger.error("ERROR: creating a new key pair and trying to create a new block")
