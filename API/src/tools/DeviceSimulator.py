@@ -7,6 +7,7 @@ import socket
 import random
 import pickle
 import base64
+from datetime import datetime
 
 import Pyro4
 
@@ -46,6 +47,14 @@ lifecycleMethods = []
 lifecycleTypes = []
 lifecycleDeviceName = ""
 lifecycleMultiMode = "lifecycleMulti"
+
+logCreateSignTime = []
+logVerifySignTime = []
+logCreateTransactTime = []
+logSignSize = []
+logTransactSize = []
+logXTransactSize = []
+signatureAlgoritm = "ECDSA"
 
 def getMyIP():
      """ Return the IP from the gateway
@@ -158,13 +167,22 @@ def addBlockOnChainv2(devPubKey, devPrivKey):
 
 def sendDataTest():
     """ Send fake data to test the system """
+    global logCreateSignTime
+    global logVerifySignTime
     pub, priv = CryptoFunctions.generateECDSAKeyPair()
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
+    t1 = time.time()
     signedData = CryptoFunctions.signInfoECDSA(priv, data)
+    t2 = time.time()
+    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t2 - t1) * 1000))
+    print("sign logged")
     ver = CryptoFunctions.signVerifyECDSA(data, signedData, pub)
+    t3 = time.time()
+    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t3 - t2) * 1000))
+    print("sign logged")
     logger.debug("Sending data test " + str(ver) + "...")
     # print ("done: "+str(ver))
 
@@ -177,14 +195,20 @@ def sendData():
     data = timeStr + temperature
     logger.debug("data = "+data)
     # logger.info("antes de assinar")
+    global logCreateSignTime
+    t1 = time.time()
     signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
+    t2 = time.time()
+    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData: "+"{0:.12f}".format((t2 - t1) * 1000))
+    print("sign logged")
     # logger.info("dps de assinar")
-    # print("assinatura: {} ----".format(signedData))
+    # print("assinatura: {}----".format(signedData))
     # if(CryptoFunctions.signVerifyECDSA(data,signedData,publicKey)):
     #     print("assinado corretamente")
     # else:
     #     print("erro na assinatura")
     toSend = signedData + timeStr + temperature
+    # print("dados enviados: {}".format(toSend))
 
     try:
         # logger.info("antes de cifrar")
@@ -193,7 +217,11 @@ def sendData():
         logger.error("was not possible to encrypt... verify aeskey")
         newKeyPair()
         addBlockOnChain() # this will force gateway to recreate the aes key
+        t1 = time.time()
         signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
+        t2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData except: "+"{0:.12f}".format((t2 - t1) * 1000))
+        print("sign logged")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
         logger.error("passed through sendData except")
@@ -211,7 +239,12 @@ def sendDataSC(stringSC):
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + stringSC
+    t1 = time.time()
     signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
+    t2 = time.time()
+    global logCreateSignTime
+    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataSC: "+"{0:.12f}".format((t2 - t1) * 1000))
+    print("sign logged")
     logger.debug("###Printing Signing Data before sending: "+signedData)
     # print ("###Signature lenght: " + str(len(signedData)))
     toSend = signedData + timeStr + stringSC
@@ -323,8 +356,13 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     timeStr = "{:.0f}".format(t)
     data = timeStr + temperature
     logger.debug("data = "+data)
+    t1 = time.time()
     signedData = CryptoFunctions.signInfoECDSA(devPrivateK, data)
-    # print("dados 'coletados' e assinados")
+    t2 = time.time()
+    global logCreateSignTime
+    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args: "+"{0:.12f}".format((t2 - t1) * 1000))
+    print("sign logged")
+    print("dados 'coletados' e assinados")
     # print("\nassinatura: {}".format(signedData))
     # print("\ntamanho assinatura: {}".format(len(signedData)))
     # print("\ntimestamp: {}".format(timeStr))
@@ -351,7 +389,12 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         t = ((time.time() * 1000) * 1000)
         timeStr = "{:.0f}".format(t)
         data = timeStr + temperature
+        t1 = time.time()
         signedData = CryptoFunctions.signInfoECDSA(devPrivateK, data)
+        t2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args except: "+"{0:.12f}".format((t2 - t1) * 1000))
+        print("sign logged")
+        print("dados 'coletados' e assinados")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
         t2 = ((time.time() * 1000) * 1000)
@@ -361,9 +404,9 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     try:
         encobj=pickle.dumps(encobj)
         devPubK = pickle.dumps(devPubK)
-        # print("manda transacao pra pool")
+        print("manda transacao pra pool")
         transactionStatus= server.addTransactionToPool(devPubK, encobj)
-        # print("e recebe o status")
+        print("e recebe o status")
         t3 = ((time.time() * 1000) * 1000)
         logT31.append("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
         # print("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
@@ -579,7 +622,7 @@ def automa(blocks, trans, mode = "sequential"):
 
     # print("pre simulate devices")
     simulateDevices(blocks,trans,mode)
-    # print("pos simulate devices")
+    print("pos simulate devices")
 
     endTime = (time.time())*1000*1000
     logT27.append("Device;" + deviceName + ";T27; Time run all transactions in ms;" + str((endTime - startTime)/1000))
@@ -1400,14 +1443,87 @@ def showkeys():
     print("privateKey: \n{}".format(privateKey))
 
 def testsignverify():
+    global logCreateSignTime
+    global logVerifySignTime
     data = b"um dado qualquer"
+    t1 = time.time()
     sig = CryptoFunctions.signInfoECDSA(privateKey,data)
+    t2 = time.time()
+    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t2 - t1) * 1000))
+    print("sign logged")
     veri = CryptoFunctions.signVerifyECDSA(data,sig,publicKey)
+    t3 = time.time()
+    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t3 - t2) * 1000))
+    print("verify logged")
     if veri:
         print("assinatura verificada com sucesso!!")
     else:
         print("assinatura com erros!!")
         
+def saveTimesSizes():
+    global logCreateSignTime
+    global logVerifySignTime
+    global logSignSize
+    global logCreateTransactTime
+    global logTransactSize
+    global logXTransactSize
+    
+    directory = "./results"
+    filename = deviceName+"-"+str(datetime.now())+".logs"
+    filepath = os.path.join(directory,filename)
+    
+    if not os.path.exists(directory):
+        print("criando diretorio no dv")
+        os.makedirs(directory)
+    
+    with open(filepath,'w') as file:
+    
+        logger.info("#############################################################")
+        logger.info("###################### Times & Sizes ########################")
+        logger.info("#############################################################")
+        file.write("#############################################################\n")
+        file.write("###################### Times & Sizes ########################\n")
+        file.write("#############################################################\n")
+        
+        for i in range(len(logCreateSignTime)):
+            logger.info(logCreateSignTime[i])
+            file.write(logCreateSignTime[i] + '\n')
+        print("Log logCreateSignTime saved")
+        logCreateSignTime = []
+        
+        for i in range(len(logVerifySignTime)):
+            logger.info(logVerifySignTime[i])
+            file.write(logVerifySignTime[i] + '\n')
+        print("Log logVerifySignTime saved")
+        logVerifySignTime = []
+        
+        for i in range(len(logSignSize)):
+            logger.info(logSignSize[i])
+            file.write(logSignSize[i] + '\n')
+        print("Log logSignSize saved")
+        logSignSize = []
+        
+        for i in range(len(logCreateTransactTime)):
+            logger.info(logCreateTransactTime[i])
+            file.write(logCreateTransactTime[i] + '\n')
+        print("Log logCreateTransactTime saved")
+        logCreateTransactTime = []
+        
+        for i in range(len(logTransactSize)):
+            logger.info(logTransactSize[i])
+            file.write(logTransactSize[i] + '\n')
+        print("Log logTransactSize saved")
+        logTransactSize = []
+        
+        for i in range(len(logXTransactSize)):
+            logger.info(logXTransactSize[i])
+            file.write(logXTransactSize[i] + '\n')
+        print("Log logXTransactSize saved")
+        logXTransactSize = []
+        logger.info("#############################################################")
+        file.write("#############################################################")
+        # Save the logs in the server too
+        server.saveTimesSizes()
 
 def InteractiveMain():
     """ Creates an interactive screen for the user with all option of a device"""
@@ -1448,6 +1564,7 @@ def InteractiveMain():
         31: changeComponents,
         32: showkeys,
         33: testsignverify,
+        34: saveTimesSizes,
     }
 
     mode = -1
@@ -1493,6 +1610,7 @@ def InteractiveMain():
         print("31 - Change components between devices")
         print("32 - Show device keys")
         print("33 - Test sign & verify")
+        print("34 - Save times & sizes logs")
         print("#############################################################")
 
 

@@ -16,6 +16,7 @@ import json
 import Queue
 
 import base64
+from datetime import datetime
 
 from flask import Flask, request
 
@@ -133,6 +134,14 @@ components = ["CPU", "RAM", "SSD", "VID"]
 chainFile = "chain.txt"
 chainFileMulti = "chainmulti.txt"
 deviceName = "dev-"
+
+logCreateSignTime = []
+logVerifySignTime = []
+logCreateTransactTime = []
+logSignSize = []
+logTransactSize = []
+logXTransactSize = []
+signatureAlgoritm = "ECDSA"
 
 # example from: www.stackoverflow.com/questions/6893968/how-to-get-the-return-value-from-a-thread-in-pyhton
 class ThreadWithReturn(Thread):
@@ -513,6 +522,7 @@ def receiveBlockConsensus(self, data, gatewayPublicKey, devicePublicKey, consens
 
 
 def isValidBlock(self, data, gatewayPublicKey, devicePublicKey, peer):
+    global logVerifySignTime
     newBlock = pickle.loads(data)
     blockIoT = ChainFunctions.findBlock(devicePublicKey)
     consensus = True
@@ -542,7 +552,12 @@ def isValidBlock(self, data, gatewayPublicKey, devicePublicKey, peer):
         consensus = False
 
     # check device signature with device public key
-    if not (CryptoFunctions.signVerifyECDSA(newBlock.signature.data, newBlock.signature.deviceSignature, gatewayPublicKey)):
+    tVerify1 = time.time()
+    isSigned = CryptoFunctions.signVerifyECDSA(newBlock.signature.data, newBlock.signature.deviceSignature, gatewayPublicKey)
+    tVerify2 = time.time()
+    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in isValidBlock: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+    print("verify logged")
+    if not (isSigned):
         # print("New block device signature not valid")
         consensus = False
     peer = getPeer(peer)
@@ -553,11 +568,22 @@ def isValidBlock(self, data, gatewayPublicKey, devicePublicKey, peer):
 
 # TODO verificar pq a verificacao ta errada
 def isTransactionValid(transaction, pubKey):
+    global logVerifySignTime
     #data = str(transaction.data)[-22:-2]
-    data, signature = transaction.getDataAndSignatureInsideLifecycle()
-    #signature = str(transaction.data)[:-22]
-    print("dentro do is transaction valid")
-    res = CryptoFunctions.signVerifyECDSA(data, signature, pubKey)
+    # data, signature = transaction.getDataAndSignatureInsideLifecycle()
+    datatemp = str(transaction.data)[-21:].split(',')
+    data2 = datatemp[0]+datatemp[1]
+    signature = str(transaction.data)[:-22]
+    # print("dentro do is transaction valid")
+    # print("dados: {}".format(data))
+    # print("dados2: {}".format(data2))
+    # print("assinatura: {}".format(signature))
+    # print("chave publica: {}".format(pubKey))
+    tVerify1 = time.time()
+    res = CryptoFunctions.signVerifyECDSA(data2, signature, pubKey)
+    tVerify2 = time.time()
+    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in isTransactionValid: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+    print("verify logged")
     return res
 
 def isBlockValid(block):
@@ -648,7 +674,12 @@ class R2ac(object):
             # print("passed the blk")
             nextInt = blk.transactions[len(
                 blk.transactions) - 1].index + 1
+            tsign1 = time.time()
             signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+            tsign2 = time.time()
+            global logCreateSignTime
+            logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performTransactionConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
+            print("sign logged")
             # print("BBBBBBBBBBBBB passed the devinfo")
             gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
             # code responsible to create the hash between Info nodes.
@@ -849,6 +880,8 @@ class R2ac(object):
         candidateTransactionPool =[]
         votesPoolTotal = []
         validTransactionPool =[]
+        global logCreateSignTime
+        global logVerifySignTime
 
         while (len(candidatePool) > 0):
             # logger.error("-----------------------------inside prepare--while")
@@ -864,7 +897,11 @@ class R2ac(object):
                     blk = ChainFunctions.findBlock(devPublicKey)
                 # print("passed the blk")
                     nextInt = blk.transactions[len(blk.transactions) - 1].index + 1
+                    tsign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tsign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFT: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
+                    print("sign logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -872,7 +909,11 @@ class R2ac(object):
                     transaction = Transaction.Transaction(nextInt, prevInfoHash, gwTime, deviceInfo, signData, 0)
                     candidateTransactionPool.append((devPublicKey, transaction))
                     # logger.error("-----------------------------inside prepare--transaction appended")
+                    tsign3 = time.time()
                     trSign = CryptoFunctions.signInfoECDSA(gwPvt,str(transaction))
+                    tsign4 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFT(trSign): "+"{0:.12f}".format((tsign4 - tsign3) * 1000))
+                    print("sign logged")
                     # votesPoolTotal.append([(devPublicKey, transaction), [trSign]])
                     votesPoolTotal.append([(devPublicKey, transaction), ["valid"]])
         if(len(candidateTransactionPool)==0):
@@ -909,7 +950,12 @@ class R2ac(object):
             votes = pickle.loads(pickedVotes)
             votesSignature = pickle.loads(pickedVotesSignature)
             # verify if list of votes are valid, i.e., peer signature in votes is correct
-            if(CryptoFunctions.signVerifyECDSA(str(votes),votesSignature, p.object.getGwPubkey())):
+            tVerify1 = time.time()
+            isSigned = CryptoFunctions.signVerifyECDSA(str(votes),votesSignature, p.object.getGwPubkey())
+            tVerify2 = time.time()
+            logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in prepareContextPBFT: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+            print("verify logged")
+            if(isSigned):
                 # logger.error("!!***!!!!*** Votes Signature is valid****")
                 for index in range(len(votes)):
                     # if there is a vote
@@ -986,6 +1032,8 @@ class R2ac(object):
             @return votesPool, signature and GwPub - return a list of votes (valid), signature and gwpub
         """
         global logT23
+        global logCreateSignTime
+        global logVerifySignTime
         t1 = (time.time()*1000)
         validation = True
         votesPool =[]
@@ -1012,7 +1060,11 @@ class R2ac(object):
                 # verify the gw of the device
                 candidateDevInfo = candidateTr.data
                 candidateDevInfo.__class__ = DeviceInfo.DeviceInfo
+                tVerify1 = time.time()
                 verifyGwSign = CryptoFunctions.signVerifyECDSA(str(candidateDevInfo), candidateTr.signature, receivedGwPub)
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in votePoolCandidate(gw): "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
                 if (verifyGwSign != True):
                     logger.error("***********************")
                     logger.error("***Invalid Gw Signature*")
@@ -1022,7 +1074,11 @@ class R2ac(object):
                 # verify the signature of the device
                 d = candidateDevInfo.timestamp + candidateDevInfo.data
 
+                tVerify3 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(d, candidateDevInfo.deviceSignature, receivedDevPub)
+                tVerify4 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in votePoolCandidate(device): "+"{0:.12f}".format((tVerify4 - tVerify3) * 1000))
+                print("verify logged")
                 if (isSigned != True):
                     logger.error("***********************")
                     logger.error("***Invalid Device Signature*")
@@ -1057,7 +1113,11 @@ class R2ac(object):
             else:
                 votesPool.append([(candidateTr.signature), ""])
             validation = True
+        tsign1 = time.time()
         votesSignature=CryptoFunctions.signInfoECDSA(gwPvt, str(votesPool))
+        tsign2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in votePoolCandidate: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
+        print("sign logged")
         t2 = (time.time()*1000)
         logT23.append("T23 VOTING;CONTEXT "+context+";VOTING TIME; " + str(t2-t1))
         # logger.error("!!!!! My verification sign = " + str(CryptoFunctions.signVerifyECDSA(str(votesPool),votesSignature,gwPub)))
@@ -1068,6 +1128,7 @@ class R2ac(object):
     def performTransactionPoolPoAConsensus(self, context):
         # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
         global contextPeers
+        global logCreateSignTime
 
         sizePool = 100  # slice of transactions get from each pool
         minInterval = 1  # interval between consensus in ms
@@ -1121,7 +1182,11 @@ class R2ac(object):
                     # print("passed the blk")
                     nextInt = blk.transactions[len(
                         blk.transactions) - 1].index + 1
+                    tsign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tsign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performTransactionPoolPoAConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
+                    print("sign logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -1292,6 +1357,7 @@ class R2ac(object):
         # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
         global contextPeers
         # global blockContext
+        global logCreateSignTime
 
         # candidatePool = self.getLocalTransactionPool(context)
         pickedCandidatePool = self.getLocalTransactionPool(context)
@@ -1318,7 +1384,11 @@ class R2ac(object):
                     # print("passed the blk")
                     nextInt = blk.transactions[len(
                         blk.transactions) - 1].index + 1
+                    tsign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tsign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performaTransactionOldWayPoolPoAConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
+                    print("sign logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -1622,6 +1692,7 @@ class R2ac(object):
         global gwPub
         global logT24
         global logT25
+        global logVerifySignTime
         t1 = time.time()
 
         # loading key and encryptedObj from from pickle serialization
@@ -1646,7 +1717,7 @@ class R2ac(object):
                 # print("pos decryptAES")
 
                 # TODO arrumar os tamanho de assinatura e timestamp quando mudar o tamanho da chave
-                # retrieve the last chars, excluding timestamp - 16 bytes and signature - 172 bytes
+                # retrieve the last chars, excluding timestamp - 16 bytes and signature - 96 bytes
                 signaturesize = 96
                 timestampsize = 16
                 deviceData = plainObject[(signaturesize+timestampsize):]
@@ -1670,8 +1741,12 @@ class R2ac(object):
 
                 # print("pre verificacao assinatura")
                 d = devTime+deviceData
+                tVerify1 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(
                     d, signature, devPublicKey)
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in addTransactionToPool: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
                 # print("pos verificacao assinatura")
                 # print("result assinatura: {}".format(isSigned))
                 if isSigned:
@@ -1724,6 +1799,8 @@ class R2ac(object):
         # logger.debug("Transaction received")
         global gwPvt
         global gwPub
+        global logCreateSignTime
+        global logVerifySignTime
         
         # print("\tentrou no addTransaction!!")
 
@@ -1748,17 +1825,33 @@ class R2ac(object):
                 devTime = plainObject[-20:-4]
                 # retrieve the las 4 chars which are the data
                 deviceData = plainObject[-4:]
+                # print("dados recebidos: {}".format(plainObject))
+                # print("dados separados:")
+                # print("data: {}".format(deviceData))
+                # print("time: {}".format(devTime))
+                # print("signature: {}".format(signature))
 
                 d = devTime+deviceData
+                # print("time+data: {}".format(d))
+                tVerify1 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(
                     d, signature, devPublicKey)
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in addTransaction: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
+                # print("resultado verificacao: {}".format(isSigned))
 
                 if isSigned:
                     deviceInfo = DeviceInfo.DeviceInfo(
                         signature, devTime, deviceData)
+                    # print("deviceInfo a ser assinado: {}".format(str(deviceInfo)))
                     nextInt = blk.transactions[len(
                         blk.transactions) - 1].index + 1
+                    tSign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tSign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransaction: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                    print("sign logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -1766,6 +1859,8 @@ class R2ac(object):
 
                     transaction = Transaction.Transaction(
                         nextInt, prevInfoHash, gwTime, deviceInfo, signData,0)
+                    
+                    # print("transacao: {}".format(str(transaction)))
 
                     # send to consensus
                     # if not consensus(newBlockLedger, gwPub, devPublicKey):
@@ -1858,6 +1953,7 @@ class R2ac(object):
         global transactionLockList
         global gwPvt
         global gwPub
+        global logCreateSignTime
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
         self.addTinLockList(devPublicKey)
@@ -1890,7 +1986,11 @@ class R2ac(object):
                     deviceInfo = DeviceInfo.DeviceInfo(signedDatabyDevice, devTime, transactionData)
                     nextInt = blk.transactions[len(
                         blk.transactions) - 1].index + 1
+                    tSign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tSign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionSC2: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                    print("sign logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -1943,6 +2043,8 @@ class R2ac(object):
         # logger.debug("Transaction received")
         global gwPvt
         global gwPub
+        global logCreateSignTime
+        global logVerifySignTime
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
         if (blk != False and blk.index > 0):
@@ -1965,16 +2067,24 @@ class R2ac(object):
                 # print("###devTime: "+devTime)
 
                 d = devTime+deviceData
+                tVerify1 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(
                     d, signature, devPublicKey)
-
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in addTransactionSC: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
+                
                 if isSigned:
                     # print("it is signed!!!")
                     deviceInfo = DeviceInfo.DeviceInfo(
                         signature, devTime, deviceData)
                     nextInt = blk.transactions[len(
                         blk.transactions) - 1].index + 1
+                    tSign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tSign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionSC: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                    print("sign logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -2013,6 +2123,7 @@ class R2ac(object):
             @param transaction - Data to be insert on the block\n
             @return "done" - method done (the block are not necessarily inserted)
         """
+        # print("\tdentro do update block ledger")
         trans = pickle.loads(transaction)
         t1 = time.time()
         # logger.info("Received transaction #" + (str(trans.index)))
@@ -2022,6 +2133,7 @@ class R2ac(object):
             #              str(len(blk.transactions)))
             if not (ChainFunctions.blockContainsTransaction(blk, trans)):
                 if validatorClient:
+                    # print("validator client: {}".format(validatorClient))
                     isTransactionValid(trans, pubKey)
                 ChainFunctions.addBlockTransaction(blk, trans)
         t2 = time.time()
@@ -2418,8 +2530,10 @@ class R2ac(object):
 
     def saveLog(self):
         self.remoteSaveLog()
+        self.remoteSaveTimesSizes()
         for p in peers:
             p.object.remoteSaveLog()
+            p.object.remoteSaveTimesSizes()
         return
 
     def remoteSaveLog(self):
@@ -2488,6 +2602,76 @@ class R2ac(object):
 
         return
 
+    def saveTimesSizes(self):
+        print("saving sign logs")
+        self.remoteSaveTimesSizes()
+        for p in peers:
+            p.object.remoteSaveTimesSizes()
+        return
+
+    def remoteSaveTimesSizes(self):
+        print("remote saving sign logs")
+        global logCreateSignTime
+        global logVerifySignTime
+        global logSignSize
+        global logCreateTransactTime
+        global logTransactSize
+        global logXTransactSize
+        
+        directory = "./results"
+        filename = gatewayName+"-"+str(datetime.now())+".logs"
+        filepath = os.path.join(directory,filename)
+    
+        if not os.path.exists(directory):
+            print("criando diretorio no gw")
+            os.makedirs(directory)
+    
+        with open(filepath,'w') as file:
+        
+            logger.info("#######################################################################")
+            logger.info("############################ Times & Sizes ############################")
+            logger.info("#######################################################################")
+            file.write("#######################################################################\n")
+            file.write("############################ Times & Sizes ############################\n")
+            file.write("#######################################################################\n")
+
+            for i in range(len(logCreateSignTime)):
+                logger.info(logCreateSignTime[i])
+                file.write(logCreateSignTime[i] + '\n')
+            print("Log logCreateSignTime saved")
+            logCreateSignTime = []
+            
+            for i in range(len(logVerifySignTime)):
+                logger.info(logVerifySignTime[i])
+                file.write(logVerifySignTime[i] + '\n')
+            print("Log logVerifySignTime saved")
+            logVerifySignTime = []
+            
+            for i in range(len(logSignSize)):
+                logger.info(logSignSize[i])
+                file.write(logSignSize[i] + '\n')
+            print("Log logSignSize saved")
+            logSignSize = []
+            
+            for i in range(len(logCreateTransactTime)):
+                logger.info(logCreateTransactTime[i])
+                file.write(logCreateTransactTime[i] + '\n')
+            print("Log logCreateTransactTime saved")
+            logCreateTransactTime = []
+            
+            for i in range(len(logTransactSize)):
+                logger.info(logTransactSize[i])
+                file.write(logTransactSize[i] + '\n')
+            print("Log logTransactSize saved")
+            logTransactSize = []
+            
+            for i in range(len(logXTransactSize)):
+                logger.info(logXTransactSize[i])
+                file.write(logXTransactSize[i] + '\n')
+            print("Log logXTransactSize saved")
+            logXTransactSize = []
+            logger.info("#######################################################################")
+            file.write("#######################################################################")
 
 
     def showBlockLedger(self, index):
@@ -3117,6 +3301,7 @@ class R2ac(object):
         """
         # Create a TCP
         # IP socket
+        global logCreateSignTime
 
         tipo = pickle.loads(dumpedType)
         data = pickle.loads(dumpedData)
@@ -3181,7 +3366,11 @@ class R2ac(object):
                 t = ((time.time() * 1000) * 1000)
                 timeStr = "{:.0f}".format(t)
                 data = timeStr + transacao+signedDatabyDevice
+                tSign1 = time.time()
                 signedData = CryptoFunctions.signInfoECDSA(gwPvt, data)
+                tSign2 = time.time()
+                logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in callEVM: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                print("sign logged")
                 logger.debug("###Printing Signing Smart Contract Data before sending: " + signedData)
                 #print("I am Here before SC")
                 self.addTransactionSC2(transacao, signedDatabyDevice, devPubKey, timeStr)
@@ -3460,6 +3649,7 @@ class R2ac(object):
         # logger.debug("Transaction received")
         global gwPvt
         global gwPub
+        global logVerifySignTime
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
         
@@ -3484,8 +3674,12 @@ class R2ac(object):
                 #print("deviceData = " + str(deviceData))
 
                 d = " "+devTime+" "+deviceData
+                tVerify1 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(
                     d, signature, devPublicKey)
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in addLifecycleEvent: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
 
                 if isSigned:
                     deviceInfo = DeviceInfo.DeviceInfo(
@@ -4359,6 +4553,8 @@ class R2ac(object):
         candidateTransactionPool =[]
         votesPoolTotal = []
         validTransactionPool =[]
+        global logCreateSignTime
+        global logVerifySignTime
         try:
             while (len(candidatePool) > 0):
                 logger.info("prepareContextPBFTMulti: inside prepare--while")
@@ -4371,7 +4567,11 @@ class R2ac(object):
                         blk = ChainFunctionsMulti.findBlock(devPublicKey)
                         lastBlk = (ChainFunctionsMulti.getLatestBlockTransaction(blk, lifecycleEvent.index))
                         nextInt = lastBlk.index + 1
+                        tSign1 = time.time()
                         signData = CryptoFunctions.signInfoECDSA(gwPvt, str(lifecycleEvent.data))
+                        tSign2 = time.time()
+                        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFTMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                        print("sign logged")
                         gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                         # code responsible to create the hash between Info nodes.
                         prevInfoHash = (ChainFunctionsMulti.getLatestBlockTransaction(blk, lifecycleEvent.index)).hash
@@ -4419,7 +4619,12 @@ class R2ac(object):
                 votes = pickle.loads(pickedVotes)
                 votesSignature = pickle.loads(pickedVotesSignature)
                 # verify if list of votes are valid, i.e., peer signature in votes is correct
-                if(CryptoFunctions.signVerifyECDSA(str(votes),votesSignature, p.object.getGwPubkey())):
+                tVerify1 = time.time()
+                isSigned = CryptoFunctions.signVerifyECDSA(str(votes),votesSignature, p.object.getGwPubkey())
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in prepareContextPBFTMulti: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
+                if(isSigned):
                     logger.info("prepareContextPBFTMulti: Votes Signature is valid")
                     # logger.error("Votes Signature is valid")
                     for index in range(len(votes)):
@@ -4552,6 +4757,8 @@ class R2ac(object):
             @return votesPool, signature and GwPub - return a list of votes (valid), signature and gwpub
         """
         global logT23
+        global logCreateSignTime
+        global logVerifySignTime
         t1 = (time.time()*1000)
         validation = True
         votesPool =[]
@@ -4581,7 +4788,11 @@ class R2ac(object):
                 # verify the gw of the device
                 candidateDevInfo = candidateLifecycle.data
                 candidateDevInfo.__class__ = DeviceInfo.DeviceInfo
+                tVerify1 = time.time()
                 verifyGwSign = CryptoFunctions.signVerifyECDSA(str(candidateDevInfo), candidateTr.signature, receivedGwPub)
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in votePoolCandidateMulti(gw): "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
                 if (verifyGwSign != True):
                     logger.error("***********************")
                     logger.error("***Invalid Gw Signature*")
@@ -4591,7 +4802,11 @@ class R2ac(object):
                 # verify the signature of the device
                 d = " "+candidateDevInfo.timestamp+" "+candidateDevInfo.data
 
+                tVerify3 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(d, candidateDevInfo.deviceSignature, receivedDevPub)
+                tVerify4 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in votePoolCandidateMulti(device): "+"{0:.12f}".format((tVerify4 - tVerify3) * 1000))
+                print("verify logged")
                 if (isSigned != True):
                     logger.error("***********************")
                     logger.error("***Invalid Device Signature*")
@@ -4628,7 +4843,11 @@ class R2ac(object):
             else:
                 votesPool.append([(candidateTr.signature), ""])
             validation = True
+        tSign1 = time.time()
         votesSignature=CryptoFunctions.signInfoECDSA(gwPvt, str(votesPool))
+        tSign2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in votePoolCandidateMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+        print("sign logged")
         t2 = (time.time()*1000)
         logT23.append("T23 VOTING;CONTEXT "+context+";VOTING TIME; " + str(t2-t1))
         # logger.error("!!!!! My verification sign = " + str(CryptoFunctions.signVerifyECDSA(str(votesPool),votesSignature,gwPub)))
@@ -4662,6 +4881,8 @@ class R2ac(object):
         global gwPub
         global logT24
         global logT25
+        global logCreateSignTime
+        global logVerifySignTime
         t1 = time.time()
 
         # loading key and encryptedObj from from pickle serialization
@@ -4695,9 +4916,13 @@ class R2ac(object):
                 logger.info("addTransactionToPoolMulti: gateway;" + gatewayName + ";" + consensus + ";T1;Transaction data received")
 
                 d = " "+devTime+" "+deviceData
+                tVerify1 = time.time()
                 isSigned = CryptoFunctions.signVerifyECDSA(
                     d, signature, devPublicKey)
-
+                tVerify2 = time.time()
+                logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in addTransactionToPoolMulti: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+                print("verify logged")
+                
                 if isSigned:
                     deviceInfo = DeviceInfo.DeviceInfo(
                         signature, devTime, deviceData)
@@ -4708,7 +4933,11 @@ class R2ac(object):
                     t2=time.time()
                     logT24.append("T24 VERIFICATION TIME; " + str((t2-t1)*1000))
                     nextInt = (ChainFunctionsMulti.getLatestBlockTransaction(blk, index)).index + 1
+                    tSign1 = time.time()
                     signData = CryptoFunctions.signInfoECDSA(gwPvt, str(deviceInfo))
+                    tSign2 = time.time()
+                    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionToPoolMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+                    print("sign logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     prevInfoHash = (ChainFunctionsMulti.getLatestBlockTransaction(blk, index)).hash
                     transaction = Transaction.Transaction(
@@ -5162,6 +5391,7 @@ def verifyBlockCandidate(newBlock, generatorGwPub, generatorDevicePub, alivePeer
         @return voteSignature - The block has been verified and approved
     """
     # print("entrou no verify block candidate local")
+    global logCreateSignTime
     blockValidation = True
     if isMulti:
         #print("Inside verifyBlockCandidate, with MULTI")
@@ -5207,8 +5437,12 @@ def verifyBlockCandidate(newBlock, generatorGwPub, generatorDevicePub, alivePeer
         return blockValidation
     if blockValidation:
         logger.info("block successfully validated")
+        tSign1 = time.time()
         voteSignature = CryptoFunctions.signInfoECDSA(
             gwPvt, newBlock.__str__())  # identify the problem in this line!!
+        tSign2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in verifyBlockCandidate: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+        print("sign logged")
         # logger.debug("block successfully signed")
         # addVoteBlockPBFT(newBlock, gwPub, voteSignature)
         # logger.debug("block successfully added locally")
@@ -5348,6 +5582,8 @@ def verifyTransactionCandidate(block, newTransaction, generatorGwPub, generatorD
         @param alivePeers - list of available peers\n
         @return boolean - True: approved, False: not approved
     """
+    global logCreateSignTime
+    global logVerifySignTime
     transactionValidation = True
     if (ChainFunctions.getBlockByIndex(block.index)) != block:
         transactionValidation = False
@@ -5370,11 +5606,20 @@ def verifyTransactionCandidate(block, newTransaction, generatorGwPub, generatorD
         transactionValidation = False
         return transactionValidation
     # @Regio the publick key used below should be from device or from GW?
-    if not (CryptoFunctions.signVerifyECDSA(newTransaction.data, newTransaction.signature, generatorDevicePub)):
+    tVerify1 = time.time()
+    isSigned = CryptoFunctions.signVerifyECDSA(newTransaction.data, newTransaction.signature, generatorDevicePub)
+    tVerify2 = time.time()
+    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in verifyTransactionCandidate: "+"{0:.12f}".format((tVerify2 - tVerify1) * 1000))
+    print("verify logged")
+    if not (isSigned):
         transactionValidation = False
         return transactionValidation
     if transactionValidation:
+        tSign1 = time.time()
         voteSignature = CryptoFunctions.signInfoECDSA(gwPvt, newTransaction)
+        tSign2 = time.time()
+        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in verifyTransactionCandidate: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
+        print("sign logged")
         # vote positively, signing the candidate transaction
         addVoteTransactionPBFT(newTransaction, gwPub, voteSignature)
         for p in alivePeers:
