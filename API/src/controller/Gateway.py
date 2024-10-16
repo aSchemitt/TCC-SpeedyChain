@@ -402,7 +402,6 @@ def addPeer2(peerURI):
 #############################################################################
 
 
-# TODO implementar a troca de chaves
 def generateAESSharedKey(devPubKey, DHDevicePubKey):
     """ Receive a public verify key and a public DH key to generate and store a shared key to AES 256\n
         @param devPubKey - device sign public key\n
@@ -680,6 +679,10 @@ class R2ac(object):
             global logCreateSignTime
             logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performTransactionConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
             print("sign logged")
+            global logSignSize
+            signSize = len(base64.b64decode(signData))
+            logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+            print("size logged")
             # print("BBBBBBBBBBBBB passed the devinfo")
             gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
             # code responsible to create the hash between Info nodes.
@@ -882,6 +885,7 @@ class R2ac(object):
         validTransactionPool =[]
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
 
         while (len(candidatePool) > 0):
             # logger.error("-----------------------------inside prepare--while")
@@ -902,6 +906,9 @@ class R2ac(object):
                     tsign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFT: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -914,6 +921,9 @@ class R2ac(object):
                     tsign4 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFT(trSign): "+"{0:.12f}".format((tsign4 - tsign3) * 1000))
                     print("sign logged")
+                    signSize2 = len(base64.b64decode(trSign))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize2) + " Bytes")
+                    print("size logged")
                     # votesPoolTotal.append([(devPublicKey, transaction), [trSign]])
                     votesPoolTotal.append([(devPublicKey, transaction), ["valid"]])
         if(len(candidateTransactionPool)==0):
@@ -1034,6 +1044,7 @@ class R2ac(object):
         global logT23
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         t1 = (time.time()*1000)
         validation = True
         votesPool =[]
@@ -1118,6 +1129,9 @@ class R2ac(object):
         tsign2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in votePoolCandidate: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
         print("sign logged")
+        signSize = len(base64.b64decode(votesSignature))
+        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for my current vote pool is " + str(signSize) + " Bytes")
+        print("size logged")
         t2 = (time.time()*1000)
         logT23.append("T23 VOTING;CONTEXT "+context+";VOTING TIME; " + str(t2-t1))
         # logger.error("!!!!! My verification sign = " + str(CryptoFunctions.signVerifyECDSA(str(votesPool),votesSignature,gwPub)))
@@ -1129,6 +1143,7 @@ class R2ac(object):
         # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
         global contextPeers
         global logCreateSignTime
+        global logSignSize
 
         sizePool = 100  # slice of transactions get from each pool
         minInterval = 1  # interval between consensus in ms
@@ -1187,6 +1202,9 @@ class R2ac(object):
                     tsign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performTransactionPoolPoAConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -1358,6 +1376,7 @@ class R2ac(object):
         global contextPeers
         # global blockContext
         global logCreateSignTime
+        global logSignSize
 
         # candidatePool = self.getLocalTransactionPool(context)
         pickedCandidatePool = self.getLocalTransactionPool(context)
@@ -1389,6 +1408,9 @@ class R2ac(object):
                     tsign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in performaTransactionOldWayPoolPoAConsensus: "+"{0:.12f}".format((tsign2 - tsign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     # print("BBBBBBBBBBBBB passed the devinfo")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
@@ -1801,6 +1823,7 @@ class R2ac(object):
         global gwPub
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         
         # print("\tentrou no addTransaction!!")
 
@@ -1852,6 +1875,9 @@ class R2ac(object):
                     tSign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransaction: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -1954,6 +1980,7 @@ class R2ac(object):
         global gwPvt
         global gwPub
         global logCreateSignTime
+        global logSignSize
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
         self.addTinLockList(devPublicKey)
@@ -1991,6 +2018,9 @@ class R2ac(object):
                     tSign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionSC2: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -2045,6 +2075,7 @@ class R2ac(object):
         global gwPub
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         t1 = time.time()
         blk = ChainFunctions.findBlock(devPublicKey)
         if (blk != False and blk.index > 0):
@@ -2085,6 +2116,9 @@ class R2ac(object):
                     tSign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionSC: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     # code responsible to create the hash between Info nodes.
                     prevInfoHash = CryptoFunctions.calculateTransactionHash(
@@ -2276,7 +2310,6 @@ class R2ac(object):
                 logger.error("aeskey had a problem...")
                 removeAESKey(aesKey)
                 # logger.info("pos AESKEY remove / pre generate AESKEY")
-                # TODO implementar a troca de chaves
                 DHGatewayPubKey = generateAESSharedKey(blk.publicKey,DHDevicePublicKey)
                 # encKey = CryptoFunctions.encryptRSA2(devPubKey, aesKey)
                 # logger.info("pos encrypt RSA2")
@@ -2286,7 +2319,6 @@ class R2ac(object):
             logger.error("publick key received was: " + str(devPubKey) + "blk key was: " + str(blk.publicKey) + " ...")
             removeAESKey(aesKey)
             # logger.info("pos AESKEY remove / pre generate AESKEY")
-            # TODO implementar a troca de chaves
             DHGatewayPubKey = generateAESSharedKey(blk.publicKey,DHDevicePublicKey)
             # encKey = CryptoFunctions.encryptRSA2(devPubKey, aesKey)
             # logger.info("pos encrypt RSA2")
@@ -3302,6 +3334,7 @@ class R2ac(object):
         # Create a TCP
         # IP socket
         global logCreateSignTime
+        global logSignSize
 
         tipo = pickle.loads(dumpedType)
         data = pickle.loads(dumpedData)
@@ -3371,6 +3404,9 @@ class R2ac(object):
                 tSign2 = time.time()
                 logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in callEVM: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                 print("sign logged")
+                signSize = len(base64.b64decode(signedData))
+                logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for callEVM is " + str(signSize) + " Bytes")
+                print("size logged")
                 logger.debug("###Printing Signing Smart Contract Data before sending: " + signedData)
                 #print("I am Here before SC")
                 self.addTransactionSC2(transacao, signedDatabyDevice, devPubKey, timeStr)
@@ -4555,6 +4591,7 @@ class R2ac(object):
         validTransactionPool =[]
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         try:
             while (len(candidatePool) > 0):
                 logger.info("prepareContextPBFTMulti: inside prepare--while")
@@ -4572,6 +4609,9 @@ class R2ac(object):
                         tSign2 = time.time()
                         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in prepareContextPBFTMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                         print("sign logged")
+                        signSize = len(base64.b64decode(signData))
+                        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for lifecycleEvent transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                        print("size logged")
                         gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                         # code responsible to create the hash between Info nodes.
                         prevInfoHash = (ChainFunctionsMulti.getLatestBlockTransaction(blk, lifecycleEvent.index)).hash
@@ -4759,6 +4799,7 @@ class R2ac(object):
         global logT23
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         t1 = (time.time()*1000)
         validation = True
         votesPool =[]
@@ -4848,6 +4889,9 @@ class R2ac(object):
         tSign2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in votePoolCandidateMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
         print("sign logged")
+        signSize = len(base64.b64decode(votesSignature))
+        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for my current votes pool multi is " + str(signSize) + " Bytes")
+        print("size logged")
         t2 = (time.time()*1000)
         logT23.append("T23 VOTING;CONTEXT "+context+";VOTING TIME; " + str(t2-t1))
         # logger.error("!!!!! My verification sign = " + str(CryptoFunctions.signVerifyECDSA(str(votesPool),votesSignature,gwPub)))
@@ -4883,6 +4927,7 @@ class R2ac(object):
         global logT25
         global logCreateSignTime
         global logVerifySignTime
+        global logSignSize
         t1 = time.time()
 
         # loading key and encryptedObj from from pickle serialization
@@ -4938,6 +4983,9 @@ class R2ac(object):
                     tSign2 = time.time()
                     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in addTransactionToPoolMulti: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
                     print("sign logged")
+                    signSize = len(base64.b64decode(signData))
+                    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(nextInt) + " in block " + str(blk.index) + " is " + str(signSize) + " Bytes")
+                    print("size logged")
                     gwTime = "{:.0f}".format(((time.time() * 1000) * 1000))
                     prevInfoHash = (ChainFunctionsMulti.getLatestBlockTransaction(blk, index)).hash
                     transaction = Transaction.Transaction(
@@ -5392,6 +5440,7 @@ def verifyBlockCandidate(newBlock, generatorGwPub, generatorDevicePub, alivePeer
     """
     # print("entrou no verify block candidate local")
     global logCreateSignTime
+    global logSignSize
     blockValidation = True
     if isMulti:
         #print("Inside verifyBlockCandidate, with MULTI")
@@ -5410,7 +5459,6 @@ def verifyBlockCandidate(newBlock, generatorGwPub, generatorDevicePub, alivePeer
     # print("lastblk: {}\nlastblkhash: {}".format(lastBlk,lastBlkHash))
     # print("newblock: {}\nprevioushash: {}".format(newBlock,newBlock.previousHash))
 
-    # TODO verificar a geracao do hash
     if (lastBlkHash != newBlock.previousHash):
         # print("validation lastblkhash")
         logger.error("Failed to validate new block(" +
@@ -5443,6 +5491,9 @@ def verifyBlockCandidate(newBlock, generatorGwPub, generatorDevicePub, alivePeer
         tSign2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in verifyBlockCandidate: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
         print("sign logged")
+        signSize = len(base64.b64decode(voteSignature))
+        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for voting in block " + str(newBlock.index) + " is " + str(signSize) + " Bytes")
+        print("size logged")
         # logger.debug("block successfully signed")
         # addVoteBlockPBFT(newBlock, gwPub, voteSignature)
         # logger.debug("block successfully added locally")
@@ -5584,6 +5635,7 @@ def verifyTransactionCandidate(block, newTransaction, generatorGwPub, generatorD
     """
     global logCreateSignTime
     global logVerifySignTime
+    global logSignSize
     transactionValidation = True
     if (ChainFunctions.getBlockByIndex(block.index)) != block:
         transactionValidation = False
@@ -5620,6 +5672,9 @@ def verifyTransactionCandidate(block, newTransaction, generatorGwPub, generatorD
         tSign2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in verifyTransactionCandidate: "+"{0:.12f}".format((tSign2 - tSign1) * 1000))
         print("sign logged")
+        signSize = len(base64.b64decode(voteSignature))
+        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for transaction "+ str(newTransaction.index) + " in block " + str(block.index) + " is " + str(signSize) + " Bytes")
+        print("size logged")
         # vote positively, signing the candidate transaction
         addVoteTransactionPBFT(newTransaction, gwPub, voteSignature)
         for p in alivePeers:
