@@ -178,7 +178,7 @@ def sendDataTest():
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(base64.b64decode(signedData))
-    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data test is " + str(signSize) + " Bytes")
+    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data test is " + str(signSize) + " Bytes")
     print("size logged")
     ver = CryptoFunctions.signVerifyECDSA(data, signedData, pub)
     t3 = time.time()
@@ -191,6 +191,9 @@ def sendData():
     """ Read the sensor data, encrypt it and send it as a transaction to be validated by the peers """
     global logCreateSignTime
     global logSignSize
+    global logCreateTransactTime
+    global logTransactSize
+    ttransact1 = time.time()
     # logger.info("entrou no sendData")
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
@@ -204,7 +207,7 @@ def sendData():
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(base64.b64decode(signedData))
-    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in transaction  is " + str(signSize) + " Bytes")
+    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
     print("size logged")
     # logger.info("dps de assinar")
     # print("assinatura: {}----".format(signedData))
@@ -218,8 +221,15 @@ def sendData():
     try:
         # logger.info("antes de cifrar")
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
+        ttransact2 = time.time()
+        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+        print("transact time logged")
+        sizeTransact = len(base64.b64decode(encobj))
+        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        print("transact size logged")
     except:
         logger.error("was not possible to encrypt... verify aeskey")
+        ttransact3 = time.time()
         newKeyPair()
         addBlockOnChain() # this will force gateway to recreate the aes key
         t1 = time.time()
@@ -228,10 +238,16 @@ def sendData():
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
         signSize = len(base64.b64decode(signedData))
-        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in transaction  is " + str(signSize) + " Bytes")
+        logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
         print("size logged")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
+        ttransact4 = time.time()
+        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
+        print("transact time logged")
+        sizeTransact = len(base64.b64decode(encobj))
+        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        print("transact size logged")
         logger.error("passed through sendData except")
     try:
         if(server.addTransaction(publicKey, encobj)=="ok!"):
@@ -246,6 +262,9 @@ def sendData():
 def sendDataSC(stringSC):
     global logCreateSignTime
     global logSignSize
+    global logCreateTransactTime
+    global logTransactSize
+    ttransact1 = time.time()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
     data = timeStr + stringSC
@@ -255,12 +274,18 @@ def sendDataSC(stringSC):
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataSC: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(base64.b64decode(signedData))
-    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in transactionSC  is " + str(signSize) + " Bytes")
+    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transactionSC  is " + str(signSize) + " Bytes")
     print("size logged")
     logger.debug("###Printing Signing Data before sending: "+signedData)
     # print ("###Signature lenght: " + str(len(signedData)))
     toSend = signedData + timeStr + stringSC
     encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
+    ttransact2 = time.time()
+    logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+    print("transact time logged")
+    sizeTransact = len(base64.b64decode(encobj))
+    logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+    print("transact size logged")
     server.addTransactionSC(publicKey, encobj)
     # server.addTransaction(toSend)
 
@@ -364,6 +389,9 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     global keysArray
     global logCreateSignTime
     global logSignSize
+    global logCreateTransactTime
+    global logTransactSize
+    ttransact1 = time.time()
     temperature = readSensorTemperature()
     t = ((time.time() * 1000) * 1000)
     timeStr = "{:.0f}".format(t)
@@ -375,7 +403,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(base64.b64decode(signedData))
-    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in transaction args is " + str(signSize) + " Bytes")
+    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
     print("size logged")
     # print("dados 'coletados' e assinados")
     # print("\nassinatura: {}".format(signedData))
@@ -392,6 +420,12 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
         # print("cifrado com sucesso")
         # print("objeto cifrado: {}".format(encobj))
+        ttransact2 = time.time()
+        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+        print("transact time logged")
+        sizeTransact = len(base64.b64decode(encobj))
+        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
         # print(("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000)))
@@ -401,6 +435,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         devPubK, devPrivateK = CryptoFunctions.generateECDSAKeyPair()
         AESKey = addBlockOnChainv2(devPubK, devPrivateK) # this will force gateway to recreate the aes key
         # logger.error("New aeskey is: "+ str(AESKey))
+        ttransact3 = time.time()
         t = ((time.time() * 1000) * 1000)
         timeStr = "{:.0f}".format(t)
         data = timeStr + temperature
@@ -410,11 +445,17 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
         signSize = len(base64.b64decode(signedData))
-        logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in transaction args is " + str(signSize) + " Bytes")
+        logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
         print("size logged")
         # print("dados 'coletados' e assinados")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
+        ttransact4 = time.time()
+        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
+        print("transact time logged")
+        sizeTransact = len(base64.b64decode(encobj))
+        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
         # print(("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000)))
@@ -1471,7 +1512,7 @@ def testsignverify():
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(base64.b64decode(sig))
-    logSignSize.append("Size of a "+ signatureAlgoritm+ "signature for data in test sign is " + str(signSize) + " Bytes")
+    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in test sign is " + str(signSize) + " Bytes")
     print("size logged")
     veri = CryptoFunctions.signVerifyECDSA(data,sig,publicKey)
     t3 = time.time()
