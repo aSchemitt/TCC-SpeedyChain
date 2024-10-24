@@ -2749,17 +2749,25 @@ class R2ac(object):
         logXTransactSize.append("Block "+str(index)+" has "+str(size)+" transactions whith "+str(acumulador)+" Bytes")
         return "ok"
     
-    def saveXTransactionsSizes(self, index):
-        blk = ChainFunctions.getBlockByIndex(index)
-        if blk == False:
-            return "Block does not exist"
-        size = len(blk.transactions)
-        global logXTransactSize
-        acumulador = 0
-        for b in blk.transactions:
-            acumulador += b.getBytes()
-        logXTransactSize.append("Block "+str(index)+" has "+str(size)+" transactions whith "+str(acumulador)+" Bytes")
-        return "ok"
+    def saveXTransactionsSizes(self):
+        blocks = ChainFunctions.getBlockchainSize()
+        self.remoteSaveXTransactionsSizes(blocks)
+        for p in peers:
+            p.object.remoteSaveXTransactionsSizes(blocks)        
+        return 
+
+    def remoteSaveXTransactionsSizes(self, blocks):
+        for index in range(1,blocks):
+            blk = ChainFunctions.getBlockByIndex(index)
+            if blk == False:
+                continue
+            size = len(blk.transactions)
+            global logXTransactSize
+            blockBytes = 0
+            for tr in blk.transactions:
+                blockBytes += tr.getBytes()
+            logXTransactSize.append("Block "+str(index)+" has "+str(size)+" transactions whith "+str(blockBytes)+" Bytes")
+        return 
 
     def listPeer(self):
         """ Log all peers in the network\n

@@ -712,9 +712,11 @@ def simulateDevices(blocks,trans,mode):
             if ((t2 - t1) * 1000 < trInterval):
                 time.sleep((trInterval - ((t2 - t1) * 1000)) / 1000)
             if (tr % 10 == 0):
-                for blk in range(0, blocks):
-                    print("XTransactions")
-                    server.saveXTransactionsSizes(blk)
+                # print("XTransactions")
+                server.saveXTransactionsSizes()
+        # print("saving timesSizes")
+        server.saveTimesSizes()
+        
     if(mode==lifecycleMultiMode):
         for tr in range(0, trans):
             for i in range(4):
@@ -1563,7 +1565,7 @@ def saveTimesSizes():
         logger.info("#############################################################")
         file.write("#############################################################")
         # Save the logs in the server too
-        server.saveTimesSizes()
+    server.saveTimesSizes()
 
 
 def InteractiveMain():
