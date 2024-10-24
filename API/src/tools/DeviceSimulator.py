@@ -153,7 +153,7 @@ def sendDataTest():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data test is " + str(signSize) + " Bytes")
     print("size logged")
     ver = CryptoFunctions.signVerify(data, signedData, pub)
@@ -182,7 +182,7 @@ def sendData():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
     print("size logged")
     # logger.info("dps de assinar")
@@ -212,7 +212,7 @@ def sendData():
         t2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
-        signSize = len(base64.b64decode(signedData))
+        signSize = len(signedData)
         logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
         print("size logged")
         toSend = signedData + timeStr + temperature
@@ -248,7 +248,7 @@ def sendDataSC(stringSC):
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataSC: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transactionSC  is " + str(signSize) + " Bytes")
     print("size logged")
     logger.debug("###Printing Signing Data before sending: "+signedData)
@@ -341,9 +341,9 @@ def bruteSend(retry):
             return False # addBlockConsensusCandiate
 
 def multSend(devPubK, devPrivateK, AESKey, retry, blk):
-    print("\tentrou no multsend!!!")
+    # print("\tentrou no multsend!!!")
     try:
-        print("tentando sendDataArgs")    
+        # print("tentando sendDataArgs")    
         return sendDataArgs(devPubK, devPrivateK, AESKey, retry, blk)
     except KeyboardInterrupt:
         sys.exit()
@@ -377,7 +377,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
     print("size logged")
     # print("dados 'coletados' e assinados")
@@ -391,9 +391,9 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     # print("objeto aberto: {}".format(toSend))
 
     try:
-        print("tenta cifrar os dados com AES")
+        # print("tenta cifrar os dados com AES")
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
-        print("cifrado com sucesso")
+        # print("cifrado com sucesso")
         # print("objeto cifrado: {}".format(encobj))
         ttransact2 = time.time()
         logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
@@ -419,7 +419,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         t2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
-        signSize = len(base64.b64decode(signedData))
+        signSize = len(signedData)
         logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
         print("size logged")
         toSend = signedData + timeStr + temperature
@@ -437,9 +437,9 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     try:
         encobj=pickle.dumps(encobj)
         devPubK = pickle.dumps(devPubK)
-        print("manda transacao pra pool")
+        # print("manda transacao pra pool")
         transactionStatus= server.addTransactionToPool(devPubK, encobj)
-        print("e recebe o status")
+        # print("e recebe o status")
         t3 = ((time.time() * 1000) * 1000)
         logT31.append("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
         # print("Device;" + deviceName + ";T31; Time to send/receive a transaction;" + str((t3 - t2) / 1000))
@@ -522,7 +522,7 @@ def consensusTrans():
 
 # for parallel simulation of devices and insertions use this
 def simDevBlockAndTransSequential(blk, trans):
-    print("\tentrou no simDevBlockAndTransSequential")
+    # print("\tentrou no simDevBlockAndTransSequential")
     numTrans = trans
     # trInterval is amount of time to wait before send the next tr in ms
     global trInterval
@@ -652,9 +652,9 @@ def automa(blocks, trans, mode = "sequential"):
     global startTime
     global logT27
 
-    print("pre simulate devices")
+    # print("pre simulate devices")
     simulateDevices(blocks,trans,mode)
-    print("pos simulate devices")
+    # print("pos simulate devices")
 
     endTime = (time.time())*1000*1000
     logT27.append("Device;" + deviceName + ";T27; Time run all transactions in ms;" + str((endTime - startTime)/1000))
@@ -711,6 +711,10 @@ def simulateDevices(blocks,trans,mode):
             t2= time.time()
             if ((t2 - t1) * 1000 < trInterval):
                 time.sleep((trInterval - ((t2 - t1) * 1000)) / 1000)
+            if (tr % 10 == 0):
+                for blk in range(0, blocks):
+                    print("XTransactions")
+                    server.saveXTransactionsSizes(blk)
     if(mode==lifecycleMultiMode):
         for tr in range(0, trans):
             for i in range(4):
@@ -1484,7 +1488,7 @@ def testsignverify():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(sig))
+    signSize = len(sig)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in test sign is " + str(signSize) + " Bytes")
     print("size logged")
     veri = CryptoFunctions.signVerify(data,sig,publicKey)
