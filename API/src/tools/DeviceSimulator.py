@@ -177,13 +177,13 @@ def sendDataTest():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data test is " + str(signSize) + " Bytes")
     print("size logged")
     ver = CryptoFunctions.signVerifyECDSA(data, signedData, pub)
     t3 = time.time()
     logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t3 - t2) * 1000))
-    print("sign logged")
+    print("verify logged")
     logger.debug("Sending data test " + str(ver) + "...")
     # print ("done: "+str(ver))
 
@@ -206,7 +206,7 @@ def sendData():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
     print("size logged")
     # logger.info("dps de assinar")
@@ -224,20 +224,20 @@ def sendData():
         ttransact2 = time.time()
         logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
         print("transact time logged")
-        sizeTransact = len(base64.b64decode(encobj))
+        sizeTransact = len(encobj)
         logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
         print("transact size logged")
     except:
         logger.error("was not possible to encrypt... verify aeskey")
-        ttransact3 = time.time()
         newKeyPair()
         addBlockOnChain() # this will force gateway to recreate the aes key
+        ttransact3 = time.time()
         t1 = time.time()
         signedData = CryptoFunctions.signInfoECDSA(privateKey, data)
         t2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
-        signSize = len(base64.b64decode(signedData))
+        signSize = len(signedData)
         logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
         print("size logged")
         toSend = signedData + timeStr + temperature
@@ -245,7 +245,7 @@ def sendData():
         ttransact4 = time.time()
         logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
         print("transact time logged")
-        sizeTransact = len(base64.b64decode(encobj))
+        sizeTransact = len(encobj)
         logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
         print("transact size logged")
         logger.error("passed through sendData except")
@@ -273,7 +273,7 @@ def sendDataSC(stringSC):
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataSC: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transactionSC  is " + str(signSize) + " Bytes")
     print("size logged")
     logger.debug("###Printing Signing Data before sending: "+signedData)
@@ -283,7 +283,7 @@ def sendDataSC(stringSC):
     ttransact2 = time.time()
     logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
     print("transact time logged")
-    sizeTransact = len(base64.b64decode(encobj))
+    sizeTransact = len(encobj)
     logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
     print("transact size logged")
     server.addTransactionSC(publicKey, encobj)
@@ -402,7 +402,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(signedData))
+    signSize = len(signedData)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
     print("size logged")
     # print("dados 'coletados' e assinados")
@@ -423,7 +423,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         ttransact2 = time.time()
         logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
         print("transact time logged")
-        sizeTransact = len(base64.b64decode(encobj))
+        sizeTransact = len(encobj)
         logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
         print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
@@ -444,7 +444,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         t2 = time.time()
         logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args except: "+"{0:.12f}".format((t2 - t1) * 1000))
         print("sign logged")
-        signSize = len(base64.b64decode(signedData))
+        signSize = len(signedData)
         logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
         print("size logged")
         # print("dados 'coletados' e assinados")
@@ -453,7 +453,7 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         ttransact4 = time.time()
         logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
         print("transact time logged")
-        sizeTransact = len(base64.b64decode(encobj))
+        sizeTransact = len(encobj)
         logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
         print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
@@ -738,6 +738,11 @@ def simulateDevices(blocks,trans,mode):
             t2= time.time()
             if ((t2 - t1) * 1000 < trInterval):
                 time.sleep((trInterval - ((t2 - t1) * 1000)) / 1000)
+            if (tr % 10 == 0):
+                print("Xtransactions")
+                server.saveXTransactionsSizes()
+        print("saving timesSizes")
+        server.saveTimesSizes()
     if(mode==lifecycleMultiMode):
         for tr in range(0, trans):
             for i in range(4):
@@ -1511,7 +1516,7 @@ def testsignverify():
     t2 = time.time()
     logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t2 - t1) * 1000))
     print("sign logged")
-    signSize = len(base64.b64decode(sig))
+    signSize = len(sig)
     logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in test sign is " + str(signSize) + " Bytes")
     print("size logged")
     veri = CryptoFunctions.signVerifyECDSA(data,sig,publicKey)
@@ -1585,8 +1590,8 @@ def saveTimesSizes():
         logXTransactSize = []
         logger.info("#############################################################")
         file.write("#############################################################")
-        # Save the logs in the server too
-        server.saveTimesSizes()
+    # Save the logs in the server too
+    server.saveTimesSizes()
 
 def InteractiveMain():
     """ Creates an interactive screen for the user with all option of a device"""
