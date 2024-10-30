@@ -118,8 +118,15 @@ def getGenesisBlock():
     @return BlockHeader - with the genesis block
     """
     k = """-----BEGIN PUBLIC KEY-----
-MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM39ONP614uHF5m3C7nEh6XrtEaAk2ys
-LXbjx/JnbnRglOXpNHVu066t64py5xIP8133AnLjKrJgPfXwObAO5fECAwEAAQ==
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAxUWd9Kwkjib1uhhPnex4
+Z/bmZYbspyRnjjnTOdP8Sbgcg8/qeJg/QX6RasIsvO0qo/goMPoGHkHNZlFuEsDn
+olT1RRhAiFrHl75YQqU3jLy1IBYVRmuZe6BUQXN6faHVf+wyi5aq57MJLdUeJyat
+o3n5F23shrolJGqk9EXqhRQ2jLXP3xYTyaLz6jEgiFU9KhcMIKtXfU8G9VJ75HNE
++8DNfuQWVR5grqiWTkXknVpxTAVha42NNWQKcMAloQESV28kU/qX8zTTJfYoJ9kh
+JD3b6q3AUoRVqs9SvV8Q9snv+bCdFBZWa9Xpr3WiFYEF4FfzB2UaX2CnjxWZwWl+
+JLL+z6+PMS9sI/mz/IbPwiqBLagOGuAZsosajewiV6otLALRckIBOslFi5GGRzH9
+WTTm8DrO+egsuCJNeN2pBRMLB2uBTvdv2KCKLdkTKISzZCoeyAp9hxn6Sb0H9XR6
+WZ/RsTP1QKAETSQWlkRFLvLF2ukzG4D2SiOBvzSP6E4BAgMBAAE=
 -----END PUBLIC KEY-----"""
     # k,_ = CryptoFunctions.generateRSAKeyPair()
     index = 0
