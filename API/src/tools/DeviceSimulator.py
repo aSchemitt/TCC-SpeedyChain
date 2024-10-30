@@ -151,14 +151,14 @@ def sendDataTest():
     t1 = time.time()
     signedData = CryptoFunctions.signInfo(priv, data)
     t2 = time.time()
-    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t2 - t1) * 1000))
+    logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(signedData)
-    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data test is " + str(signSize) + " Bytes")
+    logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data test" )
     print("size logged")
     ver = CryptoFunctions.signVerify(data, signedData, pub)
     t3 = time.time()
-    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in sendDataTest: "+"{0:.12f}".format((t3 - t2) * 1000))
+    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t3 - t2) * 1000))
     print("sign logged")
     logger.debug("Sending data test " + str(ver) + "...")
     # print ("done: "+str(ver))
@@ -180,10 +180,10 @@ def sendData():
     t1 = time.time()
     signedData = CryptoFunctions.signInfo(privateKey, data)
     t2 = time.time()
-    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData: "+"{0:.12f}".format((t2 - t1) * 1000))
+    logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(signedData)
-    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
+    logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in transaction" )
     print("size logged")
     # logger.info("dps de assinar")
     # print("assinatura: {} ----".format(signedData))
@@ -197,10 +197,10 @@ def sendData():
         # logger.info("antes de cifrar")
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
         ttransact2 = time.time()
-        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+        logCreateTransactTime.append("TransactionCreate;"+signatureAlgoritm+";{0:.12f};ms".format((ttransact2 - ttransact1) * 1000))
         print("transact time logged")
         sizeTransact = len(base64.b64decode(encobj))
-        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        logTransactSize.append("TransactionSize;"+ signatureAlgoritm +";"+str(sizeTransact)+";Bytes")
         print("transact size logged")
     except:
         logger.error("was not possible to encrypt... verify aeskey")
@@ -210,18 +210,18 @@ def sendData():
         t1 = time.time()
         signedData = CryptoFunctions.signInfo(privateKey, data)
         t2 = time.time()
-        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData except: "+"{0:.12f}".format((t2 - t1) * 1000))
+        logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
         print("sign logged")
         signSize = len(signedData)
-        logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction  is " + str(signSize) + " Bytes")
+        logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in transaction" )
         print("size logged")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
         ttransact4 = time.time()
-        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
+        logCreateTransactTime.append("TransactionCreate;"+signatureAlgoritm+";{0:.12f};ms".format((ttransact4 - ttransact3) * 1000))
         print("transact time logged")
         sizeTransact = len(base64.b64decode(encobj))
-        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        logTransactSize.append("TransactionSize;"+ signatureAlgoritm +";"+str(sizeTransact)+";Bytes")
         print("transact size logged")
         logger.error("passed through sendData except")
     try:
@@ -246,20 +246,20 @@ def sendDataSC(stringSC):
     t1 = time.time()
     signedData = CryptoFunctions.signInfo(privateKey, data)
     t2 = time.time()
-    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendDataSC: "+"{0:.12f}".format((t2 - t1) * 1000))
+    logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(signedData)
-    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transactionSC  is " + str(signSize) + " Bytes")
+    logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in transactionSC")
     print("size logged")
     logger.debug("###Printing Signing Data before sending: "+signedData)
     # print ("###Signature lenght: " + str(len(signedData)))
     toSend = signedData + timeStr + stringSC
     encobj = CryptoFunctions.encryptAES(toSend, serverAESKey)
     ttransact2 = time.time()
-    logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+    logCreateTransactTime.append("TransactionCreate;"+signatureAlgoritm+";{0:.12f};ms".format((ttransact2 - ttransact1) * 1000))
     print("transact time logged")
     sizeTransact = len(base64.b64decode(encobj))
-    logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+    logTransactSize.append("TransactionSize;"+ signatureAlgoritm +";"+str(sizeTransact)+";Bytes")
     print("transact size logged")
     server.addTransactionSC(publicKey, encobj)
     # server.addTransaction(toSend)
@@ -375,10 +375,10 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
     t1 = time.time()
     signedData = CryptoFunctions.signInfo(devPrivateK, data)
     t2 = time.time()
-    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args: "+"{0:.12f}".format((t2 - t1) * 1000))
+    logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(signedData)
-    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
+    logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in transaction args" )
     print("size logged")
     # print("dados 'coletados' e assinados")
     # print("\nassinatura: {}".format(signedData))
@@ -396,10 +396,10 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         # print("cifrado com sucesso")
         # print("objeto cifrado: {}".format(encobj))
         ttransact2 = time.time()
-        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact2 - ttransact1) * 1000))
+        logCreateTransactTime.append("TransactionCreate;"+signatureAlgoritm+";{0:.12f};ms".format((ttransact2 - ttransact1) * 1000))
         print("transact time logged")
         sizeTransact = len(base64.b64decode(encobj))
-        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        logTransactSize.append("TransactionSize;"+ signatureAlgoritm +";"+str(sizeTransact)+";Bytes")
         print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
@@ -417,18 +417,18 @@ def sendDataArgs(devPubK, devPrivateK, AESKey, trans, blk):
         t1 = time.time()
         signedData = CryptoFunctions.signInfo(devPrivateK, data)
         t2 = time.time()
-        logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in sendData args except: "+"{0:.12f}".format((t2 - t1) * 1000))
+        logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
         print("sign logged")
         signSize = len(signedData)
-        logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in transaction args is " + str(signSize) + " Bytes")
+        logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in transaction" )
         print("size logged")
         toSend = signedData + timeStr + temperature
         encobj = CryptoFunctions.encryptAES(toSend, AESKey)
         ttransact4 = time.time()
-        logCreateTransactTime.append("Time to create a Transaction using "+signatureAlgoritm+" signature is "+"{0:.12f}".format((ttransact4 - ttransact3) * 1000))
+        logCreateTransactTime.append("TransactionCreate;"+signatureAlgoritm+";{0:.12f};ms".format((ttransact4 - ttransact3) * 1000))
         print("transact time logged")
         sizeTransact = len(base64.b64decode(encobj))
-        logTransactSize.append("Transaction size with "+ signatureAlgoritm +" signature is "+str(sizeTransact)+" Bytes")
+        logTransactSize.append("TransactionSize;"+ signatureAlgoritm +";"+str(sizeTransact)+";Bytes")
         print("transact size logged")
         t2 = ((time.time() * 1000) * 1000)
         logT30.append("Device;" + deviceName + ";T30; Time to create a transaction;" + str((t2 - t) / 1000))
@@ -716,6 +716,7 @@ def simulateDevices(blocks,trans,mode):
                 server.saveXTransactionsSizes()
         # print("saving timesSizes")
         server.saveTimesSizes()
+        # return
         
     if(mode==lifecycleMultiMode):
         for tr in range(0, trans):
@@ -1488,14 +1489,14 @@ def testsignverify():
     t1 = time.time()
     sig = CryptoFunctions.signInfo(privateKey,data)
     t2 = time.time()
-    logCreateSignTime.append("Time to create a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t2 - t1) * 1000))
+    logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((t2 - t1) * 1000))
     print("sign logged")
     signSize = len(sig)
-    logSignSize.append("Size of a "+ signatureAlgoritm+ " signature for data in test sign is " + str(signSize) + " Bytes")
+    logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in test sign" )
     print("size logged")
     veri = CryptoFunctions.signVerify(data,sig,publicKey)
     t3 = time.time()
-    logVerifySignTime.append("Time to verify a "+ signatureAlgoritm + " Signature in test sign verify: "+"{0:.12f}".format((t3 - t2) * 1000))
+    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t3 - t2) * 1000))
     print("verify logged")
     if veri:
         print("assinatura verificada com sucesso!!")
@@ -1510,15 +1511,26 @@ def saveTimesSizes():
     global logTransactSize
     global logXTransactSize
     
+    numberGateways = 10
+    numberTransactions = 10
+    numberBlocks = 50
+    
     directory = "./results"
     filename = deviceName+"-"+str(datetime.now())+".logs"
     filepath = os.path.join(directory,filename)
     
     if not os.path.exists(directory):
-        print("criando diretorio no dv")
+        print("creating diretory in dv")
         os.makedirs(directory)
     
     with open(filepath,'w') as file:
+        file.write("#######################################################################")
+        file.write("Runtime infos")
+        file.write("Number of Gateways: "+numberGateways)
+        file.write("Number of Transactions: "+numberTransactions)
+        file.write("Number of Blocks: "+numberBlocks)
+        file.write("Consensus: PBFT")
+        file.write("#######################################################################")
     
         logger.info("#############################################################")
         logger.info("###################### Times & Sizes ########################")
@@ -1557,11 +1569,11 @@ def saveTimesSizes():
         print("Log logTransactSize saved")
         logTransactSize = []
         
-        for i in range(len(logXTransactSize)):
-            logger.info(logXTransactSize[i])
-            file.write(logXTransactSize[i] + '\n')
-        print("Log logXTransactSize saved")
-        logXTransactSize = []
+        # for i in range(len(logXTransactSize)):
+        #     logger.info(logXTransactSize[i])
+        #     file.write(logXTransactSize[i] + '\n')
+        # print("Log logXTransactSize saved")
+        # logXTransactSize = []
         logger.info("#############################################################")
         file.write("#############################################################")
         # Save the logs in the server too
