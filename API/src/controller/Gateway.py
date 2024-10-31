@@ -2577,10 +2577,10 @@ class R2ac(object):
 
     def saveLog(self):
         self.remoteSaveLog()
-        self.remoteSaveTimesSizes()
+        # self.remoteSaveTimesSizes()
         for p in peers:
             p.object.remoteSaveLog()
-            p.object.remoteSaveTimesSizes()
+            # p.object.remoteSaveTimesSizes()
         return
 
     def remoteSaveLog(self):
@@ -2670,8 +2670,8 @@ class R2ac(object):
         numberBlocks = 50
         
         
-        directory = "./results"
-        filename = gatewayName+"-"+str(datetime.now())+".logs"
+        directory = "./results/"+signatureAlgoritm
+        filename = gatewayName+"-"+str(numberBlocks)+"Bl-"+str(numberTransactions)+"Tr-("+str(datetime.now().strftime("%d-%b-%Y--%H-%M-%S"))+").logs"
         filepath = os.path.join(directory,filename)
     
         if not os.path.exists(directory):
@@ -2680,13 +2680,13 @@ class R2ac(object):
     
         with open(filepath,'w') as file:
             
-            file.write("#######################################################################")
-            file.write("Runtime infos")
-            file.write("Number of Gateways: "+numberGateways)
-            file.write("Number of Transactions: "+numberTransactions)
-            file.write("Number of Blocks: "+numberBlocks)
-            file.write("Consensus: PBFT")
-            file.write("#######################################################################")
+            file.write("#######################################################################\n")
+            file.write("#Runtime infos\n")
+            file.write("#Number of Gateways: "+str(numberGateways)+'\n')
+            file.write("#Number of Transactions: "+str(numberTransactions)+'\n')
+            file.write("#Number of Blocks: "+str(numberBlocks)+'\n')
+            file.write("#Consensus: PBFT\n")
+            file.write("#######################################################################\n")
             # file.write()
         
             logger.info("#######################################################################")
@@ -2760,7 +2760,7 @@ class R2ac(object):
             print(b.strBlock())
             print("-------")
             acumulador += b.getBytes()
-        logXTransactSize.append("XTransactionSize;Block;"+str(index)+";transactions;"+str(size)+";"+str(acumulador)+" Bytes")
+        logXTransactSize.append("XTransactionSize;Block;"+str(index)+";transactions;"+str(size)+";"+str(acumulador)+";Bytes")
         return "ok"
     
     def saveXTransactionsSizes(self):
@@ -2780,7 +2780,7 @@ class R2ac(object):
             blockBytes = 0
             for tr in blk.transactions:
                 blockBytes += tr.getBytes()
-            logXTransactSize.append("XTransactionSize;Block;"+str(index)+";transactions;"+str(size)+";"+str(acumulador)+" Bytes")
+            logXTransactSize.append("XTransactionSize;Block;"+str(index)+";transactions;"+str(size)+";"+str(blockBytes)+";Bytes")
         return 
 
     def listPeer(self):
@@ -3445,9 +3445,9 @@ class R2ac(object):
                 t = ((time.time() * 1000) * 1000)
                 timeStr = "{:.0f}".format(t)
                 data = timeStr + transacao+signedDatabyDevice
-                tSign1 = time.time()
+                tsign1 = time.time()
                 signedData = CryptoFunctions.signInfo(gwPvt, data)
-                tSign2 = time.time()
+                tsign2 = time.time()
                 logCreateSignTime.append("SignatureCreate;"+ signatureAlgoritm + ";{0:.12f};ms".format((tsign2 - tsign1) * 1000))
                 print("sign logged")
                 signSize = len(signedData)

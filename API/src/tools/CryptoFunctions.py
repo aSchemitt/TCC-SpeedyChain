@@ -172,6 +172,7 @@ def encryptRSA2(key, plaintext):
         # print("saiu do encryptRSA com chave: \n{}".format(ciphertext64))
         # print("\tsaiu do encryptRSA!!")
     except Exception as e:
+        print("saiu do encryptRSA com erro")
         print("erro: {}".format(e))
     return ciphertext64
 
@@ -183,16 +184,16 @@ def decryptRSA2(key, ciphertext,password=None):
         @param text - text encrypted\n
         @return data - text decrypted
     """    
-    # print("\tentrou no decryptRSA2!!")
-    key = key.encode('utf-8')
-    #load key
-    privkey = serialization.load_pem_private_key(
-        key,
-        password
-    )
-    # print("\tcarregou a chave sem erro!!")
-    #decifra
     try:
+        # print("\tentrou no decryptRSA2!!")
+        key = key.encode('utf-8')
+        #load key
+        privkey = serialization.load_pem_private_key(
+            key,
+            password
+        )
+        # print("\tcarregou a chave sem erro!!")
+        #decifra
         plaintext = privkey.decrypt(
             #decode the b64 ciphertext
             base64.b64decode(ciphertext),
@@ -205,7 +206,7 @@ def decryptRSA2(key, ciphertext,password=None):
         # print("saiu do decryptRSA sem erro")
         return plaintext    
     except Exception as e:
-        # print("saiu do decryptRSA com erro")
+        print("saiu do decryptRSA com erro")
         print("erro: {}".format(e))
         return ""
 
@@ -242,6 +243,7 @@ def signInfo(gwPvtKey, data,password=None):
         # print("assinatura em b64: {}".format(signature))
         return signature
     except Exception as e:
+        print("\tsaiu da assinatura RSA sem sucesso!!")
         print("erro: {}".format(e))
         return ""
 
@@ -253,15 +255,16 @@ def signVerify(data, signature, gwPubKey):
         @param signature - signature of the data to be validated\n
         @param gwPubKey - peer's private key
     """
-    # print("\tentrou no valida assinatura RSA!!")
+    print("\tentrou no valida assinatura RSA!!")
     try:
-        # print("\tantes de carregar a chave de verificacao RSA!!")
+        print("\tantes de carregar a chave de verificacao RSA!!")
         key = gwPubKey.encode('utf-8')
+        print("key: {}".format(key))
         #load key
         pubkey = serialization.load_pem_public_key(
             key
         )
-        # print("\tchave carregada com sucesso!!")
+        print("\tchave carregada com sucesso!!")
         #verify the signature
         #TODO prehashed
         pubkey.verify(
@@ -274,9 +277,10 @@ def signVerify(data, signature, gwPubKey):
             ),
             hashes.SHA256()
         )
-        # print("\tassinatura valida!!")
+        print("\tassinatura valida!!")
         return True
     except Exception as e:
+        print("\tsaiu da verificacao RSA sem sucesso!!")
         print("erro: {}".format(e))
         return False
 
@@ -286,34 +290,39 @@ def generateRSAKeyPair():
     """ Generate a pair of RSA keys using RSA 3072\n
         @return pub, prv - public and private key
     """
-    #print("entrou no generate RSA keys")
-    keysize = 3072
-    publicexpoent = 65537
+    try:
+        #print("entrou no generate RSA keys")
+        keysize = 3072
+        publicexpoent = 65537
 
-    private = rsa.generate_private_key(
-        publicexpoent,
-        key_size=keysize
-    )
-    #print("gerou a chave privada")
+        private = rsa.generate_private_key(
+            publicexpoent,
+            key_size=keysize
+        )
+        #print("gerou a chave privada")
 
-    pubKey = private.public_key()
+        pubKey = private.public_key()
 
-    #print("gerou a chave publica")
-    
-    prv = private.private_bytes(
-        encoding=serialization.Encoding.PEM,
-        format=serialization.PrivateFormat.PKCS8,
-        encryption_algorithm=serialization.NoEncryption()
-    )
-    # print("serializou a chave privada: \n{}\nsize: {}".format(prv,len(prv)))
-    pub = pubKey.public_bytes(
-        encoding=serialization.Encoding.PEM,
-        format=serialization.PublicFormat.SubjectPublicKeyInfo    
-    )
-    # print("serializou a chave publica: \n{}\nsize: {}".format(pub,len(pub)))
-    
-    #print("saiu do generate RSA keys")
-    return pub, prv
+        #print("gerou a chave publica")
+        
+        prv = private.private_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PrivateFormat.PKCS8,
+            encryption_algorithm=serialization.NoEncryption()
+        )
+        # print("serializou a chave privada: \n{}\nsize: {}".format(prv,len(prv)))
+        pub = pubKey.public_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PublicFormat.SubjectPublicKeyInfo    
+        )
+        # print("serializou a chave publica: \n{}\nsize: {}".format(pub,len(pub)))
+        
+        #print("saiu do generate RSA keys")
+        return pub, prv
+    except Exception as e:
+        print("\tsaiu da geracao de chaves sem sucesso!!")
+        print("erro: {}".format(e))
+        return "",""
 
 
 ## ECC/ECDSA

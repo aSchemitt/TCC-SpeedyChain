@@ -156,9 +156,10 @@ def sendDataTest():
     signSize = len(signedData)
     logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data test" )
     print("size logged")
-    ver = CryptoFunctions.signVerify(data, signedData, pub)
     t3 = time.time()
-    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t3 - t2) * 1000))
+    ver = CryptoFunctions.signVerify(data, signedData, pub)
+    t4 = time.time()
+    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t4 - t3) * 1000))
     print("sign logged")
     logger.debug("Sending data test " + str(ver) + "...")
     # print ("done: "+str(ver))
@@ -708,15 +709,19 @@ def simulateDevices(blocks,trans,mode):
             for blk in range(0, blocks):
                 # print("SEQUENTIAL"+str(tr)+"transaction sent")
                 simDevBlockAndTransSequential(blk,tr)
+                if (tr == 0):
+                    server.saveXTransactionsSizes()
             t2= time.time()
             if ((t2 - t1) * 1000 < trInterval):
                 time.sleep((trInterval - ((t2 - t1) * 1000)) / 1000)
-            if (tr % 10 == 0):
-                # print("XTransactions")
+            if (tr % 9 == 0):
+                print("XTransactions")
                 server.saveXTransactionsSizes()
+        server.saveXTransactionsSizes()
         # print("saving timesSizes")
         server.saveTimesSizes()
-        # return
+        saveTimesSizesLocal()
+        return
         
     if(mode==lifecycleMultiMode):
         for tr in range(0, trans):
@@ -1494,9 +1499,10 @@ def testsignverify():
     signSize = len(sig)
     logSignSize.append("signatureSize"+ signatureAlgoritm+";"+ str(signSize) + ";Bytes"+ ";data in test sign" )
     print("size logged")
-    veri = CryptoFunctions.signVerify(data,sig,publicKey)
     t3 = time.time()
-    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t3 - t2) * 1000))
+    veri = CryptoFunctions.signVerify(data,sig,publicKey)
+    t4 = time.time()
+    logVerifySignTime.append("SignatureVerify;"+ signatureAlgoritm + ";{0:.12f};ms".format((t4 - t3) * 1000))
     print("verify logged")
     if veri:
         print("assinatura verificada com sucesso!!")
@@ -1504,6 +1510,11 @@ def testsignverify():
         print("assinatura com erros!!")
         
 def saveTimesSizes():
+    saveTimesSizesLocal()
+    # Save the logs in the server too
+    server.saveTimesSizes()
+
+def saveTimesSizesLocal():
     global logCreateSignTime
     global logVerifySignTime
     global logSignSize
@@ -1515,8 +1526,8 @@ def saveTimesSizes():
     numberTransactions = 10
     numberBlocks = 50
     
-    directory = "./results"
-    filename = deviceName+"-"+str(datetime.now())+".logs"
+    directory = "./results/"+signatureAlgoritm
+    filename = deviceName+"-"+str(numberBlocks)+"Bl-"+str(numberTransactions)+"Tr-("+str(datetime.now().strftime("%d-%b-%Y--%H-%M-%S"))+").logs"
     filepath = os.path.join(directory,filename)
     
     if not os.path.exists(directory):
@@ -1524,13 +1535,13 @@ def saveTimesSizes():
         os.makedirs(directory)
     
     with open(filepath,'w') as file:
-        file.write("#######################################################################")
-        file.write("Runtime infos")
-        file.write("Number of Gateways: "+numberGateways)
-        file.write("Number of Transactions: "+numberTransactions)
-        file.write("Number of Blocks: "+numberBlocks)
-        file.write("Consensus: PBFT")
-        file.write("#######################################################################")
+        file.write("#######################################################################\n")
+        file.write("Runtime infos\n")
+        file.write("Number of Gateways: "+str(numberGateways)+'\n')
+        file.write("Number of Transactions: "+str(numberTransactions)+'\n')
+        file.write("Number of Blocks: "+str(numberBlocks)+'\n')
+        file.write("Consensus: PBFT\n")
+        file.write("#######################################################################\n")
     
         logger.info("#############################################################")
         logger.info("###################### Times & Sizes ########################")
@@ -1576,8 +1587,8 @@ def saveTimesSizes():
         # logXTransactSize = []
         logger.info("#############################################################")
         file.write("#############################################################")
-        # Save the logs in the server too
-    server.saveTimesSizes()
+        
+    
 
 
 def InteractiveMain():
