@@ -1,0 +1,3964 @@
+#######################################################################
+#Runtime infos
+#Number of Gateways: 10
+#Number of Transactions: 10
+#Number of Blocks: 50
+#Consensus: PBFT
+#######################################################################
+#######################################################################
+############################ Times & Sizes ############################
+#######################################################################
+SignatureCreate;ECDSA;0.404834747314;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;1.354932785034;ms
+SignatureCreate;ECDSA;0.128984451294;ms
+SignatureCreate;ECDSA;0.219821929932;ms
+SignatureCreate;ECDSA;0.171899795532;ms
+SignatureCreate;ECDSA;0.113010406494;ms
+SignatureCreate;ECDSA;0.217914581299;ms
+SignatureCreate;ECDSA;0.411033630371;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;0.536203384399;ms
+SignatureCreate;ECDSA;0.123977661133;ms
+SignatureCreate;ECDSA;0.252962112427;ms
+SignatureCreate;ECDSA;0.115156173706;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.113964080811;ms
+SignatureCreate;ECDSA;0.231027603149;ms
+SignatureCreate;ECDSA;0.122785568237;ms
+SignatureCreate;ECDSA;0.475883483887;ms
+SignatureCreate;ECDSA;0.133991241455;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.212907791138;ms
+SignatureCreate;ECDSA;0.304222106934;ms
+SignatureCreate;ECDSA;0.242948532104;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.345945358276;ms
+SignatureCreate;ECDSA;0.128030776978;ms
+SignatureCreate;ECDSA;0.231027603149;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.118970870972;ms
+SignatureCreate;ECDSA;0.252008438110;ms
+SignatureCreate;ECDSA;0.272989273071;ms
+SignatureCreate;ECDSA;0.122070312500;ms
+SignatureCreate;ECDSA;0.564098358154;ms
+SignatureCreate;ECDSA;0.288963317871;ms
+SignatureCreate;ECDSA;0.356912612915;ms
+SignatureCreate;ECDSA;0.767946243286;ms
+SignatureCreate;ECDSA;1.365184783936;ms
+SignatureCreate;ECDSA;0.462055206299;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.131845474243;ms
+SignatureCreate;ECDSA;0.277042388916;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.303983688354;ms
+SignatureCreate;ECDSA;0.115871429443;ms
+SignatureCreate;ECDSA;0.280857086182;ms
+SignatureCreate;ECDSA;0.117063522339;ms
+SignatureCreate;ECDSA;0.253200531006;ms
+SignatureCreate;ECDSA;0.118017196655;ms
+SignatureCreate;ECDSA;0.257968902588;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.294208526611;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.127077102661;ms
+SignatureCreate;ECDSA;0.366926193237;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.136137008667;ms
+SignatureCreate;ECDSA;0.355958938599;ms
+SignatureCreate;ECDSA;0.221014022827;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.401973724365;ms
+SignatureCreate;ECDSA;0.313043594360;ms
+SignatureCreate;ECDSA;0.139951705933;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.131130218506;ms
+SignatureCreate;ECDSA;0.130891799927;ms
+SignatureCreate;ECDSA;0.124931335449;ms
+SignatureCreate;ECDSA;0.335931777954;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.117063522339;ms
+SignatureCreate;ECDSA;0.259876251221;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.221967697144;ms
+SignatureCreate;ECDSA;0.119209289551;ms
+SignatureCreate;ECDSA;0.243902206421;ms
+SignatureCreate;ECDSA;0.133991241455;ms
+SignatureCreate;ECDSA;0.268936157227;ms
+SignatureCreate;ECDSA;0.131845474243;ms
+SignatureCreate;ECDSA;0.201940536499;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.287055969238;ms
+SignatureCreate;ECDSA;1.100063323975;ms
+SignatureCreate;ECDSA;0.379085540771;ms
+SignatureCreate;ECDSA;0.314950942993;ms
+SignatureCreate;ECDSA;0.350952148438;ms
+SignatureCreate;ECDSA;0.208854675293;ms
+SignatureCreate;ECDSA;0.125885009766;ms
+SignatureCreate;ECDSA;0.319957733154;ms
+SignatureCreate;ECDSA;0.121116638184;ms
+SignatureCreate;ECDSA;0.133991241455;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.499963760376;ms
+SignatureCreate;ECDSA;0.110864639282;ms
+SignatureCreate;ECDSA;0.219821929932;ms
+SignatureCreate;ECDSA;0.122070312500;ms
+SignatureCreate;ECDSA;0.239133834839;ms
+SignatureCreate;ECDSA;0.432968139648;ms
+SignatureCreate;ECDSA;0.133991241455;ms
+SignatureCreate;ECDSA;0.309944152832;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.237941741943;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.605821609497;ms
+SignatureCreate;ECDSA;0.144004821777;ms
+SignatureCreate;ECDSA;0.476121902466;ms
+SignatureCreate;ECDSA;0.455141067505;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.429868698120;ms
+SignatureCreate;ECDSA;0.127077102661;ms
+SignatureCreate;ECDSA;0.106096267700;ms
+SignatureCreate;ECDSA;0.415086746216;ms
+SignatureCreate;ECDSA;0.144004821777;ms
+SignatureCreate;ECDSA;0.267028808594;ms
+SignatureCreate;ECDSA;0.111103057861;ms
+SignatureCreate;ECDSA;0.298976898193;ms
+SignatureCreate;ECDSA;0.103950500488;ms
+SignatureCreate;ECDSA;0.098943710327;ms
+SignatureCreate;ECDSA;0.259876251221;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.248908996582;ms
+SignatureCreate;ECDSA;0.310897827148;ms
+SignatureCreate;ECDSA;0.101804733276;ms
+SignatureCreate;ECDSA;0.101089477539;ms
+SignatureCreate;ECDSA;0.356912612915;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;0.257015228271;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.105142593384;ms
+SignatureCreate;ECDSA;0.096797943115;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.369071960449;ms
+SignatureCreate;ECDSA;0.134944915771;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.214099884033;ms
+SignatureCreate;ECDSA;0.238895416260;ms
+SignatureCreate;ECDSA;0.102996826172;ms
+SignatureCreate;ECDSA;0.098228454590;ms
+SignatureCreate;ECDSA;0.396013259888;ms
+SignatureCreate;ECDSA;0.498056411743;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.364065170288;ms
+SignatureCreate;ECDSA;0.103950500488;ms
+SignatureCreate;ECDSA;0.100135803223;ms
+SignatureCreate;ECDSA;0.442028045654;ms
+SignatureCreate;ECDSA;0.283956527710;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.365972518921;ms
+SignatureCreate;ECDSA;0.121116638184;ms
+SignatureCreate;ECDSA;0.102996826172;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.102996826172;ms
+SignatureCreate;ECDSA;0.260114669800;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.146150588989;ms
+SignatureCreate;ECDSA;0.378131866455;ms
+SignatureCreate;ECDSA;0.139951705933;ms
+SignatureCreate;ECDSA;0.112056732178;ms
+SignatureCreate;ECDSA;0.132083892822;ms
+SignatureCreate;ECDSA;0.350952148438;ms
+SignatureCreate;ECDSA;0.212907791138;ms
+SignatureCreate;ECDSA;0.322818756104;ms
+SignatureCreate;ECDSA;0.130891799927;ms
+SignatureCreate;ECDSA;0.509977340698;ms
+SignatureCreate;ECDSA;0.108003616333;ms
+SignatureCreate;ECDSA;0.105142593384;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.433921813965;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.209808349609;ms
+SignatureCreate;ECDSA;0.346899032593;ms
+SignatureCreate;ECDSA;0.150918960571;ms
+SignatureCreate;ECDSA;0.111103057861;ms
+SignatureCreate;ECDSA;0.371932983398;ms
+SignatureCreate;ECDSA;0.112056732178;ms
+SignatureCreate;ECDSA;0.121831893921;ms
+SignatureCreate;ECDSA;0.140190124512;ms
+SignatureCreate;ECDSA;0.265121459961;ms
+SignatureCreate;ECDSA;0.171184539795;ms
+SignatureCreate;ECDSA;0.108957290649;ms
+SignatureCreate;ECDSA;0.272035598755;ms
+SignatureCreate;ECDSA;0.421047210693;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.118970870972;ms
+SignatureCreate;ECDSA;0.258922576904;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.123023986816;ms
+SignatureCreate;ECDSA;0.103950500488;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.208854675293;ms
+SignatureCreate;ECDSA;0.262022018433;ms
+SignatureCreate;ECDSA;0.104904174805;ms
+SignatureCreate;ECDSA;0.919818878174;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.385999679565;ms
+SignatureCreate;ECDSA;0.430822372437;ms
+SignatureCreate;ECDSA;0.167846679688;ms
+SignatureCreate;ECDSA;0.144004821777;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.517129898071;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.107049942017;ms
+SignatureCreate;ECDSA;0.149965286255;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.596046447754;ms
+SignatureCreate;ECDSA;0.139951705933;ms
+SignatureCreate;ECDSA;0.519037246704;ms
+SignatureCreate;ECDSA;0.140905380249;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.725984573364;ms
+SignatureCreate;ECDSA;0.133991241455;ms
+SignatureCreate;ECDSA;0.108957290649;ms
+SignatureCreate;ECDSA;0.401020050049;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.275135040283;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.118970870972;ms
+SignatureCreate;ECDSA;0.106096267700;ms
+SignatureCreate;ECDSA;0.131130218506;ms
+SignatureCreate;ECDSA;0.098943710327;ms
+SignatureCreate;ECDSA;0.101804733276;ms
+SignatureCreate;ECDSA;0.427961349487;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.409841537476;ms
+SignatureCreate;ECDSA;0.112056732178;ms
+SignatureCreate;ECDSA;0.332832336426;ms
+SignatureCreate;ECDSA;0.100851058960;ms
+SignatureCreate;ECDSA;0.098228454590;ms
+SignatureCreate;ECDSA;0.442981719971;ms
+SignatureCreate;ECDSA;0.150918960571;ms
+SignatureCreate;ECDSA;0.217914581299;ms
+SignatureCreate;ECDSA;0.288009643555;ms
+SignatureCreate;ECDSA;0.121831893921;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.602006912231;ms
+SignatureCreate;ECDSA;0.132083892822;ms
+SignatureCreate;ECDSA;0.109195709229;ms
+SignatureCreate;ECDSA;0.103950500488;ms
+SignatureCreate;ECDSA;0.134944915771;ms
+SignatureCreate;ECDSA;0.303030014038;ms
+SignatureCreate;ECDSA;0.123977661133;ms
+SignatureCreate;ECDSA;0.337839126587;ms
+SignatureCreate;ECDSA;0.104904174805;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.426054000854;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.433921813965;ms
+SignatureCreate;ECDSA;0.294923782349;ms
+SignatureCreate;ECDSA;0.115156173706;ms
+SignatureCreate;ECDSA;0.107049942017;ms
+SignatureCreate;ECDSA;1.317977905273;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.977039337158;ms
+SignatureCreate;ECDSA;0.677824020386;ms
+SignatureCreate;ECDSA;0.263929367065;ms
+SignatureCreate;ECDSA;0.240087509155;ms
+SignatureCreate;ECDSA;0.302076339722;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.128984451294;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.121831893921;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.324964523315;ms
+SignatureCreate;ECDSA;0.399827957153;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.289916992188;ms
+SignatureCreate;ECDSA;0.126838684082;ms
+SignatureCreate;ECDSA;0.111818313599;ms
+SignatureCreate;ECDSA;0.288009643555;ms
+SignatureCreate;ECDSA;0.283956527710;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.247955322266;ms
+SignatureCreate;ECDSA;0.112056732178;ms
+SignatureCreate;ECDSA;0.277042388916;ms
+SignatureCreate;ECDSA;0.103950500488;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.104904174805;ms
+SignatureCreate;ECDSA;0.166177749634;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.266075134277;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.272035598755;ms
+SignatureCreate;ECDSA;0.101804733276;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.303983688354;ms
+SignatureCreate;ECDSA;0.118970870972;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.139951705933;ms
+SignatureCreate;ECDSA;0.344038009644;ms
+SignatureCreate;ECDSA;0.108003616333;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.277042388916;ms
+SignatureCreate;ECDSA;0.157117843628;ms
+SignatureCreate;ECDSA;0.941991806030;ms
+SignatureCreate;ECDSA;0.126123428345;ms
+SignatureCreate;ECDSA;0.108957290649;ms
+SignatureCreate;ECDSA;0.422954559326;ms
+SignatureCreate;ECDSA;0.319004058838;ms
+SignatureCreate;ECDSA;0.319957733154;ms
+SignatureCreate;ECDSA;0.136852264404;ms
+SignatureCreate;ECDSA;0.227928161621;ms
+SignatureCreate;ECDSA;0.136852264404;ms
+SignatureCreate;ECDSA;0.105142593384;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.104188919067;ms
+SignatureCreate;ECDSA;0.094890594482;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.094890594482;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.092029571533;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.094890594482;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.094890594482;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.092983245850;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.092983245850;ms
+SignatureCreate;ECDSA;0.092029571533;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.705957412720;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.113010406494;ms
+SignatureCreate;ECDSA;0.102996826172;ms
+SignatureCreate;ECDSA;0.102043151855;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.099182128906;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.098943710327;ms
+SignatureCreate;ECDSA;0.128030776978;ms
+SignatureCreate;ECDSA;0.104904174805;ms
+SignatureCreate;ECDSA;0.104904174805;ms
+SignatureCreate;ECDSA;0.096797943115;ms
+SignatureCreate;ECDSA;0.097990036011;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.117063522339;ms
+SignatureCreate;ECDSA;0.095844268799;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.092983245850;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.092983245850;ms
+SignatureCreate;ECDSA;0.092983245850;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.096797943115;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.094890594482;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.096797943115;ms
+SignatureCreate;ECDSA;0.095129013062;ms
+SignatureCreate;ECDSA;0.096082687378;ms
+SignatureCreate;ECDSA;0.093936920166;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.100851058960;ms
+SignatureCreate;ECDSA;0.097036361694;ms
+SignatureCreate;ECDSA;0.094175338745;ms
+SignatureCreate;ECDSA;0.098943710327;ms
+SignatureCreate;ECDSA;0.457048416138;ms
+SignatureCreate;ECDSA;0.141143798828;ms
+SignatureCreate;ECDSA;0.400066375732;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.113964080811;ms
+SignatureCreate;ECDSA;0.099897384644;ms
+SignatureCreate;ECDSA;0.265836715698;ms
+SignatureCreate;ECDSA;0.214815139771;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.129938125610;ms
+SignatureCreate;ECDSA;0.221967697144;ms
+SignatureCreate;ECDSA;0.142097473145;ms
+SignatureVerify;ECDSA;0.553131103516;ms
+SignatureVerify;ECDSA;3.282070159912;ms
+SignatureVerify;ECDSA;1.327037811279;ms
+SignatureVerify;ECDSA;1.079082489014;ms
+SignatureVerify;ECDSA;0.655174255371;ms
+SignatureVerify;ECDSA;0.756978988647;ms
+SignatureVerify;ECDSA;1.288890838623;ms
+SignatureVerify;ECDSA;1.596927642822;ms
+SignatureVerify;ECDSA;1.464128494263;ms
+SignatureVerify;ECDSA;1.677036285400;ms
+SignatureVerify;ECDSA;0.470876693726;ms
+SignatureVerify;ECDSA;0.463962554932;ms
+SignatureVerify;ECDSA;0.184059143066;ms
+SignatureVerify;ECDSA;0.246047973633;ms
+SignatureVerify;ECDSA;3.041982650757;ms
+SignatureVerify;ECDSA;1.309871673584;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.546932220459;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.355958938599;ms
+SignatureVerify;ECDSA;2.060890197754;ms
+SignatureVerify;ECDSA;0.807046890259;ms
+SignatureVerify;ECDSA;0.841856002808;ms
+SignatureVerify;ECDSA;1.207828521729;ms
+SignatureVerify;ECDSA;0.941038131714;ms
+SignatureVerify;ECDSA;0.845909118652;ms
+SignatureVerify;ECDSA;0.817060470581;ms
+SignatureVerify;ECDSA;0.656127929688;ms
+SignatureVerify;ECDSA;0.822067260742;ms
+SignatureVerify;ECDSA;0.317096710205;ms
+SignatureVerify;ECDSA;0.453948974609;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.214099884033;ms
+SignatureVerify;ECDSA;0.504016876221;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.237941741943;ms
+SignatureVerify;ECDSA;0.245809555054;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.245094299316;ms
+SignatureVerify;ECDSA;0.440120697021;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;1.350879669189;ms
+SignatureVerify;ECDSA;0.433921813965;ms
+SignatureVerify;ECDSA;0.295162200928;ms
+SignatureVerify;ECDSA;0.245094299316;ms
+SignatureVerify;ECDSA;2.918004989624;ms
+SignatureVerify;ECDSA;1.111984252930;ms
+SignatureVerify;ECDSA;1.586914062500;ms
+SignatureVerify;ECDSA;0.604867935181;ms
+SignatureVerify;ECDSA;0.677108764648;ms
+SignatureVerify;ECDSA;1.134872436523;ms
+SignatureVerify;ECDSA;0.783920288086;ms
+SignatureVerify;ECDSA;2.121925354004;ms
+SignatureVerify;ECDSA;1.159906387329;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;1.389026641846;ms
+SignatureVerify;ECDSA;2.058982849121;ms
+SignatureVerify;ECDSA;0.787973403931;ms
+SignatureVerify;ECDSA;0.661134719849;ms
+SignatureVerify;ECDSA;0.746965408325;ms
+SignatureVerify;ECDSA;1.464843750000;ms
+SignatureVerify;ECDSA;0.902175903320;ms
+SignatureVerify;ECDSA;1.634120941162;ms
+SignatureVerify;ECDSA;1.118898391724;ms
+SignatureVerify;ECDSA;0.237941741943;ms
+SignatureVerify;ECDSA;0.966072082520;ms
+SignatureVerify;ECDSA;0.391006469727;ms
+SignatureVerify;ECDSA;0.267982482910;ms
+SignatureVerify;ECDSA;3.183126449585;ms
+SignatureVerify;ECDSA;1.696825027466;ms
+SignatureVerify;ECDSA;0.631809234619;ms
+SignatureVerify;ECDSA;0.715017318726;ms
+SignatureVerify;ECDSA;0.817060470581;ms
+SignatureVerify;ECDSA;0.859022140503;ms
+SignatureVerify;ECDSA;0.778198242188;ms
+SignatureVerify;ECDSA;0.714063644409;ms
+SignatureVerify;ECDSA;1.118898391724;ms
+SignatureVerify;ECDSA;0.302076339722;ms
+SignatureVerify;ECDSA;2.929925918579;ms
+SignatureVerify;ECDSA;1.124858856201;ms
+SignatureVerify;ECDSA;0.609159469604;ms
+SignatureVerify;ECDSA;0.816822052002;ms
+SignatureVerify;ECDSA;0.799894332886;ms
+SignatureVerify;ECDSA;1.319885253906;ms
+SignatureVerify;ECDSA;0.835895538330;ms
+SignatureVerify;ECDSA;0.972986221313;ms
+SignatureVerify;ECDSA;1.000165939331;ms
+SignatureVerify;ECDSA;0.458955764771;ms
+SignatureVerify;ECDSA;2.233028411865;ms
+SignatureVerify;ECDSA;0.747919082642;ms
+SignatureVerify;ECDSA;1.596927642822;ms
+SignatureVerify;ECDSA;1.672029495239;ms
+SignatureVerify;ECDSA;1.667022705078;ms
+SignatureVerify;ECDSA;1.409053802490;ms
+SignatureVerify;ECDSA;1.284122467041;ms
+SignatureVerify;ECDSA;0.752925872803;ms
+SignatureVerify;ECDSA;0.647783279419;ms
+SignatureVerify;ECDSA;0.229120254517;ms
+SignatureVerify;ECDSA;1.714944839478;ms
+SignatureVerify;ECDSA;1.318931579590;ms
+SignatureVerify;ECDSA;0.238895416260;ms
+SignatureVerify;ECDSA;1.251935958862;ms
+SignatureVerify;ECDSA;0.623941421509;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.250101089478;ms
+SignatureVerify;ECDSA;0.180006027222;ms
+SignatureVerify;ECDSA;0.334024429321;ms
+SignatureVerify;ECDSA;2.054929733276;ms
+SignatureVerify;ECDSA;0.746011734009;ms
+SignatureVerify;ECDSA;0.986099243164;ms
+SignatureVerify;ECDSA;0.617027282715;ms
+SignatureVerify;ECDSA;0.688076019287;ms
+SignatureVerify;ECDSA;1.147985458374;ms
+SignatureVerify;ECDSA;1.060009002686;ms
+SignatureVerify;ECDSA;0.890970230103;ms
+SignatureVerify;ECDSA;0.702142715454;ms
+SignatureVerify;ECDSA;0.278949737549;ms
+SignatureVerify;ECDSA;0.434875488281;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;0.214099884033;ms
+SignatureVerify;ECDSA;0.564098358154;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.262975692749;ms
+SignatureVerify;ECDSA;0.286102294922;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;0.237941741943;ms
+SignatureVerify;ECDSA;0.504016876221;ms
+SignatureVerify;ECDSA;0.184059143066;ms
+SignatureVerify;ECDSA;0.250101089478;ms
+SignatureVerify;ECDSA;1.707077026367;ms
+SignatureVerify;ECDSA;0.749111175537;ms
+SignatureVerify;ECDSA;0.532865524292;ms
+SignatureVerify;ECDSA;0.792980194092;ms
+SignatureVerify;ECDSA;0.738143920898;ms
+SignatureVerify;ECDSA;0.934123992920;ms
+SignatureVerify;ECDSA;0.890970230103;ms
+SignatureVerify;ECDSA;1.631975173950;ms
+SignatureVerify;ECDSA;1.028060913086;ms
+SignatureVerify;ECDSA;0.226974487305;ms
+SignatureVerify;ECDSA;0.283002853394;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.254154205322;ms
+SignatureVerify;ECDSA;0.360965728760;ms
+SignatureVerify;ECDSA;0.372171401978;ms
+SignatureVerify;ECDSA;0.228881835938;ms
+SignatureVerify;ECDSA;3.247976303101;ms
+SignatureVerify;ECDSA;0.831127166748;ms
+SignatureVerify;ECDSA;1.330137252808;ms
+SignatureVerify;ECDSA;0.949859619141;ms
+SignatureVerify;ECDSA;1.229047775269;ms
+SignatureVerify;ECDSA;0.769853591919;ms
+SignatureVerify;ECDSA;1.047134399414;ms
+SignatureVerify;ECDSA;1.194000244141;ms
+SignatureVerify;ECDSA;0.849008560181;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.747919082642;ms
+SignatureVerify;ECDSA;0.410079956055;ms
+SignatureVerify;ECDSA;0.541925430298;ms
+SignatureVerify;ECDSA;0.267982482910;ms
+SignatureVerify;ECDSA;0.192165374756;ms
+SignatureVerify;ECDSA;0.213146209717;ms
+SignatureVerify;ECDSA;0.473022460938;ms
+SignatureVerify;ECDSA;0.345945358276;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.300168991089;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.207185745239;ms
+SignatureVerify;ECDSA;0.543117523193;ms
+SignatureVerify;ECDSA;0.184059143066;ms
+SignatureVerify;ECDSA;0.240087509155;ms
+SignatureVerify;ECDSA;1.449823379517;ms
+SignatureVerify;ECDSA;0.777006149292;ms
+SignatureVerify;ECDSA;0.224828720093;ms
+SignatureVerify;ECDSA;0.243186950684;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.231027603149;ms
+SignatureVerify;ECDSA;0.704050064087;ms
+SignatureVerify;ECDSA;0.298976898193;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.262022018433;ms
+SignatureVerify;ECDSA;0.170946121216;ms
+SignatureVerify;ECDSA;0.209093093872;ms
+SignatureVerify;ECDSA;0.280141830444;ms
+SignatureVerify;ECDSA;0.178098678589;ms
+SignatureVerify;ECDSA;0.235080718994;ms
+SignatureVerify;ECDSA;0.939130783081;ms
+SignatureVerify;ECDSA;0.171899795532;ms
+SignatureVerify;ECDSA;0.376939773560;ms
+SignatureVerify;ECDSA;1.853942871094;ms
+SignatureVerify;ECDSA;0.965118408203;ms
+SignatureVerify;ECDSA;0.715970993042;ms
+SignatureVerify;ECDSA;1.199007034302;ms
+SignatureVerify;ECDSA;1.544952392578;ms
+SignatureVerify;ECDSA;1.032114028931;ms
+SignatureVerify;ECDSA;0.847816467285;ms
+SignatureVerify;ECDSA;0.685930252075;ms
+SignatureVerify;ECDSA;0.664949417114;ms
+SignatureVerify;ECDSA;0.818014144897;ms
+SignatureVerify;ECDSA;0.765085220337;ms
+SignatureVerify;ECDSA;0.197887420654;ms
+SignatureVerify;ECDSA;0.325918197632;ms
+SignatureVerify;ECDSA;1.067876815796;ms
+SignatureVerify;ECDSA;0.166893005371;ms
+SignatureVerify;ECDSA;0.257015228271;ms
+SignatureVerify;ECDSA;0.427961349487;ms
+SignatureVerify;ECDSA;0.306129455566;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.246047973633;ms
+SignatureVerify;ECDSA;0.180959701538;ms
+SignatureVerify;ECDSA;0.224113464355;ms
+SignatureVerify;ECDSA;0.559806823730;ms
+SignatureVerify;ECDSA;0.546932220459;ms
+SignatureVerify;ECDSA;0.420093536377;ms
+SignatureVerify;ECDSA;1.013040542603;ms
+SignatureVerify;ECDSA;0.853061676025;ms
+SignatureVerify;ECDSA;0.241994857788;ms
+SignatureVerify;ECDSA;0.238895416260;ms
+SignatureVerify;ECDSA;0.162839889526;ms
+SignatureVerify;ECDSA;0.228166580200;ms
+SignatureVerify;ECDSA;0.503063201904;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.459909439087;ms
+SignatureVerify;ECDSA;1.108884811401;ms
+SignatureVerify;ECDSA;1.404047012329;ms
+SignatureVerify;ECDSA;0.720024108887;ms
+SignatureVerify;ECDSA;0.657081604004;ms
+SignatureVerify;ECDSA;0.699996948242;ms
+SignatureVerify;ECDSA;0.745773315430;ms
+SignatureVerify;ECDSA;1.794099807739;ms
+SignatureVerify;ECDSA;1.019001007080;ms
+SignatureVerify;ECDSA;0.628948211670;ms
+SignatureVerify;ECDSA;0.239849090576;ms
+SignatureVerify;ECDSA;0.597000122070;ms
+SignatureVerify;ECDSA;0.623941421509;ms
+SignatureVerify;ECDSA;0.704050064087;ms
+SignatureVerify;ECDSA;0.766992568970;ms
+SignatureVerify;ECDSA;0.761985778809;ms
+SignatureVerify;ECDSA;0.537872314453;ms
+SignatureVerify;ECDSA;0.413894653320;ms
+SignatureVerify;ECDSA;1.003026962280;ms
+SignatureVerify;ECDSA;1.130104064941;ms
+SignatureVerify;ECDSA;1.199007034302;ms
+SignatureVerify;ECDSA;0.364065170288;ms
+SignatureVerify;ECDSA;0.290155410767;ms
+SignatureVerify;ECDSA;0.334978103638;ms
+SignatureVerify;ECDSA;0.272989273071;ms
+SignatureVerify;ECDSA;0.332832336426;ms
+SignatureVerify;ECDSA;0.283002853394;ms
+SignatureVerify;ECDSA;0.285863876343;ms
+SignatureVerify;ECDSA;0.304937362671;ms
+SignatureVerify;ECDSA;0.221014022827;ms
+SignatureVerify;ECDSA;0.253915786743;ms
+SignatureVerify;ECDSA;0.246047973633;ms
+SignatureVerify;ECDSA;0.227928161621;ms
+SignatureVerify;ECDSA;0.213146209717;ms
+SignatureVerify;ECDSA;0.250101089478;ms
+SignatureVerify;ECDSA;0.234127044678;ms
+SignatureVerify;ECDSA;0.226020812988;ms
+SignatureVerify;ECDSA;0.327825546265;ms
+SignatureVerify;ECDSA;0.542879104614;ms
+SignatureVerify;ECDSA;0.351905822754;ms
+SignatureVerify;ECDSA;0.567913055420;ms
+SignatureVerify;ECDSA;0.698089599609;ms
+SignatureVerify;ECDSA;0.441074371338;ms
+SignatureVerify;ECDSA;0.393867492676;ms
+SignatureVerify;ECDSA;0.286102294922;ms
+SignatureVerify;ECDSA;0.285148620605;ms
+SignatureVerify;ECDSA;0.339984893799;ms
+SignatureVerify;ECDSA;0.290870666504;ms
+SignatureVerify;ECDSA;0.332832336426;ms
+SignatureVerify;ECDSA;1.358985900879;ms
+SignatureVerify;ECDSA;0.227928161621;ms
+SignatureVerify;ECDSA;0.404119491577;ms
+SignatureVerify;ECDSA;0.804901123047;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;0.278949737549;ms
+SignatureVerify;ECDSA;0.225782394409;ms
+SignatureVerify;ECDSA;0.221014022827;ms
+SignatureVerify;ECDSA;21.221160888672;ms
+SignatureVerify;ECDSA;0.542163848877;ms
+SignatureVerify;ECDSA;1.043081283569;ms
+SignatureVerify;ECDSA;0.694990158081;ms
+SignatureVerify;ECDSA;0.505924224854;ms
+SignatureVerify;ECDSA;3.839015960693;ms
+SignatureVerify;ECDSA;2.111911773682;ms
+SignatureVerify;ECDSA;1.873016357422;ms
+SignatureVerify;ECDSA;0.349998474121;ms
+SignatureVerify;ECDSA;2.205848693848;ms
+SignatureVerify;ECDSA;0.214815139771;ms
+SignatureVerify;ECDSA;1.688957214355;ms
+SignatureVerify;ECDSA;1.118898391724;ms
+SignatureVerify;ECDSA;3.051996231079;ms
+SignatureVerify;ECDSA;0.915050506592;ms
+SignatureVerify;ECDSA;0.385046005249;ms
+SignatureVerify;ECDSA;0.360012054443;ms
+SignatureVerify;ECDSA;0.243902206421;ms
+SignatureVerify;ECDSA;0.166893005371;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.151157379150;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.306844711304;ms
+SignatureVerify;ECDSA;0.189065933228;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.148773193359;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.173091888428;ms
+SignatureVerify;ECDSA;0.167846679688;ms
+SignatureVerify;ECDSA;0.146865844727;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.148057937622;ms
+SignatureVerify;ECDSA;0.174999237061;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.227212905884;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.147104263306;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;2.216100692749;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.226020812988;ms
+SignatureVerify;ECDSA;0.240087509155;ms
+SignatureVerify;ECDSA;0.256061553955;ms
+SignatureVerify;ECDSA;0.281810760498;ms
+SignatureVerify;ECDSA;0.267982482910;ms
+SignatureVerify;ECDSA;0.326156616211;ms
+SignatureVerify;ECDSA;0.244140625000;ms
+SignatureVerify;ECDSA;0.235080718994;ms
+SignatureVerify;ECDSA;1.292943954468;ms
+SignatureVerify;ECDSA;0.756978988647;ms
+SignatureVerify;ECDSA;0.238895416260;ms
+SignatureVerify;ECDSA;0.192880630493;ms
+SignatureVerify;ECDSA;1.479864120483;ms
+SignatureVerify;ECDSA;4.098892211914;ms
+SignatureVerify;ECDSA;0.453233718872;ms
+SignatureVerify;ECDSA;1.971960067749;ms
+SignatureVerify;ECDSA;0.231027603149;ms
+SignatureVerify;ECDSA;0.269174575806;ms
+SignatureVerify;ECDSA;0.340938568115;ms
+SignatureVerify;ECDSA;0.241041183472;ms
+SignatureVerify;ECDSA;0.259876251221;ms
+SignatureVerify;ECDSA;0.230073928833;ms
+SignatureVerify;ECDSA;0.256061553955;ms
+SignatureVerify;ECDSA;0.499963760376;ms
+SignatureVerify;ECDSA;0.239849090576;ms
+SignatureVerify;ECDSA;0.336885452271;ms
+SignatureVerify;ECDSA;0.243902206421;ms
+SignatureVerify;ECDSA;0.203132629395;ms
+SignatureVerify;ECDSA;0.228881835938;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;0.216007232666;ms
+SignatureVerify;ECDSA;0.504970550537;ms
+SignatureVerify;ECDSA;0.324010848999;ms
+SignatureVerify;ECDSA;0.514030456543;ms
+SignatureVerify;ECDSA;0.380992889404;ms
+SignatureVerify;ECDSA;0.370979309082;ms
+SignatureVerify;ECDSA;0.323057174683;ms
+SignatureVerify;ECDSA;0.325918197632;ms
+SignatureVerify;ECDSA;0.365972518921;ms
+SignatureVerify;ECDSA;0.398159027100;ms
+SignatureVerify;ECDSA;0.415086746216;ms
+SignatureVerify;ECDSA;1.161098480225;ms
+SignatureVerify;ECDSA;0.231027603149;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.201940536499;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.478982925415;ms
+SignatureVerify;ECDSA;0.241041183472;ms
+SignatureVerify;ECDSA;0.205039978027;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;3.917932510376;ms
+SignatureVerify;ECDSA;1.609086990356;ms
+SignatureVerify;ECDSA;2.050161361694;ms
+SignatureVerify;ECDSA;0.885963439941;ms
+SignatureVerify;ECDSA;1.827955245972;ms
+SignatureVerify;ECDSA;0.891923904419;ms
+SignatureVerify;ECDSA;0.319957733154;ms
+SignatureVerify;ECDSA;2.178907394409;ms
+SignatureVerify;ECDSA;1.612901687622;ms
+SignatureVerify;ECDSA;1.924991607666;ms
+SignatureVerify;ECDSA;0.837087631226;ms
+SignatureVerify;ECDSA;1.054048538208;ms
+SignatureVerify;ECDSA;3.022909164429;ms
+SignatureVerify;ECDSA;0.277996063232;ms
+SignatureVerify;ECDSA;0.365972518921;ms
+SignatureVerify;ECDSA;0.167131423950;ms
+SignatureVerify;ECDSA;0.267028808594;ms
+SignatureVerify;ECDSA;0.520944595337;ms
+SignatureVerify;ECDSA;0.166177749634;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.147104263306;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;0.138044357300;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;0.136852264404;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.138044357300;ms
+SignatureVerify;ECDSA;0.141859054565;ms
+SignatureVerify;ECDSA;0.137090682983;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.137090682983;ms
+SignatureVerify;ECDSA;0.141143798828;ms
+SignatureVerify;ECDSA;0.136852264404;ms
+SignatureVerify;ECDSA;5.151987075806;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.227928161621;ms
+SignatureVerify;ECDSA;0.243902206421;ms
+SignatureVerify;ECDSA;0.267028808594;ms
+SignatureVerify;ECDSA;0.195980072021;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.180959701538;ms
+SignatureVerify;ECDSA;0.195026397705;ms
+SignatureVerify;ECDSA;0.218152999878;ms
+SignatureVerify;ECDSA;0.182867050171;ms
+SignatureVerify;ECDSA;0.192880630493;ms
+SignatureVerify;ECDSA;0.496149063110;ms
+SignatureVerify;ECDSA;0.180006027222;ms
+SignatureVerify;ECDSA;1.374006271362;ms
+SignatureVerify;ECDSA;0.178098678589;ms
+SignatureVerify;ECDSA;3.729104995728;ms
+SignatureVerify;ECDSA;0.373840332031;ms
+SignatureVerify;ECDSA;0.275135040283;ms
+SignatureVerify;ECDSA;0.516891479492;ms
+SignatureVerify;ECDSA;0.478982925415;ms
+SignatureVerify;ECDSA;0.554084777832;ms
+SignatureVerify;ECDSA;0.338077545166;ms
+SignatureVerify;ECDSA;0.410079956055;ms
+SignatureVerify;ECDSA;0.592947006226;ms
+SignatureVerify;ECDSA;0.811100006104;ms
+SignatureVerify;ECDSA;1.099109649658;ms
+SignatureVerify;ECDSA;0.827074050903;ms
+SignatureVerify;ECDSA;4.438877105713;ms
+SignatureVerify;ECDSA;1.075983047485;ms
+SignatureVerify;ECDSA;0.571012496948;ms
+SignatureVerify;ECDSA;2.071857452393;ms
+SignatureVerify;ECDSA;1.922845840454;ms
+SignatureVerify;ECDSA;0.792980194092;ms
+SignatureVerify;ECDSA;1.684188842773;ms
+SignatureVerify;ECDSA;1.602888107300;ms
+SignatureVerify;ECDSA;0.343799591064;ms
+SignatureVerify;ECDSA;0.959157943726;ms
+SignatureVerify;ECDSA;1.564025878906;ms
+SignatureVerify;ECDSA;0.422000885010;ms
+SignatureVerify;ECDSA;1.551866531372;ms
+SignatureVerify;ECDSA;1.996040344238;ms
+SignatureVerify;ECDSA;0.238895416260;ms
+SignatureVerify;ECDSA;0.232934951782;ms
+SignatureVerify;ECDSA;0.216007232666;ms
+SignatureVerify;ECDSA;0.427007675171;ms
+SignatureVerify;ECDSA;0.407934188843;ms
+SignatureVerify;ECDSA;0.358104705811;ms
+SignatureVerify;ECDSA;0.488996505737;ms
+SignatureVerify;ECDSA;0.972986221313;ms
+SignatureVerify;ECDSA;0.255107879639;ms
+SignatureVerify;ECDSA;0.458955764771;ms
+SignatureVerify;ECDSA;0.677108764648;ms
+SignatureVerify;ECDSA;0.381946563721;ms
+SignatureVerify;ECDSA;0.344038009644;ms
+SignatureVerify;ECDSA;0.361919403076;ms
+SignatureVerify;ECDSA;0.349044799805;ms
+SignatureVerify;ECDSA;0.488996505737;ms
+SignatureVerify;ECDSA;0.375986099243;ms
+SignatureVerify;ECDSA;0.449895858765;ms
+SignatureVerify;ECDSA;0.452995300293;ms
+SignatureVerify;ECDSA;0.339984893799;ms
+SignatureVerify;ECDSA;0.360012054443;ms
+SignatureVerify;ECDSA;0.381946563721;ms
+SignatureVerify;ECDSA;0.316858291626;ms
+SignatureVerify;ECDSA;0.370979309082;ms
+SignatureVerify;ECDSA;0.397920608521;ms
+SignatureVerify;ECDSA;0.355005264282;ms
+SignatureVerify;ECDSA;0.440835952759;ms
+SignatureVerify;ECDSA;0.318050384521;ms
+SignatureVerify;ECDSA;0.751018524170;ms
+SignatureVerify;ECDSA;1.070022583008;ms
+SignatureVerify;ECDSA;0.265121459961;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.565052032471;ms
+SignatureVerify;ECDSA;0.809907913208;ms
+SignatureVerify;ECDSA;0.256776809692;ms
+SignatureVerify;ECDSA;5.418062210083;ms
+SignatureVerify;ECDSA;0.220060348511;ms
+SignatureVerify;ECDSA;0.173091888428;ms
+SignatureVerify;ECDSA;0.218868255615;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.169038772583;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.147104263306;ms
+SignatureVerify;ECDSA;0.333070755005;ms
+SignatureVerify;ECDSA;2.562046051025;ms
+SignatureVerify;ECDSA;0.176191329956;ms
+SignatureVerify;ECDSA;0.173091888428;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.241041183472;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.171899795532;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;9.090900421143;ms
+SignatureVerify;ECDSA;0.169992446899;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.152826309204;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.147819519043;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;2.584934234619;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.167131423950;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.169992446899;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.148057937622;ms
+SignatureVerify;ECDSA;6.489992141724;ms
+SignatureVerify;ECDSA;0.169038772583;ms
+SignatureVerify;ECDSA;2.914905548096;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.283002853394;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.532865524292;ms
+SignatureVerify;ECDSA;0.175952911377;ms
+SignatureVerify;ECDSA;0.172138214111;ms
+SignatureVerify;ECDSA;0.150203704834;ms
+SignatureVerify;ECDSA;2.802133560181;ms
+SignatureVerify;ECDSA;0.241994857788;ms
+SignatureVerify;ECDSA;0.221014022827;ms
+SignatureVerify;ECDSA;0.175952911377;ms
+SignatureVerify;ECDSA;0.189065933228;ms
+SignatureVerify;ECDSA;0.172138214111;ms
+SignatureVerify;ECDSA;0.195980072021;ms
+SignatureVerify;ECDSA;0.167846679688;ms
+SignatureVerify;ECDSA;3.556013107300;ms
+SignatureVerify;ECDSA;0.169992446899;ms
+SignatureVerify;ECDSA;0.195026397705;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;1.325130462646;ms
+SignatureVerify;ECDSA;0.658988952637;ms
+SignatureVerify;ECDSA;0.570058822632;ms
+SignatureVerify;ECDSA;0.882863998413;ms
+SignatureVerify;ECDSA;1.010894775391;ms
+SignatureVerify;ECDSA;0.900030136108;ms
+SignatureVerify;ECDSA;0.513076782227;ms
+SignatureVerify;ECDSA;0.673770904541;ms
+SignatureVerify;ECDSA;0.832080841064;ms
+SignatureVerify;ECDSA;0.518083572388;ms
+SignatureVerify;ECDSA;0.186204910278;ms
+SignatureVerify;ECDSA;0.195026397705;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.207185745239;ms
+SignatureVerify;ECDSA;0.202894210815;ms
+SignatureVerify;ECDSA;0.206947326660;ms
+SignatureVerify;ECDSA;0.213146209717;ms
+SignatureVerify;ECDSA;0.236988067627;ms
+SignatureVerify;ECDSA;0.235080718994;ms
+SignatureVerify;ECDSA;0.248908996582;ms
+SignatureVerify;ECDSA;0.268936157227;ms
+SignatureVerify;ECDSA;0.226020812988;ms
+SignatureVerify;ECDSA;2.793073654175;ms
+SignatureVerify;ECDSA;0.191926956177;ms
+SignatureVerify;ECDSA;0.239849090576;ms
+SignatureVerify;ECDSA;0.197172164917;ms
+SignatureVerify;ECDSA;0.715017318726;ms
+SignatureVerify;ECDSA;0.298023223877;ms
+SignatureVerify;ECDSA;0.343084335327;ms
+SignatureVerify;ECDSA;0.453948974609;ms
+SignatureVerify;ECDSA;0.198125839233;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.225067138672;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.209093093872;ms
+SignatureVerify;ECDSA;0.372886657715;ms
+SignatureVerify;ECDSA;0.343084335327;ms
+SignatureVerify;ECDSA;0.437974929810;ms
+SignatureVerify;ECDSA;0.263929367065;ms
+SignatureVerify;ECDSA;0.280857086182;ms
+SignatureVerify;ECDSA;0.233888626099;ms
+SignatureVerify;ECDSA;0.218152999878;ms
+SignatureVerify;ECDSA;0.452041625977;ms
+SignatureVerify;ECDSA;0.262022018433;ms
+SignatureVerify;ECDSA;0.280857086182;ms
+SignatureVerify;ECDSA;0.236988067627;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.275850296021;ms
+SignatureVerify;ECDSA;0.522136688232;ms
+SignatureVerify;ECDSA;0.534057617188;ms
+SignatureVerify;ECDSA;0.461816787720;ms
+SignatureVerify;ECDSA;0.401973724365;ms
+SignatureVerify;ECDSA;0.302076339722;ms
+SignatureVerify;ECDSA;0.328063964844;ms
+SignatureVerify;ECDSA;0.315904617310;ms
+SignatureVerify;ECDSA;0.317811965942;ms
+SignatureVerify;ECDSA;0.375986099243;ms
+SignatureVerify;ECDSA;0.963926315308;ms
+SignatureVerify;ECDSA;3.885030746460;ms
+SignatureVerify;ECDSA;0.259876251221;ms
+SignatureVerify;ECDSA;0.265121459961;ms
+SignatureVerify;ECDSA;0.223875045776;ms
+SignatureVerify;ECDSA;0.205039978027;ms
+SignatureVerify;ECDSA;0.347137451172;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.213861465454;ms
+SignatureVerify;ECDSA;0.220060348511;ms
+SignatureVerify;ECDSA;15.479087829590;ms
+SignatureVerify;ECDSA;1.384973526001;ms
+SignatureVerify;ECDSA;0.273942947388;ms
+SignatureVerify;ECDSA;1.049041748047;ms
+SignatureVerify;ECDSA;0.697135925293;ms
+SignatureVerify;ECDSA;0.869989395142;ms
+SignatureVerify;ECDSA;0.613927841187;ms
+SignatureVerify;ECDSA;0.828981399536;ms
+SignatureVerify;ECDSA;1.068830490112;ms
+SignatureVerify;ECDSA;0.484943389893;ms
+SignatureVerify;ECDSA;0.983953475952;ms
+SignatureVerify;ECDSA;0.311136245728;ms
+SignatureVerify;ECDSA;1.196861267090;ms
+SignatureVerify;ECDSA;0.292062759399;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.372171401978;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;0.221014022827;ms
+SignatureVerify;ECDSA;0.268936157227;ms
+SignatureVerify;ECDSA;0.242948532104;ms
+SignatureVerify;ECDSA;0.365018844604;ms
+SignatureVerify;ECDSA;0.805139541626;ms
+SignatureVerify;ECDSA;0.371932983398;ms
+SignatureVerify;ECDSA;0.226974487305;ms
+SignatureVerify;ECDSA;0.660181045532;ms
+SignatureVerify;ECDSA;0.186920166016;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.190973281860;ms
+SignatureVerify;ECDSA;0.218868255615;ms
+SignatureVerify;ECDSA;0.243186950684;ms
+SignatureVerify;ECDSA;0.251054763794;ms
+SignatureVerify;ECDSA;0.211954116821;ms
+SignatureVerify;ECDSA;0.227928161621;ms
+SignatureVerify;ECDSA;0.217914581299;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;0.213146209717;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.277042388916;ms
+SignatureVerify;ECDSA;0.228166580200;ms
+SignatureVerify;ECDSA;0.191926956177;ms
+SignatureVerify;ECDSA;0.219106674194;ms
+SignatureVerify;ECDSA;0.261068344116;ms
+SignatureVerify;ECDSA;0.148057937622;ms
+SignatureVerify;ECDSA;0.146865844727;ms
+SignatureVerify;ECDSA;0.138998031616;ms
+SignatureVerify;ECDSA;0.143051147461;ms
+SignatureVerify;ECDSA;0.138044357300;ms
+SignatureVerify;ECDSA;0.143051147461;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.137090682983;ms
+SignatureVerify;ECDSA;0.142812728882;ms
+SignatureVerify;ECDSA;0.137090682983;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;0.327110290527;ms
+SignatureVerify;ECDSA;0.339984893799;ms
+SignatureVerify;ECDSA;0.338077545166;ms
+SignatureVerify;ECDSA;0.444889068604;ms
+SignatureVerify;ECDSA;0.523805618286;ms
+SignatureVerify;ECDSA;0.576972961426;ms
+SignatureVerify;ECDSA;0.434875488281;ms
+SignatureVerify;ECDSA;0.535964965820;ms
+SignatureVerify;ECDSA;0.230073928833;ms
+SignatureVerify;ECDSA;0.338077545166;ms
+SignatureVerify;ECDSA;4.340171813965;ms
+SignatureVerify;ECDSA;0.920057296753;ms
+SignatureVerify;ECDSA;1.199007034302;ms
+SignatureVerify;ECDSA;0.734090805054;ms
+SignatureVerify;ECDSA;0.875949859619;ms
+SignatureVerify;ECDSA;0.780105590820;ms
+SignatureVerify;ECDSA;0.961065292358;ms
+SignatureVerify;ECDSA;1.457929611206;ms
+SignatureVerify;ECDSA;1.121044158936;ms
+SignatureVerify;ECDSA;0.814199447632;ms
+SignatureVerify;ECDSA;1.022100448608;ms
+SignatureVerify;ECDSA;0.697135925293;ms
+SignatureVerify;ECDSA;2.045869827271;ms
+SignatureVerify;ECDSA;0.411033630371;ms
+SignatureVerify;ECDSA;0.421047210693;ms
+SignatureVerify;ECDSA;0.950098037720;ms
+SignatureVerify;ECDSA;0.439882278442;ms
+SignatureVerify;ECDSA;0.444173812866;ms
+SignatureVerify;ECDSA;0.725984573364;ms
+SignatureVerify;ECDSA;0.278949737549;ms
+SignatureVerify;ECDSA;0.723123550415;ms
+SignatureVerify;ECDSA;0.237941741943;ms
+SignatureVerify;ECDSA;0.560045242310;ms
+SignatureVerify;ECDSA;0.358104705811;ms
+SignatureVerify;ECDSA;0.334024429321;ms
+SignatureVerify;ECDSA;0.276088714600;ms
+SignatureVerify;ECDSA;0.275135040283;ms
+SignatureVerify;ECDSA;0.209808349609;ms
+SignatureVerify;ECDSA;0.288009643555;ms
+SignatureVerify;ECDSA;0.249147415161;ms
+SignatureVerify;ECDSA;0.335931777954;ms
+SignatureVerify;ECDSA;0.211954116821;ms
+SignatureVerify;ECDSA;0.187873840332;ms
+SignatureVerify;ECDSA;0.180006027222;ms
+SignatureVerify;ECDSA;0.255823135376;ms
+SignatureVerify;ECDSA;3.223896026611;ms
+SignatureVerify;ECDSA;0.313043594360;ms
+SignatureVerify;ECDSA;0.471115112305;ms
+SignatureVerify;ECDSA;0.195980072021;ms
+SignatureVerify;ECDSA;0.714063644409;ms
+SignatureVerify;ECDSA;0.219106674194;ms
+SignatureVerify;ECDSA;0.957012176514;ms
+SignatureVerify;ECDSA;0.187158584595;ms
+SignatureVerify;ECDSA;0.715970993042;ms
+SignatureVerify;ECDSA;0.986099243164;ms
+SignatureVerify;ECDSA;0.245094299316;ms
+SignatureVerify;ECDSA;3.128051757812;ms
+SignatureVerify;ECDSA;0.241041183472;ms
+SignatureVerify;ECDSA;0.191926956177;ms
+SignatureVerify;ECDSA;0.185966491699;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.817060470581;ms
+SignatureVerify;ECDSA;0.205039978027;ms
+SignatureVerify;ECDSA;0.185012817383;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;0.171184539795;ms
+SignatureVerify;ECDSA;0.174999237061;ms
+SignatureVerify;ECDSA;1.380920410156;ms
+SignatureVerify;ECDSA;1.590967178345;ms
+SignatureVerify;ECDSA;0.183105468750;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.148773193359;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;1.810073852539;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.197887420654;ms
+SignatureVerify;ECDSA;0.900030136108;ms
+SignatureVerify;ECDSA;0.194072723389;ms
+SignatureVerify;ECDSA;0.182867050171;ms
+SignatureVerify;ECDSA;0.170946121216;ms
+SignatureVerify;ECDSA;0.244140625000;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.225782394409;ms
+SignatureVerify;ECDSA;0.359058380127;ms
+SignatureVerify;ECDSA;0.249147415161;ms
+SignatureVerify;ECDSA;0.462055206299;ms
+SignatureVerify;ECDSA;0.261068344116;ms
+SignatureVerify;ECDSA;0.239133834839;ms
+SignatureVerify;ECDSA;0.239133834839;ms
+SignatureVerify;ECDSA;0.223159790039;ms
+SignatureVerify;ECDSA;0.286102294922;ms
+SignatureVerify;ECDSA;0.397920608521;ms
+SignatureVerify;ECDSA;0.340938568115;ms
+SignatureVerify;ECDSA;0.291824340820;ms
+SignatureVerify;ECDSA;0.318050384521;ms
+SignatureVerify;ECDSA;0.638008117676;ms
+SignatureVerify;ECDSA;0.169992446899;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.151157379150;ms
+SignatureVerify;ECDSA;7.287979125977;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.155210494995;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.157833099365;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;4.158973693848;ms
+SignatureVerify;ECDSA;0.315904617310;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.177145004272;ms
+SignatureVerify;ECDSA;1.595020294189;ms
+SignatureVerify;ECDSA;0.336885452271;ms
+SignatureVerify;ECDSA;0.654220581055;ms
+SignatureVerify;ECDSA;1.291990280151;ms
+SignatureVerify;ECDSA;1.137971878052;ms
+SignatureVerify;ECDSA;1.044034957886;ms
+SignatureVerify;ECDSA;0.771999359131;ms
+SignatureVerify;ECDSA;0.779151916504;ms
+SignatureVerify;ECDSA;0.759124755859;ms
+SignatureVerify;ECDSA;1.070976257324;ms
+SignatureVerify;ECDSA;0.741004943848;ms
+SignatureVerify;ECDSA;0.405073165894;ms
+SignatureVerify;ECDSA;0.423908233643;ms
+SignatureVerify;ECDSA;0.208854675293;ms
+SignatureVerify;ECDSA;0.712156295776;ms
+SignatureVerify;ECDSA;0.674009323120;ms
+SignatureVerify;ECDSA;0.544071197510;ms
+SignatureVerify;ECDSA;1.065969467163;ms
+SignatureVerify;ECDSA;0.406026840210;ms
+SignatureVerify;ECDSA;0.250101089478;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.213861465454;ms
+SignatureVerify;ECDSA;0.174045562744;ms
+SignatureVerify;ECDSA;0.217914581299;ms
+SignatureVerify;ECDSA;0.196933746338;ms
+SignatureVerify;ECDSA;0.439882278442;ms
+SignatureVerify;ECDSA;0.227212905884;ms
+SignatureVerify;ECDSA;0.501155853271;ms
+SignatureVerify;ECDSA;0.426054000854;ms
+SignatureVerify;ECDSA;1.073122024536;ms
+SignatureVerify;ECDSA;0.849008560181;ms
+SignatureVerify;ECDSA;0.814199447632;ms
+SignatureVerify;ECDSA;0.800848007202;ms
+SignatureVerify;ECDSA;0.488042831421;ms
+SignatureVerify;ECDSA;0.406980514526;ms
+SignatureVerify;ECDSA;2.067089080811;ms
+SignatureVerify;ECDSA;0.457048416138;ms
+SignatureVerify;ECDSA;7.171154022217;ms
+SignatureVerify;ECDSA;0.597953796387;ms
+SignatureVerify;ECDSA;1.825809478760;ms
+SignatureVerify;ECDSA;0.447034835815;ms
+SignatureVerify;ECDSA;1.428127288818;ms
+SignatureVerify;ECDSA;1.317977905273;ms
+SignatureVerify;ECDSA;1.219034194946;ms
+SignatureVerify;ECDSA;0.666141510010;ms
+SignatureVerify;ECDSA;1.129150390625;ms
+SignatureVerify;ECDSA;0.736951828003;ms
+SignatureVerify;ECDSA;0.755071640015;ms
+SignatureVerify;ECDSA;0.530958175659;ms
+SignatureVerify;ECDSA;1.195192337036;ms
+SignatureVerify;ECDSA;0.821113586426;ms
+SignatureVerify;ECDSA;0.350952148438;ms
+SignatureVerify;ECDSA;0.401973724365;ms
+SignatureVerify;ECDSA;0.384092330933;ms
+SignatureVerify;ECDSA;0.379085540771;ms
+SignatureVerify;ECDSA;0.400066375732;ms
+SignatureVerify;ECDSA;0.306129455566;ms
+SignatureVerify;ECDSA;0.334024429321;ms
+SignatureVerify;ECDSA;0.580072402954;ms
+SignatureVerify;ECDSA;0.735998153687;ms
+SignatureVerify;ECDSA;0.645875930786;ms
+SignatureVerify;ECDSA;0.371932983398;ms
+SignatureVerify;ECDSA;0.211954116821;ms
+SignatureVerify;ECDSA;0.385999679565;ms
+SignatureVerify;ECDSA;0.720977783203;ms
+SignatureVerify;ECDSA;0.530958175659;ms
+SignatureVerify;ECDSA;0.262975692749;ms
+SignatureVerify;ECDSA;0.262975692749;ms
+SignatureVerify;ECDSA;0.310182571411;ms
+SignatureVerify;ECDSA;0.316858291626;ms
+SignatureVerify;ECDSA;0.330924987793;ms
+SignatureVerify;ECDSA;0.718116760254;ms
+SignatureVerify;ECDSA;0.577926635742;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;0.212192535400;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;0.251054763794;ms
+SignatureVerify;ECDSA;0.211954116821;ms
+SignatureVerify;ECDSA;0.247955322266;ms
+SignatureVerify;ECDSA;0.291824340820;ms
+SignatureVerify;ECDSA;0.252008438110;ms
+SignatureVerify;ECDSA;0.571966171265;ms
+SignatureVerify;ECDSA;17.444133758545;ms
+SignatureVerify;ECDSA;0.222921371460;ms
+SignatureVerify;ECDSA;0.197172164917;ms
+SignatureVerify;ECDSA;0.291824340820;ms
+SignatureVerify;ECDSA;1.875162124634;ms
+SignatureVerify;ECDSA;0.353097915649;ms
+SignatureVerify;ECDSA;1.271963119507;ms
+SignatureVerify;ECDSA;0.742912292480;ms
+SignatureVerify;ECDSA;0.931024551392;ms
+SignatureVerify;ECDSA;0.672817230225;ms
+SignatureVerify;ECDSA;0.689029693604;ms
+SignatureVerify;ECDSA;1.134157180786;ms
+SignatureVerify;ECDSA;1.254081726074;ms
+SignatureVerify;ECDSA;19.586801528931;ms
+SignatureVerify;ECDSA;0.814914703369;ms
+SignatureVerify;ECDSA;0.639200210571;ms
+SignatureVerify;ECDSA;0.621080398560;ms
+SignatureVerify;ECDSA;0.616073608398;ms
+SignatureVerify;ECDSA;0.670909881592;ms
+SignatureVerify;ECDSA;0.603199005127;ms
+SignatureVerify;ECDSA;0.705003738403;ms
+SignatureVerify;ECDSA;0.628948211670;ms
+SignatureVerify;ECDSA;0.210046768188;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;0.198125839233;ms
+SignatureVerify;ECDSA;0.222921371460;ms
+SignatureVerify;ECDSA;0.231981277466;ms
+SignatureVerify;ECDSA;0.257015228271;ms
+SignatureVerify;ECDSA;0.351905822754;ms
+SignatureVerify;ECDSA;0.250101089478;ms
+SignatureVerify;ECDSA;0.230073928833;ms
+SignatureVerify;ECDSA;0.236034393311;ms
+SignatureVerify;ECDSA;0.293970108032;ms
+SignatureVerify;ECDSA;0.183105468750;ms
+SignatureVerify;ECDSA;0.169038772583;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.203132629395;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.203132629395;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;3.906965255737;ms
+SignatureVerify;ECDSA;0.257968902588;ms
+SignatureVerify;ECDSA;0.315189361572;ms
+SignatureVerify;ECDSA;0.228166580200;ms
+SignatureVerify;ECDSA;0.233888626099;ms
+SignatureVerify;ECDSA;0.248908996582;ms
+SignatureVerify;ECDSA;0.300168991089;ms
+SignatureVerify;ECDSA;0.257015228271;ms
+SignatureVerify;ECDSA;0.277042388916;ms
+SignatureVerify;ECDSA;0.258922576904;ms
+SignatureVerify;ECDSA;0.311851501465;ms
+SignatureVerify;ECDSA;0.252008438110;ms
+SignatureVerify;ECDSA;0.206947326660;ms
+SignatureVerify;ECDSA;0.223875045776;ms
+SignatureVerify;ECDSA;0.229835510254;ms
+SignatureVerify;ECDSA;0.283002853394;ms
+SignatureVerify;ECDSA;0.359058380127;ms
+SignatureVerify;ECDSA;0.294923782349;ms
+SignatureVerify;ECDSA;0.320911407471;ms
+SignatureVerify;ECDSA;1.100063323975;ms
+SignatureVerify;ECDSA;0.236034393311;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;0.228166580200;ms
+SignatureVerify;ECDSA;0.232934951782;ms
+SignatureVerify;ECDSA;0.291824340820;ms
+SignatureVerify;ECDSA;0.208139419556;ms
+SignatureVerify;ECDSA;0.202894210815;ms
+SignatureVerify;ECDSA;0.239133834839;ms
+SignatureVerify;ECDSA;1.543045043945;ms
+SignatureVerify;ECDSA;1.311063766479;ms
+SignatureVerify;ECDSA;0.890970230103;ms
+SignatureVerify;ECDSA;2.239942550659;ms
+SignatureVerify;ECDSA;1.137971878052;ms
+SignatureVerify;ECDSA;1.460790634155;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;2.511978149414;ms
+SignatureVerify;ECDSA;0.429868698120;ms
+SignatureVerify;ECDSA;0.176906585693;ms
+SignatureVerify;ECDSA;0.167131423950;ms
+SignatureVerify;ECDSA;4.621028900146;ms
+SignatureVerify;ECDSA;0.445127487183;ms
+SignatureVerify;ECDSA;0.517129898071;ms
+SignatureVerify;ECDSA;0.372171401978;ms
+SignatureVerify;ECDSA;0.283956527710;ms
+SignatureVerify;ECDSA;0.286102294922;ms
+SignatureVerify;ECDSA;0.174045562744;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.166893005371;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.179052352905;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.673055648804;ms
+SignatureVerify;ECDSA;0.555038452148;ms
+SignatureVerify;ECDSA;0.184059143066;ms
+SignatureVerify;ECDSA;0.603199005127;ms
+SignatureVerify;ECDSA;0.225067138672;ms
+SignatureVerify;ECDSA;0.168085098267;ms
+SignatureVerify;ECDSA;0.166893005371;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;1.488924026489;ms
+SignatureVerify;ECDSA;0.780820846558;ms
+SignatureVerify;ECDSA;0.283002853394;ms
+SignatureVerify;ECDSA;0.306129455566;ms
+SignatureVerify;ECDSA;0.147819519043;ms
+SignatureVerify;ECDSA;0.150203704834;ms
+SignatureVerify;ECDSA;0.630855560303;ms
+SignatureVerify;ECDSA;0.329017639160;ms
+SignatureVerify;ECDSA;0.524997711182;ms
+SignatureVerify;ECDSA;0.326871871948;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.145196914673;ms
+SignatureVerify;ECDSA;0.557899475098;ms
+SignatureVerify;ECDSA;0.214099884033;ms
+SignatureVerify;ECDSA;0.640153884888;ms
+SignatureVerify;ECDSA;0.823020935059;ms
+SignatureVerify;ECDSA;0.231981277466;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.167131423950;ms
+SignatureVerify;ECDSA;0.531911849976;ms
+SignatureVerify;ECDSA;0.226020812988;ms
+SignatureVerify;ECDSA;0.235080718994;ms
+SignatureVerify;ECDSA;0.342130661011;ms
+SignatureVerify;ECDSA;0.251054763794;ms
+SignatureVerify;ECDSA;1.547813415527;ms
+SignatureVerify;ECDSA;9.901046752930;ms
+SignatureVerify;ECDSA;0.804901123047;ms
+SignatureVerify;ECDSA;0.646829605103;ms
+SignatureVerify;ECDSA;0.583171844482;ms
+SignatureVerify;ECDSA;0.924825668335;ms
+SignatureVerify;ECDSA;0.678062438965;ms
+SignatureVerify;ECDSA;0.676870346069;ms
+SignatureVerify;ECDSA;0.627040863037;ms
+SignatureVerify;ECDSA;0.589132308960;ms
+SignatureVerify;ECDSA;0.393867492676;ms
+SignatureVerify;ECDSA;0.333070755005;ms
+SignatureVerify;ECDSA;0.351190567017;ms
+SignatureVerify;ECDSA;0.910997390747;ms
+SignatureVerify;ECDSA;0.688076019287;ms
+SignatureVerify;ECDSA;0.452041625977;ms
+SignatureVerify;ECDSA;0.513076782227;ms
+SignatureVerify;ECDSA;0.638961791992;ms
+SignatureVerify;ECDSA;0.343084335327;ms
+SignatureVerify;ECDSA;1.367092132568;ms
+SignatureVerify;ECDSA;0.471115112305;ms
+SignatureVerify;ECDSA;0.276088714600;ms
+SignatureVerify;ECDSA;0.220060348511;ms
+SignatureVerify;ECDSA;0.191926956177;ms
+SignatureVerify;ECDSA;0.203847885132;ms
+SignatureVerify;ECDSA;6.123065948486;ms
+SignatureVerify;ECDSA;1.183986663818;ms
+SignatureVerify;ECDSA;0.391006469727;ms
+SignatureVerify;ECDSA;1.468896865845;ms
+SignatureVerify;ECDSA;0.711917877197;ms
+SignatureVerify;ECDSA;0.669956207275;ms
+SignatureVerify;ECDSA;0.442981719971;ms
+SignatureVerify;ECDSA;1.029968261719;ms
+SignatureVerify;ECDSA;0.344991683960;ms
+SignatureVerify;ECDSA;1.385927200317;ms
+SignatureVerify;ECDSA;0.924825668335;ms
+SignatureVerify;ECDSA;0.967025756836;ms
+SignatureVerify;ECDSA;1.164197921753;ms
+SignatureVerify;ECDSA;0.385046005249;ms
+SignatureVerify;ECDSA;0.268936157227;ms
+SignatureVerify;ECDSA;0.473976135254;ms
+SignatureVerify;ECDSA;0.679016113281;ms
+SignatureVerify;ECDSA;0.284910202026;ms
+SignatureVerify;ECDSA;0.553846359253;ms
+SignatureVerify;ECDSA;0.881910324097;ms
+SignatureVerify;ECDSA;0.533819198608;ms
+SignatureVerify;ECDSA;0.567913055420;ms
+SignatureVerify;ECDSA;1.026868820190;ms
+SignatureVerify;ECDSA;0.231027603149;ms
+SignatureVerify;ECDSA;0.310182571411;ms
+SignatureVerify;ECDSA;0.254869461060;ms
+SignatureVerify;ECDSA;0.262975692749;ms
+SignatureVerify;ECDSA;0.193119049072;ms
+SignatureVerify;ECDSA;0.203847885132;ms
+SignatureVerify;ECDSA;0.208854675293;ms
+SignatureVerify;ECDSA;0.247001647949;ms
+SignatureVerify;ECDSA;0.199794769287;ms
+SignatureVerify;ECDSA;0.219821929932;ms
+SignatureVerify;ECDSA;0.242948532104;ms
+SignatureVerify;ECDSA;0.212192535400;ms
+SignatureVerify;ECDSA;0.191926956177;ms
+SignatureVerify;ECDSA;0.204086303711;ms
+SignatureVerify;ECDSA;0.192880630493;ms
+SignatureVerify;ECDSA;0.229835510254;ms
+SignatureVerify;ECDSA;2.178907394409;ms
+SignatureVerify;ECDSA;0.286817550659;ms
+SignatureVerify;ECDSA;2.207994461060;ms
+SignatureVerify;ECDSA;2.322196960449;ms
+SignatureVerify;ECDSA;5.418062210083;ms
+SignatureVerify;ECDSA;0.885009765625;ms
+SignatureVerify;ECDSA;3.005981445312;ms
+SignatureVerify;ECDSA;0.433921813965;ms
+SignatureVerify;ECDSA;2.795934677124;ms
+SignatureVerify;ECDSA;1.605033874512;ms
+SignatureVerify;ECDSA;2.592086791992;ms
+SignatureVerify;ECDSA;3.028154373169;ms
+SignatureVerify;ECDSA;2.093076705933;ms
+SignatureVerify;ECDSA;1.367092132568;ms
+SignatureVerify;ECDSA;0.298976898193;ms
+SignatureVerify;ECDSA;0.208854675293;ms
+SignatureVerify;ECDSA;0.186204910278;ms
+SignatureVerify;ECDSA;0.245094299316;ms
+SignatureVerify;ECDSA;0.216960906982;ms
+SignatureVerify;ECDSA;0.197887420654;ms
+SignatureVerify;ECDSA;0.206947326660;ms
+SignatureVerify;ECDSA;0.207185745239;ms
+SignatureVerify;ECDSA;0.175952911377;ms
+SignatureVerify;ECDSA;0.272035598755;ms
+SignatureVerify;ECDSA;0.200986862183;ms
+SignatureVerify;ECDSA;0.230073928833;ms
+SignatureVerify;ECDSA;0.204086303711;ms
+SignatureVerify;ECDSA;0.212907791138;ms
+SignatureVerify;ECDSA;0.223159790039;ms
+SignatureVerify;ECDSA;0.193834304810;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.151157379150;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.163793563843;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.152826309204;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.152111053467;ms
+SignatureVerify;ECDSA;0.158071517944;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.147819519043;ms
+SignatureVerify;ECDSA;0.157833099365;ms
+SignatureVerify;ECDSA;0.150203704834;ms
+SignatureVerify;ECDSA;0.162124633789;ms
+SignatureVerify;ECDSA;0.142812728882;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.151157379150;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.148057937622;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.171899795532;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.228166580200;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.142097473145;ms
+SignatureVerify;ECDSA;0.151157379150;ms
+SignatureVerify;ECDSA;0.152826309204;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;0.145912170410;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;0.140905380249;ms
+SignatureVerify;ECDSA;0.144004821777;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.338077545166;ms
+SignatureVerify;ECDSA;0.334024429321;ms
+SignatureVerify;ECDSA;0.729799270630;ms
+SignatureVerify;ECDSA;0.741958618164;ms
+SignatureVerify;ECDSA;0.617027282715;ms
+SignatureVerify;ECDSA;0.688076019287;ms
+SignatureVerify;ECDSA;0.730991363525;ms
+SignatureVerify;ECDSA;0.630855560303;ms
+SignatureVerify;ECDSA;0.735998153687;ms
+SignatureVerify;ECDSA;0.349044799805;ms
+SignatureVerify;ECDSA;0.360012054443;ms
+SignatureVerify;ECDSA;0.391960144043;ms
+SignatureVerify;ECDSA;3.067016601562;ms
+SignatureVerify;ECDSA;0.235080718994;ms
+SignatureVerify;ECDSA;0.171899795532;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.150203704834;ms
+SignatureVerify;ECDSA;0.345945358276;ms
+SignatureVerify;ECDSA;0.551223754883;ms
+SignatureVerify;ECDSA;0.267982482910;ms
+SignatureVerify;ECDSA;0.262022018433;ms
+SignatureVerify;ECDSA;0.272035598755;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.221967697144;ms
+SignatureVerify;ECDSA;0.555038452148;ms
+SignatureVerify;ECDSA;0.240087509155;ms
+SignatureVerify;ECDSA;0.224113464355;ms
+SignatureVerify;ECDSA;0.254869461060;ms
+SignatureVerify;ECDSA;0.225067138672;ms
+SignatureVerify;ECDSA;0.181913375854;ms
+SignatureVerify;ECDSA;0.234127044678;ms
+SignatureVerify;ECDSA;2.453804016113;ms
+SignatureVerify;ECDSA;0.261783599854;ms
+SignatureVerify;ECDSA;0.519037246704;ms
+SignatureVerify;ECDSA;0.221014022827;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.200986862183;ms
+SignatureVerify;ECDSA;1.013994216919;ms
+SignatureVerify;ECDSA;0.211000442505;ms
+SignatureVerify;ECDSA;1.100778579712;ms
+SignatureVerify;ECDSA;0.195026397705;ms
+SignatureVerify;ECDSA;0.175952911377;ms
+SignatureVerify;ECDSA;0.215053558350;ms
+SignatureVerify;ECDSA;0.230073928833;ms
+SignatureVerify;ECDSA;0.311136245728;ms
+SignatureVerify;ECDSA;0.244855880737;ms
+SignatureVerify;ECDSA;0.347137451172;ms
+SignatureVerify;ECDSA;0.288963317871;ms
+SignatureVerify;ECDSA;0.396966934204;ms
+SignatureVerify;ECDSA;0.452041625977;ms
+SignatureVerify;ECDSA;0.318050384521;ms
+SignatureVerify;ECDSA;0.262975692749;ms
+SignatureVerify;ECDSA;0.256061553955;ms
+SignatureVerify;ECDSA;0.279903411865;ms
+SignatureVerify;ECDSA;0.244140625000;ms
+SignatureVerify;ECDSA;0.303983688354;ms
+SignatureVerify;ECDSA;0.344991683960;ms
+SignatureVerify;ECDSA;0.275135040283;ms
+SignatureVerify;ECDSA;0.240087509155;ms
+SignatureVerify;ECDSA;0.205993652344;ms
+SignatureVerify;ECDSA;0.293970108032;ms
+SignatureVerify;ECDSA;0.223875045776;ms
+SignatureVerify;ECDSA;0.225067138672;ms
+SignatureVerify;ECDSA;0.200033187866;ms
+SignatureVerify;ECDSA;0.248908996582;ms
+SignatureVerify;ECDSA;0.213146209717;ms
+SignatureVerify;ECDSA;0.200033187866;ms
+SignatureVerify;ECDSA;1.261949539185;ms
+SignatureVerify;ECDSA;1.536130905151;ms
+SignatureVerify;ECDSA;0.238895416260;ms
+SignatureVerify;ECDSA;2.756118774414;ms
+SignatureVerify;ECDSA;0.303030014038;ms
+SignatureVerify;ECDSA;0.412940979004;ms
+SignatureVerify;ECDSA;0.306844711304;ms
+SignatureVerify;ECDSA;0.399112701416;ms
+SignatureVerify;ECDSA;0.172138214111;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.547170639038;ms
+SignatureVerify;ECDSA;0.316858291626;ms
+SignatureVerify;ECDSA;0.400066375732;ms
+SignatureVerify;ECDSA;0.443935394287;ms
+SignatureVerify;ECDSA;0.190973281860;ms
+SignatureVerify;ECDSA;0.463008880615;ms
+SignatureVerify;ECDSA;0.170946121216;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.223875045776;ms
+SignatureVerify;ECDSA;1.610040664673;ms
+SignatureVerify;ECDSA;0.195980072021;ms
+SignatureVerify;ECDSA;0.263929367065;ms
+SignatureVerify;ECDSA;3.222942352295;ms
+SignatureVerify;ECDSA;0.654935836792;ms
+SignatureVerify;ECDSA;0.252008438110;ms
+SignatureVerify;ECDSA;0.419139862061;ms
+SignatureVerify;ECDSA;0.351905822754;ms
+SignatureVerify;ECDSA;0.449895858765;ms
+SignatureVerify;ECDSA;0.174045562744;ms
+SignatureVerify;ECDSA;0.165939331055;ms
+SignatureVerify;ECDSA;0.502109527588;ms
+SignatureVerify;ECDSA;0.258922576904;ms
+SignatureVerify;ECDSA;0.337123870850;ms
+SignatureVerify;ECDSA;0.405073165894;ms
+SignatureVerify;ECDSA;0.380039215088;ms
+SignatureVerify;ECDSA;0.178098678589;ms
+SignatureVerify;ECDSA;0.164985656738;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.161170959473;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.149965286255;ms
+SignatureVerify;ECDSA;0.150918960571;ms
+SignatureVerify;ECDSA;0.146150588989;ms
+SignatureVerify;ECDSA;0.848054885864;ms
+SignatureVerify;ECDSA;0.216960906982;ms
+SignatureVerify;ECDSA;0.220060348511;ms
+SignatureVerify;ECDSA;1.310110092163;ms
+SignatureVerify;ECDSA;0.222921371460;ms
+SignatureVerify;ECDSA;0.190019607544;ms
+SignatureVerify;ECDSA;0.166893005371;ms
+SignatureVerify;ECDSA;0.197887420654;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.218152999878;ms
+SignatureVerify;ECDSA;0.216007232666;ms
+SignatureVerify;ECDSA;0.203132629395;ms
+SignatureVerify;ECDSA;0.252008438110;ms
+SignatureVerify;ECDSA;0.175952911377;ms
+SignatureVerify;ECDSA;0.178098678589;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.161886215210;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.159978866577;ms
+SignatureVerify;ECDSA;0.146865844727;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.147104263306;ms
+SignatureVerify;ECDSA;0.153064727783;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.159025192261;ms
+SignatureVerify;ECDSA;0.144958496094;ms
+SignatureVerify;ECDSA;0.157117843628;ms
+SignatureVerify;ECDSA;0.146865844727;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.154018402100;ms
+SignatureVerify;ECDSA;0.149011611938;ms
+SignatureVerify;ECDSA;0.155925750732;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.169992446899;ms
+SignatureVerify;ECDSA;0.156879425049;ms
+SignatureVerify;ECDSA;0.164031982422;ms
+SignatureVerify;ECDSA;0.156164169312;ms
+SignatureVerify;ECDSA;0.169038772583;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.253915786743;ms
+SignatureVerify;ECDSA;0.162839889526;ms
+SignatureVerify;ECDSA;0.168800354004;ms
+SignatureVerify;ECDSA;0.154972076416;ms
+SignatureVerify;ECDSA;0.160932540894;ms
+SignatureVerify;ECDSA;0.163078308105;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SignatureVerify;ECDSA;0.160217285156;ms
+SignatureVerify;ECDSA;0.249147415161;ms
+SignatureVerify;ECDSA;0.151872634888;ms
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 1
+SizeSignature;ECDSA;96;Bytes;voting in block 2
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 3
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 5
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 5
+SizeSignature;ECDSA;96;Bytes;voting in block 6
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 7
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 8
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 9
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 10
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 11
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 12
+SizeSignature;ECDSA;96;Bytes;voting in block 13
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 14
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 14
+SizeSignature;ECDSA;96;Bytes;voting in block 15
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 16
+SizeSignature;ECDSA;96;Bytes;voting in block 17
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 18
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 19
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 20
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 20
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 22
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 23
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 24
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 25
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 25
+SizeSignature;ECDSA;96;Bytes;voting in block 26
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 27
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 28
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 28
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 28
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 30
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 31
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 34
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 36
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 37
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 38
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 39
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 40
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 40
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 40
+SizeSignature;ECDSA;96;Bytes;voting in block 41
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 42
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 43
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 44
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 46
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 48
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;voting in block 49
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 49
+SizeSignature;ECDSA;96;Bytes;transaction 1;block 49
+SizeSignature;ECDSA;96;Bytes;voting in block 50
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 2;block 24
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 26
+SizeSignature;ECDSA;96;Bytes;transaction 3;block 26
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 2
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 26
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 26
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 27
+SizeSignature;ECDSA;96;Bytes;transaction 4;block 27
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 28
+SizeSignature;ECDSA;96;Bytes;transaction 5;block 28
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 2
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 5
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 6
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 7
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 8
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 9
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 10
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 11
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 12
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 13
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 14
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 15
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 16
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 17
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 18
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 19
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 20
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 21
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 22
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 23
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 24
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 25
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 26
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 26
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 27
+SizeSignature;ECDSA;96;Bytes;transaction 6;block 27
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 28
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 28
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 29
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 29
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 30
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 30
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 31
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 31
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 32
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 32
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 33
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 33
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 34
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 34
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 35
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 35
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 36
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 36
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 37
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 37
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 38
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 38
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 39
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 39
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 40
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 40
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 41
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 41
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 42
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 42
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 43
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 43
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 44
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 44
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 45
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 45
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 46
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 46
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 47
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 47
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 48
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 48
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 49
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 49
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 50
+SizeSignature;ECDSA;96;Bytes;transaction 7;block 50
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 30
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 30
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 31
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 31
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 32
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 32
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 33
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 33
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 34
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 34
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 35
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 35
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 36
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 36
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 37
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 37
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 38
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 38
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 39
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 39
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 40
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 40
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 41
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 41
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 42
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 42
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 43
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 43
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 44
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 44
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 45
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 45
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 46
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 46
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 47
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 47
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 48
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 48
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 49
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 49
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 50
+SizeSignature;ECDSA;96;Bytes;transaction 8;block 50
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 1
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 2
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 3
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 4
+SizeSignature;ECDSA;96;Bytes;transaction 9;block 4
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+SizeSignature;ECDSA;96;Bytes;current vote pool
+TransactionCreate;ECDSA;0.458002090454;ms
+TransactionCreate;ECDSA;0.472068786621;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.535964965820;ms
+TransactionCreate;ECDSA;0.263929367065;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.612974166870;ms
+TransactionCreate;ECDSA;0.269174575806;ms
+TransactionCreate;ECDSA;0.402927398682;ms
+TransactionCreate;ECDSA;0.357866287231;ms
+TransactionCreate;ECDSA;0.250101089478;ms
+TransactionCreate;ECDSA;0.479936599731;ms
+TransactionCreate;ECDSA;0.300168991089;ms
+TransactionCreate;ECDSA;0.231981277466;ms
+TransactionCreate;ECDSA;0.526189804077;ms
+TransactionCreate;ECDSA;0.231027603149;ms
+TransactionCreate;ECDSA;0.166177749634;ms
+TransactionCreate;ECDSA;0.443935394287;ms
+TransactionCreate;ECDSA;0.339031219482;ms
+TransactionCreate;ECDSA;0.328063964844;ms
+TransactionCreate;ECDSA;0.126123428345;ms
+TransactionCreate;ECDSA;0.245809555054;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.129938125610;ms
+TransactionCreate;ECDSA;0.431060791016;ms
+TransactionCreate;ECDSA;0.309944152832;ms
+TransactionCreate;ECDSA;0.325918197632;ms
+TransactionCreate;ECDSA;0.123023986816;ms
+TransactionCreate;ECDSA;0.396966934204;ms
+TransactionCreate;ECDSA;0.257015228271;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.127077102661;ms
+TransactionCreate;ECDSA;0.559091567993;ms
+TransactionCreate;ECDSA;0.397920608521;ms
+TransactionCreate;ECDSA;0.128030776978;ms
+TransactionCreate;ECDSA;0.405073165894;ms
+TransactionCreate;ECDSA;0.147104263306;ms
+TransactionCreate;ECDSA;0.221014022827;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.426054000854;ms
+TransactionCreate;ECDSA;0.144004821777;ms
+TransactionCreate;ECDSA;0.415802001953;ms
+TransactionCreate;ECDSA;0.369071960449;ms
+TransactionCreate;ECDSA;0.546932220459;ms
+TransactionCreate;ECDSA;0.133037567139;ms
+TransactionCreate;ECDSA;0.465154647827;ms
+TransactionCreate;ECDSA;0.300168991089;ms
+TransactionCreate;ECDSA;0.190019607544;ms
+TransactionCreate;ECDSA;0.410795211792;ms
+TransactionCreate;ECDSA;0.153064727783;ms
+TransactionCreate;ECDSA;0.509023666382;ms
+TransactionCreate;ECDSA;0.154972076416;ms
+TransactionCreate;ECDSA;0.471115112305;ms
+TransactionCreate;ECDSA;0.159025192261;ms
+TransactionCreate;ECDSA;0.230073928833;ms
+TransactionCreate;ECDSA;0.367879867554;ms
+TransactionCreate;ECDSA;0.214099884033;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.447988510132;ms
+TransactionCreate;ECDSA;0.584840774536;ms
+TransactionCreate;ECDSA;0.170946121216;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.198841094971;ms
+TransactionCreate;ECDSA;0.174045562744;ms
+TransactionCreate;ECDSA;0.767946243286;ms
+TransactionCreate;ECDSA;0.145196914673;ms
+TransactionCreate;ECDSA;0.250101089478;ms
+TransactionCreate;ECDSA;0.322103500366;ms
+TransactionCreate;ECDSA;0.351905822754;ms
+TransactionCreate;ECDSA;0.125885009766;ms
+TransactionCreate;ECDSA;0.458955764771;ms
+TransactionCreate;ECDSA;0.442981719971;ms
+TransactionCreate;ECDSA;0.362157821655;ms
+TransactionCreate;ECDSA;0.124216079712;ms
+TransactionCreate;ECDSA;0.185966491699;ms
+TransactionCreate;ECDSA;0.322103500366;ms
+TransactionCreate;ECDSA;0.244140625000;ms
+TransactionCreate;ECDSA;0.658988952637;ms
+TransactionCreate;ECDSA;0.139951705933;ms
+TransactionCreate;ECDSA;0.193834304810;ms
+TransactionCreate;ECDSA;0.153779983521;ms
+TransactionCreate;ECDSA;0.133991241455;ms
+TransactionCreate;ECDSA;0.151872634888;ms
+TransactionCreate;ECDSA;0.478029251099;ms
+TransactionCreate;ECDSA;0.144004821777;ms
+TransactionCreate;ECDSA;1.107931137085;ms
+TransactionCreate;ECDSA;0.329971313477;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.201940536499;ms
+TransactionCreate;ECDSA;0.231981277466;ms
+TransactionCreate;ECDSA;0.735044479370;ms
+TransactionCreate;ECDSA;0.449180603027;ms
+TransactionCreate;ECDSA;0.334978103638;ms
+TransactionCreate;ECDSA;0.142812728882;ms
+TransactionCreate;ECDSA;0.432968139648;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.319957733154;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.236034393311;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.301837921143;ms
+TransactionCreate;ECDSA;0.128984451294;ms
+TransactionCreate;ECDSA;0.159978866577;ms
+TransactionCreate;ECDSA;0.242948532104;ms
+TransactionCreate;ECDSA;0.375986099243;ms
+TransactionCreate;ECDSA;0.130176544189;ms
+TransactionCreate;ECDSA;0.193119049072;ms
+TransactionCreate;ECDSA;0.161886215210;ms
+TransactionCreate;ECDSA;0.476837158203;ms
+TransactionCreate;ECDSA;0.467061996460;ms
+TransactionCreate;ECDSA;0.285863876343;ms
+TransactionCreate;ECDSA;0.134944915771;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.120878219604;ms
+TransactionCreate;ECDSA;0.120878219604;ms
+TransactionCreate;ECDSA;0.120878219604;ms
+TransactionCreate;ECDSA;0.120162963867;ms
+TransactionCreate;ECDSA;0.121116638184;ms
+TransactionCreate;ECDSA;0.124931335449;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.121831893921;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.120162963867;ms
+TransactionCreate;ECDSA;0.121116638184;ms
+TransactionCreate;ECDSA;0.121116638184;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.121831893921;ms
+TransactionCreate;ECDSA;0.122070312500;ms
+TransactionCreate;ECDSA;0.124931335449;ms
+TransactionCreate;ECDSA;0.124931335449;ms
+TransactionCreate;ECDSA;0.119924545288;ms
+TransactionCreate;ECDSA;0.119924545288;ms
+TransactionCreate;ECDSA;0.120162963867;ms
+TransactionCreate;ECDSA;0.119924545288;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.242948532104;ms
+TransactionCreate;ECDSA;0.129938125610;ms
+TransactionCreate;ECDSA;0.122785568237;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.140905380249;ms
+TransactionCreate;ECDSA;0.133991241455;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.124931335449;ms
+TransactionCreate;ECDSA;0.122070312500;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.123977661133;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.118970870972;ms
+TransactionCreate;ECDSA;0.119924545288;ms
+TransactionCreate;ECDSA;0.119924545288;ms
+TransactionCreate;ECDSA;0.122070312500;ms
+TransactionCreate;ECDSA;0.121116638184;ms
+TransactionCreate;ECDSA;0.120878219604;ms
+TransactionCreate;ECDSA;0.127792358398;ms
+TransactionCreate;ECDSA;0.120162963867;ms
+TransactionCreate;ECDSA;0.498056411743;ms
+TransactionCreate;ECDSA;0.443935394287;ms
+TransactionCreate;ECDSA;0.143051147461;ms
+TransactionCreate;ECDSA;0.316858291626;ms
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+TransactionSize;ECDSA;306;Bytes
+XTransactionSize;Block;1;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;2;503;Bytes
+XTransactionSize;Block;47;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;2;503;Bytes
+XTransactionSize;Block;47;transactions;2;503;Bytes
+XTransactionSize;Block;48;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;2;503;Bytes
+XTransactionSize;Block;47;transactions;2;503;Bytes
+XTransactionSize;Block;48;transactions;2;503;Bytes
+XTransactionSize;Block;49;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;2;503;Bytes
+XTransactionSize;Block;47;transactions;2;503;Bytes
+XTransactionSize;Block;48;transactions;2;503;Bytes
+XTransactionSize;Block;49;transactions;2;503;Bytes
+XTransactionSize;Block;50;transactions;1;197;Bytes
+XTransactionSize;Block;1;transactions;2;503;Bytes
+XTransactionSize;Block;2;transactions;2;503;Bytes
+XTransactionSize;Block;3;transactions;2;503;Bytes
+XTransactionSize;Block;4;transactions;2;503;Bytes
+XTransactionSize;Block;5;transactions;2;503;Bytes
+XTransactionSize;Block;6;transactions;2;503;Bytes
+XTransactionSize;Block;7;transactions;2;503;Bytes
+XTransactionSize;Block;8;transactions;2;503;Bytes
+XTransactionSize;Block;9;transactions;2;503;Bytes
+XTransactionSize;Block;10;transactions;2;503;Bytes
+XTransactionSize;Block;11;transactions;2;503;Bytes
+XTransactionSize;Block;12;transactions;2;503;Bytes
+XTransactionSize;Block;13;transactions;2;503;Bytes
+XTransactionSize;Block;14;transactions;2;503;Bytes
+XTransactionSize;Block;15;transactions;2;503;Bytes
+XTransactionSize;Block;16;transactions;2;503;Bytes
+XTransactionSize;Block;17;transactions;2;503;Bytes
+XTransactionSize;Block;18;transactions;2;503;Bytes
+XTransactionSize;Block;19;transactions;2;503;Bytes
+XTransactionSize;Block;20;transactions;2;503;Bytes
+XTransactionSize;Block;21;transactions;2;503;Bytes
+XTransactionSize;Block;22;transactions;2;503;Bytes
+XTransactionSize;Block;23;transactions;2;503;Bytes
+XTransactionSize;Block;24;transactions;2;503;Bytes
+XTransactionSize;Block;25;transactions;2;503;Bytes
+XTransactionSize;Block;26;transactions;2;503;Bytes
+XTransactionSize;Block;27;transactions;2;503;Bytes
+XTransactionSize;Block;28;transactions;2;503;Bytes
+XTransactionSize;Block;29;transactions;2;503;Bytes
+XTransactionSize;Block;30;transactions;2;503;Bytes
+XTransactionSize;Block;31;transactions;2;503;Bytes
+XTransactionSize;Block;32;transactions;2;503;Bytes
+XTransactionSize;Block;33;transactions;2;503;Bytes
+XTransactionSize;Block;34;transactions;2;503;Bytes
+XTransactionSize;Block;35;transactions;2;503;Bytes
+XTransactionSize;Block;36;transactions;2;503;Bytes
+XTransactionSize;Block;37;transactions;2;503;Bytes
+XTransactionSize;Block;38;transactions;2;503;Bytes
+XTransactionSize;Block;39;transactions;2;503;Bytes
+XTransactionSize;Block;40;transactions;2;503;Bytes
+XTransactionSize;Block;41;transactions;2;503;Bytes
+XTransactionSize;Block;42;transactions;2;503;Bytes
+XTransactionSize;Block;43;transactions;2;503;Bytes
+XTransactionSize;Block;44;transactions;2;503;Bytes
+XTransactionSize;Block;45;transactions;2;503;Bytes
+XTransactionSize;Block;46;transactions;2;503;Bytes
+XTransactionSize;Block;47;transactions;2;503;Bytes
+XTransactionSize;Block;48;transactions;2;503;Bytes
+XTransactionSize;Block;49;transactions;2;503;Bytes
+XTransactionSize;Block;50;transactions;2;503;Bytes
+XTransactionSize;Block;1;transactions;11;3258;Bytes
+XTransactionSize;Block;2;transactions;11;3258;Bytes
+XTransactionSize;Block;3;transactions;11;3258;Bytes
+XTransactionSize;Block;4;transactions;11;3258;Bytes
+XTransactionSize;Block;5;transactions;11;3258;Bytes
+XTransactionSize;Block;6;transactions;11;3258;Bytes
+XTransactionSize;Block;7;transactions;11;3258;Bytes
+XTransactionSize;Block;8;transactions;11;3258;Bytes
+XTransactionSize;Block;9;transactions;11;3258;Bytes
+XTransactionSize;Block;10;transactions;11;3258;Bytes
+XTransactionSize;Block;11;transactions;11;3258;Bytes
+XTransactionSize;Block;12;transactions;11;3258;Bytes
+XTransactionSize;Block;13;transactions;11;3258;Bytes
+XTransactionSize;Block;14;transactions;11;3258;Bytes
+XTransactionSize;Block;15;transactions;11;3258;Bytes
+XTransactionSize;Block;16;transactions;11;3258;Bytes
+XTransactionSize;Block;17;transactions;11;3258;Bytes
+XTransactionSize;Block;18;transactions;11;3258;Bytes
+XTransactionSize;Block;19;transactions;11;3258;Bytes
+XTransactionSize;Block;20;transactions;11;3258;Bytes
+XTransactionSize;Block;21;transactions;11;3258;Bytes
+XTransactionSize;Block;22;transactions;11;3258;Bytes
+XTransactionSize;Block;23;transactions;11;3258;Bytes
+XTransactionSize;Block;24;transactions;11;3258;Bytes
+XTransactionSize;Block;25;transactions;11;3258;Bytes
+XTransactionSize;Block;26;transactions;11;3258;Bytes
+XTransactionSize;Block;27;transactions;10;2951;Bytes
+XTransactionSize;Block;28;transactions;11;3258;Bytes
+XTransactionSize;Block;29;transactions;11;3258;Bytes
+XTransactionSize;Block;30;transactions;11;3258;Bytes
+XTransactionSize;Block;31;transactions;11;3258;Bytes
+XTransactionSize;Block;32;transactions;11;3258;Bytes
+XTransactionSize;Block;33;transactions;11;3258;Bytes
+XTransactionSize;Block;34;transactions;11;3258;Bytes
+XTransactionSize;Block;35;transactions;11;3258;Bytes
+XTransactionSize;Block;36;transactions;11;3258;Bytes
+XTransactionSize;Block;37;transactions;11;3258;Bytes
+XTransactionSize;Block;38;transactions;11;3258;Bytes
+XTransactionSize;Block;39;transactions;11;3258;Bytes
+XTransactionSize;Block;40;transactions;11;3258;Bytes
+XTransactionSize;Block;41;transactions;11;3258;Bytes
+XTransactionSize;Block;42;transactions;11;3258;Bytes
+XTransactionSize;Block;43;transactions;11;3258;Bytes
+XTransactionSize;Block;44;transactions;11;3258;Bytes
+XTransactionSize;Block;45;transactions;11;3258;Bytes
+XTransactionSize;Block;46;transactions;11;3258;Bytes
+XTransactionSize;Block;47;transactions;11;3258;Bytes
+XTransactionSize;Block;48;transactions;11;3258;Bytes
+XTransactionSize;Block;49;transactions;11;3258;Bytes
+XTransactionSize;Block;50;transactions;11;3258;Bytes
+XTransactionSize;Block;1;transactions;11;3258;Bytes
+XTransactionSize;Block;2;transactions;11;3258;Bytes
+XTransactionSize;Block;3;transactions;11;3258;Bytes
+XTransactionSize;Block;4;transactions;11;3258;Bytes
+XTransactionSize;Block;5;transactions;11;3258;Bytes
+XTransactionSize;Block;6;transactions;11;3258;Bytes
+XTransactionSize;Block;7;transactions;11;3258;Bytes
+XTransactionSize;Block;8;transactions;11;3258;Bytes
+XTransactionSize;Block;9;transactions;11;3258;Bytes
+XTransactionSize;Block;10;transactions;11;3258;Bytes
+XTransactionSize;Block;11;transactions;11;3258;Bytes
+XTransactionSize;Block;12;transactions;11;3258;Bytes
+XTransactionSize;Block;13;transactions;11;3258;Bytes
+XTransactionSize;Block;14;transactions;11;3258;Bytes
+XTransactionSize;Block;15;transactions;11;3258;Bytes
+XTransactionSize;Block;16;transactions;11;3258;Bytes
+XTransactionSize;Block;17;transactions;11;3258;Bytes
+XTransactionSize;Block;18;transactions;11;3258;Bytes
+XTransactionSize;Block;19;transactions;11;3258;Bytes
+XTransactionSize;Block;20;transactions;11;3258;Bytes
+XTransactionSize;Block;21;transactions;11;3258;Bytes
+XTransactionSize;Block;22;transactions;11;3258;Bytes
+XTransactionSize;Block;23;transactions;11;3258;Bytes
+XTransactionSize;Block;24;transactions;11;3258;Bytes
+XTransactionSize;Block;25;transactions;11;3258;Bytes
+XTransactionSize;Block;26;transactions;11;3258;Bytes
+XTransactionSize;Block;27;transactions;10;2951;Bytes
+XTransactionSize;Block;28;transactions;11;3258;Bytes
+XTransactionSize;Block;29;transactions;11;3258;Bytes
+XTransactionSize;Block;30;transactions;11;3258;Bytes
+XTransactionSize;Block;31;transactions;11;3258;Bytes
+XTransactionSize;Block;32;transactions;11;3258;Bytes
+XTransactionSize;Block;33;transactions;11;3258;Bytes
+XTransactionSize;Block;34;transactions;11;3258;Bytes
+XTransactionSize;Block;35;transactions;11;3258;Bytes
+XTransactionSize;Block;36;transactions;11;3258;Bytes
+XTransactionSize;Block;37;transactions;11;3258;Bytes
+XTransactionSize;Block;38;transactions;11;3258;Bytes
+XTransactionSize;Block;39;transactions;11;3258;Bytes
+XTransactionSize;Block;40;transactions;11;3258;Bytes
+XTransactionSize;Block;41;transactions;11;3258;Bytes
+XTransactionSize;Block;42;transactions;11;3258;Bytes
+XTransactionSize;Block;43;transactions;11;3258;Bytes
+XTransactionSize;Block;44;transactions;11;3258;Bytes
+XTransactionSize;Block;45;transactions;11;3258;Bytes
+XTransactionSize;Block;46;transactions;11;3258;Bytes
+XTransactionSize;Block;47;transactions;11;3258;Bytes
+XTransactionSize;Block;48;transactions;11;3258;Bytes
+XTransactionSize;Block;49;transactions;11;3258;Bytes
+XTransactionSize;Block;50;transactions;11;3258;Bytes
+#######################################################################

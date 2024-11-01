@@ -1,0 +1,4011 @@
+#######################################################################
+Runtime infos
+Number of Gateways: 10
+Number of Transactions: 10
+Number of Blocks: 100
+Consensus: PBFT
+#######################################################################
+#############################################################
+###################### Times & Sizes ########################
+#############################################################
+SignatureCreate;ECDSA;0.366926193237;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.154972076416;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.150918960571;ms
+SignatureCreate;ECDSA;0.209093093872;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.244140625000;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.163793563843;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;0.302076339722;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;0.307083129883;ms
+SignatureCreate;ECDSA;0.176191329956;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.157117843628;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.224113464355;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.304937362671;ms
+SignatureCreate;ECDSA;0.201940536499;ms
+SignatureCreate;ECDSA;0.177860260010;ms
+SignatureCreate;ECDSA;0.146865844727;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.222921371460;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.238180160522;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.198125839233;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.167131423950;ms
+SignatureCreate;ECDSA;0.189065933228;ms
+SignatureCreate;ECDSA;0.263929367065;ms
+SignatureCreate;ECDSA;0.166893005371;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.160217285156;ms
+SignatureCreate;ECDSA;0.188112258911;ms
+SignatureCreate;ECDSA;0.165224075317;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.168800354004;ms
+SignatureCreate;ECDSA;0.156164169312;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.198125839233;ms
+SignatureCreate;ECDSA;0.152826309204;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.166893005371;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.157833099365;ms
+SignatureCreate;ECDSA;0.168800354004;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.164031982422;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.194787979126;ms
+SignatureCreate;ECDSA;0.199079513550;ms
+SignatureCreate;ECDSA;0.298976898193;ms
+SignatureCreate;ECDSA;0.189065933228;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.238180160522;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.257968902588;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.166177749634;ms
+SignatureCreate;ECDSA;0.212192535400;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.177860260010;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.355005264282;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.188112258911;ms
+SignatureCreate;ECDSA;0.178813934326;ms
+SignatureCreate;ECDSA;0.244140625000;ms
+SignatureCreate;ECDSA;0.211954116821;ms
+SignatureCreate;ECDSA;0.253200531006;ms
+SignatureCreate;ECDSA;0.307083129883;ms
+SignatureCreate;ECDSA;0.197172164917;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.221014022827;ms
+SignatureCreate;ECDSA;0.213861465454;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.211954116821;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.202894210815;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.249862670898;ms
+SignatureCreate;ECDSA;0.322103500366;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.155210494995;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.216960906982;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.411033630371;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.232934951782;ms
+SignatureCreate;ECDSA;0.213861465454;ms
+SignatureCreate;ECDSA;0.514030456543;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.150918960571;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.207901000977;ms
+SignatureCreate;ECDSA;0.244140625000;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.167131423950;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.191211700439;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.212907791138;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.233888626099;ms
+SignatureCreate;ECDSA;0.416994094849;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.225067138672;ms
+SignatureCreate;ECDSA;0.258207321167;ms
+SignatureCreate;ECDSA;0.218868255615;ms
+SignatureCreate;ECDSA;0.428915023804;ms
+SignatureCreate;ECDSA;0.450134277344;ms
+SignatureCreate;ECDSA;0.710010528564;ms
+SignatureCreate;ECDSA;0.252962112427;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.277042388916;ms
+SignatureCreate;ECDSA;0.252008438110;ms
+SignatureCreate;ECDSA;0.478982925415;ms
+SignatureCreate;ECDSA;0.323057174683;ms
+SignatureCreate;ECDSA;0.337839126587;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.849962234497;ms
+SignatureCreate;ECDSA;0.325918197632;ms
+SignatureCreate;ECDSA;0.427961349487;ms
+SignatureCreate;ECDSA;0.230073928833;ms
+SignatureCreate;ECDSA;0.218152999878;ms
+SignatureCreate;ECDSA;0.247955322266;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.167131423950;ms
+SignatureCreate;ECDSA;0.285863876343;ms
+SignatureCreate;ECDSA;0.244140625000;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.204086303711;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.251054763794;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.230073928833;ms
+SignatureCreate;ECDSA;0.247955322266;ms
+SignatureCreate;ECDSA;0.216960906982;ms
+SignatureCreate;ECDSA;0.147104263306;ms
+SignatureCreate;ECDSA;0.143051147461;ms
+SignatureCreate;ECDSA;0.168800354004;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.244855880737;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.167846679688;ms
+SignatureCreate;ECDSA;0.143051147461;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.178813934326;ms
+SignatureCreate;ECDSA;0.245094299316;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.252962112427;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.232934951782;ms
+SignatureCreate;ECDSA;0.186204910278;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.235080718994;ms
+SignatureCreate;ECDSA;0.201940536499;ms
+SignatureCreate;ECDSA;0.250101089478;ms
+SignatureCreate;ECDSA;0.227928161621;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.208139419556;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.147104263306;ms
+SignatureCreate;ECDSA;0.477075576782;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.198125839233;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.212907791138;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.244855880737;ms
+SignatureCreate;ECDSA;0.267982482910;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.224113464355;ms
+SignatureCreate;ECDSA;0.307083129883;ms
+SignatureCreate;ECDSA;0.262022018433;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.173807144165;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.261068344116;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.267982482910;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.208139419556;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.264883041382;ms
+SignatureCreate;ECDSA;0.280857086182;ms
+SignatureCreate;ECDSA;0.189781188965;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.267982482910;ms
+SignatureCreate;ECDSA;0.268936157227;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.162124633789;ms
+SignatureCreate;ECDSA;0.153779983521;ms
+SignatureCreate;ECDSA;0.140905380249;ms
+SignatureCreate;ECDSA;0.288963317871;ms
+SignatureCreate;ECDSA;1.077890396118;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.224113464355;ms
+SignatureCreate;ECDSA;0.256061553955;ms
+SignatureCreate;ECDSA;0.233888626099;ms
+SignatureCreate;ECDSA;0.211954116821;ms
+SignatureCreate;ECDSA;0.231027603149;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.177860260010;ms
+SignatureCreate;ECDSA;0.155210494995;ms
+SignatureCreate;ECDSA;0.319957733154;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.293016433716;ms
+SignatureCreate;ECDSA;0.188112258911;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.240087509155;ms
+SignatureCreate;ECDSA;0.278949737549;ms
+SignatureCreate;ECDSA;0.273942947388;ms
+SignatureCreate;ECDSA;0.241994857788;ms
+SignatureCreate;ECDSA;0.207901000977;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.162124633789;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.146150588989;ms
+SignatureCreate;ECDSA;0.141143798828;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.284910202026;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.204086303711;ms
+SignatureCreate;ECDSA;0.243902206421;ms
+SignatureCreate;ECDSA;0.261068344116;ms
+SignatureCreate;ECDSA;0.460863113403;ms
+SignatureCreate;ECDSA;0.356912612915;ms
+SignatureCreate;ECDSA;0.189065933228;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.333070755005;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.280857086182;ms
+SignatureCreate;ECDSA;0.287055969238;ms
+SignatureCreate;ECDSA;0.207901000977;ms
+SignatureCreate;ECDSA;0.214815139771;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.147104263306;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.309944152832;ms
+SignatureCreate;ECDSA;0.277042388916;ms
+SignatureCreate;ECDSA;0.166893005371;ms
+SignatureCreate;ECDSA;0.177860260010;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.290155410767;ms
+SignatureCreate;ECDSA;0.318050384521;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.255823135376;ms
+SignatureCreate;ECDSA;0.229835510254;ms
+SignatureCreate;ECDSA;0.207901000977;ms
+SignatureCreate;ECDSA;0.188112258911;ms
+SignatureCreate;ECDSA;0.273942947388;ms
+SignatureCreate;ECDSA;0.263929367065;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.178813934326;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.182151794434;ms
+SignatureCreate;ECDSA;0.280141830444;ms
+SignatureCreate;ECDSA;0.219821929932;ms
+SignatureCreate;ECDSA;0.281095504761;ms
+SignatureCreate;ECDSA;0.339031219482;ms
+SignatureCreate;ECDSA;0.229120254517;ms
+SignatureCreate;ECDSA;0.260114669800;ms
+SignatureCreate;ECDSA;0.208139419556;ms
+SignatureCreate;ECDSA;0.197887420654;ms
+SignatureCreate;ECDSA;0.173091888428;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.273942947388;ms
+SignatureCreate;ECDSA;0.189065933228;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.708818435669;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.556945800781;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.472068786621;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.365018844604;ms
+SignatureCreate;ECDSA;0.229120254517;ms
+SignatureCreate;ECDSA;0.199079513550;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.162124633789;ms
+SignatureCreate;ECDSA;0.246047973633;ms
+SignatureCreate;ECDSA;0.198841094971;ms
+SignatureCreate;ECDSA;0.341892242432;ms
+SignatureCreate;ECDSA;0.442981719971;ms
+SignatureCreate;ECDSA;0.209808349609;ms
+SignatureCreate;ECDSA;0.209808349609;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.259160995483;ms
+SignatureCreate;ECDSA;0.225067138672;ms
+SignatureCreate;ECDSA;0.224113464355;ms
+SignatureCreate;ECDSA;0.338792800903;ms
+SignatureCreate;ECDSA;0.244855880737;ms
+SignatureCreate;ECDSA;0.217914581299;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.351905822754;ms
+SignatureCreate;ECDSA;0.291109085083;ms
+SignatureCreate;ECDSA;0.335216522217;ms
+SignatureCreate;ECDSA;0.307083129883;ms
+SignatureCreate;ECDSA;0.314950942993;ms
+SignatureCreate;ECDSA;0.347852706909;ms
+SignatureCreate;ECDSA;0.364780426025;ms
+SignatureCreate;ECDSA;0.267028808594;ms
+SignatureCreate;ECDSA;0.270128250122;ms
+SignatureCreate;ECDSA;0.218868255615;ms
+SignatureCreate;ECDSA;0.229120254517;ms
+SignatureCreate;ECDSA;0.261068344116;ms
+SignatureCreate;ECDSA;0.242948532104;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.256776809692;ms
+SignatureCreate;ECDSA;0.199079513550;ms
+SignatureCreate;ECDSA;0.355958938599;ms
+SignatureCreate;ECDSA;0.290870666504;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.171899795532;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.147104263306;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.147819519043;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.150203704834;ms
+SignatureCreate;ECDSA;0.142097473145;ms
+SignatureCreate;ECDSA;0.143051147461;ms
+SignatureCreate;ECDSA;0.138044357300;ms
+SignatureCreate;ECDSA;0.171184539795;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.203132629395;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.202894210815;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.164031982422;ms
+SignatureCreate;ECDSA;0.242948532104;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.253915786743;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.324010848999;ms
+SignatureCreate;ECDSA;0.176191329956;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.201940536499;ms
+SignatureCreate;ECDSA;0.281095504761;ms
+SignatureCreate;ECDSA;0.177860260010;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.218152999878;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.154972076416;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.133037567139;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.173807144165;ms
+SignatureCreate;ECDSA;0.227928161621;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.171899795532;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.197887420654;ms
+SignatureCreate;ECDSA;0.190973281860;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.170230865479;ms
+SignatureCreate;ECDSA;0.203847885132;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.193834304810;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.243186950684;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.221967697144;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.218868255615;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.253915786743;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.249862670898;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.181198120117;ms
+SignatureCreate;ECDSA;0.220775604248;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.385999679565;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.226974487305;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.173091888428;ms
+SignatureCreate;ECDSA;0.151872634888;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.149965286255;ms
+SignatureCreate;ECDSA;0.146150588989;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.166893005371;ms
+SignatureCreate;ECDSA;0.198841094971;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.162124633789;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.209093093872;ms
+SignatureCreate;ECDSA;0.182151794434;ms
+SignatureCreate;ECDSA;0.161886215210;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.212907791138;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.222921371460;ms
+SignatureCreate;ECDSA;0.308036804199;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.427007675171;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.247955322266;ms
+SignatureCreate;ECDSA;0.213861465454;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.162124633789;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.163078308105;ms
+SignatureCreate;ECDSA;0.148057937622;ms
+SignatureCreate;ECDSA;0.143051147461;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.135183334351;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.150918960571;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.173091888428;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.155925750732;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.203847885132;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.230073928833;ms
+SignatureCreate;ECDSA;0.417947769165;ms
+SignatureCreate;ECDSA;0.365972518921;ms
+SignatureCreate;ECDSA;0.422000885010;ms
+SignatureCreate;ECDSA;0.372886657715;ms
+SignatureCreate;ECDSA;0.384092330933;ms
+SignatureCreate;ECDSA;0.395059585571;ms
+SignatureCreate;ECDSA;0.413179397583;ms
+SignatureCreate;ECDSA;0.383138656616;ms
+SignatureCreate;ECDSA;0.349044799805;ms
+SignatureCreate;ECDSA;0.350952148438;ms
+SignatureCreate;ECDSA;0.382900238037;ms
+SignatureCreate;ECDSA;0.391960144043;ms
+SignatureCreate;ECDSA;0.303983688354;ms
+SignatureCreate;ECDSA;0.280141830444;ms
+SignatureCreate;ECDSA;0.229120254517;ms
+SignatureCreate;ECDSA;0.233173370361;ms
+SignatureCreate;ECDSA;0.218868255615;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.293016433716;ms
+SignatureCreate;ECDSA;0.208139419556;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.171899795532;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.281095504761;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.197887420654;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.158071517944;ms
+SignatureCreate;ECDSA;0.137805938721;ms
+SignatureCreate;ECDSA;0.258922576904;ms
+SignatureCreate;ECDSA;0.146150588989;ms
+SignatureCreate;ECDSA;0.154972076416;ms
+SignatureCreate;ECDSA;0.152111053467;ms
+SignatureCreate;ECDSA;0.124931335449;ms
+SignatureCreate;ECDSA;0.137090682983;ms
+SignatureCreate;ECDSA;0.144958496094;ms
+SignatureCreate;ECDSA;0.138044357300;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.208139419556;ms
+SignatureCreate;ECDSA;0.173091888428;ms
+SignatureCreate;ECDSA;0.166177749634;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.158786773682;ms
+SignatureCreate;ECDSA;0.157833099365;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.214099884033;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.191926956177;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.201225280762;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.171899795532;ms
+SignatureCreate;ECDSA;0.202894210815;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.236034393311;ms
+SignatureCreate;ECDSA;0.285863876343;ms
+SignatureCreate;ECDSA;0.214099884033;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.186920166016;ms
+SignatureCreate;ECDSA;0.203847885132;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.329971313477;ms
+SignatureCreate;ECDSA;0.279903411865;ms
+SignatureCreate;ECDSA;0.346899032593;ms
+SignatureCreate;ECDSA;0.236034393311;ms
+SignatureCreate;ECDSA;0.285863876343;ms
+SignatureCreate;ECDSA;0.255107879639;ms
+SignatureCreate;ECDSA;0.202894210815;ms
+SignatureCreate;ECDSA;0.221967697144;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.231981277466;ms
+SignatureCreate;ECDSA;0.217914581299;ms
+SignatureCreate;ECDSA;0.256061553955;ms
+SignatureCreate;ECDSA;0.219106674194;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.316858291626;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.209093093872;ms
+SignatureCreate;ECDSA;0.213146209717;ms
+SignatureCreate;ECDSA;0.198841094971;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.206232070923;ms
+SignatureCreate;ECDSA;0.209808349609;ms
+SignatureCreate;ECDSA;0.173807144165;ms
+SignatureCreate;ECDSA;0.207185745239;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.208854675293;ms
+SignatureCreate;ECDSA;0.213146209717;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.221014022827;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.255107879639;ms
+SignatureCreate;ECDSA;0.306844711304;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.139951705933;ms
+SignatureCreate;ECDSA;0.196933746338;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.135183334351;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.160217285156;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.270128250122;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.187158584595;ms
+SignatureCreate;ECDSA;0.221014022827;ms
+SignatureCreate;ECDSA;0.266075134277;ms
+SignatureCreate;ECDSA;0.203847885132;ms
+SignatureCreate;ECDSA;0.181198120117;ms
+SignatureCreate;ECDSA;0.198125839233;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.164031982422;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.235795974731;ms
+SignatureCreate;ECDSA;0.246047973633;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.259876251221;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.231027603149;ms
+SignatureCreate;ECDSA;0.246047973633;ms
+SignatureCreate;ECDSA;0.272989273071;ms
+SignatureCreate;ECDSA;0.206947326660;ms
+SignatureCreate;ECDSA;0.176906585693;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.204086303711;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.217199325562;ms
+SignatureCreate;ECDSA;0.458002090454;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.185012817383;ms
+SignatureCreate;ECDSA;0.188827514648;ms
+SignatureCreate;ECDSA;0.211954116821;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.307083129883;ms
+SignatureCreate;ECDSA;0.236034393311;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.275850296021;ms
+SignatureCreate;ECDSA;0.238895416260;ms
+SignatureCreate;ECDSA;0.207185745239;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.217914581299;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.197887420654;ms
+SignatureCreate;ECDSA;0.176191329956;ms
+SignatureCreate;ECDSA;0.147819519043;ms
+SignatureCreate;ECDSA;0.159978866577;ms
+SignatureCreate;ECDSA;0.154972076416;ms
+SignatureCreate;ECDSA;0.159025192261;ms
+SignatureCreate;ECDSA;0.213861465454;ms
+SignatureCreate;ECDSA;0.288963317871;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.220060348511;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.215053558350;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.167846679688;ms
+SignatureCreate;ECDSA;0.172853469849;ms
+SignatureCreate;ECDSA;0.244855880737;ms
+SignatureCreate;ECDSA;0.332117080688;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.224828720093;ms
+SignatureCreate;ECDSA;0.218868255615;ms
+SignatureCreate;ECDSA;0.201940536499;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.225067138672;ms
+SignatureCreate;ECDSA;0.241994857788;ms
+SignatureCreate;ECDSA;0.235080718994;ms
+SignatureCreate;ECDSA;0.227928161621;ms
+SignatureCreate;ECDSA;0.234842300415;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.283002853394;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.267028808594;ms
+SignatureCreate;ECDSA;0.222921371460;ms
+SignatureCreate;ECDSA;0.208854675293;ms
+SignatureCreate;ECDSA;0.349998474121;ms
+SignatureCreate;ECDSA;0.346899032593;ms
+SignatureCreate;ECDSA;0.167846679688;ms
+SignatureCreate;ECDSA;0.224113464355;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.211954116821;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.194072723389;ms
+SignatureCreate;ECDSA;0.222921371460;ms
+SignatureCreate;ECDSA;0.178098678589;ms
+SignatureCreate;ECDSA;0.152111053467;ms
+SignatureCreate;ECDSA;0.148057937622;ms
+SignatureCreate;ECDSA;0.157117843628;ms
+SignatureCreate;ECDSA;0.154018402100;ms
+SignatureCreate;ECDSA;0.131130218506;ms
+SignatureCreate;ECDSA;0.145196914673;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.183105468750;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.192880630493;ms
+SignatureCreate;ECDSA;0.182151794434;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.241041183472;ms
+SignatureCreate;ECDSA;0.216960906982;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.234127044678;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.170946121216;ms
+SignatureCreate;ECDSA;0.185966491699;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.204801559448;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.289916992188;ms
+SignatureCreate;ECDSA;0.341176986694;ms
+SignatureCreate;ECDSA;0.248908996582;ms
+SignatureCreate;ECDSA;0.192165374756;ms
+SignatureCreate;ECDSA;0.254154205322;ms
+SignatureCreate;ECDSA;0.947952270508;ms
+SignatureCreate;ECDSA;0.346899032593;ms
+SignatureCreate;ECDSA;0.275850296021;ms
+SignatureCreate;ECDSA;0.233888626099;ms
+SignatureCreate;ECDSA;0.236034393311;ms
+SignatureCreate;ECDSA;0.239849090576;ms
+SignatureCreate;ECDSA;0.284194946289;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.273942947388;ms
+SignatureCreate;ECDSA;0.216007232666;ms
+SignatureCreate;ECDSA;0.229120254517;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.232934951782;ms
+SignatureCreate;ECDSA;0.213861465454;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.236988067627;ms
+SignatureCreate;ECDSA;0.188112258911;ms
+SignatureCreate;ECDSA;0.208854675293;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;3.295898437500;ms
+SignatureCreate;ECDSA;0.276088714600;ms
+SignatureCreate;ECDSA;0.344991683960;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.182867050171;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.181913375854;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.148057937622;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.227928161621;ms
+SignatureCreate;ECDSA;0.195980072021;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.166893005371;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.199079513550;ms
+SignatureCreate;ECDSA;0.171184539795;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.203132629395;ms
+SignatureCreate;ECDSA;0.205993652344;ms
+SignatureCreate;ECDSA;0.164031982422;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.190019607544;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.226020812988;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.250101089478;ms
+SignatureCreate;ECDSA;0.247001647949;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.330924987793;ms
+SignatureCreate;ECDSA;0.211000442505;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+SignatureCreate;ECDSA;0.201225280762;ms
+SignatureCreate;ECDSA;0.187873840332;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.167131423950;ms
+SignatureCreate;ECDSA;0.172138214111;ms
+SignatureCreate;ECDSA;0.186204910278;ms
+SignatureCreate;ECDSA;0.156879425049;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.153064727783;ms
+SignatureCreate;ECDSA;0.175952911377;ms
+SignatureCreate;ECDSA;0.140905380249;ms
+SignatureCreate;ECDSA;0.124216079712;ms
+SignatureCreate;ECDSA;0.160932540894;ms
+SignatureCreate;ECDSA;0.156164169312;ms
+SignatureCreate;ECDSA;0.140905380249;ms
+SignatureCreate;ECDSA;0.165939331055;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.174999237061;ms
+SignatureCreate;ECDSA;0.176191329956;ms
+SignatureCreate;ECDSA;0.257015228271;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.238895416260;ms
+SignatureCreate;ECDSA;0.223159790039;ms
+SignatureCreate;ECDSA;0.176191329956;ms
+SignatureCreate;ECDSA;0.181198120117;ms
+SignatureCreate;ECDSA;0.228881835938;ms
+SignatureCreate;ECDSA;0.246047973633;ms
+SignatureCreate;ECDSA;0.303983688354;ms
+SignatureCreate;ECDSA;0.220060348511;ms
+SignatureCreate;ECDSA;0.236034393311;ms
+SignatureCreate;ECDSA;0.238895416260;ms
+SignatureCreate;ECDSA;0.227212905884;ms
+SignatureCreate;ECDSA;0.244855880737;ms
+SignatureCreate;ECDSA;0.235080718994;ms
+SignatureCreate;ECDSA;0.268936157227;ms
+SignatureCreate;ECDSA;0.223875045776;ms
+SignatureCreate;ECDSA;0.262022018433;ms
+SignatureCreate;ECDSA;0.218152999878;ms
+SignatureCreate;ECDSA;0.256061553955;ms
+SignatureCreate;ECDSA;0.235080718994;ms
+SignatureCreate;ECDSA;0.254869461060;ms
+SignatureCreate;ECDSA;0.422000885010;ms
+SignatureCreate;ECDSA;0.251054763794;ms
+SignatureCreate;ECDSA;0.210046768188;ms
+SignatureCreate;ECDSA;0.261068344116;ms
+SignatureCreate;ECDSA;0.197887420654;ms
+SignatureCreate;ECDSA;0.169038772583;ms
+SignatureCreate;ECDSA;0.174045562744;ms
+SignatureCreate;ECDSA;0.193119049072;ms
+SignatureCreate;ECDSA;0.205039978027;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.184059143066;ms
+SignatureCreate;ECDSA;0.183820724487;ms
+SignatureCreate;ECDSA;0.268936157227;ms
+SignatureCreate;ECDSA;0.164031982422;ms
+SignatureCreate;ECDSA;0.162839889526;ms
+SignatureCreate;ECDSA;0.288009643555;ms
+SignatureCreate;ECDSA;0.164985656738;ms
+SignatureCreate;ECDSA;0.178813934326;ms
+SignatureCreate;ECDSA;0.180959701538;ms
+SignatureCreate;ECDSA;0.198841094971;ms
+SignatureCreate;ECDSA;0.179052352905;ms
+SignatureCreate;ECDSA;0.177145004272;ms
+SignatureCreate;ECDSA;0.178813934326;ms
+SignatureCreate;ECDSA;0.200033187866;ms
+SignatureCreate;ECDSA;0.180006027222;ms
+SignatureCreate;ECDSA;0.169992446899;ms
+SignatureCreate;ECDSA;0.168085098267;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.161170959473;ms
+SignatureCreate;ECDSA;0.173091888428;ms
+SignatureCreate;ECDSA;1.717805862427;ms
+SignatureCreate;ECDSA;0.195026397705;ms
+SignatureCreate;ECDSA;0.200986862183;ms
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;92;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;92;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+signatureSizeECDSA;96;Bytes;data in transaction args
+TransactionCreate;ECDSA;0.627040863037;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.620126724243;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.271081924438;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.330924987793;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.280141830444;ms
+TransactionCreate;ECDSA;0.339984893799;ms
+TransactionCreate;ECDSA;0.265836715698;ms
+TransactionCreate;ECDSA;0.265836715698;ms
+TransactionCreate;ECDSA;0.272035598755;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.275850296021;ms
+TransactionCreate;ECDSA;0.479936599731;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.260114669800;ms
+TransactionCreate;ECDSA;0.274896621704;ms
+TransactionCreate;ECDSA;0.257015228271;ms
+TransactionCreate;ECDSA;0.457048416138;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.403881072998;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.756025314331;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.275850296021;ms
+TransactionCreate;ECDSA;0.340938568115;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.463962554932;ms
+TransactionCreate;ECDSA;0.322103500366;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.247955322266;ms
+TransactionCreate;ECDSA;0.285148620605;ms
+TransactionCreate;ECDSA;0.337839126587;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.306129455566;ms
+TransactionCreate;ECDSA;0.326871871948;ms
+TransactionCreate;ECDSA;0.255823135376;ms
+TransactionCreate;ECDSA;0.307083129883;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.272989273071;ms
+TransactionCreate;ECDSA;0.264883041382;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.334978103638;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.257015228271;ms
+TransactionCreate;ECDSA;0.267028808594;ms
+TransactionCreate;ECDSA;0.323057174683;ms
+TransactionCreate;ECDSA;0.415086746216;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.391960144043;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.271081924438;ms
+TransactionCreate;ECDSA;0.290870666504;ms
+TransactionCreate;ECDSA;0.272035598755;ms
+TransactionCreate;ECDSA;0.252962112427;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.306844711304;ms
+TransactionCreate;ECDSA;0.246047973633;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.260829925537;ms
+TransactionCreate;ECDSA;0.305175781250;ms
+TransactionCreate;ECDSA;0.307083129883;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.270128250122;ms
+TransactionCreate;ECDSA;1.262903213501;ms
+TransactionCreate;ECDSA;0.366926193237;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.277996063232;ms
+TransactionCreate;ECDSA;0.266075134277;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.290155410767;ms
+TransactionCreate;ECDSA;0.374078750610;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.268936157227;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.299215316772;ms
+TransactionCreate;ECDSA;0.408172607422;ms
+TransactionCreate;ECDSA;0.299215316772;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.403165817261;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.316858291626;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.380992889404;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.290155410767;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.543117523193;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.293016433716;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.406980514526;ms
+TransactionCreate;ECDSA;0.323057174683;ms
+TransactionCreate;ECDSA;0.421047210693;ms
+TransactionCreate;ECDSA;0.432968139648;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.360012054443;ms
+TransactionCreate;ECDSA;0.353813171387;ms
+TransactionCreate;ECDSA;0.271797180176;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.328063964844;ms
+TransactionCreate;ECDSA;0.306129455566;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.357866287231;ms
+TransactionCreate;ECDSA;0.266075134277;ms
+TransactionCreate;ECDSA;0.439167022705;ms
+TransactionCreate;ECDSA;0.453948974609;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.252962112427;ms
+TransactionCreate;ECDSA;0.254154205322;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.382900238037;ms
+TransactionCreate;ECDSA;0.577926635742;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.312089920044;ms
+TransactionCreate;ECDSA;0.379085540771;ms
+TransactionCreate;ECDSA;0.359058380127;ms
+TransactionCreate;ECDSA;0.858068466187;ms
+TransactionCreate;ECDSA;0.274896621704;ms
+TransactionCreate;ECDSA;0.241041183472;ms
+TransactionCreate;ECDSA;0.247001647949;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;0.310897827148;ms
+TransactionCreate;ECDSA;0.363111495972;ms
+TransactionCreate;ECDSA;0.289916992188;ms
+TransactionCreate;ECDSA;0.274181365967;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.391960144043;ms
+TransactionCreate;ECDSA;0.304937362671;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.342130661011;ms
+TransactionCreate;ECDSA;0.318050384521;ms
+TransactionCreate;ECDSA;0.351905822754;ms
+TransactionCreate;ECDSA;0.648975372314;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.332117080688;ms
+TransactionCreate;ECDSA;0.372886657715;ms
+TransactionCreate;ECDSA;0.398874282837;ms
+TransactionCreate;ECDSA;0.344038009644;ms
+TransactionCreate;ECDSA;0.581026077271;ms
+TransactionCreate;ECDSA;0.706911087036;ms
+TransactionCreate;ECDSA;0.871896743774;ms
+TransactionCreate;ECDSA;0.379085540771;ms
+TransactionCreate;ECDSA;0.368118286133;ms
+TransactionCreate;ECDSA;0.452041625977;ms
+TransactionCreate;ECDSA;0.374794006348;ms
+TransactionCreate;ECDSA;0.628948211670;ms
+TransactionCreate;ECDSA;0.497102737427;ms
+TransactionCreate;ECDSA;0.877857208252;ms
+TransactionCreate;ECDSA;0.351905822754;ms
+TransactionCreate;ECDSA;1.013040542603;ms
+TransactionCreate;ECDSA;0.479936599731;ms
+TransactionCreate;ECDSA;0.628948211670;ms
+TransactionCreate;ECDSA;0.353813171387;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.397205352783;ms
+TransactionCreate;ECDSA;0.377893447876;ms
+TransactionCreate;ECDSA;0.254869461060;ms
+TransactionCreate;ECDSA;0.235080718994;ms
+TransactionCreate;ECDSA;0.298976898193;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.269889831543;ms
+TransactionCreate;ECDSA;0.468969345093;ms
+TransactionCreate;ECDSA;0.402927398682;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.310897827148;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.333070755005;ms
+TransactionCreate;ECDSA;0.622987747192;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.321149826050;ms
+TransactionCreate;ECDSA;0.233888626099;ms
+TransactionCreate;ECDSA;0.226020812988;ms
+TransactionCreate;ECDSA;0.267028808594;ms
+TransactionCreate;ECDSA;0.334978103638;ms
+TransactionCreate;ECDSA;0.382184982300;ms
+TransactionCreate;ECDSA;0.391960144043;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.246047973633;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.307083129883;ms
+TransactionCreate;ECDSA;0.385999679565;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.252962112427;ms
+TransactionCreate;ECDSA;0.272989273071;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.410079956055;ms
+TransactionCreate;ECDSA;0.383853912354;ms
+TransactionCreate;ECDSA;0.351190567017;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.305891036987;ms
+TransactionCreate;ECDSA;0.426054000854;ms
+TransactionCreate;ECDSA;0.337123870850;ms
+TransactionCreate;ECDSA;0.305891036987;ms
+TransactionCreate;ECDSA;0.381946563721;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.350952148438;ms
+TransactionCreate;ECDSA;0.285863876343;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.253200531006;ms
+TransactionCreate;ECDSA;0.236988067627;ms
+TransactionCreate;ECDSA;0.580072402954;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.311136245728;ms
+TransactionCreate;ECDSA;0.290870666504;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.290155410767;ms
+TransactionCreate;ECDSA;0.277996063232;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.365972518921;ms
+TransactionCreate;ECDSA;0.509023666382;ms
+TransactionCreate;ECDSA;0.349044799805;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.439167022705;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.316143035889;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.304937362671;ms
+TransactionCreate;ECDSA;0.286817550659;ms
+TransactionCreate;ECDSA;0.310897827148;ms
+TransactionCreate;ECDSA;0.431060791016;ms
+TransactionCreate;ECDSA;0.345945358276;ms
+TransactionCreate;ECDSA;0.360965728760;ms
+TransactionCreate;ECDSA;0.440120697021;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.339031219482;ms
+TransactionCreate;ECDSA;0.440120697021;ms
+TransactionCreate;ECDSA;0.416994094849;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.293016433716;ms
+TransactionCreate;ECDSA;0.397920608521;ms
+TransactionCreate;ECDSA;0.401020050049;ms
+TransactionCreate;ECDSA;0.331163406372;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.261783599854;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.226974487305;ms
+TransactionCreate;ECDSA;0.419855117798;ms
+TransactionCreate;ECDSA;1.435041427612;ms
+TransactionCreate;ECDSA;0.305891036987;ms
+TransactionCreate;ECDSA;0.300884246826;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.368118286133;ms
+TransactionCreate;ECDSA;0.395059585571;ms
+TransactionCreate;ECDSA;0.348091125488;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.298976898193;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.252008438110;ms
+TransactionCreate;ECDSA;0.468015670776;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.451087951660;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.247955322266;ms
+TransactionCreate;ECDSA;0.400781631470;ms
+TransactionCreate;ECDSA;0.422000885010;ms
+TransactionCreate;ECDSA;0.468015670776;ms
+TransactionCreate;ECDSA;0.351905822754;ms
+TransactionCreate;ECDSA;0.321865081787;ms
+TransactionCreate;ECDSA;0.292778015137;ms
+TransactionCreate;ECDSA;0.322103500366;ms
+TransactionCreate;ECDSA;0.252962112427;ms
+TransactionCreate;ECDSA;0.338077545166;ms
+TransactionCreate;ECDSA;0.274896621704;ms
+TransactionCreate;ECDSA;0.230073928833;ms
+TransactionCreate;ECDSA;0.251054763794;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.432014465332;ms
+TransactionCreate;ECDSA;0.291824340820;ms
+TransactionCreate;ECDSA;0.300168991089;ms
+TransactionCreate;ECDSA;0.265121459961;ms
+TransactionCreate;ECDSA;0.305175781250;ms
+TransactionCreate;ECDSA;0.368118286133;ms
+TransactionCreate;ECDSA;0.386953353882;ms
+TransactionCreate;ECDSA;0.756025314331;ms
+TransactionCreate;ECDSA;0.624179840088;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.367879867554;ms
+TransactionCreate;ECDSA;0.551223754883;ms
+TransactionCreate;ECDSA;0.325918197632;ms
+TransactionCreate;ECDSA;0.447988510132;ms
+TransactionCreate;ECDSA;0.416994094849;ms
+TransactionCreate;ECDSA;0.312089920044;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.241994857788;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.519990921021;ms
+TransactionCreate;ECDSA;0.402212142944;ms
+TransactionCreate;ECDSA;0.265121459961;ms
+TransactionCreate;ECDSA;0.281810760498;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.424861907959;ms
+TransactionCreate;ECDSA;0.458955764771;ms
+TransactionCreate;ECDSA;0.500917434692;ms
+TransactionCreate;ECDSA;0.328063964844;ms
+TransactionCreate;ECDSA;0.401973724365;ms
+TransactionCreate;ECDSA;0.375986099243;ms
+TransactionCreate;ECDSA;0.363111495972;ms
+TransactionCreate;ECDSA;0.348091125488;ms
+TransactionCreate;ECDSA;0.419139862061;ms
+TransactionCreate;ECDSA;0.377893447876;ms
+TransactionCreate;ECDSA;0.610828399658;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.398874282837;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.416040420532;ms
+TransactionCreate;ECDSA;0.337123870850;ms
+TransactionCreate;ECDSA;0.510931015015;ms
+TransactionCreate;ECDSA;0.522136688232;ms
+TransactionCreate;ECDSA;0.360965728760;ms
+TransactionCreate;ECDSA;0.411033630371;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.307083129883;ms
+TransactionCreate;ECDSA;0.269889831543;ms
+TransactionCreate;ECDSA;0.396966934204;ms
+TransactionCreate;ECDSA;0.360012054443;ms
+TransactionCreate;ECDSA;0.264883041382;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.266075134277;ms
+TransactionCreate;ECDSA;0.447988510132;ms
+TransactionCreate;ECDSA;0.333070755005;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;1.137018203735;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.905036926270;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.500917434692;ms
+TransactionCreate;ECDSA;0.686883926392;ms
+TransactionCreate;ECDSA;0.339984893799;ms
+TransactionCreate;ECDSA;0.580072402954;ms
+TransactionCreate;ECDSA;0.335931777954;ms
+TransactionCreate;ECDSA;0.300884246826;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.373840332031;ms
+TransactionCreate;ECDSA;0.306129455566;ms
+TransactionCreate;ECDSA;0.458002090454;ms
+TransactionCreate;ECDSA;0.693082809448;ms
+TransactionCreate;ECDSA;0.362157821655;ms
+TransactionCreate;ECDSA;0.319957733154;ms
+TransactionCreate;ECDSA;0.325918197632;ms
+TransactionCreate;ECDSA;0.302076339722;ms
+TransactionCreate;ECDSA;0.396013259888;ms
+TransactionCreate;ECDSA;0.336885452271;ms
+TransactionCreate;ECDSA;0.343084335327;ms
+TransactionCreate;ECDSA;1.776933670044;ms
+TransactionCreate;ECDSA;0.448942184448;ms
+TransactionCreate;ECDSA;0.323057174683;ms
+TransactionCreate;ECDSA;0.322818756104;ms
+TransactionCreate;ECDSA;0.334978103638;ms
+TransactionCreate;ECDSA;0.539064407349;ms
+TransactionCreate;ECDSA;0.458955764771;ms
+TransactionCreate;ECDSA;0.520944595337;ms
+TransactionCreate;ECDSA;0.479936599731;ms
+TransactionCreate;ECDSA;0.782012939453;ms
+TransactionCreate;ECDSA;0.540018081665;ms
+TransactionCreate;ECDSA;0.556945800781;ms
+TransactionCreate;ECDSA;0.434875488281;ms
+TransactionCreate;ECDSA;0.459909439087;ms
+TransactionCreate;ECDSA;0.347137451172;ms
+TransactionCreate;ECDSA;0.364065170288;ms
+TransactionCreate;ECDSA;0.393867492676;ms
+TransactionCreate;ECDSA;0.377178192139;ms
+TransactionCreate;ECDSA;0.408887863159;ms
+TransactionCreate;ECDSA;0.378131866455;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.566959381104;ms
+TransactionCreate;ECDSA;0.439882278442;ms
+TransactionCreate;ECDSA;0.349044799805;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.250101089478;ms
+TransactionCreate;ECDSA;0.247001647949;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.272035598755;ms
+TransactionCreate;ECDSA;0.290870666504;ms
+TransactionCreate;ECDSA;0.284910202026;ms
+TransactionCreate;ECDSA;0.233173370361;ms
+TransactionCreate;ECDSA;0.258207321167;ms
+TransactionCreate;ECDSA;0.236034393311;ms
+TransactionCreate;ECDSA;0.226020812988;ms
+TransactionCreate;ECDSA;0.226974487305;ms
+TransactionCreate;ECDSA;0.221014022827;ms
+TransactionCreate;ECDSA;0.270128250122;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.282049179077;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.272989273071;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.289916992188;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.297784805298;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.400066375732;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.318050384521;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.269889831543;ms
+TransactionCreate;ECDSA;0.289916992188;ms
+TransactionCreate;ECDSA;0.442981719971;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.319957733154;ms
+TransactionCreate;ECDSA;0.306844711304;ms
+TransactionCreate;ECDSA;0.400066375732;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.352144241333;ms
+TransactionCreate;ECDSA;0.438213348389;ms
+TransactionCreate;ECDSA;0.340938568115;ms
+TransactionCreate;ECDSA;0.280141830444;ms
+TransactionCreate;ECDSA;0.247955322266;ms
+TransactionCreate;ECDSA;0.241041183472;ms
+TransactionCreate;ECDSA;0.214099884033;ms
+TransactionCreate;ECDSA;0.231981277466;ms
+TransactionCreate;ECDSA;0.249862670898;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.327825546265;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.276803970337;ms
+TransactionCreate;ECDSA;0.345945358276;ms
+TransactionCreate;ECDSA;0.356912612915;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.351190567017;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.294208526611;ms
+TransactionCreate;ECDSA;0.329971313477;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.301837921143;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.297069549561;ms
+TransactionCreate;ECDSA;0.251054763794;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.305891036987;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.327110290527;ms
+TransactionCreate;ECDSA;0.329971313477;ms
+TransactionCreate;ECDSA;0.335931777954;ms
+TransactionCreate;ECDSA;0.361919403076;ms
+TransactionCreate;ECDSA;0.289916992188;ms
+TransactionCreate;ECDSA;0.296831130981;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.286817550659;ms
+TransactionCreate;ECDSA;0.348806381226;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.270843505859;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.348091125488;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.326156616211;ms
+TransactionCreate;ECDSA;0.347137451172;ms
+TransactionCreate;ECDSA;0.365972518921;ms
+TransactionCreate;ECDSA;0.426054000854;ms
+TransactionCreate;ECDSA;0.337839126587;ms
+TransactionCreate;ECDSA;0.655889511108;ms
+TransactionCreate;ECDSA;0.685930252075;ms
+TransactionCreate;ECDSA;0.304937362671;ms
+TransactionCreate;ECDSA;0.448942184448;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.402927398682;ms
+TransactionCreate;ECDSA;0.397920608521;ms
+TransactionCreate;ECDSA;0.272989273071;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.325918197632;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.502109527588;ms
+TransactionCreate;ECDSA;0.478982925415;ms
+TransactionCreate;ECDSA;0.336885452271;ms
+TransactionCreate;ECDSA;0.282049179077;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.242948532104;ms
+TransactionCreate;ECDSA;0.252962112427;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.255823135376;ms
+TransactionCreate;ECDSA;0.238895416260;ms
+TransactionCreate;ECDSA;0.234127044678;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.302076339722;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.301837921143;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.291109085083;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.329971313477;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.376939773560;ms
+TransactionCreate;ECDSA;0.398874282837;ms
+TransactionCreate;ECDSA;0.449895858765;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.560045242310;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.260114669800;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.383138656616;ms
+TransactionCreate;ECDSA;0.346899032593;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.253915786743;ms
+TransactionCreate;ECDSA;0.259876251221;ms
+TransactionCreate;ECDSA;0.316858291626;ms
+TransactionCreate;ECDSA;0.333786010742;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.231981277466;ms
+TransactionCreate;ECDSA;0.231027603149;ms
+TransactionCreate;ECDSA;0.247955322266;ms
+TransactionCreate;ECDSA;0.218868255615;ms
+TransactionCreate;ECDSA;0.266075134277;ms
+TransactionCreate;ECDSA;0.275135040283;ms
+TransactionCreate;ECDSA;0.231027603149;ms
+TransactionCreate;ECDSA;0.247001647949;ms
+TransactionCreate;ECDSA;0.243902206421;ms
+TransactionCreate;ECDSA;0.243902206421;ms
+TransactionCreate;ECDSA;0.241994857788;ms
+TransactionCreate;ECDSA;0.279188156128;ms
+TransactionCreate;ECDSA;0.250101089478;ms
+TransactionCreate;ECDSA;0.380039215088;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;1.229047775269;ms
+TransactionCreate;ECDSA;0.376939773560;ms
+TransactionCreate;ECDSA;0.279903411865;ms
+TransactionCreate;ECDSA;0.284910202026;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.250101089478;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.763177871704;ms
+TransactionCreate;ECDSA;0.356912612915;ms
+TransactionCreate;ECDSA;0.634908676147;ms
+TransactionCreate;ECDSA;0.564813613892;ms
+TransactionCreate;ECDSA;0.640869140625;ms
+TransactionCreate;ECDSA;0.624895095825;ms
+TransactionCreate;ECDSA;0.591993331909;ms
+TransactionCreate;ECDSA;0.608921051025;ms
+TransactionCreate;ECDSA;0.632047653198;ms
+TransactionCreate;ECDSA;0.591993331909;ms
+TransactionCreate;ECDSA;0.551939010620;ms
+TransactionCreate;ECDSA;0.561952590942;ms
+TransactionCreate;ECDSA;0.609874725342;ms
+TransactionCreate;ECDSA;0.608921051025;ms
+TransactionCreate;ECDSA;0.479936599731;ms
+TransactionCreate;ECDSA;0.430107116699;ms
+TransactionCreate;ECDSA;0.357866287231;ms
+TransactionCreate;ECDSA;0.370025634766;ms
+TransactionCreate;ECDSA;0.336885452271;ms
+TransactionCreate;ECDSA;0.338077545166;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.312089920044;ms
+TransactionCreate;ECDSA;0.412940979004;ms
+TransactionCreate;ECDSA;0.330209732056;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.447034835815;ms
+TransactionCreate;ECDSA;0.342845916748;ms
+TransactionCreate;ECDSA;0.304937362671;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.262022018433;ms
+TransactionCreate;ECDSA;0.234842300415;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.230073928833;ms
+TransactionCreate;ECDSA;0.246047973633;ms
+TransactionCreate;ECDSA;0.244140625000;ms
+TransactionCreate;ECDSA;0.195980072021;ms
+TransactionCreate;ECDSA;0.218868255615;ms
+TransactionCreate;ECDSA;0.231027603149;ms
+TransactionCreate;ECDSA;0.215768814087;ms
+TransactionCreate;ECDSA;0.242948532104;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.282049179077;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.301122665405;ms
+TransactionCreate;ECDSA;0.266790390015;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.251054763794;ms
+TransactionCreate;ECDSA;0.261068344116;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.292778015137;ms
+TransactionCreate;ECDSA;0.256061553955;ms
+TransactionCreate;ECDSA;0.324964523315;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.300884246826;ms
+TransactionCreate;ECDSA;0.310897827148;ms
+TransactionCreate;ECDSA;0.291824340820;ms
+TransactionCreate;ECDSA;0.303983688354;ms
+TransactionCreate;ECDSA;0.334024429321;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.309944152832;ms
+TransactionCreate;ECDSA;0.317096710205;ms
+TransactionCreate;ECDSA;0.349044799805;ms
+TransactionCreate;ECDSA;0.446081161499;ms
+TransactionCreate;ECDSA;0.317096710205;ms
+TransactionCreate;ECDSA;0.295877456665;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.291824340820;ms
+TransactionCreate;ECDSA;0.288963317871;ms
+TransactionCreate;ECDSA;0.467061996460;ms
+TransactionCreate;ECDSA;0.418901443481;ms
+TransactionCreate;ECDSA;0.521183013916;ms
+TransactionCreate;ECDSA;0.425100326538;ms
+TransactionCreate;ECDSA;0.425100326538;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.334024429321;ms
+TransactionCreate;ECDSA;0.390768051147;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.394105911255;ms
+TransactionCreate;ECDSA;0.417947769165;ms
+TransactionCreate;ECDSA;0.392913818359;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.371932983398;ms
+TransactionCreate;ECDSA;0.468969345093;ms
+TransactionCreate;ECDSA;0.362157821655;ms
+TransactionCreate;ECDSA;0.291824340820;ms
+TransactionCreate;ECDSA;0.284910202026;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.380039215088;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.360012054443;ms
+TransactionCreate;ECDSA;0.305175781250;ms
+TransactionCreate;ECDSA;0.272035598755;ms
+TransactionCreate;ECDSA;0.237941741943;ms
+TransactionCreate;ECDSA;0.333070755005;ms
+TransactionCreate;ECDSA;0.290870666504;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.318050384521;ms
+TransactionCreate;ECDSA;0.304937362671;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.321865081787;ms
+TransactionCreate;ECDSA;0.324010848999;ms
+TransactionCreate;ECDSA;0.327110290527;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.312089920044;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.403165817261;ms
+TransactionCreate;ECDSA;0.412940979004;ms
+TransactionCreate;ECDSA;0.322818756104;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.265121459961;ms
+TransactionCreate;ECDSA;0.226974487305;ms
+TransactionCreate;ECDSA;0.301122665405;ms
+TransactionCreate;ECDSA;0.252008438110;ms
+TransactionCreate;ECDSA;0.228166580200;ms
+TransactionCreate;ECDSA;0.255107879639;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.247955322266;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.413179397583;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.326871871948;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.388860702515;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.311136245728;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.316143035889;ms
+TransactionCreate;ECDSA;0.273227691650;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.260114669800;ms
+TransactionCreate;ECDSA;0.283956527710;ms
+TransactionCreate;ECDSA;0.290155410767;ms
+TransactionCreate;ECDSA;0.263214111328;ms
+TransactionCreate;ECDSA;0.277996063232;ms
+TransactionCreate;ECDSA;0.329017639160;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.323057174683;ms
+TransactionCreate;ECDSA;0.413179397583;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.347852706909;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.392913818359;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.272989273071;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.323057174683;ms
+TransactionCreate;ECDSA;0.299930572510;ms
+TransactionCreate;ECDSA;0.625133514404;ms
+TransactionCreate;ECDSA;0.783920288086;ms
+TransactionCreate;ECDSA;0.270128250122;ms
+TransactionCreate;ECDSA;0.284910202026;ms
+TransactionCreate;ECDSA;0.292062759399;ms
+TransactionCreate;ECDSA;0.322103500366;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.459194183350;ms
+TransactionCreate;ECDSA;0.370025634766;ms
+TransactionCreate;ECDSA;0.363111495972;ms
+TransactionCreate;ECDSA;0.408887863159;ms
+TransactionCreate;ECDSA;0.392913818359;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.277042388916;ms
+TransactionCreate;ECDSA;0.335931777954;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.257015228271;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.273942947388;ms
+TransactionCreate;ECDSA;0.240087509155;ms
+TransactionCreate;ECDSA;0.253915786743;ms
+TransactionCreate;ECDSA;0.248193740845;ms
+TransactionCreate;ECDSA;0.271797180176;ms
+TransactionCreate;ECDSA;0.338077545166;ms
+TransactionCreate;ECDSA;0.440120697021;ms
+TransactionCreate;ECDSA;0.302791595459;ms
+TransactionCreate;ECDSA;0.376939773560;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.300168991089;ms
+TransactionCreate;ECDSA;0.263929367065;ms
+TransactionCreate;ECDSA;0.267982482910;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.319004058838;ms
+TransactionCreate;ECDSA;0.274896621704;ms
+TransactionCreate;ECDSA;0.276803970337;ms
+TransactionCreate;ECDSA;0.390052795410;ms
+TransactionCreate;ECDSA;0.448942184448;ms
+TransactionCreate;ECDSA;0.317096710205;ms
+TransactionCreate;ECDSA;0.354051589966;ms
+TransactionCreate;ECDSA;0.321149826050;ms
+TransactionCreate;ECDSA;0.373840332031;ms
+TransactionCreate;ECDSA;0.339984893799;ms
+TransactionCreate;ECDSA;0.312089920044;ms
+TransactionCreate;ECDSA;0.368118286133;ms
+TransactionCreate;ECDSA;0.375032424927;ms
+TransactionCreate;ECDSA;0.378847122192;ms
+TransactionCreate;ECDSA;0.371932983398;ms
+TransactionCreate;ECDSA;0.395059585571;ms
+TransactionCreate;ECDSA;0.360965728760;ms
+TransactionCreate;ECDSA;0.365972518921;ms
+TransactionCreate;ECDSA;0.405073165894;ms
+TransactionCreate;ECDSA;0.422954559326;ms
+TransactionCreate;ECDSA;0.334024429321;ms
+TransactionCreate;ECDSA;0.393867492676;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.349044799805;ms
+TransactionCreate;ECDSA;0.518798828125;ms
+TransactionCreate;ECDSA;0.466108322144;ms
+TransactionCreate;ECDSA;0.265121459961;ms
+TransactionCreate;ECDSA;0.349044799805;ms
+TransactionCreate;ECDSA;0.267028808594;ms
+TransactionCreate;ECDSA;0.345945358276;ms
+TransactionCreate;ECDSA;0.303030014038;ms
+TransactionCreate;ECDSA;0.293016433716;ms
+TransactionCreate;ECDSA;0.381946563721;ms
+TransactionCreate;ECDSA;0.300168991089;ms
+TransactionCreate;ECDSA;0.231981277466;ms
+TransactionCreate;ECDSA;0.232934951782;ms
+TransactionCreate;ECDSA;0.253915786743;ms
+TransactionCreate;ECDSA;0.235080718994;ms
+TransactionCreate;ECDSA;0.207185745239;ms
+TransactionCreate;ECDSA;0.227928161621;ms
+TransactionCreate;ECDSA;0.276803970337;ms
+TransactionCreate;ECDSA;0.297069549561;ms
+TransactionCreate;ECDSA;0.273942947388;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.275135040283;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.301122665405;ms
+TransactionCreate;ECDSA;0.345945358276;ms
+TransactionCreate;ECDSA;0.293970108032;ms
+TransactionCreate;ECDSA;0.319957733154;ms
+TransactionCreate;ECDSA;0.270128250122;ms
+TransactionCreate;ECDSA;0.302791595459;ms
+TransactionCreate;ECDSA;0.326871871948;ms
+TransactionCreate;ECDSA;0.343084335327;ms
+TransactionCreate;ECDSA;0.365018844604;ms
+TransactionCreate;ECDSA;0.437974929810;ms
+TransactionCreate;ECDSA;0.503063201904;ms
+TransactionCreate;ECDSA;0.364065170288;ms
+TransactionCreate;ECDSA;0.387907028198;ms
+TransactionCreate;ECDSA;0.355958938599;ms
+TransactionCreate;ECDSA;1.735925674438;ms
+TransactionCreate;ECDSA;0.496864318848;ms
+TransactionCreate;ECDSA;0.407934188843;ms
+TransactionCreate;ECDSA;0.362157821655;ms
+TransactionCreate;ECDSA;0.384092330933;ms
+TransactionCreate;ECDSA;0.366926193237;ms
+TransactionCreate;ECDSA;0.422954559326;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.425100326538;ms
+TransactionCreate;ECDSA;0.365972518921;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.381946563721;ms
+TransactionCreate;ECDSA;0.358104705811;ms
+TransactionCreate;ECDSA;0.324964523315;ms
+TransactionCreate;ECDSA;0.315904617310;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.360012054443;ms
+TransactionCreate;ECDSA;0.301837921143;ms
+TransactionCreate;ECDSA;0.320911407471;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.271081924438;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.272035598755;ms
+TransactionCreate;ECDSA;3.489971160889;ms
+TransactionCreate;ECDSA;0.422000885010;ms
+TransactionCreate;ECDSA;0.455141067505;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.289916992188;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.308036804199;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.748872756958;ms
+TransactionCreate;ECDSA;0.294923782349;ms
+TransactionCreate;ECDSA;0.298976898193;ms
+TransactionCreate;ECDSA;0.330924987793;ms
+TransactionCreate;ECDSA;0.311136245728;ms
+TransactionCreate;ECDSA;0.264167785645;ms
+TransactionCreate;ECDSA;0.233888626099;ms
+TransactionCreate;ECDSA;0.271081924438;ms
+TransactionCreate;ECDSA;0.349998474121;ms
+TransactionCreate;ECDSA;0.302076339722;ms
+TransactionCreate;ECDSA;0.266075134277;ms
+TransactionCreate;ECDSA;0.257968902588;ms
+TransactionCreate;ECDSA;0.252008438110;ms
+TransactionCreate;ECDSA;0.318765640259;ms
+TransactionCreate;ECDSA;0.264883041382;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionCreate;ECDSA;0.326871871948;ms
+TransactionCreate;ECDSA;0.260114669800;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.281095504761;ms
+TransactionCreate;ECDSA;0.278949737549;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.291109085083;ms
+TransactionCreate;ECDSA;0.267028808594;ms
+TransactionCreate;ECDSA;0.390052795410;ms
+TransactionCreate;ECDSA;0.273942947388;ms
+TransactionCreate;ECDSA;0.383853912354;ms
+TransactionCreate;ECDSA;0.612020492554;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.590085983276;ms
+TransactionCreate;ECDSA;0.345945358276;ms
+TransactionCreate;ECDSA;0.313997268677;ms
+TransactionCreate;ECDSA;0.339031219482;ms
+TransactionCreate;ECDSA;0.282049179077;ms
+TransactionCreate;ECDSA;0.243186950684;ms
+TransactionCreate;ECDSA;0.287055969238;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.265836715698;ms
+TransactionCreate;ECDSA;0.293016433716;ms
+TransactionCreate;ECDSA;0.246047973633;ms
+TransactionCreate;ECDSA;0.260114669800;ms
+TransactionCreate;ECDSA;0.249862670898;ms
+TransactionCreate;ECDSA;0.298023223877;ms
+TransactionCreate;ECDSA;0.231027603149;ms
+TransactionCreate;ECDSA;0.201940536499;ms
+TransactionCreate;ECDSA;0.275850296021;ms
+TransactionCreate;ECDSA;0.248908996582;ms
+TransactionCreate;ECDSA;0.225067138672;ms
+TransactionCreate;ECDSA;0.265121459961;ms
+TransactionCreate;ECDSA;0.285148620605;ms
+TransactionCreate;ECDSA;0.284194946289;ms
+TransactionCreate;ECDSA;0.307798385620;ms
+TransactionCreate;ECDSA;0.305175781250;ms
+TransactionCreate;ECDSA;0.384807586670;ms
+TransactionCreate;ECDSA;0.296115875244;ms
+TransactionCreate;ECDSA;0.360965728760;ms
+TransactionCreate;ECDSA;0.391960144043;ms
+TransactionCreate;ECDSA;0.280857086182;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.358819961548;ms
+TransactionCreate;ECDSA;0.387191772461;ms
+TransactionCreate;ECDSA;0.476837158203;ms
+TransactionCreate;ECDSA;0.391006469727;ms
+TransactionCreate;ECDSA;0.356912612915;ms
+TransactionCreate;ECDSA;0.360012054443;ms
+TransactionCreate;ECDSA;0.370979309082;ms
+TransactionCreate;ECDSA;0.376939773560;ms
+TransactionCreate;ECDSA;0.355005264282;ms
+TransactionCreate;ECDSA;0.410079956055;ms
+TransactionCreate;ECDSA;0.344991683960;ms
+TransactionCreate;ECDSA;0.385046005249;ms
+TransactionCreate;ECDSA;0.331878662109;ms
+TransactionCreate;ECDSA;0.391960144043;ms
+TransactionCreate;ECDSA;0.375986099243;ms
+TransactionCreate;ECDSA;0.404119491577;ms
+TransactionCreate;ECDSA;0.576972961426;ms
+TransactionCreate;ECDSA;0.552177429199;ms
+TransactionCreate;ECDSA;0.342845916748;ms
+TransactionCreate;ECDSA;0.390052795410;ms
+TransactionCreate;ECDSA;0.309944152832;ms
+TransactionCreate;ECDSA;0.275135040283;ms
+TransactionCreate;ECDSA;0.285148620605;ms
+TransactionCreate;ECDSA;0.335931777954;ms
+TransactionCreate;ECDSA;0.308990478516;ms
+TransactionCreate;ECDSA;0.284910202026;ms
+TransactionCreate;ECDSA;0.295162200928;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.388860702515;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.262975692749;ms
+TransactionCreate;ECDSA;0.419139862061;ms
+TransactionCreate;ECDSA;0.263929367065;ms
+TransactionCreate;ECDSA;0.285863876343;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.297069549561;ms
+TransactionCreate;ECDSA;0.313043594360;ms
+TransactionCreate;ECDSA;0.288009643555;ms
+TransactionCreate;ECDSA;0.283002853394;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.286102294922;ms
+TransactionCreate;ECDSA;0.274181365967;ms
+TransactionCreate;ECDSA;0.264167785645;ms
+TransactionCreate;ECDSA;0.304222106934;ms
+TransactionCreate;ECDSA;0.258922576904;ms
+TransactionCreate;ECDSA;0.276088714600;ms
+TransactionCreate;ECDSA;1.993894577026;ms
+TransactionCreate;ECDSA;0.314950942993;ms
+TransactionCreate;ECDSA;0.311851501465;ms
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+TransactionSize;ECDSA;172;Bytes
+#############################################################
