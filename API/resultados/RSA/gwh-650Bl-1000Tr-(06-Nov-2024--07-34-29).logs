@@ -1,0 +1,3855 @@
+#######################################################################
+#Runtime infos
+#Number of Gateways: 10
+#Number of Transactions: 1000
+#Number of Blocks: 650
+#Consensus: PBFT
+#######################################################################
+#######################################################################
+############################ Times & Sizes ############################
+#######################################################################
+SignatureCreate;RSA;10.517120361328;ms
+SignatureCreate;RSA;13.694047927856;ms
+SignatureCreate;RSA;10.076999664307;ms
+SignatureCreate;RSA;14.399051666260;ms
+SignatureCreate;RSA;10.810852050781;ms
+SignatureCreate;RSA;16.702890396118;ms
+SignatureCreate;RSA;15.738010406494;ms
+SignatureCreate;RSA;11.511087417603;ms
+SignatureCreate;RSA;11.270046234131;ms
+SignatureCreate;RSA;11.945009231567;ms
+SignatureCreate;RSA;11.647939682007;ms
+SignatureCreate;RSA;10.591983795166;ms
+SignatureCreate;RSA;10.849952697754;ms
+SignatureCreate;RSA;10.629177093506;ms
+SignatureCreate;RSA;10.592937469482;ms
+SignatureCreate;RSA;10.885000228882;ms
+SignatureCreate;RSA;10.555982589722;ms
+SignatureCreate;RSA;10.499000549316;ms
+SignatureCreate;RSA;11.119127273560;ms
+SignatureCreate;RSA;10.762929916382;ms
+SignatureCreate;RSA;11.028051376343;ms
+SignatureCreate;RSA;10.875940322876;ms
+SignatureCreate;RSA;10.609865188599;ms
+SignatureCreate;RSA;10.524034500122;ms
+SignatureCreate;RSA;9.309053421021;ms
+SignatureCreate;RSA;9.366035461426;ms
+SignatureCreate;RSA;9.273052215576;ms
+SignatureCreate;RSA;8.899211883545;ms
+SignatureCreate;RSA;8.879899978638;ms
+SignatureCreate;RSA;9.138107299805;ms
+SignatureCreate;RSA;8.893966674805;ms
+SignatureCreate;RSA;8.923053741455;ms
+SignatureCreate;RSA;8.929014205933;ms
+SignatureCreate;RSA;8.910179138184;ms
+SignatureCreate;RSA;9.052991867065;ms
+SignatureCreate;RSA;9.083986282349;ms
+SignatureCreate;RSA;9.130001068115;ms
+SignatureCreate;RSA;9.102821350098;ms
+SignatureCreate;RSA;9.032964706421;ms
+SignatureCreate;RSA;8.897066116333;ms
+SignatureCreate;RSA;9.093999862671;ms
+SignatureCreate;RSA;8.919954299927;ms
+SignatureCreate;RSA;9.123086929321;ms
+SignatureCreate;RSA;8.891105651855;ms
+SignatureCreate;RSA;9.088993072510;ms
+SignatureCreate;RSA;8.898019790649;ms
+SignatureCreate;RSA;8.893013000488;ms
+SignatureCreate;RSA;8.924007415771;ms
+SignatureCreate;RSA;9.121179580688;ms
+SignatureCreate;RSA;8.895874023438;ms
+SignatureCreate;RSA;9.106159210205;ms
+SignatureCreate;RSA;9.083986282349;ms
+SignatureCreate;RSA;8.991956710815;ms
+SignatureCreate;RSA;9.129047393799;ms
+SignatureCreate;RSA;8.951902389526;ms
+SignatureCreate;RSA;8.879899978638;ms
+SignatureCreate;RSA;8.917093276978;ms
+SignatureCreate;RSA;8.868932723999;ms
+SignatureCreate;RSA;9.066104888916;ms
+SignatureCreate;RSA;9.325981140137;ms
+SignatureCreate;RSA;9.144067764282;ms
+SignatureCreate;RSA;8.872032165527;ms
+SignatureCreate;RSA;8.888959884644;ms
+SignatureCreate;RSA;9.038925170898;ms
+SignatureCreate;RSA;9.030818939209;ms
+SignatureCreate;RSA;8.895874023438;ms
+SignatureCreate;RSA;8.886098861694;ms
+SignatureCreate;RSA;8.895874023438;ms
+SignatureCreate;RSA;9.028911590576;ms
+SignatureCreate;RSA;8.976221084595;ms
+SignatureCreate;RSA;9.012937545776;ms
+SignatureCreate;RSA;19.226074218750;ms
+SignatureCreate;RSA;9.441852569580;ms
+SignatureCreate;RSA;9.230852127075;ms
+SignatureCreate;RSA;8.923053741455;ms
+SignatureCreate;RSA;8.881807327271;ms
+SignatureCreate;RSA;8.882999420166;ms
+SignatureCreate;RSA;9.055137634277;ms
+SignatureCreate;RSA;8.898019790649;ms
+SignatureCreate;RSA;8.860111236572;ms
+SignatureCreate;RSA;8.884906768799;ms
+SignatureCreate;RSA;8.867979049683;ms
+SignatureCreate;RSA;8.884906768799;ms
+SignatureCreate;RSA;8.919000625610;ms
+SignatureCreate;RSA;9.047985076904;ms
+SignatureCreate;RSA;9.114027023315;ms
+SignatureCreate;RSA;9.091854095459;ms
+SignatureCreate;RSA;8.893013000488;ms
+SignatureCreate;RSA;8.872032165527;ms
+SignatureCreate;RSA;8.903980255127;ms
+SignatureCreate;RSA;8.892059326172;ms
+SignatureCreate;RSA;8.875131607056;ms
+SignatureCreate;RSA;8.880138397217;ms
+SignatureCreate;RSA;8.888959884644;ms
+SignatureCreate;RSA;8.877992630005;ms
+SignatureCreate;RSA;8.879184722900;ms
+SignatureCreate;RSA;8.866071701050;ms
+SignatureCreate;RSA;8.877992630005;ms
+SignatureCreate;RSA;8.897066116333;ms
+SignatureCreate;RSA;8.880853652954;ms
+SignatureCreate;RSA;8.888006210327;ms
+SignatureCreate;RSA;10.150194168091;ms
+SignatureCreate;RSA;10.905027389526;ms
+SignatureCreate;RSA;9.665012359619;ms
+SignatureCreate;RSA;9.570121765137;ms
+SignatureCreate;RSA;9.253978729248;ms
+SignatureCreate;RSA;8.967876434326;ms
+SignatureCreate;RSA;8.993148803711;ms
+SignatureCreate;RSA;8.962869644165;ms
+SignatureCreate;RSA;9.212970733643;ms
+SignatureCreate;RSA;8.952856063843;ms
+SignatureCreate;RSA;8.927822113037;ms
+SignatureCreate;RSA;8.897066116333;ms
+SignatureCreate;RSA;8.880853652954;ms
+SignatureCreate;RSA;8.884906768799;ms
+SignatureCreate;RSA;8.863925933838;ms
+SignatureCreate;RSA;8.893966674805;ms
+SignatureCreate;RSA;9.059906005859;ms
+SignatureCreate;RSA;8.939981460571;ms
+SignatureCreate;RSA;8.871078491211;ms
+SignatureCreate;RSA;9.068012237549;ms
+SignatureCreate;RSA;9.239196777344;ms
+SignatureCreate;RSA;9.207010269165;ms
+SignatureCreate;RSA;9.862899780273;ms
+SignatureCreate;RSA;10.437011718750;ms
+SignatureCreate;RSA;11.313915252686;ms
+SignatureCreate;RSA;10.288953781128;ms
+SignatureCreate;RSA;9.304046630859;ms
+SignatureCreate;RSA;9.037017822266;ms
+SignatureCreate;RSA;9.032964706421;ms
+SignatureCreate;RSA;8.888006210327;ms
+SignatureCreate;RSA;8.885145187378;ms
+SignatureCreate;RSA;8.891105651855;ms
+SignatureCreate;RSA;8.882045745850;ms
+SignatureCreate;RSA;8.919954299927;ms
+SignatureCreate;RSA;8.929014205933;ms
+SignatureCreate;RSA;8.952140808105;ms
+SignatureCreate;RSA;9.105920791626;ms
+SignatureCreate;RSA;9.041070938110;ms
+SignatureCreate;RSA;8.999109268188;ms
+SignatureCreate;RSA;9.015083312988;ms
+SignatureCreate;RSA;9.058952331543;ms
+SignatureCreate;RSA;9.128093719482;ms
+SignatureCreate;RSA;8.967876434326;ms
+SignatureCreate;RSA;9.011983871460;ms
+SignatureCreate;RSA;9.139060974121;ms
+SignatureCreate;RSA;8.985996246338;ms
+SignatureCreate;RSA;9.750127792358;ms
+SignatureCreate;RSA;8.974075317383;ms
+SignatureCreate;RSA;9.010791778564;ms
+SignatureCreate;RSA;8.951187133789;ms
+SignatureCreate;RSA;9.658813476562;ms
+SignatureCreate;RSA;9.553909301758;ms
+SignatureCreate;RSA;9.101867675781;ms
+SignatureCreate;RSA;9.341001510620;ms
+SignatureCreate;RSA;9.610176086426;ms
+SignatureCreate;RSA;9.070873260498;ms
+SignatureCreate;RSA;17.590999603271;ms
+SignatureCreate;RSA;9.102106094360;ms
+SignatureCreate;RSA;9.002208709717;ms
+SignatureCreate;RSA;8.980035781860;ms
+SignatureCreate;RSA;8.862018585205;ms
+SignatureCreate;RSA;8.865118026733;ms
+SignatureCreate;RSA;8.954048156738;ms
+SignatureCreate;RSA;8.936882019043;ms
+SignatureCreate;RSA;9.176969528198;ms
+SignatureCreate;RSA;8.983850479126;ms
+SignatureCreate;RSA;9.094953536987;ms
+SignatureCreate;RSA;8.953809738159;ms
+SignatureCreate;RSA;8.924961090088;ms
+SignatureCreate;RSA;8.972167968750;ms
+SignatureCreate;RSA;8.988142013550;ms
+SignatureCreate;RSA;8.997917175293;ms
+SignatureCreate;RSA;9.003877639771;ms
+SignatureCreate;RSA;9.138107299805;ms
+SignatureCreate;RSA;8.878946304321;ms
+SignatureCreate;RSA;8.888006210327;ms
+SignatureCreate;RSA;8.913993835449;ms
+SignatureCreate;RSA;8.860111236572;ms
+SignatureCreate;RSA;9.005069732666;ms
+SignatureCreate;RSA;9.001016616821;ms
+SignatureCreate;RSA;8.961915969849;ms
+SignatureCreate;RSA;9.021997451782;ms
+SignatureCreate;RSA;8.919000625610;ms
+SignatureCreate;RSA;8.910894393921;ms
+SignatureCreate;RSA;8.901119232178;ms
+SignatureCreate;RSA;8.943080902100;ms
+SignatureCreate;RSA;8.950948715210;ms
+SignatureCreate;RSA;8.934974670410;ms
+SignatureCreate;RSA;8.952140808105;ms
+SignatureCreate;RSA;8.979797363281;ms
+SignatureCreate;RSA;8.969068527222;ms
+SignatureCreate;RSA;8.986949920654;ms
+SignatureCreate;RSA;8.989810943604;ms
+SignatureCreate;RSA;9.029150009155;ms
+SignatureCreate;RSA;9.361028671265;ms
+SignatureCreate;RSA;9.404897689819;ms
+SignatureCreate;RSA;9.084939956665;ms
+SignatureCreate;RSA;9.151935577393;ms
+SignatureCreate;RSA;9.075880050659;ms
+SignatureCreate;RSA;9.391069412231;ms
+SignatureCreate;RSA;9.222984313965;ms
+SignatureCreate;RSA;9.180068969727;ms
+SignatureCreate;RSA;9.177207946777;ms
+SignatureCreate;RSA;9.033918380737;ms
+SignatureCreate;RSA;9.399175643921;ms
+SignatureCreate;RSA;22.924184799194;ms
+SignatureCreate;RSA;11.733055114746;ms
+SignatureCreate;RSA;9.608030319214;ms
+SignatureCreate;RSA;16.862869262695;ms
+SignatureCreate;RSA;9.066104888916;ms
+SignatureCreate;RSA;9.040832519531;ms
+SignatureCreate;RSA;8.832931518555;ms
+SignatureCreate;RSA;8.949995040894;ms
+SignatureCreate;RSA;8.830070495605;ms
+SignatureCreate;RSA;9.201049804688;ms
+SignatureCreate;RSA;9.102106094360;ms
+SignatureCreate;RSA;8.924007415771;ms
+SignatureCreate;RSA;8.947134017944;ms
+SignatureCreate;RSA;8.933067321777;ms
+SignatureCreate;RSA;8.924007415771;ms
+SignatureCreate;RSA;8.855819702148;ms
+SignatureCreate;RSA;8.925914764404;ms
+SignatureCreate;RSA;8.996963500977;ms
+SignatureCreate;RSA;8.929967880249;ms
+SignatureCreate;RSA;8.861064910889;ms
+SignatureCreate;RSA;8.804082870483;ms
+SignatureCreate;RSA;8.814096450806;ms
+SignatureCreate;RSA;8.814096450806;ms
+SignatureCreate;RSA;8.810043334961;ms
+SignatureCreate;RSA;8.985996246338;ms
+SignatureCreate;RSA;9.184837341309;ms
+SignatureCreate;RSA;8.807897567749;ms
+SignatureCreate;RSA;8.794069290161;ms
+SignatureCreate;RSA;8.825063705444;ms
+SignatureCreate;RSA;8.816003799438;ms
+SignatureCreate;RSA;8.791923522949;ms
+SignatureCreate;RSA;8.826971054077;ms
+SignatureCreate;RSA;8.800029754639;ms
+SignatureCreate;RSA;8.812189102173;ms
+SignatureCreate;RSA;8.809089660645;ms
+SignatureCreate;RSA;8.833885192871;ms
+SignatureCreate;RSA;8.807897567749;ms
+SignatureCreate;RSA;8.812904357910;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.817911148071;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;9.063959121704;ms
+SignatureCreate;RSA;8.991956710815;ms
+SignatureCreate;RSA;8.824825286865;ms
+SignatureCreate;RSA;8.813142776489;ms
+SignatureCreate;RSA;8.853912353516;ms
+SignatureCreate;RSA;8.828878402710;ms
+SignatureCreate;RSA;8.824110031128;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;8.823156356812;ms
+SignatureCreate;RSA;9.198904037476;ms
+SignatureCreate;RSA;8.861064910889;ms
+SignatureCreate;RSA;8.826971054077;ms
+SignatureCreate;RSA;8.841991424561;ms
+SignatureCreate;RSA;8.843898773193;ms
+SignatureCreate;RSA;8.869171142578;ms
+SignatureCreate;RSA;8.842945098877;ms
+SignatureCreate;RSA;8.853912353516;ms
+SignatureCreate;RSA;8.869886398315;ms
+SignatureCreate;RSA;8.900880813599;ms
+SignatureCreate;RSA;8.889913558960;ms
+SignatureCreate;RSA;8.935213088989;ms
+SignatureCreate;RSA;8.865118026733;ms
+SignatureCreate;RSA;8.882045745850;ms
+SignatureCreate;RSA;8.841991424561;ms
+SignatureCreate;RSA;8.815050125122;ms
+SignatureCreate;RSA;9.308815002441;ms
+SignatureCreate;RSA;8.867025375366;ms
+SignatureCreate;RSA;8.808135986328;ms
+SignatureCreate;RSA;8.833169937134;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;8.822202682495;ms
+SignatureCreate;RSA;8.829116821289;ms
+SignatureCreate;RSA;8.816957473755;ms
+SignatureCreate;RSA;9.342908859253;ms
+SignatureCreate;RSA;8.840084075928;ms
+SignatureCreate;RSA;9.108066558838;ms
+SignatureCreate;RSA;8.908987045288;ms
+SignatureCreate;RSA;8.835077285767;ms
+SignatureCreate;RSA;8.823156356812;ms
+SignatureCreate;RSA;8.787870407104;ms
+SignatureCreate;RSA;8.808135986328;ms
+SignatureCreate;RSA;8.961915969849;ms
+SignatureCreate;RSA;8.848905563354;ms
+SignatureCreate;RSA;8.844137191772;ms
+SignatureCreate;RSA;8.799076080322;ms
+SignatureCreate;RSA;8.793115615845;ms
+SignatureCreate;RSA;8.993864059448;ms
+SignatureCreate;RSA;8.815050125122;ms
+SignatureCreate;RSA;8.818864822388;ms
+SignatureCreate;RSA;9.045124053955;ms
+SignatureCreate;RSA;8.811950683594;ms
+SignatureCreate;RSA;8.823156356812;ms
+SignatureCreate;RSA;8.835792541504;ms
+SignatureCreate;RSA;8.826971054077;ms
+SignatureCreate;RSA;8.820056915283;ms
+SignatureCreate;RSA;9.042978286743;ms
+SignatureCreate;RSA;8.826017379761;ms
+SignatureCreate;RSA;8.801937103271;ms
+SignatureCreate;RSA;8.819818496704;ms
+SignatureCreate;RSA;8.815050125122;ms
+SignatureCreate;RSA;8.832931518555;ms
+SignatureCreate;RSA;9.036064147949;ms
+SignatureCreate;RSA;9.459018707275;ms
+SignatureCreate;RSA;8.831024169922;ms
+SignatureCreate;RSA;8.827209472656;ms
+SignatureCreate;RSA;8.823156356812;ms
+SignatureCreate;RSA;8.821010589600;ms
+SignatureCreate;RSA;8.816957473755;ms
+SignatureCreate;RSA;8.836030960083;ms
+SignatureCreate;RSA;8.793830871582;ms
+SignatureCreate;RSA;8.822917938232;ms
+SignatureCreate;RSA;8.816957473755;ms
+SignatureCreate;RSA;8.806943893433;ms
+SignatureCreate;RSA;8.821964263916;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.827924728394;ms
+SignatureCreate;RSA;8.804798126221;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.829832077026;ms
+SignatureCreate;RSA;8.873939514160;ms
+SignatureCreate;RSA;8.888006210327;ms
+SignatureCreate;RSA;8.837223052979;ms
+SignatureCreate;RSA;8.839130401611;ms
+SignatureCreate;RSA;8.826017379761;ms
+SignatureCreate;RSA;8.818149566650;ms
+SignatureCreate;RSA;9.087085723877;ms
+SignatureCreate;RSA;8.811950683594;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;8.886098861694;ms
+SignatureCreate;RSA;8.900165557861;ms
+SignatureCreate;RSA;8.810043334961;ms
+SignatureCreate;RSA;9.012937545776;ms
+SignatureCreate;RSA;8.800983428955;ms
+SignatureCreate;RSA;8.793830871582;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.816003799438;ms
+SignatureCreate;RSA;8.816003799438;ms
+SignatureCreate;RSA;8.795022964478;ms
+SignatureCreate;RSA;8.821964263916;ms
+SignatureCreate;RSA;8.818864822388;ms
+SignatureCreate;RSA;8.830070495605;ms
+SignatureCreate;RSA;8.805036544800;ms
+SignatureCreate;RSA;8.819818496704;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.826017379761;ms
+SignatureCreate;RSA;8.812189102173;ms
+SignatureCreate;RSA;8.912086486816;ms
+SignatureCreate;RSA;8.836984634399;ms
+SignatureCreate;RSA;8.808851242065;ms
+SignatureCreate;RSA;8.821964263916;ms
+SignatureCreate;RSA;8.801937103271;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.800029754639;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.803844451904;ms
+SignatureCreate;RSA;8.810043334961;ms
+SignatureCreate;RSA;8.807897567749;ms
+SignatureCreate;RSA;8.803844451904;ms
+SignatureCreate;RSA;8.816003799438;ms
+SignatureCreate;RSA;8.825778961182;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;8.801937103271;ms
+SignatureCreate;RSA;8.805990219116;ms
+SignatureCreate;RSA;8.810043334961;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.823156356812;ms
+SignatureCreate;RSA;8.814096450806;ms
+SignatureCreate;RSA;8.800029754639;ms
+SignatureCreate;RSA;8.822917938232;ms
+SignatureCreate;RSA;8.821964263916;ms
+SignatureCreate;RSA;8.826971054077;ms
+SignatureCreate;RSA;8.818149566650;ms
+SignatureCreate;RSA;8.793830871582;ms
+SignatureCreate;RSA;8.806943893433;ms
+SignatureCreate;RSA;8.826017379761;ms
+SignatureCreate;RSA;8.800983428955;ms
+SignatureCreate;RSA;8.800029754639;ms
+SignatureCreate;RSA;8.802175521851;ms
+SignatureCreate;RSA;8.816957473755;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.835077285767;ms
+SignatureCreate;RSA;8.818149566650;ms
+SignatureCreate;RSA;8.805036544800;ms
+SignatureCreate;RSA;8.808851242065;ms
+SignatureCreate;RSA;8.814096450806;ms
+SignatureCreate;RSA;8.818864822388;ms
+SignatureCreate;RSA;8.807182312012;ms
+SignatureCreate;RSA;8.799076080322;ms
+SignatureCreate;RSA;8.796930313110;ms
+SignatureCreate;RSA;8.828878402710;ms
+SignatureCreate;RSA;8.949995040894;ms
+SignatureCreate;RSA;8.805036544800;ms
+SignatureCreate;RSA;8.810997009277;ms
+SignatureCreate;RSA;8.800983428955;ms
+SignatureCreate;RSA;8.808851242065;ms
+SignatureCreate;RSA;8.857965469360;ms
+SignatureCreate;RSA;8.825063705444;ms
+SignatureCreate;RSA;8.819103240967;ms
+SignatureCreate;RSA;8.805036544800;ms
+SignatureCreate;RSA;8.791923522949;ms
+SignatureCreate;RSA;8.814096450806;ms
+SignatureCreate;RSA;13.802051544189;ms
+SignatureCreate;RSA;9.850978851318;ms
+SignatureCreate;RSA;12.454032897949;ms
+SignatureCreate;RSA;15.635967254639;ms
+SignatureVerify;RSA;13.355016708374;ms
+SignatureVerify;RSA;0.230073928833;ms
+SignatureVerify;RSA;0.286102294922;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.215053558350;ms
+SignatureVerify;RSA;0.158786773682;ms
+SignatureVerify;RSA;0.209093093872;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.335931777954;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;0.243902206421;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.247955322266;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.356912612915;ms
+SignatureVerify;RSA;0.165224075317;ms
+SignatureVerify;RSA;0.220060348511;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;2.288103103638;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.380992889404;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.418901443481;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.380039215088;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.724792480469;ms
+SignatureVerify;RSA;1.441955566406;ms
+SignatureVerify;RSA;0.262975692749;ms
+SignatureVerify;RSA;0.273942947388;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.262975692749;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.341892242432;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.261068344116;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.212907791138;ms
+SignatureVerify;RSA;0.172138214111;ms
+SignatureVerify;RSA;0.228166580200;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.319004058838;ms
+SignatureVerify;RSA;0.228166580200;ms
+SignatureVerify;RSA;0.865936279297;ms
+SignatureVerify;RSA;0.172853469849;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.316858291626;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.285148620605;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.182151794434;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.302076339722;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.204086303711;ms
+SignatureVerify;RSA;0.304937362671;ms
+SignatureVerify;RSA;0.236988067627;ms
+SignatureVerify;RSA;0.362873077393;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.339031219482;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.621795654297;ms
+SignatureVerify;RSA;0.515937805176;ms
+SignatureVerify;RSA;0.840902328491;ms
+SignatureVerify;RSA;0.406980514526;ms
+SignatureVerify;RSA;0.860929489136;ms
+SignatureVerify;RSA;0.450849533081;ms
+SignatureVerify;RSA;1.019954681396;ms
+SignatureVerify;RSA;0.571012496948;ms
+SignatureVerify;RSA;0.257015228271;ms
+SignatureVerify;RSA;1.028060913086;ms
+SignatureVerify;RSA;0.247955322266;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.262975692749;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;2.509117126465;ms
+SignatureVerify;RSA;0.171184539795;ms
+SignatureVerify;RSA;0.342845916748;ms
+SignatureVerify;RSA;2.501010894775;ms
+SignatureVerify;RSA;1.757860183716;ms
+SignatureVerify;RSA;0.674962997437;ms
+SignatureVerify;RSA;0.257015228271;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.283002853394;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.347852706909;ms
+SignatureVerify;RSA;0.283956527710;ms
+SignatureVerify;RSA;2.301931381226;ms
+SignatureVerify;RSA;0.270843505859;ms
+SignatureVerify;RSA;0.334978103638;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.218868255615;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.839948654175;ms
+SignatureVerify;RSA;1.970052719116;ms
+SignatureVerify;RSA;1.568078994751;ms
+SignatureVerify;RSA;0.579833984375;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;1.348972320557;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.348091125488;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.823020935059;ms
+SignatureVerify;RSA;0.972986221313;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.142812728882;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.331878662109;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.694990158081;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.203847885132;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.153779983521;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.277042388916;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.356197357178;ms
+SignatureVerify;RSA;0.137805938721;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.417947769165;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.135183334351;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.125885009766;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.324010848999;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.367164611816;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.127077102661;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.292062759399;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.293016433716;ms
+SignatureVerify;RSA;0.208139419556;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.284910202026;ms
+SignatureVerify;RSA;5.296945571899;ms
+SignatureVerify;RSA;0.397920608521;ms
+SignatureVerify;RSA;3.870010375977;ms
+SignatureVerify;RSA;0.301122665405;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.205039978027;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.236034393311;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;2.717018127441;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;3.447055816650;ms
+SignatureVerify;RSA;3.273963928223;ms
+SignatureVerify;RSA;0.236034393311;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.166893005371;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;4.797935485840;ms
+SignatureVerify;RSA;13.199090957642;ms
+SignatureVerify;RSA;0.704050064087;ms
+SignatureVerify;RSA;1.998186111450;ms
+SignatureVerify;RSA;4.095077514648;ms
+SignatureVerify;RSA;0.216960906982;ms
+SignatureVerify;RSA;2.010107040405;ms
+SignatureVerify;RSA;4.748106002808;ms
+SignatureVerify;RSA;3.581047058105;ms
+SignatureVerify;RSA;1.739978790283;ms
+SignatureVerify;RSA;6.590843200684;ms
+SignatureVerify;RSA;1.045942306519;ms
+SignatureVerify;RSA;3.350973129272;ms
+SignatureVerify;RSA;0.501871109009;ms
+SignatureVerify;RSA;2.681016921997;ms
+SignatureVerify;RSA;3.489971160889;ms
+SignatureVerify;RSA;0.616073608398;ms
+SignatureVerify;RSA;4.260063171387;ms
+SignatureVerify;RSA;2.065181732178;ms
+SignatureVerify;RSA;0.188112258911;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.200033187866;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.240087509155;ms
+SignatureVerify;RSA;0.780105590820;ms
+SignatureVerify;RSA;0.701904296875;ms
+SignatureVerify;RSA;0.571012496948;ms
+SignatureVerify;RSA;1.455068588257;ms
+SignatureVerify;RSA;0.576972961426;ms
+SignatureVerify;RSA;0.478982925415;ms
+SignatureVerify;RSA;0.727891921997;ms
+SignatureVerify;RSA;0.267982482910;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;1.127958297729;ms
+SignatureVerify;RSA;0.576972961426;ms
+SignatureVerify;RSA;0.611066818237;ms
+SignatureVerify;RSA;0.393867492676;ms
+SignatureVerify;RSA;0.297069549561;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.267028808594;ms
+SignatureVerify;RSA;0.211954116821;ms
+SignatureVerify;RSA;3.677129745483;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.223159790039;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;3.793954849243;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.212192535400;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.243902206421;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.333070755005;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;0.258922576904;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.282049179077;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.235795974731;ms
+SignatureVerify;RSA;1.352071762085;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;5.610942840576;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;2.609968185425;ms
+SignatureVerify;RSA;0.183105468750;ms
+SignatureVerify;RSA;0.607013702393;ms
+SignatureVerify;RSA;2.422094345093;ms
+SignatureVerify;RSA;0.313043594360;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.209093093872;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.346899032593;ms
+SignatureVerify;RSA;0.186204910278;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.181198120117;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.274896621704;ms
+SignatureVerify;RSA;0.167846679688;ms
+SignatureVerify;RSA;0.196218490601;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.177860260010;ms
+SignatureVerify;RSA;0.145196914673;ms
+SignatureVerify;RSA;1.950979232788;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;5.466938018799;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.230073928833;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;1.879930496216;ms
+SignatureVerify;RSA;0.221014022827;ms
+SignatureVerify;RSA;0.237226486206;ms
+SignatureVerify;RSA;0.203132629395;ms
+SignatureVerify;RSA;0.246047973633;ms
+SignatureVerify;RSA;0.198841094971;ms
+SignatureVerify;RSA;0.352144241333;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.334024429321;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;1.181125640869;ms
+SignatureVerify;RSA;0.197887420654;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.220775604248;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.195980072021;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.194787979126;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.375986099243;ms
+SignatureVerify;RSA;0.205993652344;ms
+SignatureVerify;RSA;0.336885452271;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.285863876343;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.339984893799;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.520944595337;ms
+SignatureVerify;RSA;0.386953353882;ms
+SignatureVerify;RSA;0.405073165894;ms
+SignatureVerify;RSA;0.604867935181;ms
+SignatureVerify;RSA;3.033876419067;ms
+SignatureVerify;RSA;1.237869262695;ms
+SignatureVerify;RSA;1.913070678711;ms
+SignatureVerify;RSA;0.344991683960;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.354051589966;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.248193740845;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.368118286133;ms
+SignatureVerify;RSA;0.264883041382;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.385999679565;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;6.732940673828;ms
+SignatureVerify;RSA;0.294923782349;ms
+SignatureVerify;RSA;0.362873077393;ms
+SignatureVerify;RSA;0.556945800781;ms
+SignatureVerify;RSA;0.258922576904;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.401020050049;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.249862670898;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.287055969238;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.244855880737;ms
+SignatureVerify;RSA;0.209093093872;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.384807586670;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;3.043889999390;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.324964523315;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.220060348511;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.238895416260;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.654935836792;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.416040420532;ms
+SignatureVerify;RSA;0.204086303711;ms
+SignatureVerify;RSA;0.241041183472;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.280857086182;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;3.217935562134;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.148773193359;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.424861907959;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.309944152832;ms
+SignatureVerify;RSA;0.188112258911;ms
+SignatureVerify;RSA;0.263929367065;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.341892242432;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.254154205322;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.205039978027;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.219106674194;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.205993652344;ms
+SignatureVerify;RSA;0.355958938599;ms
+SignatureVerify;RSA;2.970218658447;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.854969024658;ms
+SignatureVerify;RSA;0.421047210693;ms
+SignatureVerify;RSA;1.077890396118;ms
+SignatureVerify;RSA;0.204086303711;ms
+SignatureVerify;RSA;3.325939178467;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.469923019409;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.238180160522;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.354051589966;ms
+SignatureVerify;RSA;0.233888626099;ms
+SignatureVerify;RSA;0.246047973633;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.630140304565;ms
+SignatureVerify;RSA;0.754117965698;ms
+SignatureVerify;RSA;0.473022460938;ms
+SignatureVerify;RSA;1.235961914062;ms
+SignatureVerify;RSA;0.222921371460;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;1.287937164307;ms
+SignatureVerify;RSA;0.328063964844;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.570058822632;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.481128692627;ms
+SignatureVerify;RSA;0.204086303711;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.594139099121;ms
+SignatureVerify;RSA;0.528812408447;ms
+SignatureVerify;RSA;0.699996948242;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.124931335449;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.125885009766;ms
+SignatureVerify;RSA;0.612974166870;ms
+SignatureVerify;RSA;5.275011062622;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.504970550537;ms
+SignatureVerify;RSA;0.625133514404;ms
+SignatureVerify;RSA;0.838041305542;ms
+SignatureVerify;RSA;0.678062438965;ms
+SignatureVerify;RSA;0.622034072876;ms
+SignatureVerify;RSA;0.242948532104;ms
+SignatureVerify;RSA;0.168800354004;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;1.229047775269;ms
+SignatureVerify;RSA;0.253200531006;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.132083892822;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.135183334351;ms
+SignatureVerify;RSA;0.859022140503;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.229835510254;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.355958938599;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.619888305664;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.567913055420;ms
+SignatureVerify;RSA;0.514984130859;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.421047210693;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.137805938721;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.126838684082;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;6.211996078491;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.715970993042;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.221014022827;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.172853469849;ms
+SignatureVerify;RSA;0.265836715698;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;3.432989120483;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;6.836891174316;ms
+SignatureVerify;RSA;0.560998916626;ms
+SignatureVerify;RSA;2.292156219482;ms
+SignatureVerify;RSA;0.479936599731;ms
+SignatureVerify;RSA;1.581192016602;ms
+SignatureVerify;RSA;0.240802764893;ms
+SignatureVerify;RSA;0.171184539795;ms
+SignatureVerify;RSA;2.797126770020;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.228881835938;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.163793563843;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.142812728882;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.145196914673;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.263929367065;ms
+SignatureVerify;RSA;0.196218490601;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.312805175781;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.196933746338;ms
+SignatureVerify;RSA;0.204086303711;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;1.199007034302;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;13.268947601318;ms
+SignatureVerify;RSA;0.201225280762;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;2.930164337158;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;1.574039459229;ms
+SignatureVerify;RSA;1.979112625122;ms
+SignatureVerify;RSA;0.955820083618;ms
+SignatureVerify;RSA;1.823902130127;ms
+SignatureVerify;RSA;1.600980758667;ms
+SignatureVerify;RSA;1.364946365356;ms
+SignatureVerify;RSA;5.131006240845;ms
+SignatureVerify;RSA;2.068996429443;ms
+SignatureVerify;RSA;0.854969024658;ms
+SignatureVerify;RSA;1.555919647217;ms
+SignatureVerify;RSA;3.886938095093;ms
+SignatureVerify;RSA;0.511884689331;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;6.191015243530;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;2.987861633301;ms
+SignatureVerify;RSA;6.414890289307;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.313043594360;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.297069549561;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.702142715454;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.427961349487;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;1.111984252930;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;6.076097488403;ms
+SignatureVerify;RSA;0.187158584595;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;1.046180725098;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.921964645386;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.205039978027;ms
+SignatureVerify;RSA;0.290870666504;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.222921371460;ms
+SignatureVerify;RSA;0.173807144165;ms
+SignatureVerify;RSA;0.239133834839;ms
+SignatureVerify;RSA;0.183820724487;ms
+SignatureVerify;RSA;0.397920608521;ms
+SignatureVerify;RSA;0.232219696045;ms
+SignatureVerify;RSA;0.289916992188;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.261068344116;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.408172607422;ms
+SignatureVerify;RSA;3.135919570923;ms
+SignatureVerify;RSA;6.076812744141;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.597953796387;ms
+SignatureVerify;RSA;0.257968902588;ms
+SignatureVerify;RSA;0.412940979004;ms
+SignatureVerify;RSA;0.329971313477;ms
+SignatureVerify;RSA;0.369787216187;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.915050506592;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.272035598755;ms
+SignatureVerify;RSA;0.203847885132;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.336885452271;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.211000442505;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.396013259888;ms
+SignatureVerify;RSA;0.288009643555;ms
+SignatureVerify;RSA;0.531911849976;ms
+SignatureVerify;RSA;0.205993652344;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.181198120117;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;4.696846008301;ms
+SignatureVerify;RSA;1.566171646118;ms
+SignatureVerify;RSA;0.704050064087;ms
+SignatureVerify;RSA;0.391960144043;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.143766403198;ms
+SignatureVerify;RSA;0.188112258911;ms
+SignatureVerify;RSA;0.362157821655;ms
+SignatureVerify;RSA;0.283002853394;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.197887420654;ms
+SignatureVerify;RSA;0.158786773682;ms
+SignatureVerify;RSA;0.178813934326;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.336170196533;ms
+SignatureVerify;RSA;0.243902206421;ms
+SignatureVerify;RSA;0.628948211670;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.246047973633;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.124931335449;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.186204910278;ms
+SignatureVerify;RSA;0.219821929932;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;19.794940948486;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.194787979126;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;3.122091293335;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.155210494995;ms
+SignatureVerify;RSA;1.369953155518;ms
+SignatureVerify;RSA;0.267028808594;ms
+SignatureVerify;RSA;0.187158584595;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;4.204034805298;ms
+SignatureVerify;RSA;0.197887420654;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;2.403974533081;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.281095504761;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.207185745239;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.566005706787;ms
+SignatureVerify;RSA;0.369071960449;ms
+SignatureVerify;RSA;0.275135040283;ms
+SignatureVerify;RSA;0.323057174683;ms
+SignatureVerify;RSA;3.597974777222;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.226974487305;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;1.669168472290;ms
+SignatureVerify;RSA;0.340938568115;ms
+SignatureVerify;RSA;1.056194305420;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.160217285156;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;18.442869186401;ms
+SignatureVerify;RSA;0.257015228271;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.235795974731;ms
+SignatureVerify;RSA;0.212907791138;ms
+SignatureVerify;RSA;0.737190246582;ms
+SignatureVerify;RSA;0.500917434692;ms
+SignatureVerify;RSA;1.029014587402;ms
+SignatureVerify;RSA;0.293016433716;ms
+SignatureVerify;RSA;0.784158706665;ms
+SignatureVerify;RSA;0.904083251953;ms
+SignatureVerify;RSA;0.890016555786;ms
+SignatureVerify;RSA;0.339984893799;ms
+SignatureVerify;RSA;0.406980514526;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;1.417875289917;ms
+SignatureVerify;RSA;0.924110412598;ms
+SignatureVerify;RSA;0.318050384521;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;1.368999481201;ms
+SignatureVerify;RSA;0.259876251221;ms
+SignatureVerify;RSA;1.097917556763;ms
+SignatureVerify;RSA;0.208854675293;ms
+SignatureVerify;RSA;0.670909881592;ms
+SignatureVerify;RSA;0.403881072998;ms
+SignatureVerify;RSA;0.366926193237;ms
+SignatureVerify;RSA;0.720024108887;ms
+SignatureVerify;RSA;0.261783599854;ms
+SignatureVerify;RSA;0.228881835938;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;0.584125518799;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;1.148939132690;ms
+SignatureVerify;RSA;1.121997833252;ms
+SignatureVerify;RSA;0.975847244263;ms
+SignatureVerify;RSA;0.730991363525;ms
+SignatureVerify;RSA;0.622034072876;ms
+SignatureVerify;RSA;1.009941101074;ms
+SignatureVerify;RSA;0.679969787598;ms
+SignatureVerify;RSA;0.638961791992;ms
+SignatureVerify;RSA;0.300884246826;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.670909881592;ms
+SignatureVerify;RSA;0.208854675293;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.244855880737;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.523090362549;ms
+SignatureVerify;RSA;0.239133834839;ms
+SignatureVerify;RSA;0.303983688354;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.183820724487;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.844001770020;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.296115875244;ms
+SignatureVerify;RSA;0.195980072021;ms
+SignatureVerify;RSA;0.270843505859;ms
+SignatureVerify;RSA;0.216960906982;ms
+SignatureVerify;RSA;0.240087509155;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.166893005371;ms
+SignatureVerify;RSA;0.131130218506;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;1.137971878052;ms
+SignatureVerify;RSA;0.687837600708;ms
+SignatureVerify;RSA;0.609159469604;ms
+SignatureVerify;RSA;0.303983688354;ms
+SignatureVerify;RSA;0.306844711304;ms
+SignatureVerify;RSA;0.241994857788;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;0.213861465454;ms
+SignatureVerify;RSA;0.230073928833;ms
+SignatureVerify;RSA;4.328012466431;ms
+SignatureVerify;RSA;0.230789184570;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;4.389047622681;ms
+SignatureVerify;RSA;0.210046768188;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.662088394165;ms
+SignatureVerify;RSA;0.293016433716;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;1.367807388306;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;0.607013702393;ms
+SignatureVerify;RSA;2.583026885986;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.761032104492;ms
+SignatureVerify;RSA;0.371932983398;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;2.223968505859;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.130176544189;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;2.143144607544;ms
+SignatureVerify;RSA;0.340938568115;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.229835510254;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.196933746338;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.230789184570;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.172138214111;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.160217285156;ms
+SignatureVerify;RSA;0.132083892822;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;1.488924026489;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;21.300077438354;ms
+SignatureVerify;RSA;1.823902130127;ms
+SignatureVerify;RSA;1.677989959717;ms
+SignatureVerify;RSA;0.208854675293;ms
+SignatureVerify;RSA;0.370979309082;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.899076461792;ms
+SignatureVerify;RSA;10.124921798706;ms
+SignatureVerify;RSA;2.526998519897;ms
+SignatureVerify;RSA;2.365112304688;ms
+SignatureVerify;RSA;6.973028182983;ms
+SignatureVerify;RSA;0.212907791138;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.613927841187;ms
+SignatureVerify;RSA;1.172065734863;ms
+SignatureVerify;RSA;0.308990478516;ms
+SignatureVerify;RSA;0.665903091431;ms
+SignatureVerify;RSA;1.208066940308;ms
+SignatureVerify;RSA;0.357151031494;ms
+SignatureVerify;RSA;0.214815139771;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;2.467870712280;ms
+SignatureVerify;RSA;0.219106674194;ms
+SignatureVerify;RSA;0.277996063232;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.196933746338;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.205993652344;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;1.147985458374;ms
+SignatureVerify;RSA;0.244140625000;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;6.637096405029;ms
+SignatureVerify;RSA;0.679969787598;ms
+SignatureVerify;RSA;1.384019851685;ms
+SignatureVerify;RSA;0.299215316772;ms
+SignatureVerify;RSA;0.213861465454;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.198125839233;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.717163085938;ms
+SignatureVerify;RSA;0.965833663940;ms
+SignatureVerify;RSA;2.235174179077;ms
+SignatureVerify;RSA;0.361204147339;ms
+SignatureVerify;RSA;0.298023223877;ms
+SignatureVerify;RSA;1.106977462769;ms
+SignatureVerify;RSA;0.339031219482;ms
+SignatureVerify;RSA;3.329992294312;ms
+SignatureVerify;RSA;0.236988067627;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.557899475098;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.192880630493;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.220060348511;ms
+SignatureVerify;RSA;3.376007080078;ms
+SignatureVerify;RSA;0.224113464355;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.240087509155;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;133.272886276245;ms
+SignatureVerify;RSA;2.042055130005;ms
+SignatureVerify;RSA;1.286029815674;ms
+SignatureVerify;RSA;1.209974288940;ms
+SignatureVerify;RSA;1.183032989502;ms
+SignatureVerify;RSA;4.204034805298;ms
+SignatureVerify;RSA;0.878095626831;ms
+SignatureVerify;RSA;0.778198242188;ms
+SignatureVerify;RSA;0.810861587524;ms
+SignatureVerify;RSA;1.266002655029;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;3.273010253906;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;0.188827514648;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.212192535400;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.193119049072;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.253915786743;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.257015228271;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.307083129883;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;5.731821060181;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.276088714600;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;6.149053573608;ms
+SignatureVerify;RSA;0.216960906982;ms
+SignatureVerify;RSA;0.369071960449;ms
+SignatureVerify;RSA;0.198125839233;ms
+SignatureVerify;RSA;0.239133834839;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;3.284931182861;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.224828720093;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.244140625000;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.296115875244;ms
+SignatureVerify;RSA;0.172138214111;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.355958938599;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.253915786743;ms
+SignatureVerify;RSA;0.188827514648;ms
+SignatureVerify;RSA;3.087997436523;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;1.008987426758;ms
+SignatureVerify;RSA;0.884056091309;ms
+SignatureVerify;RSA;0.385999679565;ms
+SignatureVerify;RSA;0.364065170288;ms
+SignatureVerify;RSA;0.364065170288;ms
+SignatureVerify;RSA;0.638008117676;ms
+SignatureVerify;RSA;1.111030578613;ms
+SignatureVerify;RSA;0.259876251221;ms
+SignatureVerify;RSA;0.236034393311;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.420093536377;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;2.425909042358;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;2.012014389038;ms
+SignatureVerify;RSA;3.032922744751;ms
+SignatureVerify;RSA;0.206232070923;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;1.595973968506;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.661849975586;ms
+SignatureVerify;RSA;0.535964965820;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.222921371460;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.188112258911;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.438928604126;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.241041183472;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.204801559448;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.198125839233;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;0.302076339722;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.128030776978;ms
+SignatureVerify;RSA;0.226974487305;ms
+SignatureVerify;RSA;0.148773193359;ms
+SignatureVerify;RSA;0.270128250122;ms
+SignatureVerify;RSA;0.213146209717;ms
+SignatureVerify;RSA;2.710819244385;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.248908996582;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.193119049072;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.361919403076;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.192165374756;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.211954116821;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;1.134157180786;ms
+SignatureVerify;RSA;4.183053970337;ms
+SignatureVerify;RSA;0.265836715698;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.243902206421;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.245094299316;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.278949737549;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.177860260010;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;2.140045166016;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.258207321167;ms
+SignatureVerify;RSA;1.646995544434;ms
+SignatureVerify;RSA;7.452011108398;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.489950180054;ms
+SignatureVerify;RSA;2.969980239868;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.334024429321;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.253915786743;ms
+SignatureVerify;RSA;0.171184539795;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.204801559448;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.264167785645;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.319957733154;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.280141830444;ms
+SignatureVerify;RSA;8.015155792236;ms
+SignatureVerify;RSA;0.890016555786;ms
+SignatureVerify;RSA;0.256776809692;ms
+SignatureVerify;RSA;0.230073928833;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.758886337280;ms
+SignatureVerify;RSA;0.800132751465;ms
+SignatureVerify;RSA;2.831935882568;ms
+SignatureVerify;RSA;0.311851501465;ms
+SignatureVerify;RSA;2.500057220459;ms
+SignatureVerify;RSA;0.281095504761;ms
+SignatureVerify;RSA;0.379085540771;ms
+SignatureVerify;RSA;0.240802764893;ms
+SignatureVerify;RSA;0.874996185303;ms
+SignatureVerify;RSA;0.590085983276;ms
+SignatureVerify;RSA;1.089096069336;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.253915786743;ms
+SignatureVerify;RSA;2.413034439087;ms
+SignatureVerify;RSA;0.220060348511;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.379085540771;ms
+SignatureVerify;RSA;0.249862670898;ms
+SignatureVerify;RSA;0.937938690186;ms
+SignatureVerify;RSA;1.166820526123;ms
+SignatureVerify;RSA;0.300884246826;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.782012939453;ms
+SignatureVerify;RSA;0.248908996582;ms
+SignatureVerify;RSA;1.070976257324;ms
+SignatureVerify;RSA;0.535011291504;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.245094299316;ms
+SignatureVerify;RSA;6.132125854492;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;0.254154205322;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.228166580200;ms
+SignatureVerify;RSA;1.801013946533;ms
+SignatureVerify;RSA;0.879049301147;ms
+SignatureVerify;RSA;0.166893005371;ms
+SignatureVerify;RSA;0.342130661011;ms
+SignatureVerify;RSA;0.566959381104;ms
+SignatureVerify;RSA;1.358985900879;ms
+SignatureVerify;RSA;0.368118286133;ms
+SignatureVerify;RSA;0.752925872803;ms
+SignatureVerify;RSA;0.499010086060;ms
+SignatureVerify;RSA;0.262975692749;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.634908676147;ms
+SignatureVerify;RSA;0.519037246704;ms
+SignatureVerify;RSA;0.628948211670;ms
+SignatureVerify;RSA;0.878810882568;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.391006469727;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.269889831543;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.259876251221;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.298023223877;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;1.639127731323;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.537157058716;ms
+SignatureVerify;RSA;1.583099365234;ms
+SignatureVerify;RSA;2.349138259888;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.272035598755;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;4.781007766724;ms
+SignatureVerify;RSA;0.540971755981;ms
+SignatureVerify;RSA;0.287055969238;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.383853912354;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.228166580200;ms
+SignatureVerify;RSA;0.520944595337;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.385999679565;ms
+SignatureVerify;RSA;1.572132110596;ms
+SignatureVerify;RSA;1.660108566284;ms
+SignatureVerify;RSA;1.737117767334;ms
+SignatureVerify;RSA;0.825881958008;ms
+SignatureVerify;RSA;0.228881835938;ms
+SignatureVerify;RSA;0.346899032593;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.253915786743;ms
+SignatureVerify;RSA;0.257015228271;ms
+SignatureVerify;RSA;0.355005264282;ms
+SignatureVerify;RSA;0.224828720093;ms
+SignatureVerify;RSA;0.211954116821;ms
+SignatureVerify;RSA;0.142812728882;ms
+SignatureVerify;RSA;0.858068466187;ms
+SignatureVerify;RSA;0.430107116699;ms
+SignatureVerify;RSA;3.860950469971;ms
+SignatureVerify;RSA;0.361919403076;ms
+SignatureVerify;RSA;0.509023666382;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;7.523059844971;ms
+SignatureVerify;RSA;0.294923782349;ms
+SignatureVerify;RSA;0.193119049072;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;0.157833099365;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.513076782227;ms
+SignatureVerify;RSA;0.631093978882;ms
+SignatureVerify;RSA;0.464916229248;ms
+SignatureVerify;RSA;1.369953155518;ms
+SignatureVerify;RSA;1.500844955444;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;17.307043075562;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.895023345947;ms
+SignatureVerify;RSA;0.428915023804;ms
+SignatureVerify;RSA;0.246047973633;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.326156616211;ms
+SignatureVerify;RSA;0.276088714600;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.250101089478;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.212907791138;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.228166580200;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.325918197632;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.301837921143;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.132083892822;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.236988067627;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.416994094849;ms
+SignatureVerify;RSA;0.250816345215;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.211954116821;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.226974487305;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.286817550659;ms
+SignatureVerify;RSA;0.230789184570;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.131130218506;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;0.762939453125;ms
+SignatureVerify;RSA;0.691175460815;ms
+SignatureVerify;RSA;0.260829925537;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.155210494995;ms
+SignatureVerify;RSA;0.158786773682;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.300168991089;ms
+SignatureVerify;RSA;0.216960906982;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.302076339722;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;1.728057861328;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.136852264404;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.142812728882;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;1.476049423218;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;11.723041534424;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.395059585571;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;0.357866287231;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;0.232219696045;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.131130218506;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;10.624885559082;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.176906585693;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.172138214111;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.329971313477;ms
+SignatureVerify;RSA;0.191926956177;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;14.202117919922;ms
+SignatureVerify;RSA;0.182151794434;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.247955322266;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;3.382921218872;ms
+SignatureVerify;RSA;2.708911895752;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.148773193359;ms
+SignatureVerify;RSA;5.582809448242;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.135183334351;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.129222869873;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.123977661133;ms
+SignatureVerify;RSA;0.132083892822;ms
+SignatureVerify;RSA;2.379894256592;ms
+SignatureVerify;RSA;0.182151794434;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;1.036167144775;ms
+SignatureVerify;RSA;1.086950302124;ms
+SignatureVerify;RSA;0.497102737427;ms
+SignatureVerify;RSA;0.250101089478;ms
+SignatureVerify;RSA;3.798007965088;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.136852264404;ms
+SignatureVerify;RSA;0.874996185303;ms
+SignatureVerify;RSA;0.447034835815;ms
+SignatureVerify;RSA;0.293016433716;ms
+SignatureVerify;RSA;0.209093093872;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;2.418041229248;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;2.635002136230;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.483989715576;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;4.082918167114;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;4.837989807129;ms
+SignatureVerify;RSA;0.213146209717;ms
+SignatureVerify;RSA;0.219106674194;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.219106674194;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.210046768188;ms
+SignatureVerify;RSA;0.262022018433;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.136852264404;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.123977661133;ms
+SignatureVerify;RSA;0.130176544189;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;2.685070037842;ms
+SignatureVerify;RSA;0.395059585571;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;3.070831298828;ms
+SignatureVerify;RSA;0.324010848999;ms
+SignatureVerify;RSA;0.822067260742;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;4.096984863281;ms
+SignatureVerify;RSA;0.320911407471;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;8.730888366699;ms
+SignatureVerify;RSA;0.236034393311;ms
+SignatureVerify;RSA;0.181198120117;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;6.721019744873;ms
+SignatureVerify;RSA;2.343893051147;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;1.641988754272;ms
+SignatureVerify;RSA;0.220060348511;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.320911407471;ms
+SignatureVerify;RSA;0.153779983521;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;0.482082366943;ms
+SignatureVerify;RSA;19.080162048340;ms
+SignatureVerify;RSA;0.999927520752;ms
+SignatureVerify;RSA;2.286195755005;ms
+SignatureVerify;RSA;3.061056137085;ms
+SignatureVerify;RSA;1.404047012329;ms
+SignatureVerify;RSA;1.332044601440;ms
+SignatureVerify;RSA;0.941038131714;ms
+SignatureVerify;RSA;1.783847808838;ms
+SignatureVerify;RSA;0.894069671631;ms
+SignatureVerify;RSA;0.405073165894;ms
+SignatureVerify;RSA;0.183105468750;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;1.366853713989;ms
+SignatureVerify;RSA;0.535011291504;ms
+SignatureVerify;RSA;0.216960906982;ms
+SignatureVerify;RSA;0.610113143921;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.181198120117;ms
+SignatureVerify;RSA;0.194787979126;ms
+SignatureVerify;RSA;0.249862670898;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;4.124164581299;ms
+SignatureVerify;RSA;0.200986862183;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;1.383066177368;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;4.847049713135;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.158786773682;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.955104827881;ms
+SignatureVerify;RSA;0.192880630493;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;4.595041275024;ms
+SignatureVerify;RSA;0.279903411865;ms
+SignatureVerify;RSA;0.282049179077;ms
+SignatureVerify;RSA;0.401020050049;ms
+SignatureVerify;RSA;1.056909561157;ms
+SignatureVerify;RSA;2.558946609497;ms
+SignatureVerify;RSA;0.905036926270;ms
+SignatureVerify;RSA;0.909090042114;ms
+SignatureVerify;RSA;4.294872283936;ms
+SignatureVerify;RSA;0.308990478516;ms
+SignatureVerify;RSA;0.236988067627;ms
+SignatureVerify;RSA;8.985996246338;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.636100769043;ms
+SignatureVerify;RSA;0.267982482910;ms
+SignatureVerify;RSA;0.268936157227;ms
+SignatureVerify;RSA;1.680850982666;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.224113464355;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.151872634888;ms
+SignatureVerify;RSA;4.031181335449;ms
+SignatureVerify;RSA;0.243902206421;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.324964523315;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.224113464355;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;6.728887557983;ms
+SignatureVerify;RSA;0.261068344116;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.128030776978;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.127792358398;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;16.153097152710;ms
+SignatureVerify;RSA;0.272035598755;ms
+SignatureVerify;RSA;0.358819961548;ms
+SignatureVerify;RSA;1.300096511841;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.145196914673;ms
+SignatureVerify;RSA;2.793788909912;ms
+SignatureVerify;RSA;1.369953155518;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.733137130737;ms
+SignatureVerify;RSA;0.634908676147;ms
+SignatureVerify;RSA;0.576019287109;ms
+SignatureVerify;RSA;0.427961349487;ms
+SignatureVerify;RSA;0.406980514526;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;0.137805938721;ms
+SignatureVerify;RSA;0.221014022827;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.303030014038;ms
+SignatureVerify;RSA;4.641056060791;ms
+SignatureVerify;RSA;0.264883041382;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.208139419556;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.148057937622;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;0.155210494995;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.396013259888;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;17.950057983398;ms
+SignatureVerify;RSA;0.254154205322;ms
+SignatureVerify;RSA;0.226974487305;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.289916992188;ms
+SignatureVerify;RSA;3.128051757812;ms
+SignatureVerify;RSA;0.196933746338;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;2.464056015015;ms
+SignatureVerify;RSA;0.401973724365;ms
+SignatureVerify;RSA;2.352952957153;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.139236450195;ms
+SignatureVerify;RSA;0.208139419556;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.544071197510;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.180006027222;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;3.819942474365;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;1.621007919312;ms
+SignatureVerify;RSA;3.212928771973;ms
+SignatureVerify;RSA;0.197887420654;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;2.006053924561;ms
+SignatureVerify;RSA;0.187158584595;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.224828720093;ms
+SignatureVerify;RSA;0.198841094971;ms
+SignatureVerify;RSA;0.218152999878;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.140190124512;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.136852264404;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;20.072937011719;ms
+SignatureVerify;RSA;2.861022949219;ms
+SignatureVerify;RSA;0.289916992188;ms
+SignatureVerify;RSA;0.577926635742;ms
+SignatureVerify;RSA;0.900983810425;ms
+SignatureVerify;RSA;0.453948974609;ms
+SignatureVerify;RSA;0.497102737427;ms
+SignatureVerify;RSA;3.540992736816;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.787019729614;ms
+SignatureVerify;RSA;0.536203384399;ms
+SignatureVerify;RSA;0.396013259888;ms
+SignatureVerify;RSA;0.306844711304;ms
+SignatureVerify;RSA;0.839948654175;ms
+SignatureVerify;RSA;0.617980957031;ms
+SignatureVerify;RSA;1.336812973022;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;0.650167465210;ms
+SignatureVerify;RSA;0.557899475098;ms
+SignatureVerify;RSA;0.519990921021;ms
+SignatureVerify;RSA;0.681877136230;ms
+SignatureVerify;RSA;0.286102294922;ms
+SignatureVerify;RSA;0.575065612793;ms
+SignatureVerify;RSA;0.205039978027;ms
+SignatureVerify;RSA;0.400781631470;ms
+SignatureVerify;RSA;2.659082412720;ms
+SignatureVerify;RSA;0.407934188843;ms
+SignatureVerify;RSA;0.859975814819;ms
+SignatureVerify;RSA;0.635147094727;ms
+SignatureVerify;RSA;0.578880310059;ms
+SignatureVerify;RSA;0.808000564575;ms
+SignatureVerify;RSA;0.206947326660;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.137805938721;ms
+SignatureVerify;RSA;1.564025878906;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;0.192880630493;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;7.412910461426;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;8.521795272827;ms
+SignatureVerify;RSA;0.190019607544;ms
+SignatureVerify;RSA;0.174045562744;ms
+SignatureVerify;RSA;0.320911407471;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.145196914673;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.132083892822;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;20.073890686035;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;1.765966415405;ms
+SignatureVerify;RSA;0.349998474121;ms
+SignatureVerify;RSA;0.265836715698;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.255107879639;ms
+SignatureVerify;RSA;1.497983932495;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.203132629395;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.165224075317;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.213861465454;ms
+SignatureVerify;RSA;0.278949737549;ms
+SignatureVerify;RSA;0.244855880737;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.511884689331;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;5.024909973145;ms
+SignatureVerify;RSA;0.302076339722;ms
+SignatureVerify;RSA;0.355005264282;ms
+SignatureVerify;RSA;0.379085540771;ms
+SignatureVerify;RSA;0.326871871948;ms
+SignatureVerify;RSA;0.267982482910;ms
+SignatureVerify;RSA;0.288963317871;ms
+SignatureVerify;RSA;0.697851181030;ms
+SignatureVerify;RSA;1.040935516357;ms
+SignatureVerify;RSA;0.471115112305;ms
+SignatureVerify;RSA;0.477075576782;ms
+SignatureVerify;RSA;0.427007675171;ms
+SignatureVerify;RSA;0.701904296875;ms
+SignatureVerify;RSA;0.724077224731;ms
+SignatureVerify;RSA;0.239849090576;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.330924987793;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.243186950684;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.176191329956;ms
+SignatureVerify;RSA;2.120018005371;ms
+SignatureVerify;RSA;0.341176986694;ms
+SignatureVerify;RSA;0.350952148438;ms
+SignatureVerify;RSA;1.383066177368;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.279903411865;ms
+SignatureVerify;RSA;1.019001007080;ms
+SignatureVerify;RSA;0.355958938599;ms
+SignatureVerify;RSA;0.234842300415;ms
+SignatureVerify;RSA;1.087903976440;ms
+SignatureVerify;RSA;0.293016433716;ms
+SignatureVerify;RSA;0.344038009644;ms
+SignatureVerify;RSA;0.435113906860;ms
+SignatureVerify;RSA;1.188039779663;ms
+SignatureVerify;RSA;0.363111495972;ms
+SignatureVerify;RSA;0.969886779785;ms
+SignatureVerify;RSA;0.622987747192;ms
+SignatureVerify;RSA;0.410795211792;ms
+SignatureVerify;RSA;0.402927398682;ms
+SignatureVerify;RSA;0.531911849976;ms
+SignatureVerify;RSA;0.409126281738;ms
+SignatureVerify;RSA;0.339984893799;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.435829162598;ms
+SignatureVerify;RSA;0.258922576904;ms
+SignatureVerify;RSA;0.370979309082;ms
+SignatureVerify;RSA;0.722885131836;ms
+SignatureVerify;RSA;0.366926193237;ms
+SignatureVerify;RSA;0.212192535400;ms
+SignatureVerify;RSA;0.479221343994;ms
+SignatureVerify;RSA;0.240802764893;ms
+SignatureVerify;RSA;0.356912612915;ms
+SignatureVerify;RSA;0.264883041382;ms
+SignatureVerify;RSA;0.314950942993;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.267028808594;ms
+SignatureVerify;RSA;0.223875045776;ms
+SignatureVerify;RSA;0.329017639160;ms
+SignatureVerify;RSA;0.309944152832;ms
+SignatureVerify;RSA;0.285148620605;ms
+SignatureVerify;RSA;0.245094299316;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.823020935059;ms
+SignatureVerify;RSA;0.230073928833;ms
+SignatureVerify;RSA;0.940084457397;ms
+SignatureVerify;RSA;0.306129455566;ms
+SignatureVerify;RSA;0.523090362549;ms
+SignatureVerify;RSA;1.080036163330;ms
+SignatureVerify;RSA;1.196146011353;ms
+SignatureVerify;RSA;0.344991683960;ms
+SignatureVerify;RSA;0.612974166870;ms
+SignatureVerify;RSA;0.405073165894;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;0.241041183472;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.424146652222;ms
+SignatureVerify;RSA;0.266075134277;ms
+SignatureVerify;RSA;0.217914581299;ms
+SignatureVerify;RSA;2.310991287231;ms
+SignatureVerify;RSA;5.652189254761;ms
+SignatureVerify;RSA;0.235795974731;ms
+SignatureVerify;RSA;0.487089157104;ms
+SignatureVerify;RSA;0.337839126587;ms
+SignatureVerify;RSA;0.256061553955;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.241041183472;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;0.245094299316;ms
+SignatureVerify;RSA;0.224113464355;ms
+SignatureVerify;RSA;0.827074050903;ms
+SignatureVerify;RSA;0.214099884033;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;1.924037933350;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;2.501010894775;ms
+SignatureVerify;RSA;0.294923782349;ms
+SignatureVerify;RSA;3.531932830811;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.187873840332;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.161886215210;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;22.495985031128;ms
+SignatureVerify;RSA;0.237941741943;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.423908233643;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.221014022827;ms
+SignatureVerify;RSA;0.333070755005;ms
+SignatureVerify;RSA;0.238180160522;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.170946121216;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.163793563843;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.277996063232;ms
+SignatureVerify;RSA;0.182151794434;ms
+SignatureVerify;RSA;0.358819961548;ms
+SignatureVerify;RSA;0.259876251221;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.155210494995;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.186920166016;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.313043594360;ms
+SignatureVerify;RSA;0.598907470703;ms
+SignatureVerify;RSA;0.318050384521;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.156164169312;ms
+SignatureVerify;RSA;0.174999237061;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.211954116821;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.275850296021;ms
+SignatureVerify;RSA;0.152111053467;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.158071517944;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;10.869026184082;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;2.660989761353;ms
+SignatureVerify;RSA;0.662088394165;ms
+SignatureVerify;RSA;0.241041183472;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.297069549561;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.167131423950;ms
+SignatureVerify;RSA;7.269859313965;ms
+SignatureVerify;RSA;0.361919403076;ms
+SignatureVerify;RSA;0.182867050171;ms
+SignatureVerify;RSA;0.303030014038;ms
+SignatureVerify;RSA;0.247001647949;ms
+SignatureVerify;RSA;0.330924987793;ms
+SignatureVerify;RSA;0.760078430176;ms
+SignatureVerify;RSA;0.361919403076;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.292062759399;ms
+SignatureVerify;RSA;0.154972076416;ms
+SignatureVerify;RSA;0.188112258911;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.218868255615;ms
+SignatureVerify;RSA;0.205993652344;ms
+SignatureVerify;RSA;0.226020812988;ms
+SignatureVerify;RSA;0.236034393311;ms
+SignatureVerify;RSA;0.248908996582;ms
+SignatureVerify;RSA;0.198125839233;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.123023986816;ms
+SignatureVerify;RSA;19.085168838501;ms
+SignatureVerify;RSA;0.270843505859;ms
+SignatureVerify;RSA;0.288009643555;ms
+SignatureVerify;RSA;0.212907791138;ms
+SignatureVerify;RSA;0.353097915649;ms
+SignatureVerify;RSA;0.142097473145;ms
+SignatureVerify;RSA;0.297069549561;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;0.207901000977;ms
+SignatureVerify;RSA;0.195026397705;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.354051589966;ms
+SignatureVerify;RSA;0.252008438110;ms
+SignatureVerify;RSA;0.325202941895;ms
+SignatureVerify;RSA;0.231027603149;ms
+SignatureVerify;RSA;0.279188156128;ms
+SignatureVerify;RSA;0.346899032593;ms
+SignatureVerify;RSA;0.306844711304;ms
+SignatureVerify;RSA;0.291824340820;ms
+SignatureVerify;RSA;0.340938568115;ms
+SignatureVerify;RSA;15.352964401245;ms
+SignatureVerify;RSA;0.339984893799;ms
+SignatureVerify;RSA;0.203132629395;ms
+SignatureVerify;RSA;0.738143920898;ms
+SignatureVerify;RSA;0.586986541748;ms
+SignatureVerify;RSA;0.277996063232;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.263929367065;ms
+SignatureVerify;RSA;0.339984893799;ms
+SignatureVerify;RSA;1.194000244141;ms
+SignatureVerify;RSA;0.391960144043;ms
+SignatureVerify;RSA;0.245094299316;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.466108322144;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;2.007961273193;ms
+SignatureVerify;RSA;7.793903350830;ms
+SignatureVerify;RSA;0.218868255615;ms
+SignatureVerify;RSA;2.599000930786;ms
+SignatureVerify;RSA;2.542018890381;ms
+SignatureVerify;RSA;4.775047302246;ms
+SignatureVerify;RSA;0.185012817383;ms
+SignatureVerify;RSA;0.209093093872;ms
+SignatureVerify;RSA;4.736900329590;ms
+SignatureVerify;RSA;0.350952148438;ms
+SignatureVerify;RSA;4.894018173218;ms
+SignatureVerify;RSA;3.048181533813;ms
+SignatureVerify;RSA;0.738143920898;ms
+SignatureVerify;RSA;2.058982849121;ms
+SignatureVerify;RSA;2.677202224731;ms
+SignatureVerify;RSA;7.531881332397;ms
+SignatureVerify;RSA;0.181913375854;ms
+SignatureVerify;RSA;0.285863876343;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.361919403076;ms
+SignatureVerify;RSA;0.509977340698;ms
+SignatureVerify;RSA;0.252962112427;ms
+SignatureVerify;RSA;0.278949737549;ms
+SignatureVerify;RSA;0.378131866455;ms
+SignatureVerify;RSA;0.266075134277;ms
+SignatureVerify;RSA;0.560998916626;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.216007232666;ms
+SignatureVerify;RSA;0.573873519897;ms
+SignatureVerify;RSA;0.607013702393;ms
+SignatureVerify;RSA;0.483989715576;ms
+SignatureVerify;RSA;8.542060852051;ms
+SignatureVerify;RSA;0.240802764893;ms
+SignatureVerify;RSA;4.223823547363;ms
+SignatureVerify;RSA;2.866029739380;ms
+SignatureVerify;RSA;12.387990951538;ms
+SignatureVerify;RSA;0.177145004272;ms
+SignatureVerify;RSA;0.208139419556;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.301122665405;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.283002853394;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.209808349609;ms
+SignatureVerify;RSA;0.141859054565;ms
+SignatureVerify;RSA;0.271797180176;ms
+SignatureVerify;RSA;0.178098678589;ms
+SignatureVerify;RSA;0.168085098267;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.129222869873;ms
+SignatureVerify;RSA;0.218868255615;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.232934951782;ms
+SignatureVerify;RSA;0.129938125610;ms
+SignatureVerify;RSA;0.150918960571;ms
+SignatureVerify;RSA;0.128984451294;ms
+SignatureVerify;RSA;0.199079513550;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.164985656738;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.131130218506;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.162839889526;ms
+SignatureVerify;RSA;1.202106475830;ms
+SignatureVerify;RSA;0.157117843628;ms
+SignatureVerify;RSA;0.269889831543;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.165939331055;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.179052352905;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;0.184059143066;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.160932540894;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.178813934326;ms
+SignatureVerify;RSA;0.128030776978;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.146865844727;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.164031982422;ms
+SignatureVerify;RSA;0.133991241455;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.134944915771;ms
+SignatureVerify;RSA;0.147104263306;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;12.459993362427;ms
+SignatureVerify;RSA;0.149011611938;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;0.153064727783;ms
+SignatureVerify;RSA;0.220775604248;ms
+SignatureVerify;RSA;4.652023315430;ms
+SignatureVerify;RSA;0.196933746338;ms
+SignatureVerify;RSA;0.144958496094;ms
+SignatureVerify;RSA;0.175952911377;ms
+SignatureVerify;RSA;0.597000122070;ms
+SignatureVerify;RSA;0.192880630493;ms
+SignatureVerify;RSA;2.259016036987;ms
+SignatureVerify;RSA;0.204801559448;ms
+SignatureVerify;RSA;0.138998031616;ms
+SignatureVerify;RSA;0.178813934326;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.156879425049;ms
+SignatureVerify;RSA;0.141143798828;ms
+SignatureVerify;RSA;0.144004821777;ms
+SignatureVerify;RSA;0.128030776978;ms
+SignatureVerify;RSA;0.146150588989;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.162124633789;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.155925750732;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.231981277466;ms
+SignatureVerify;RSA;0.224113464355;ms
+SignatureVerify;RSA;0.290155410767;ms
+SignatureVerify;RSA;0.225067138672;ms
+SignatureVerify;RSA;0.154018402100;ms
+SignatureVerify;RSA;0.234127044678;ms
+SignatureVerify;RSA;0.194072723389;ms
+SignatureVerify;RSA;32.628059387207;ms
+SignatureVerify;RSA;0.293970108032;ms
+SignatureVerify;RSA;0.219821929932;ms
+SignatureVerify;RSA;0.251054763794;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.317096710205;ms
+SignatureVerify;RSA;0.249147415161;ms
+SignatureVerify;RSA;1.461982727051;ms
+SignatureVerify;RSA;0.185966491699;ms
+SignatureVerify;RSA;1.353025436401;ms
+SignatureVerify;RSA;0.293970108032;ms
+SignatureVerify;RSA;0.235080718994;ms
+SignatureVerify;RSA;0.190973281860;ms
+SignatureVerify;RSA;3.813028335571;ms
+SignatureVerify;RSA;0.180959701538;ms
+SignatureVerify;RSA;0.201940536499;ms
+SignatureVerify;RSA;0.137090682983;ms
+SignatureVerify;RSA;0.438928604126;ms
+SignatureVerify;RSA;0.209808349609;ms
+SignatureVerify;RSA;0.195980072021;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.173091888428;ms
+SignatureVerify;RSA;0.140905380249;ms
+SignatureVerify;RSA;0.152826309204;ms
+SignatureVerify;RSA;0.138044357300;ms
+SignatureVerify;RSA;0.161170959473;ms
+SignatureVerify;RSA;0.136852264404;ms
+SignatureVerify;RSA;0.145912170410;ms
+SignatureVerify;RSA;14.765977859497;ms
+SignatureVerify;RSA;0.276803970337;ms
+SignatureVerify;RSA;0.169038772583;ms
+SignatureVerify;RSA;0.277996063232;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;0.272035598755;ms
+SignatureVerify;RSA;0.269889831543;ms
+SignatureVerify;RSA;0.207185745239;ms
+SignatureVerify;RSA;0.147819519043;ms
+SignatureVerify;RSA;0.238895416260;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.442028045654;ms
+SignatureVerify;RSA;0.242948532104;ms
+SignatureVerify;RSA;0.202894210815;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.229120254517;ms
+SignatureVerify;RSA;0.139951705933;ms
+SignatureVerify;RSA;0.169992446899;ms
+SignatureVerify;RSA;0.135898590088;ms
+SignatureVerify;RSA;0.177860260010;ms
+SignatureVerify;RSA;0.136137008667;ms
+SignatureVerify;RSA;0.151157379150;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.133037567139;ms
+SignatureVerify;RSA;0.149965286255;ms
+SignatureVerify;RSA;0.130891799927;ms
+SignatureVerify;RSA;0.150203704834;ms
+SignatureVerify;RSA;0.131845474243;ms
+SignatureVerify;RSA;0.159978866577;ms
+SignatureVerify;RSA;1.537084579468;ms
+SignatureVerify;RSA;0.286102294922;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;4.002809524536;ms
+SignatureVerify;RSA;0.300884246826;ms
+SignatureVerify;RSA;0.221967697144;ms
+SignatureVerify;RSA;0.227928161621;ms
+SignatureVerify;RSA;12.026071548462;ms
+SignatureVerify;RSA;6.475925445557;ms
+SignatureVerify;RSA;0.261068344116;ms
+SignatureVerify;RSA;0.163078308105;ms
+SignatureVerify;RSA;10.836124420166;ms
+SignatureVerify;RSA;0.323057174683;ms
+SignatureVerify;RSA;0.218868255615;ms
+SignatureVerify;RSA;0.143051147461;ms
+SignatureVerify;RSA;0.189065933228;ms
+SignatureVerify;RSA;0.171899795532;ms
+SignatureVerify;RSA;0.319004058838;ms
+SignatureVerify;RSA;1.863002777100;ms
+SignatureVerify;RSA;0.389099121094;ms
+SignatureVerify;RSA;0.210046768188;ms
+SignatureVerify;RSA;0.380992889404;ms
+SignatureVerify;RSA;0.277042388916;ms
+SignatureVerify;RSA;0.700950622559;ms
+SignatureVerify;RSA;0.457048416138;ms
+SignatureVerify;RSA;0.641107559204;ms
+SignatureVerify;RSA;0.546932220459;ms
+SignatureVerify;RSA;0.297069549561;ms
+SignatureVerify;RSA;0.159025192261;ms
+SignatureVerify;RSA;0.309944152832;ms
+SignatureVerify;RSA;0.393867492676;ms
+SignatureVerify;RSA;0.350952148438;ms
+SignatureVerify;RSA;0.265836715698;ms
+SignatureVerify;RSA;0.938177108765;ms
+SignatureVerify;RSA;0.545978546143;ms
+SignatureVerify;RSA;0.370025634766;ms
+SignatureVerify;RSA;0.458002090454;ms
+SignatureVerify;RSA;0.334978103638;ms
+SignatureVerify;RSA;0.186204910278;ms
+SignatureVerify;RSA;0.335931777954;ms
+SignatureVerify;RSA;0.248908996582;ms
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;transaction 652;block 351
+SizeSignature;RSA;512;Bytes;transaction 652;block 351
+SizeSignature;RSA;512;Bytes;transaction 652;block 352
+SizeSignature;RSA;512;Bytes;transaction 652;block 352
+SizeSignature;RSA;512;Bytes;transaction 652;block 353
+SizeSignature;RSA;512;Bytes;transaction 652;block 353
+SizeSignature;RSA;512;Bytes;transaction 652;block 354
+SizeSignature;RSA;512;Bytes;transaction 652;block 354
+SizeSignature;RSA;512;Bytes;transaction 652;block 355
+SizeSignature;RSA;512;Bytes;transaction 652;block 355
+SizeSignature;RSA;512;Bytes;transaction 652;block 356
+SizeSignature;RSA;512;Bytes;transaction 652;block 356
+SizeSignature;RSA;512;Bytes;transaction 652;block 357
+SizeSignature;RSA;512;Bytes;transaction 652;block 357
+SizeSignature;RSA;512;Bytes;transaction 652;block 358
+SizeSignature;RSA;512;Bytes;transaction 652;block 358
+SizeSignature;RSA;512;Bytes;transaction 652;block 359
+SizeSignature;RSA;512;Bytes;transaction 652;block 359
+SizeSignature;RSA;512;Bytes;transaction 652;block 360
+SizeSignature;RSA;512;Bytes;transaction 652;block 360
+SizeSignature;RSA;512;Bytes;transaction 652;block 361
+SizeSignature;RSA;512;Bytes;transaction 652;block 361
+SizeSignature;RSA;512;Bytes;transaction 652;block 362
+SizeSignature;RSA;512;Bytes;transaction 652;block 362
+SizeSignature;RSA;512;Bytes;transaction 652;block 363
+SizeSignature;RSA;512;Bytes;transaction 652;block 363
+SizeSignature;RSA;512;Bytes;transaction 652;block 364
+SizeSignature;RSA;512;Bytes;transaction 652;block 364
+SizeSignature;RSA;512;Bytes;transaction 652;block 365
+SizeSignature;RSA;512;Bytes;transaction 652;block 365
+SizeSignature;RSA;512;Bytes;transaction 652;block 366
+SizeSignature;RSA;512;Bytes;transaction 652;block 366
+SizeSignature;RSA;512;Bytes;transaction 652;block 367
+SizeSignature;RSA;512;Bytes;transaction 652;block 367
+SizeSignature;RSA;512;Bytes;transaction 652;block 368
+SizeSignature;RSA;512;Bytes;transaction 652;block 368
+SizeSignature;RSA;512;Bytes;transaction 652;block 369
+SizeSignature;RSA;512;Bytes;transaction 652;block 369
+SizeSignature;RSA;512;Bytes;transaction 652;block 370
+SizeSignature;RSA;512;Bytes;transaction 652;block 370
+SizeSignature;RSA;512;Bytes;transaction 652;block 371
+SizeSignature;RSA;512;Bytes;transaction 652;block 371
+SizeSignature;RSA;512;Bytes;transaction 652;block 372
+SizeSignature;RSA;512;Bytes;transaction 652;block 372
+SizeSignature;RSA;512;Bytes;transaction 652;block 373
+SizeSignature;RSA;512;Bytes;transaction 652;block 373
+SizeSignature;RSA;512;Bytes;transaction 652;block 374
+SizeSignature;RSA;512;Bytes;transaction 652;block 374
+SizeSignature;RSA;512;Bytes;transaction 652;block 375
+SizeSignature;RSA;512;Bytes;transaction 652;block 375
+SizeSignature;RSA;512;Bytes;transaction 652;block 376
+SizeSignature;RSA;512;Bytes;transaction 652;block 376
+SizeSignature;RSA;512;Bytes;transaction 652;block 377
+SizeSignature;RSA;512;Bytes;transaction 652;block 377
+SizeSignature;RSA;512;Bytes;transaction 652;block 378
+SizeSignature;RSA;512;Bytes;transaction 652;block 378
+SizeSignature;RSA;512;Bytes;transaction 652;block 379
+SizeSignature;RSA;512;Bytes;transaction 652;block 379
+SizeSignature;RSA;512;Bytes;transaction 652;block 380
+SizeSignature;RSA;512;Bytes;transaction 652;block 380
+SizeSignature;RSA;512;Bytes;transaction 652;block 381
+SizeSignature;RSA;512;Bytes;transaction 652;block 381
+SizeSignature;RSA;512;Bytes;transaction 652;block 382
+SizeSignature;RSA;512;Bytes;transaction 652;block 382
+SizeSignature;RSA;512;Bytes;transaction 652;block 383
+SizeSignature;RSA;512;Bytes;transaction 652;block 383
+SizeSignature;RSA;512;Bytes;transaction 652;block 384
+SizeSignature;RSA;512;Bytes;transaction 652;block 384
+SizeSignature;RSA;512;Bytes;transaction 652;block 385
+SizeSignature;RSA;512;Bytes;transaction 652;block 385
+SizeSignature;RSA;512;Bytes;transaction 652;block 386
+SizeSignature;RSA;512;Bytes;transaction 652;block 386
+SizeSignature;RSA;512;Bytes;transaction 652;block 387
+SizeSignature;RSA;512;Bytes;transaction 652;block 387
+SizeSignature;RSA;512;Bytes;transaction 652;block 388
+SizeSignature;RSA;512;Bytes;transaction 652;block 388
+SizeSignature;RSA;512;Bytes;transaction 652;block 389
+SizeSignature;RSA;512;Bytes;transaction 652;block 389
+SizeSignature;RSA;512;Bytes;transaction 652;block 390
+SizeSignature;RSA;512;Bytes;transaction 652;block 390
+SizeSignature;RSA;512;Bytes;transaction 652;block 391
+SizeSignature;RSA;512;Bytes;transaction 652;block 391
+SizeSignature;RSA;512;Bytes;transaction 652;block 392
+SizeSignature;RSA;512;Bytes;transaction 652;block 392
+SizeSignature;RSA;512;Bytes;transaction 652;block 393
+SizeSignature;RSA;512;Bytes;transaction 652;block 393
+SizeSignature;RSA;512;Bytes;transaction 652;block 394
+SizeSignature;RSA;512;Bytes;transaction 652;block 394
+SizeSignature;RSA;512;Bytes;transaction 652;block 395
+SizeSignature;RSA;512;Bytes;transaction 652;block 395
+SizeSignature;RSA;512;Bytes;transaction 652;block 396
+SizeSignature;RSA;512;Bytes;transaction 652;block 396
+SizeSignature;RSA;512;Bytes;transaction 652;block 397
+SizeSignature;RSA;512;Bytes;transaction 652;block 397
+SizeSignature;RSA;512;Bytes;transaction 652;block 398
+SizeSignature;RSA;512;Bytes;transaction 652;block 398
+SizeSignature;RSA;512;Bytes;transaction 652;block 399
+SizeSignature;RSA;512;Bytes;transaction 652;block 399
+SizeSignature;RSA;512;Bytes;transaction 652;block 400
+SizeSignature;RSA;512;Bytes;transaction 652;block 400
+SizeSignature;RSA;512;Bytes;transaction 652;block 401
+SizeSignature;RSA;512;Bytes;transaction 652;block 401
+SizeSignature;RSA;512;Bytes;transaction 652;block 402
+SizeSignature;RSA;512;Bytes;transaction 652;block 402
+SizeSignature;RSA;512;Bytes;transaction 652;block 403
+SizeSignature;RSA;512;Bytes;transaction 652;block 403
+SizeSignature;RSA;512;Bytes;transaction 652;block 404
+SizeSignature;RSA;512;Bytes;transaction 652;block 404
+SizeSignature;RSA;512;Bytes;transaction 652;block 405
+SizeSignature;RSA;512;Bytes;transaction 652;block 405
+SizeSignature;RSA;512;Bytes;transaction 652;block 406
+SizeSignature;RSA;512;Bytes;transaction 652;block 406
+SizeSignature;RSA;512;Bytes;transaction 652;block 407
+SizeSignature;RSA;512;Bytes;transaction 652;block 407
+SizeSignature;RSA;512;Bytes;transaction 652;block 408
+SizeSignature;RSA;512;Bytes;transaction 652;block 408
+SizeSignature;RSA;512;Bytes;transaction 652;block 409
+SizeSignature;RSA;512;Bytes;transaction 652;block 409
+SizeSignature;RSA;512;Bytes;transaction 652;block 410
+SizeSignature;RSA;512;Bytes;transaction 652;block 410
+SizeSignature;RSA;512;Bytes;transaction 652;block 411
+SizeSignature;RSA;512;Bytes;transaction 652;block 411
+SizeSignature;RSA;512;Bytes;transaction 652;block 412
+SizeSignature;RSA;512;Bytes;transaction 652;block 412
+SizeSignature;RSA;512;Bytes;transaction 652;block 413
+SizeSignature;RSA;512;Bytes;transaction 652;block 413
+SizeSignature;RSA;512;Bytes;transaction 652;block 414
+SizeSignature;RSA;512;Bytes;transaction 652;block 414
+SizeSignature;RSA;512;Bytes;transaction 652;block 415
+SizeSignature;RSA;512;Bytes;transaction 652;block 415
+SizeSignature;RSA;512;Bytes;transaction 652;block 416
+SizeSignature;RSA;512;Bytes;transaction 652;block 416
+SizeSignature;RSA;512;Bytes;transaction 652;block 417
+SizeSignature;RSA;512;Bytes;transaction 652;block 417
+SizeSignature;RSA;512;Bytes;transaction 652;block 418
+SizeSignature;RSA;512;Bytes;transaction 652;block 418
+SizeSignature;RSA;512;Bytes;transaction 652;block 419
+SizeSignature;RSA;512;Bytes;transaction 652;block 419
+SizeSignature;RSA;512;Bytes;transaction 652;block 420
+SizeSignature;RSA;512;Bytes;transaction 652;block 420
+SizeSignature;RSA;512;Bytes;transaction 652;block 421
+SizeSignature;RSA;512;Bytes;transaction 652;block 421
+SizeSignature;RSA;512;Bytes;transaction 652;block 422
+SizeSignature;RSA;512;Bytes;transaction 652;block 422
+SizeSignature;RSA;512;Bytes;transaction 652;block 423
+SizeSignature;RSA;512;Bytes;transaction 652;block 423
+SizeSignature;RSA;512;Bytes;transaction 652;block 424
+SizeSignature;RSA;512;Bytes;transaction 652;block 424
+SizeSignature;RSA;512;Bytes;transaction 652;block 425
+SizeSignature;RSA;512;Bytes;transaction 652;block 425
+SizeSignature;RSA;512;Bytes;transaction 652;block 426
+SizeSignature;RSA;512;Bytes;transaction 652;block 426
+SizeSignature;RSA;512;Bytes;transaction 652;block 427
+SizeSignature;RSA;512;Bytes;transaction 652;block 427
+SizeSignature;RSA;512;Bytes;transaction 652;block 428
+SizeSignature;RSA;512;Bytes;transaction 652;block 428
+SizeSignature;RSA;512;Bytes;transaction 652;block 429
+SizeSignature;RSA;512;Bytes;transaction 652;block 429
+SizeSignature;RSA;512;Bytes;transaction 652;block 430
+SizeSignature;RSA;512;Bytes;transaction 652;block 430
+SizeSignature;RSA;512;Bytes;transaction 652;block 431
+SizeSignature;RSA;512;Bytes;transaction 652;block 431
+SizeSignature;RSA;512;Bytes;transaction 652;block 432
+SizeSignature;RSA;512;Bytes;transaction 652;block 432
+SizeSignature;RSA;512;Bytes;transaction 652;block 433
+SizeSignature;RSA;512;Bytes;transaction 652;block 433
+SizeSignature;RSA;512;Bytes;transaction 652;block 434
+SizeSignature;RSA;512;Bytes;transaction 652;block 434
+SizeSignature;RSA;512;Bytes;transaction 652;block 435
+SizeSignature;RSA;512;Bytes;transaction 652;block 435
+SizeSignature;RSA;512;Bytes;transaction 652;block 436
+SizeSignature;RSA;512;Bytes;transaction 652;block 436
+SizeSignature;RSA;512;Bytes;transaction 652;block 437
+SizeSignature;RSA;512;Bytes;transaction 652;block 437
+SizeSignature;RSA;512;Bytes;transaction 652;block 438
+SizeSignature;RSA;512;Bytes;transaction 652;block 438
+SizeSignature;RSA;512;Bytes;transaction 652;block 439
+SizeSignature;RSA;512;Bytes;transaction 652;block 439
+SizeSignature;RSA;512;Bytes;transaction 652;block 440
+SizeSignature;RSA;512;Bytes;transaction 652;block 440
+SizeSignature;RSA;512;Bytes;transaction 652;block 441
+SizeSignature;RSA;512;Bytes;transaction 652;block 441
+SizeSignature;RSA;512;Bytes;transaction 652;block 442
+SizeSignature;RSA;512;Bytes;transaction 652;block 442
+SizeSignature;RSA;512;Bytes;transaction 652;block 443
+SizeSignature;RSA;512;Bytes;transaction 652;block 443
+SizeSignature;RSA;512;Bytes;transaction 652;block 444
+SizeSignature;RSA;512;Bytes;transaction 652;block 444
+SizeSignature;RSA;512;Bytes;transaction 652;block 445
+SizeSignature;RSA;512;Bytes;transaction 652;block 445
+SizeSignature;RSA;512;Bytes;transaction 652;block 446
+SizeSignature;RSA;512;Bytes;transaction 652;block 446
+SizeSignature;RSA;512;Bytes;transaction 652;block 447
+SizeSignature;RSA;512;Bytes;transaction 652;block 447
+SizeSignature;RSA;512;Bytes;transaction 652;block 448
+SizeSignature;RSA;512;Bytes;transaction 652;block 448
+SizeSignature;RSA;512;Bytes;transaction 652;block 449
+SizeSignature;RSA;512;Bytes;transaction 652;block 449
+SizeSignature;RSA;512;Bytes;transaction 652;block 450
+SizeSignature;RSA;512;Bytes;transaction 652;block 450
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;transaction 653;block 101
+SizeSignature;RSA;512;Bytes;transaction 653;block 101
+SizeSignature;RSA;512;Bytes;transaction 653;block 102
+SizeSignature;RSA;512;Bytes;transaction 653;block 102
+SizeSignature;RSA;512;Bytes;transaction 653;block 103
+SizeSignature;RSA;512;Bytes;transaction 653;block 103
+SizeSignature;RSA;512;Bytes;transaction 653;block 104
+SizeSignature;RSA;512;Bytes;transaction 653;block 104
+SizeSignature;RSA;512;Bytes;transaction 653;block 105
+SizeSignature;RSA;512;Bytes;transaction 653;block 105
+SizeSignature;RSA;512;Bytes;transaction 653;block 106
+SizeSignature;RSA;512;Bytes;transaction 653;block 106
+SizeSignature;RSA;512;Bytes;transaction 653;block 107
+SizeSignature;RSA;512;Bytes;transaction 653;block 107
+SizeSignature;RSA;512;Bytes;transaction 653;block 108
+SizeSignature;RSA;512;Bytes;transaction 653;block 108
+SizeSignature;RSA;512;Bytes;transaction 653;block 109
+SizeSignature;RSA;512;Bytes;transaction 653;block 109
+SizeSignature;RSA;512;Bytes;transaction 653;block 110
+SizeSignature;RSA;512;Bytes;transaction 653;block 110
+SizeSignature;RSA;512;Bytes;transaction 653;block 111
+SizeSignature;RSA;512;Bytes;transaction 653;block 111
+SizeSignature;RSA;512;Bytes;transaction 653;block 112
+SizeSignature;RSA;512;Bytes;transaction 653;block 112
+SizeSignature;RSA;512;Bytes;transaction 653;block 113
+SizeSignature;RSA;512;Bytes;transaction 653;block 113
+SizeSignature;RSA;512;Bytes;transaction 653;block 114
+SizeSignature;RSA;512;Bytes;transaction 653;block 114
+SizeSignature;RSA;512;Bytes;transaction 653;block 115
+SizeSignature;RSA;512;Bytes;transaction 653;block 115
+SizeSignature;RSA;512;Bytes;transaction 653;block 116
+SizeSignature;RSA;512;Bytes;transaction 653;block 116
+SizeSignature;RSA;512;Bytes;transaction 653;block 117
+SizeSignature;RSA;512;Bytes;transaction 653;block 117
+SizeSignature;RSA;512;Bytes;transaction 653;block 118
+SizeSignature;RSA;512;Bytes;transaction 653;block 118
+SizeSignature;RSA;512;Bytes;transaction 653;block 119
+SizeSignature;RSA;512;Bytes;transaction 653;block 119
+SizeSignature;RSA;512;Bytes;transaction 653;block 120
+SizeSignature;RSA;512;Bytes;transaction 653;block 120
+SizeSignature;RSA;512;Bytes;transaction 653;block 121
+SizeSignature;RSA;512;Bytes;transaction 653;block 121
+SizeSignature;RSA;512;Bytes;transaction 653;block 122
+SizeSignature;RSA;512;Bytes;transaction 653;block 122
+SizeSignature;RSA;512;Bytes;transaction 653;block 123
+SizeSignature;RSA;512;Bytes;transaction 653;block 123
+SizeSignature;RSA;512;Bytes;transaction 653;block 124
+SizeSignature;RSA;512;Bytes;transaction 653;block 124
+SizeSignature;RSA;512;Bytes;transaction 653;block 125
+SizeSignature;RSA;512;Bytes;transaction 653;block 125
+SizeSignature;RSA;512;Bytes;transaction 653;block 126
+SizeSignature;RSA;512;Bytes;transaction 653;block 126
+SizeSignature;RSA;512;Bytes;transaction 653;block 127
+SizeSignature;RSA;512;Bytes;transaction 653;block 127
+SizeSignature;RSA;512;Bytes;transaction 653;block 128
+SizeSignature;RSA;512;Bytes;transaction 653;block 128
+SizeSignature;RSA;512;Bytes;transaction 653;block 129
+SizeSignature;RSA;512;Bytes;transaction 653;block 129
+SizeSignature;RSA;512;Bytes;transaction 653;block 130
+SizeSignature;RSA;512;Bytes;transaction 653;block 130
+SizeSignature;RSA;512;Bytes;transaction 653;block 131
+SizeSignature;RSA;512;Bytes;transaction 653;block 131
+SizeSignature;RSA;512;Bytes;transaction 653;block 132
+SizeSignature;RSA;512;Bytes;transaction 653;block 132
+SizeSignature;RSA;512;Bytes;transaction 653;block 133
+SizeSignature;RSA;512;Bytes;transaction 653;block 133
+SizeSignature;RSA;512;Bytes;transaction 653;block 134
+SizeSignature;RSA;512;Bytes;transaction 653;block 134
+SizeSignature;RSA;512;Bytes;transaction 653;block 135
+SizeSignature;RSA;512;Bytes;transaction 653;block 135
+SizeSignature;RSA;512;Bytes;transaction 653;block 136
+SizeSignature;RSA;512;Bytes;transaction 653;block 136
+SizeSignature;RSA;512;Bytes;transaction 653;block 137
+SizeSignature;RSA;512;Bytes;transaction 653;block 137
+SizeSignature;RSA;512;Bytes;transaction 653;block 138
+SizeSignature;RSA;512;Bytes;transaction 653;block 138
+SizeSignature;RSA;512;Bytes;transaction 653;block 139
+SizeSignature;RSA;512;Bytes;transaction 653;block 139
+SizeSignature;RSA;512;Bytes;transaction 653;block 140
+SizeSignature;RSA;512;Bytes;transaction 653;block 140
+SizeSignature;RSA;512;Bytes;transaction 653;block 141
+SizeSignature;RSA;512;Bytes;transaction 653;block 141
+SizeSignature;RSA;512;Bytes;transaction 653;block 142
+SizeSignature;RSA;512;Bytes;transaction 653;block 142
+SizeSignature;RSA;512;Bytes;transaction 653;block 143
+SizeSignature;RSA;512;Bytes;transaction 653;block 143
+SizeSignature;RSA;512;Bytes;transaction 653;block 144
+SizeSignature;RSA;512;Bytes;transaction 653;block 144
+SizeSignature;RSA;512;Bytes;transaction 653;block 145
+SizeSignature;RSA;512;Bytes;transaction 653;block 145
+SizeSignature;RSA;512;Bytes;transaction 653;block 146
+SizeSignature;RSA;512;Bytes;transaction 653;block 146
+SizeSignature;RSA;512;Bytes;transaction 653;block 147
+SizeSignature;RSA;512;Bytes;transaction 653;block 147
+SizeSignature;RSA;512;Bytes;transaction 653;block 148
+SizeSignature;RSA;512;Bytes;transaction 653;block 148
+SizeSignature;RSA;512;Bytes;transaction 653;block 149
+SizeSignature;RSA;512;Bytes;transaction 653;block 149
+SizeSignature;RSA;512;Bytes;transaction 653;block 150
+SizeSignature;RSA;512;Bytes;transaction 653;block 150
+SizeSignature;RSA;512;Bytes;transaction 653;block 151
+SizeSignature;RSA;512;Bytes;transaction 653;block 151
+SizeSignature;RSA;512;Bytes;transaction 653;block 152
+SizeSignature;RSA;512;Bytes;transaction 653;block 152
+SizeSignature;RSA;512;Bytes;transaction 653;block 153
+SizeSignature;RSA;512;Bytes;transaction 653;block 153
+SizeSignature;RSA;512;Bytes;transaction 653;block 154
+SizeSignature;RSA;512;Bytes;transaction 653;block 154
+SizeSignature;RSA;512;Bytes;transaction 653;block 155
+SizeSignature;RSA;512;Bytes;transaction 653;block 155
+SizeSignature;RSA;512;Bytes;transaction 653;block 156
+SizeSignature;RSA;512;Bytes;transaction 653;block 156
+SizeSignature;RSA;512;Bytes;transaction 653;block 157
+SizeSignature;RSA;512;Bytes;transaction 653;block 157
+SizeSignature;RSA;512;Bytes;transaction 653;block 158
+SizeSignature;RSA;512;Bytes;transaction 653;block 158
+SizeSignature;RSA;512;Bytes;transaction 653;block 159
+SizeSignature;RSA;512;Bytes;transaction 653;block 159
+SizeSignature;RSA;512;Bytes;transaction 653;block 160
+SizeSignature;RSA;512;Bytes;transaction 653;block 160
+SizeSignature;RSA;512;Bytes;transaction 653;block 161
+SizeSignature;RSA;512;Bytes;transaction 653;block 161
+SizeSignature;RSA;512;Bytes;transaction 653;block 162
+SizeSignature;RSA;512;Bytes;transaction 653;block 162
+SizeSignature;RSA;512;Bytes;transaction 653;block 163
+SizeSignature;RSA;512;Bytes;transaction 653;block 163
+SizeSignature;RSA;512;Bytes;transaction 653;block 164
+SizeSignature;RSA;512;Bytes;transaction 653;block 164
+SizeSignature;RSA;512;Bytes;transaction 653;block 165
+SizeSignature;RSA;512;Bytes;transaction 653;block 165
+SizeSignature;RSA;512;Bytes;transaction 653;block 166
+SizeSignature;RSA;512;Bytes;transaction 653;block 166
+SizeSignature;RSA;512;Bytes;transaction 653;block 167
+SizeSignature;RSA;512;Bytes;transaction 653;block 167
+SizeSignature;RSA;512;Bytes;transaction 653;block 168
+SizeSignature;RSA;512;Bytes;transaction 653;block 168
+SizeSignature;RSA;512;Bytes;transaction 653;block 169
+SizeSignature;RSA;512;Bytes;transaction 653;block 169
+SizeSignature;RSA;512;Bytes;transaction 653;block 170
+SizeSignature;RSA;512;Bytes;transaction 653;block 170
+SizeSignature;RSA;512;Bytes;transaction 653;block 171
+SizeSignature;RSA;512;Bytes;transaction 653;block 171
+SizeSignature;RSA;512;Bytes;transaction 653;block 172
+SizeSignature;RSA;512;Bytes;transaction 653;block 172
+SizeSignature;RSA;512;Bytes;transaction 653;block 173
+SizeSignature;RSA;512;Bytes;transaction 653;block 173
+SizeSignature;RSA;512;Bytes;transaction 653;block 174
+SizeSignature;RSA;512;Bytes;transaction 653;block 174
+SizeSignature;RSA;512;Bytes;transaction 653;block 175
+SizeSignature;RSA;512;Bytes;transaction 653;block 175
+SizeSignature;RSA;512;Bytes;transaction 653;block 176
+SizeSignature;RSA;512;Bytes;transaction 653;block 176
+SizeSignature;RSA;512;Bytes;transaction 653;block 177
+SizeSignature;RSA;512;Bytes;transaction 653;block 177
+SizeSignature;RSA;512;Bytes;transaction 653;block 178
+SizeSignature;RSA;512;Bytes;transaction 653;block 178
+SizeSignature;RSA;512;Bytes;transaction 653;block 179
+SizeSignature;RSA;512;Bytes;transaction 653;block 179
+SizeSignature;RSA;512;Bytes;transaction 653;block 180
+SizeSignature;RSA;512;Bytes;transaction 653;block 180
+SizeSignature;RSA;512;Bytes;transaction 653;block 181
+SizeSignature;RSA;512;Bytes;transaction 653;block 181
+SizeSignature;RSA;512;Bytes;transaction 653;block 182
+SizeSignature;RSA;512;Bytes;transaction 653;block 182
+SizeSignature;RSA;512;Bytes;transaction 653;block 183
+SizeSignature;RSA;512;Bytes;transaction 653;block 183
+SizeSignature;RSA;512;Bytes;transaction 653;block 184
+SizeSignature;RSA;512;Bytes;transaction 653;block 184
+SizeSignature;RSA;512;Bytes;transaction 653;block 185
+SizeSignature;RSA;512;Bytes;transaction 653;block 185
+SizeSignature;RSA;512;Bytes;transaction 653;block 186
+SizeSignature;RSA;512;Bytes;transaction 653;block 186
+SizeSignature;RSA;512;Bytes;transaction 653;block 187
+SizeSignature;RSA;512;Bytes;transaction 653;block 187
+SizeSignature;RSA;512;Bytes;transaction 653;block 188
+SizeSignature;RSA;512;Bytes;transaction 653;block 188
+SizeSignature;RSA;512;Bytes;transaction 653;block 189
+SizeSignature;RSA;512;Bytes;transaction 653;block 189
+SizeSignature;RSA;512;Bytes;transaction 653;block 190
+SizeSignature;RSA;512;Bytes;transaction 653;block 190
+SizeSignature;RSA;512;Bytes;transaction 653;block 191
+SizeSignature;RSA;512;Bytes;transaction 653;block 191
+SizeSignature;RSA;512;Bytes;transaction 653;block 192
+SizeSignature;RSA;512;Bytes;transaction 653;block 192
+SizeSignature;RSA;512;Bytes;transaction 653;block 193
+SizeSignature;RSA;512;Bytes;transaction 653;block 193
+SizeSignature;RSA;512;Bytes;transaction 653;block 194
+SizeSignature;RSA;512;Bytes;transaction 653;block 194
+SizeSignature;RSA;512;Bytes;transaction 653;block 195
+SizeSignature;RSA;512;Bytes;transaction 653;block 195
+SizeSignature;RSA;512;Bytes;transaction 653;block 196
+SizeSignature;RSA;512;Bytes;transaction 653;block 196
+SizeSignature;RSA;512;Bytes;transaction 653;block 197
+SizeSignature;RSA;512;Bytes;transaction 653;block 197
+SizeSignature;RSA;512;Bytes;transaction 653;block 198
+SizeSignature;RSA;512;Bytes;transaction 653;block 198
+SizeSignature;RSA;512;Bytes;transaction 653;block 199
+SizeSignature;RSA;512;Bytes;transaction 653;block 199
+SizeSignature;RSA;512;Bytes;transaction 653;block 200
+SizeSignature;RSA;512;Bytes;transaction 653;block 200
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+SizeSignature;RSA;512;Bytes;current vote pool
+TransactionCreate;RSA;16.838073730469;ms
+TransactionCreate;RSA;11.338949203491;ms
+TransactionCreate;RSA;11.721849441528;ms
+TransactionCreate;RSA;10.906934738159;ms
+TransactionCreate;RSA;10.650157928467;ms
+TransactionCreate;RSA;10.612964630127;ms
+TransactionCreate;RSA;11.184930801392;ms
+TransactionCreate;RSA;11.227846145630;ms
+TransactionCreate;RSA;10.666847229004;ms
+TransactionCreate;RSA;9.355783462524;ms
+TransactionCreate;RSA;9.320974349976;ms
+TransactionCreate;RSA;8.925199508667;ms
+TransactionCreate;RSA;8.947134017944;ms
+TransactionCreate;RSA;8.977174758911;ms
+TransactionCreate;RSA;9.098768234253;ms
+TransactionCreate;RSA;9.181022644043;ms
+TransactionCreate;RSA;9.082078933716;ms
+TransactionCreate;RSA;9.141921997070;ms
+TransactionCreate;RSA;9.371995925903;ms
+TransactionCreate;RSA;9.135007858276;ms
+TransactionCreate;RSA;8.936882019043;ms
+TransactionCreate;RSA;9.166955947876;ms
+TransactionCreate;RSA;9.190082550049;ms
+TransactionCreate;RSA;9.042024612427;ms
+TransactionCreate;RSA;8.996009826660;ms
+TransactionCreate;RSA;8.960962295532;ms
+TransactionCreate;RSA;9.131908416748;ms
+TransactionCreate;RSA;9.190082550049;ms
+TransactionCreate;RSA;8.934020996094;ms
+TransactionCreate;RSA;9.075880050659;ms
+TransactionCreate;RSA;9.067058563232;ms
+TransactionCreate;RSA;9.073019027710;ms
+TransactionCreate;RSA;19.237995147705;ms
+TransactionCreate;RSA;9.767055511475;ms
+TransactionCreate;RSA;8.967876434326;ms
+TransactionCreate;RSA;8.930921554565;ms
+TransactionCreate;RSA;8.941888809204;ms
+TransactionCreate;RSA;8.935928344727;ms
+TransactionCreate;RSA;9.106159210205;ms
+TransactionCreate;RSA;9.093046188354;ms
+TransactionCreate;RSA;9.274005889893;ms
+TransactionCreate;RSA;9.057998657227;ms
+TransactionCreate;RSA;8.934974670410;ms
+TransactionCreate;RSA;8.929014205933;ms
+TransactionCreate;RSA;8.922100067139;ms
+TransactionCreate;RSA;8.908987045288;ms
+TransactionCreate;RSA;8.943080902100;ms
+TransactionCreate;RSA;9.075880050659;ms
+TransactionCreate;RSA;13.177871704102;ms
+TransactionCreate;RSA;9.794950485229;ms
+TransactionCreate;RSA;9.196043014526;ms
+TransactionCreate;RSA;9.187936782837;ms
+TransactionCreate;RSA;9.014129638672;ms
+TransactionCreate;RSA;8.944988250732;ms
+TransactionCreate;RSA;8.929967880249;ms
+TransactionCreate;RSA;8.938789367676;ms
+TransactionCreate;RSA;8.985042572021;ms
+TransactionCreate;RSA;9.113073348999;ms
+TransactionCreate;RSA;9.253025054932;ms
+TransactionCreate;RSA;10.485172271729;ms
+TransactionCreate;RSA;10.337829589844;ms
+TransactionCreate;RSA;9.087085723877;ms
+TransactionCreate;RSA;8.932828903198;ms
+TransactionCreate;RSA;8.934974670410;ms
+TransactionCreate;RSA;8.968114852905;ms
+TransactionCreate;RSA;9.001970291138;ms
+TransactionCreate;RSA;9.111881256104;ms
+TransactionCreate;RSA;9.068012237549;ms
+TransactionCreate;RSA;9.181976318359;ms
+TransactionCreate;RSA;9.066820144653;ms
+TransactionCreate;RSA;9.043931961060;ms
+TransactionCreate;RSA;9.025096893311;ms
+TransactionCreate;RSA;8.999109268188;ms
+TransactionCreate;RSA;9.622097015381;ms
+TransactionCreate;RSA;9.436845779419;ms
+TransactionCreate;RSA;9.119033813477;ms
+TransactionCreate;RSA;9.165048599243;ms
+TransactionCreate;RSA;9.027957916260;ms
+TransactionCreate;RSA;8.909940719604;ms
+TransactionCreate;RSA;8.982896804810;ms
+TransactionCreate;RSA;9.037017822266;ms
+TransactionCreate;RSA;9.005069732666;ms
+TransactionCreate;RSA;9.019851684570;ms
+TransactionCreate;RSA;9.051084518433;ms
+TransactionCreate;RSA;9.187936782837;ms
+TransactionCreate;RSA;8.938074111938;ms
+TransactionCreate;RSA;8.908987045288;ms
+TransactionCreate;RSA;9.052038192749;ms
+TransactionCreate;RSA;9.070873260498;ms
+TransactionCreate;RSA;8.958816528320;ms
+TransactionCreate;RSA;8.987903594971;ms
+TransactionCreate;RSA;8.980035781860;ms
+TransactionCreate;RSA;9.029150009155;ms
+TransactionCreate;RSA;9.038925170898;ms
+TransactionCreate;RSA;9.078979492188;ms
+TransactionCreate;RSA;9.458065032959;ms
+TransactionCreate;RSA;9.205102920532;ms
+TransactionCreate;RSA;9.446859359741;ms
+TransactionCreate;RSA;9.236097335815;ms
+TransactionCreate;RSA;9.088993072510;ms
+TransactionCreate;RSA;16.921997070312;ms
+TransactionCreate;RSA;9.092092514038;ms
+TransactionCreate;RSA;9.202957153320;ms
+TransactionCreate;RSA;9.249925613403;ms
+TransactionCreate;RSA;8.977890014648;ms
+TransactionCreate;RSA;8.987903594971;ms
+TransactionCreate;RSA;8.903980255127;ms
+TransactionCreate;RSA;9.055137634277;ms
+TransactionCreate;RSA;8.930921554565;ms
+TransactionCreate;RSA;8.862018585205;ms
+TransactionCreate;RSA;8.854866027832;ms
+TransactionCreate;RSA;9.232997894287;ms
+TransactionCreate;RSA;11.232852935791;ms
+TransactionCreate;RSA;8.862018585205;ms
+TransactionCreate;RSA;8.871078491211;ms
+TransactionCreate;RSA;8.858919143677;ms
+TransactionCreate;RSA;8.882999420166;ms
+TransactionCreate;RSA;8.857965469360;ms
+TransactionCreate;RSA;8.866071701050;ms
+TransactionCreate;RSA;9.119987487793;ms
+TransactionCreate;RSA;8.874177932739;ms
+TransactionCreate;RSA;8.903980255127;ms
+TransactionCreate;RSA;8.869171142578;ms
+TransactionCreate;RSA;8.868932723999;ms
+TransactionCreate;RSA;8.909940719604;ms
+TransactionCreate;RSA;8.890151977539;ms
+TransactionCreate;RSA;8.920907974243;ms
+TransactionCreate;RSA;8.905887603760;ms
+TransactionCreate;RSA;8.955001831055;ms
+TransactionCreate;RSA;8.993148803711;ms
+TransactionCreate;RSA;8.936882019043;ms
+TransactionCreate;RSA;8.867025375366;ms
+TransactionCreate;RSA;8.919000625610;ms
+TransactionCreate;RSA;8.880138397217;ms
+TransactionCreate;RSA;8.869171142578;ms
+TransactionCreate;RSA;8.864164352417;ms
+TransactionCreate;RSA;8.890867233276;ms
+TransactionCreate;RSA;8.965015411377;ms
+TransactionCreate;RSA;8.868932723999;ms
+TransactionCreate;RSA;8.855104446411;ms
+TransactionCreate;RSA;8.898973464966;ms
+TransactionCreate;RSA;8.845090866089;ms
+TransactionCreate;RSA;9.044170379639;ms
+TransactionCreate;RSA;8.872985839844;ms
+TransactionCreate;RSA;8.858203887939;ms
+TransactionCreate;RSA;8.887052536011;ms
+TransactionCreate;RSA;8.867025375366;ms
+TransactionCreate;RSA;8.873939514160;ms
+TransactionCreate;RSA;8.867025375366;ms
+TransactionCreate;RSA;8.877038955688;ms
+TransactionCreate;RSA;9.508848190308;ms
+TransactionCreate;RSA;8.870124816895;ms
+TransactionCreate;RSA;8.862972259521;ms
+TransactionCreate;RSA;8.878946304321;ms
+TransactionCreate;RSA;8.867025375366;ms
+TransactionCreate;RSA;8.850812911987;ms
+TransactionCreate;RSA;8.850812911987;ms
+TransactionCreate;RSA;8.849143981934;ms
+TransactionCreate;RSA;8.875131607056;ms
+TransactionCreate;RSA;8.940219879150;ms
+TransactionCreate;RSA;8.883953094482;ms
+TransactionCreate;RSA;8.862972259521;ms
+TransactionCreate;RSA;8.859872817993;ms
+TransactionCreate;RSA;8.945941925049;ms
+TransactionCreate;RSA;8.862972259521;ms
+TransactionCreate;RSA;8.846044540405;ms
+TransactionCreate;RSA;8.848905563354;ms
+TransactionCreate;RSA;8.858919143677;ms
+TransactionCreate;RSA;8.867979049683;ms
+TransactionCreate;RSA;8.873939514160;ms
+TransactionCreate;RSA;8.864879608154;ms
+TransactionCreate;RSA;8.869171142578;ms
+TransactionCreate;RSA;8.966922760010;ms
+TransactionCreate;RSA;8.855104446411;ms
+TransactionCreate;RSA;8.850812911987;ms
+TransactionCreate;RSA;8.854866027832;ms
+TransactionCreate;RSA;8.850097656250;ms
+TransactionCreate;RSA;8.852958679199;ms
+TransactionCreate;RSA;8.849143981934;ms
+TransactionCreate;RSA;8.869171142578;ms
+TransactionCreate;RSA;8.845090866089;ms
+TransactionCreate;RSA;8.857011795044;ms
+TransactionCreate;RSA;8.866071701050;ms
+TransactionCreate;RSA;8.843898773193;ms
+TransactionCreate;RSA;8.865118026733;ms
+TransactionCreate;RSA;8.861064910889;ms
+TransactionCreate;RSA;8.847951889038;ms
+TransactionCreate;RSA;8.844137191772;ms
+TransactionCreate;RSA;8.845090866089;ms
+TransactionCreate;RSA;8.854150772095;ms
+TransactionCreate;RSA;8.860111236572;ms
+TransactionCreate;RSA;8.853197097778;ms
+TransactionCreate;RSA;8.862018585205;ms
+TransactionCreate;RSA;8.847951889038;ms
+TransactionCreate;RSA;8.875131607056;ms
+TransactionCreate;RSA;8.855819702148;ms
+TransactionCreate;RSA;8.842945098877;ms
+TransactionCreate;RSA;8.908033370972;ms
+TransactionCreate;RSA;8.862972259521;ms
+TransactionCreate;RSA;8.836030960083;ms
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+TransactionSize;RSA;1140;Bytes
+#######################################################################
